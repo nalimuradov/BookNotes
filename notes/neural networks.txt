@@ -3,7 +3,7 @@ Source: https://www.youtube.com/watch?v=aircAruvnKk
 VIDEO 1 -----------------------------------------------------------------------------------
 
 neurons:
- - a function, takes in all outputs of previous layer as uboyt, and spits out value as output
+ - a function, takes in all outputs of previous layer as input, and spits out value as output
  - eg. 28x28 pixel image of a number, each pixel is a neuron (784 total)
  	- each holds a number between 0 and 1 
 	- the number is called 'activation'
