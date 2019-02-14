@@ -1,0 +1,31 @@
+Pinker - How the Mind Works
+
+robots:
+ - we as humans undermine everything our brain can do
+ - a robot 'sees' numbers and process them
+ - difficult for a robot to process images (edge or shadow?)
+	- say robots had a number for each pixel of light (bigger is lighter, small is dark)
+ 	- big numbers beside smaller numbers can mean different objects or just lighting
+
+limbs:
+ - a human's hands, feet, arms are miraculous
+ - the precision and coordination between the brain and the limbs is very advanced
+	- this would be extremely difficult for a robot to replicate
+
+common sense:
+ - our mind is also very good at categorizing objects and concepts
+ - bachelor example:
+	- what is a bachelor? a man who has never married 
+	- what about a 17 year old boy who lives at home with parents
+	- what about a 17 year old boy who left home at 13 to start a business
+		- became successful and is now a playboy
+	- what about a couple with a child who hasn't married?
+		- wouldn you call the man in that relationship a bachelor?
+ - humans have common sense, machines don't
+ - a big thing we take for granted
+	- eg. if you were alive at 9am and at 5pm, we assume you were alive at noon that day
+	- robots don't implicitly know that
+	- eg. if i left milk carton in car, we can say there is 1 gallon of milk in car
+		- if i am sitting in car, is it fair to say there is 1 gallon of blood in car?
+
+** continue pg21 - reverse engineering the psyche
