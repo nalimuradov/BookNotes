@@ -124,3 +124,5 @@ data
 
 VIDEO 4 -----------------------------------------------------------------------------------
 
+calculus
+ - same concept as vid 3 but exlains with mathematics
