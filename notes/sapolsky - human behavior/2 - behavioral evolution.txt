@@ -1,0 +1,21 @@
+2 - Behavioral Evolution
+
+when biologist sees male and female skull:
+ - can tell many details such as..
+ 	- who is more likely to cheat
+ 	- what preferences they have
+
+we can run many tests to predict giraffe heart size:
+ - when we see the result, we are amazed that we are right
+ - in reality, giraffes couldn't exist without hearts that size
+
+darwin
+ - didn't discover evolution
+ - rather came up with the mechanism of evolution: natural selection
+
+key points in darwinism
+ - traits are heritable (can pass on traits)
+ - there is variability in these traits (and all heritable)
+ - some versions of those traits are better than others
+ - its not about survival, its about reproduction
+ - over time, the better versions become commonplace

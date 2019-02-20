@@ -20,3 +20,13 @@ categorization:
 	- next number?
 	- a new yorker will know it's 42nd
 	- these are subway stops
+
+categories are not absolute:
+ - just because you use it to categorize...
+	- doesn't make it universally applicable
+
+humans are the same as any other animals
+ - something we must accept
+
+recommended book:
+ - chaos by james gleick
