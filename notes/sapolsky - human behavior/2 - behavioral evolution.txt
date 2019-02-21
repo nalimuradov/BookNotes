@@ -1,21 +1,107 @@
 2 - Behavioral Evolution
 
-when biologist sees male and female skull:
- - can tell many details such as..
- 	- who is more likely to cheat
- 	- what preferences they have
-
-we can run many tests to predict giraffe heart size:
- - when we see the result, we are amazed that we are right
- - in reality, giraffes couldn't exist without hearts that size
-
-darwin
+darwin:
  - didn't discover evolution
- - rather came up with the mechanism of evolution: natural selection
+ - rather he came up with the mechanism of evolution: natural selection
 
-key points in darwinism
+key points in darwinism:
  - traits are heritable (can pass on traits)
- - there is variability in these traits (and all heritable)
+ - there is variability in these traits
  - some versions of those traits are better than others
- - its not about survival, its about reproduction
+
+ - it's not about survival, it's about reproduction
  - over time, the better versions become commonplace
+ - couldn't behavior work the same way?
+	- there are different behaviors, some are better than others
+
+species and evolution:
+ - 'how do giraffes know they need a heart this big?'
+ - 'why do cherry trees act a certain way when it's cold?'
+ 	- nobody wants to do it, it's just evolution
+	- otherwise, they wouldn't have survived all this time
+
+"animals act for the greater good of the species":
+ - this is a common misconception
+ - eg. wildebeest sacrificing himself to crocodiles so that young ones can cross river
+	- people tend to think he is doing it for the greater good
+	- in reality, he is pushed to the front by others because he's old
+
+natural selection vs sexual selection:
+ - big moose antlers for fighting is natural selection
+ - having random traits that serve no purpose but that the other gender likes is sexual selection
+	- eg. having weird designs on body (useless but attractive)
+
+siblings/twins:
+ - we share so many genes that we are willing to sacrifice our time and energy
+	- sacrfice energy so that they get a greater chance of passing on genes
+ - animals are obsessed with kinship
+
+rock-paper-scissors scenario:
+ - say we have 3 species: A, B, C
+	- A can damage B but it costs C, B can damage C but it costs A, C can damage A but it costs B
+ - this will cause an equilibirum where no one will damage one another
+
+ - eg. bacteria A could make a poison, the cost is it had to make that poison (effort)
+	- bacteria B was vulnerable to poison as it had a transporter, but it is able to absorb more food too
+	- bacteria C didn't have to spend energy on poison, but it doesn't have transporter
+ - these 3 strains of bacteria are competing with each other
+	- they realize they can't be aggressive as if they damage one, they're more vulnerable to the other
+	- this creates a natural stalemate
+   	- they actually end up cooperating with eachother, even though they aren't relatives
+
+so why help anyone if they arent relatives?
+ - wouldn't it be better to backstab everyone else?
+ - in some cases, many hands make the task light
+	- eg. hunting in groups, higher likelihood of kill
+
+reciprocal altruism:
+ - works better in long-lived smart vertebrates
+ - higher chance of seeing the individual you helped again later
+
+cheating:
+ - we are attuned to picking up cheating
+ - people are more likely to notice when they got cheated than to notice when they get 
+ - test where some people got a blessing rather than being punished for failed task
+ - test where some people got punished rather than blessed for a successful task
+ - way more noticed getting cheated
+
+game theory:
+ - there are games with mathematical optimizations
+	- strategies when to cooperate and when to defect
+	- when to help and when to not
+ - prisoners dilemma is a popular example
+
+optimal prisoners dilemma:
+ - ideal strategy is 'tit for tat':
+ 	- cooperate initially
+ 	- continue cooperating until they cheat, in which case you cheat
+ 	- if they cooperate after, you go back to cooperating
+	- doesn't work as well if there is a signal error 
+
+forgiving tit for tat:
+ - like 'tit for tat' but tries to avoid signal error
+ 	- be forgiving for 1 round 
+ 	- solves error problem
+ - vulnerable to tit for tat, they can abuse the forgiveness factor
+ - to solve: start with tit for tat
+	- if and only if other individual doesn't cheat for long time:
+		- go to forgiving tit for tat
+
+stickleback fish experiment:
+ - putting mirror in the fish tank makes the fish think its reflection is a threat
+ - now put a mirror perpendicular to fish, it will think it has a teammate in this fight
+ - if we angle the perpendicular mirror slightly, it will think its 'partner' (reflection) is cheating
+	- his 'teammate' will appear to be farther back and thus 'cheating'
+ - the fish will notice this and start to hold back and 'cheat' too, 'tit for tat'
+
+naked mole rats:
+ - they have role diversification:
+	- some rats get more food, but they have to plug the entrance hole from predators with their asses
+
+big male skull, small female skull species:
+ - higher aggression, big males
+ - dont take care of the kids
+
+small male skull, small female skull species:
+ - female-like males
+ - parental
