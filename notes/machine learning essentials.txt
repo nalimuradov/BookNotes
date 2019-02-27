@@ -1,0 +1,57 @@
+Machine Learning Essentials
+
+source: https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/
+
+there are typically 3 types of ML algorithms:
+ - supervised learning
+ - unsupervised learning
+ - reinforcement learning
+
+supervised learning:
+ - there is a target outcome variable (dependent variable)
+	- to be predicted from given set of predictors (independent variables)
+ - training continues until desired accuracy reached
+ - examples: [regression, decision tree, random forest]
+
+unsupervised learning:
+ - there is not target outcome variable to predict
+ - typically used for clustering population in different groups
+ - examples: [k-means, apriori]
+
+reinforcement learning:
+ - machine is exposed to environment where it can train 'trial and error'
+ - it learns from past experiences
+ - examples: [markov decision process]
+
+common ML algorithms:
+ - linear regression
+ - logistic regression
+ - decision tree
+ - SVM
+ - naive bayes
+ - kNN
+ - k-means
+ - random forest
+ - dimensionality reduciton alg
+ - gradient boosting algs:
+	- GBM
+	- XGBoost
+	- LightGBM
+	- CatBoost
+
+--- ALGORITHMS ---
+
+linear regression:
+ - used to estimate real values based on continuous variables
+ - the best fit line is the 'regression line'
+	- represented by Y = aX + b
+ - for example, say we ask a child to organize kids in classroom by weight, but he can't ask their weights
+	- he will look at the height, build, etc which is correlated with weight 
+ - Y: dependent variable
+ - a: slop
+ - X: independent variable
+ - b: intercept
+	- we get a and b by minimizing the sum of squared diff of distance between data points and regression line
+ - two types of linear regression:
+	- simple linear regression (one independent variable)
+	- multiple linear regression (more than one independent variable)
