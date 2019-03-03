@@ -55,3 +55,9 @@ linear regression:
  - two types of linear regression:
 	- simple linear regression (one independent variable)
 	- multiple linear regression (more than one independent variable)
+
+logistic regression:
+ - a classification (NOT a regression algorithm)
+ - estimate discrete values (0/1, true/false, etc...)
+ - for example, say a friend gives you puzzle to solve with only two outcome scenarios (solve it or don't)
+	- 
