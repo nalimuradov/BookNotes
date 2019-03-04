@@ -60,4 +60,15 @@ logistic regression:
  - a classification (NOT a regression algorithm)
  - estimate discrete values (0/1, true/false, etc...)
  - for example, say a friend gives you puzzle to solve with only two outcome scenarios (solve it or don't)
-	- 
+
+decision tree:
+ - split population into 2+ homogeneous sets (based on most significant attributes)
+ - jezzball example
+
+svm (support vector machine):
+ - plot in n-dimensional space 
+	- n is number of features you have
+ - eg. plot height and hair length
+ - find a line that goes thru middle of lines created by closest points
+ - that line is our classifier:
+	- depending on which side test data lands on, classify as new data
