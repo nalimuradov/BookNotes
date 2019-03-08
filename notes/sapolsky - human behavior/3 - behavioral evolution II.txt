@@ -75,7 +75,7 @@ group selection:
 		- they won't attack each other and lay more eggs
  - an example of a trait that works better in a group
 
-5 ways to explain ALL of behavior, biology, social sciences:
+ways to explain all of behavior, biology, social sciences:
  - heritability of traits:
 	- there is heritability to kidnap infants of other males	
 	- there is heritability to decide you like big plumage

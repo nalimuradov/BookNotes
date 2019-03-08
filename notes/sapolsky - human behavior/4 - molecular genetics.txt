@@ -1,0 +1,12 @@
+4 - Molecular Genetics
+
+proteins:
+ - structurally most important thing youve got
+ - they form messengers, hold things together, etc
+ - made of amino acids (20 different kinds)
+	- different amino acids get pulled in different shapes by their attraction to water
+
+enzymes:
+ - catalyze reactions
+ 	- take two things and stick em together
+	- take one thing and split it apart
