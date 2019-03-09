@@ -1,0 +1,53 @@
+Text Editor Notes
+
+word processor vs text editor
+ - WISIWYG
+ - word processor is like microsoft word
+ - text editor everything must be done manuall (latex)
+
+vim
+ - widely used text editor
+ - has two modes (insertion and normal)
+ - type vim into terminal to run
+
+shell
+ - program that supplies the command line
+ - most common is BASH
+
+open vim
+ - vim .bash_profile
+ - type i to go to insert mode and then enter text
+ - press ESC to return to normal mode
+ - can move around using arrows keys, or 0 and $ 
+
+Colon
+ - some vim commands start with :
+ - usually with file manipulation
+ - can quit using :q
+ - add ! at end to override and quit (:q!)
+
+Undo
+ - ESC then u to undo a previous step
+
+write
+ - type :w to write to file
+ - can then source .bash_profile to make it work *** 
+
+Can Make Shortcuts like this
+ - instead of typying grep -i etc, can make it shorter
+ - alias g = 'grep -i'
+
+Delete
+ - can delete text by clicking 'x' in normal mode over the character to delete
+ - to delete a line, press 'dd' in normal mode
+ - can then paste that line using 'p'
+
+Larger Files
+ - Ctrl-F and Ctrl-B move by page (Forward and Backward)
+ - G goes to end of file and 1G to go to start
+
+Search
+ - /<string>
+ - press n to go to the next match
+ - (number)G goes to the line "number" of the file 
+ 	- eg. 18G goes to line 18 of file

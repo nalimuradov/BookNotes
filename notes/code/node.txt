@@ -1,0 +1,203 @@
+Node.js Notes
+source: https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp
+
+Video 1 - Introduction
+ - node allows us to run javascript on a server (rather than html)
+ - can update files, connect to databases, etc
+
+Video 2 - Installing NodeJS
+ - go to website
+ - node -v to see version
+
+Video 3 - V8 Engine
+ - computer doesnt understand JS
+ - the engine takes JS and turns into machine code so computer can understand
+ - JavaScript -> C++ -> Assembly -> Machine Code
+ - nodeJS is written in C++ fyi
+
+Video 4 - The Global Object
+ - regular JS, global object is the window as that is where everything happens
+ - the global object in node is called Global
+ - can use console, setInterval, setTimeout, etc in Global
+ - __dirname, __filename
+
+Video 5 - Function Expressions
+ - like functions but can assign to a var
+
+Video 6 - Modules and Require
+ - use require('./counter.js') to use counter in another file
+ - the ./ means to look in this directory
+ - specify the exports of module to use in other places [module.exports = count;]
+ - specify require to a var for ease of use
+
+Video 7 - Module Patterns
+ - ES6 template strings use `` backticks
+ - eg. `my name is ${name}
+ - can export multiple functions together using module.exports = {count: count}
+ 
+Video 8 - Node Event Emitter
+ - require 'events' so node fetches it so you can use it
+ - create an eventEmitter object to emit events
+ - when event occurs due to someEvent, run the callback function
+ - eg. myEmitter.on('event', func(){});
+ - next we can emit the event
+ - eg. myEmitter.emit('event', param);
+ - the util module allows us to inherit objects
+
+Video 9 - Reading and Writing Files
+ - working with files requires 'fs'
+ - use fs function readFileSync to read file (synchronous btw, blocking)
+ - writeFileSync(where to write, what to write, encoding)
+ - if we want async, we need to pass a callback function too
+ - better to nest write inside of read (both async)
+
+Video 10 - Creating and Removing Directories
+ - use fs.unlink to delete a file
+ - use mkdirSync function to make a dir, same idea for rmdirSync
+ - can use with writeFile and readFile to do shit
+ - only empty directories can be removed, so use unlink if we need to remove files
+
+Video 11 - Clients and Servers
+ - CLIENT -> (request) -> SERVER
+ - CLIENT <- (response) <- SERVER
+ - protocol: set of communication rules
+ - CLIENT -- (socket) -- SERVER 
+ - socket sends info using a protocol (eg. http)
+ - ftp: file transfer protocol, used to transfer files (no shit)
+ - http: used to transfer hypertext
+ - tcp: sends packets thru socket from server to client
+ - ports: allows filtering in server (eg. want nodeJS port on the server)
+
+Video 12 - Creating a Server
+ - need to require the http module
+ - can use it to create server (http.createServer());
+ - must pass a request and response object
+ - requests and responses return data AND headers
+ - headers are like extra info with some info (like an html head)
+ - can put in content-type in the header (eg. html, json, text)
+ - can also put status in the header (200, 404)
+ - then use res.end() to return something
+ - finally, listen to the server by specifying port and IP
+
+Video 13 - Streams and Buffers
+ - a buffer is a temp storage spot for large chunk of data that is being transferred
+ - Node.js candy rock example (can eat as soon as first chunk gets there)
+ - a stream of data flows into buffer, when buffer is full pass that chunk of data to client
+ - can create streams in node to increase performance
+
+Video 14 - Readable Streams
+ - allows node.js to read data from a stream
+ - a writeable stream allows node.js to write data to a stream
+ - a duplex stream can do both
+ - create read stream and specify the filepath to read from
+ - createReadStream inherits from eventEmitter so can use its methods
+ - therefore, we can see the chunk everytime it is received
+
+Video 15 - Writable Streams
+ - create the same way as a readable stream
+ - everytime we get a chunk from the readstream, can write to writestream
+
+Video 16 - Pipes
+ - pipe automatically sends chunks to write stream
+ - dont need to listen and act manually
+ - can only pipe from readable to writeable stream
+ - myReadStream.pipe(myWriteStream)
+ - that's it, simple as that
+ - can use with a server and pipe the readStream to res (response) 
+
+Video 17 - Serving HTML Pages
+ - specify in the writeHead that we are serving 'text/html'
+ - supply the file path and make the html page itself
+
+Video 18 - Serving JSON Data
+ - specify in the head that we are sending json
+ - create json object 
+ - can then send it in the end if stringified
+
+Video 19 - Basic Routing
+ - the extension in the url can affect what the user sees
+ - can use req.url with if statements to allow home page, contact page, etc
+ - can output html file based on what the route is (or even json)
+
+Video 20 - Node Package Manager
+ - npm allows us to install other packages to help out
+ - a package is just a bunch of code someone else has written
+ - express helps us with routing and templating
+ - express is blessed
+
+Video 21 - Package.json File
+ - npm init to create the package.json file
+ - when installing express, npm install express -save
+ - dependencies in the package.json file show what you need to run the file
+ - running npm install will look at dependencies and download them all
+
+Video 22 - Installing Nodemon
+ - can dynamically restart the server rather than having to stop and start after every edit
+
+Video 23 - Introduction to Express
+ - require it and assign to a variable
+ - can then app.listen to listen to the port
+ - HTTP methods: GET, POST, DELETE, PUT
+ - to use, app.get, app.post, etc
+ - makes routing a breeeeeze
+
+Video 24 - Express Route Params
+ - for when url is /profile/name/id...
+ - in the route, specify '/profile/:id'
+ - can then access it by req.params.id
+
+Video 25 - Template Engines
+ - instead of sending text, we can send a file like html
+ - res.sendFile(__dirname + '');
+ - if we want dynamic page, we can use template engines
+ - can embed data into javascript code
+ - can use ejs, embedded javascript, % signs used
+ - install it and specify as view engine
+ - recommended to keep views in their own folder
+ - make profile.ejs and just put regular html in there
+ - can then use those percent signs to grab data
+ - then use render to render the view, res.render(profile)
+ - can then pass data like in prev video
+ - actually a blessed video
+
+Video 26 - Template Engines pt 2
+ - can send an array also
+ - to make a dynamic list for example, use ejs to use js loop on list
+
+Video 27 - Partial Templates
+ - what if we have a nav bar common to all pages
+ - make a partial folder in the views folder
+ - make a nav.ejs with the html in it 
+ - to include a partial view, <% include partials/nav.ejs %>
+ - now for index.html, contact.html make templates
+ - can use the include nav in those templates
+
+Video 28 - Middleware and Static Files
+ - put css files in separate assets folder
+ - middleware is code that runs between req and res
+ - app.use('/assets', function(){});
+ - function takes res, req, next: next is what happens next
+ - allows css files to be used
+ - app.use('/assets', epxress.static('assets'));
+ - first part matches the route, second links up dir where its stored
+
+Video 29 - Query Strings
+ - name-value pairs in the url
+ - eg. mysite.com/blog/news?page=2&name=nar&shirt=tuff
+ - the path, then qmark, then the data
+ - req.query, accesses the data on the query string
+ - can pass the data obtained to use in the view, can render like prev
+ - useful for form data
+ - can pre-populate the url values by using ejs in the value tag
+
+Video 30 - Handling POST Requests
+ - POST data to the server
+ - data obtained from the body sent to the server
+ - put 'method=POST' in the form tag
+ - handle post request in the main js file
+ - can use body-parser to handle parsing of post data
+ - npm install body-parser
+ - set up the urlencoded stuff then make app.post
+ - gonna parse the data that it sent
+ - can access it by using req.body
+ - hype video very good

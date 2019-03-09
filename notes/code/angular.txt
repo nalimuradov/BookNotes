@@ -1,0 +1,109 @@
+Angular Notes
+
+angular:
+ - used to build powerful single page applications
+ - its like html but for dynamic sites
+ - frontend/clientside framework
+
+why use it?
+ - rapid development and code generation
+ - code organization
+ - dynamic content in the html templates
+ - cross platform (windows, mac, linux) (chrome, firefox, edge)
+
+typescript:
+ - angular uses typescript, a superset of javascript
+ - offer static typing, class-based OOP
+ - angular components are essentially classes themselves
+ - like java but with javascript
+
+components:
+ - sections of the user interface
+ - eg. navbar component, blog post component, etc
+ - basic building block of the application
+ - appComponent is the main one
+ - import, decorator, component classs
+
+decorator:
+ - allows us to import meta data
+ - selector: custom html tag to insert component
+ - template: html
+ 
+services:
+ - used to share data and functionality across multiple components
+ - can inject services into components to use
+ - good place for ajax calls
+
+create ng app:
+ - ng new 'name'
+ - ng serve to run it
+
+files in the application:
+ - package.json: manifest of the app, version, dependencies, scripts, etc
+ - app folder is the bulk of our application
+
+------------------------------------------------------
+
+it is a frontend/client side js framework:
+ - runs on users browser as opposed to a webserver
+ - used to build powerfule single page applications
+
+MEAN stack:
+ - mongoDB
+ - express
+ - angular
+ - node.js
+
+HTML vs angular:
+ - angular is what HTML woulda been if created for dynamic applications
+
+why use angular?
+ - routing, event handling, validation very fast and efficient
+ - can have dynamic content in the html (using directives)
+ - it is cross platform and has unit testing built in
+
+CORE FEATURES OF ANGULAR:
+ - components
+ - services
+ - routing
+ - testing
+ - build tools
+ - data binding
+ - templating
+ - http module
+ - observables
+ - forms module
+ - directives
+ - pipes
+ - events
+ - animation
+ - typescript
+
+typescript?
+ - a superset of javascript (includes everything and more from regular js)
+ - static typing (can define if int, bool, etc)
+ - can create class-based objects (like in java)
+
+components:
+ - basic building block of an application
+ - appcomponent is the base one, every angular app has one
+
+services:
+ - share data across multiple components
+ - all services use the Injectable package
+
+angular-cli json file:
+ - if you wanna load stylesheets, scripts, etc
+
+app.modyle.ts:
+ - components go in declarations
+ - modules go into imports
+ - services go into providers
+ - the main component goes into bootstrap
+
+add a component
+ - ng g component components/user
+ - creates new component in directory
+
+ngOnInit()
+ - runs when component is initialized

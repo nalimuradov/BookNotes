@@ -1,0 +1,138 @@
+Git Notes
+
+Distributed Version Control System:
+ - everybody has a local repo
+ - same as the original since last sync
+
+For Help:
+ - git <verb> --help
+ - verb can be "config", etc
+
+Git Init:
+ - creates repo in current directory
+
+git ignore file:
+ - a text file that has files we want git to ignore
+ - touch .gitignore
+ - want to commit this file so repo knows to ignore them
+
+ADDING FILES:
+ - git add -A (adds all files)
+ - git add .gitignore
+ - git reset moves all files back to untracked
+
+COMMITING:
+ - git commit -m "message"
+
+CLONING A REPO:
+ - git clone <url> <where to clone>
+ - git clone https://github.com/smth .
+
+BRANCHING:
+ - FULL PROCESS BELOW
+ - git branch subtract (new branch)
+ - git checkout subtract (working on new branch)
+ - make the changes
+ - add and commit
+ - git pull origin master
+ - git merge subtract
+ - git push origin master
+
+ - git branch will list all branches
+ - git branch 'name' creates new branch with 'name'
+ - git checkout 'name' switches you to that branch
+ - make changes to some code, check status, add, and commit
+ - then switch back to master, pull, then switch back to branch
+ - git merge master (will show any merge conflicts)
+ - then can push to github
+ - on github there will be now new branches
+
+PULL REQUEST:
+ - merges branches bac in
+
+MERGE CONFLICTS:
+ - if two people edit same thing and push, it will give conflict
+ - must manually resolve this with the other person
+
+FORKING:
+ - take an instance of a project to work on it
+ - fork another persons project, then make some changes and send a pull request
+
+HISTORY:
+ - can click to see the history of changes (shows everything)
+
+COMMIT HASH:
+ - long crazy string that also appears in the URL
+ - each commit has its own unique hash
+
+ISSUES:
+ - not git related, github exclusive
+ - can ask questions, features, bugs in the code
+ - use markdown
+ - can add labels, or assign it to someone to work on
+ - are open until solved (in which case they become closed)
+ - only owner of repo and issue creator can close issue
+ - each issue has its own ID, used to refer when making relevant fixes
+ - 'fixes #10' will auto close the issue with ID #10
+ - can copy commit hash into issue and it will reference that commit
+
+MARKDOWN:
+ - a type of syntax for styling **bold** [this is a link](youtube.com)
+
+DOWNLOAD A REPO:
+ - git clone github.com/asdjassdhakjdh
+ - can then git status to make sure the repo works
+ - must make sure name and email are registered (same as github acc)
+
+ - make changes, then git push origin master [origin is a 'remote', git remote]
+
+VIM:
+ - git uses vim text editor for logs and such [git log]
+ - :q is quit
+
+TURNING EXISTING PROJECT INTO A REPO:
+ - go into directory of project
+ - git init, then add whatever 
+ - commit that shiht
+ - git remote add origin https://github.com/asdjaslkdjaskljdaks.git [THE REPO ON GITHUB]
+ - must make a repo on github first to add it there
+ - git push -u origin master
+
+GIT ADD:
+ - staging area
+ - if we have many files, can add only the ones we changed
+ - then when we commit, only those get committed
+
+GITHUB PAGES:
+ - instead of master, the main branch is gh-pages
+ - to do this, make new repo, make gh-pages branch, and set it as default branch 
+ - can make any file and host it on the pages
+ - index.htm will be the default page (can use this as my profile that links to other sites!)
+ - if local, must use git pull origin gh-pages (instead of master since that branch is gone)
+
+USEFUL COMMANDS:
+ - git status (see status of files in repo)
+ - git log  (see commit history)
+ - git diff (shows changes made to code)
+ - just type git to see all the common commands
+ - clear 
+
+**to prac:
+ - make new repo
+ - clone it to multiple places
+ - push different edits from ultiple places
+
+ - pull exisiting repo
+ - work on it
+ - commit my changes
+
+ - pull repo while in its folder
+
+ - ALSO FIGURE OUT HOW TO USE TAGS
+
+
+MAIN PRAC:
+ - making repo locally and on github
+ - working around with all above things
+ - pulling and working with an existing repo 
+ - submitting requests, issues, edits, etc
