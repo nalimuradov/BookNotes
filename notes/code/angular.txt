@@ -107,3 +107,43 @@ add a component
 
 ngOnInit()
  - runs when component is initialized
+
+----------------------------------------------------------------------------
+
+ - to install [npm install -g @angular/cli]
+ - to create workspace [ng new my-app]
+
+ng new my-app:
+ - creates workspace with root folder, my-app
+ - creates initial skeleton app project, also called my-app [src folder]
+ - creates end2end test project (in e2e folder)
+ - initial project has a ready to run 'Welcome app'
+
+to run:
+ - cd into the project
+ - type [ng serve --open], open opens the browser by itself
+
+components:
+ - building blocks of angular apps
+ - display data, listen for user input, and take action based on input
+
+in the src file:
+ - there are 3 appcomponent files: html, css, ts
+ - html is what is displayed, css as usual, and ts has title data
+
+{{title}}
+ - can put this in html
+ - this is interpolation binding syntax
+ - displays the components title valye inside the tag its placed in
+
+to generate new components:
+ - ng generate component compname
+
+component ts file:
+ - selector: the component's CSS element selector
+ - templateURL: location of components template file
+ - styleURLs: location of components CSS styles
+ - always export the component class (so other classes can import)
+
+selectors:
+ - must add selector in html file so it knows my g
