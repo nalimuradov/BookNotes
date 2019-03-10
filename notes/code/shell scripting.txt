@@ -1,0 +1,120 @@
+Shell Scripting Notes
+
+shell script
+ - commands to be executed in terminal as if i typed it
+ - can use bash like git bash
+
+make file
+ - touch myscript.sh
+ - can open the file with any text editor
+
+chmod
+ - change mode
+ - chmod +x myscript.sh
+
+run file
+ - ./myscript.sh
+
+at the top of the file
+ - #! /bin/bash [this puts the bash location]
+ - which bash for bash location
+
+comments
+ - # this is a comment
+
+echo
+ - echo Hello 
+ - this will output Hello when the script is run
+
+variables
+ - should be uppercase by convention
+ - NAME="Nariman"
+ - echo "My name is $NAME"
+
+user input
+ - read -p "Enter your name: " NAME
+ - echo "Hello $NAME, nice to meet you!"
+
+conditionals
+ - if [ "$NAME" == "Nariman" ]
+   then 
+	echo "Name is Nariman"
+   elif [ "$NAME" == "Jang" ]
+   then
+ 	echo "Name is Jang"
+   else
+	echo "Name is not Nariman"
+   fi
+
+comparisons
+ - val1 -eq val2 [returns true if vals are equal]
+ - val1 -ne val2 [returns true if values not equal]
+ - others are: -gt, -ge, -lt, -le
+
+ - if [ "$NUM1" -gt "$NUM2" ]
+   then
+	echo "$NUM1 is greater than $NUM2"
+   fi
+
+file conditions
+ - FILE="test.txt"
+   if [ -f "$FILE" ]
+   then 
+	echo "$FILE is a file"
+   fi
+ - if doesn't exist, shouldn't work
+
+case statements (switches)
+ - read -p "Are you over 21?" ANSWER
+   case "$ANSWER" in
+	[yY] | [yY][eE][sS])
+	   echo "You can drink"
+	   ;;
+	[nN] | [nN][oO]
+	   echo "sorry no drink"
+	   ;;
+	*)
+	   echo "Please enter yes or no"
+	   ;;
+
+for loop
+ - NAMES="John Rick Mark"
+   for NAME in $NAMES
+      do 
+	echo "Hello $NAME"
+   done
+
+for loop to rename files
+ - FILES=$(ls *.txt)
+   NEW="new"
+   for FILE in $FILES
+     do
+	echo "Renaming $FILE to new-$FILE"
+	mv $FILE $NEW-$FILE
+   done
+
+while loop - read file line by line
+ - LINE=1
+   while read -r CURRENT_LINE
+     do
+	echo "$LINE: $CURRENT_LINE"
+	((LINE++))
+   done <"./new-1.txt"
+
+functions
+ - function sayHello() {
+	echo "Hello World"
+   }
+   sayHello (this will run it)
+
+function params
+ - function greet() {
+	echo "Hello, I am $1 and I am $2"
+   }
+   greet "Nariman" "69"
+
+create folder and write to file
+ - mkdir hello
+   touch "hello/world.txt"
+   echo "Hello World" >> "hello/world.txt"
+   echo "created hello/world.txt"
