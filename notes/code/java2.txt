@@ -1,0 +1,288 @@
+LECTURE 20
+
+Gui
+	- Graphical User Interface
+ 	- Interactors allow user to interact with application
+		- eg. Combo box (drop down), text box, radio button, check box
+		- are part of JComponent
+	- My program window/console window has 5 sections
+		- North, Center, West, East, South
+	- make sure to import javax.swing;
+
+Button
+	- To create button, we need to construct it
+	- JButton button = new JButton("Hi!");
+	- in main add a listener: addActionListeners();
+	- instead of main, use init()
+		- this is so it doesn't run right away but waits for some input and stuff
+	- inside init(): add(new JButton("Hi!"), SOUTH);
+			 add Action Listeners();
+	- there will be another method, public void actionPerformed(ActionEvent e)
+		- inside it: String cmd = e.getActionCommand();
+			     if (cmd.equals("Hi!")) println("Hello!");
+	- this will create a program that has the button with "Hi!" on it
+		- when clicked, it will output "Hello!"
+
+Checkbox
+	- JCheckBox check = new JCheckBox("Click Me");
+	- check.setSelected(true);
+	- add(check, SOUTH);
+
+RadioButton
+	- make sure we create instance variables for sm, med, lrg outside the method
+	- sm = new JRadioButton("Small");
+	- med = " "("Medium");
+	- lrg = " "("Large");
+	- then, ButtonGroup size = new ButtonGroup();
+		- size.add(sm);
+		- size.add(med);
+		- size.add(lrg);
+	- set selected to be true as a default, med.setSelected(true);
+	- to add, we must add all individual buttons, not the group
+		- add(sm, SOUTH);
+		- add(med, SOUTH);
+		- add(lrg, SOUTH);
+
+Combo box
+	- pick = new JComboBox();  
+	- must also create instance variable for the combo box above
+	- pick.addItem("Black");
+	- pick.addItem("Blue");
+	- pick.addItem("Green");
+	- pick.addItem("Red");
+	- pick.setEditable(false);
+	- pick.setSelectedItem("Black");
+	- add(pick, SOUTH);	
+	
+
+LECTURE 21
+
+Action Events
+	- ActionEvent e
+	- e.getSource() gives you the object itself (eg. the button)
+
+Text Field
+	- JTextField tf = new JTextField(10); //10 is max size of the text field
+ 	- tf.addActionListener(this);
+ 	- Textfield is like -> Name: [____] you enter into a field
+
+Layout 
+ 	- ConsoleProgram adds a console to the CENTER region
+ 	- GraphicsProgram puts a GCanvas there
+ 	- other regions only visible if you put an interactor
+
+**The specifics to the syntax are in lecture 
+	- eg. setLayout(..), add(this, that, etc);
+	- setLayout(new GridLayout(1,3)); <--- 3 elements allowed
+	- private GCanvas leftCanvas <--- this is instnace variable
+	- leftCanvas = new GCanvas();
+	- add(leftCanvas) <--- adds it to the Layout declared above to (1,1)
+	- we can now refer to these separate canvases and do shit on each
+		- eg. draw on left one, write on the other
+
+Text & Graphics
+	- extend the ConsoleProgram (it's where we get the text portion)
+		- gives us the borders (NORTH, SOUTH, etc)
+	- can add multiple GCanvas' in the center region
+
+LECTURE 22
+
+Component
+ 	- anything that can appear in a window
+	- japplet, graphics program, console program, etc, are all components
+
+**Top Down Design
+	- can make up: MyCanvas canv = new MyCanvas();
+	- then make MyCanvas object later
+	- add(canv);
+
+ComponentListener
+	- instead of action listeners, make MyCanvas implement ComponentListener
+	- public void componentResized(ComponentEvent e){ update();}
+		- componentMoved(ComponentEvent e) {}
+		- componentHidden(ComponentEvent e) {}
+		- componentShown(ComponentEvent e) {}	
+	- to resize as above, make the method update()
+	- public void update() {
+		removeAll();
+		add(rect, (getWidth() - BOX_WIDTH)/2, (getHeight() - BOX_HEIGHT)/2);
+	
+MusicProgram
+	- make an Album class which has albumName, authorName, stockNumber
+	- make the private instance variables because they won't change
+	- make getters (setters depends on situation)
+	- also include a toString method that returns the values as a string
+
+MusicProgramHASHMAP
+	- can implement this with a HashMap!
+	- HashMap<String, Album> inventory = new HashMap<String, Album>();
+
+LECTURE 23
+
+Searching & Sorting
+
+Searching Examples
+	- Linear Search
+		- look at every value and find
+	- Binary Search
+ 		- on an ordered list
+		- cut in half each time
+		- (lo/2 + hi/2) is better than (lo+hi)/2
+			- this is because in the second case if lo and hi are too big
+			  it might overflow, and the first case allows for bigger values and 
+			  not as early of an overflow by dividing before adding
+		- logN time (Binary) rather than N time (Linear)
+
+Sorting Examples
+	- Selection Sort
+		- look for smallest value and add it to front
+		- look for next smallest and add it to the second index
+		- continue and repeat until all sorted
+		- takes N + (N-1) + (N-2) ... + 1 time
+			- (N * (N + 1)) / 2
+			- we can drop unimportant terms
+			- becomes (N * (N + 1)) which becomes (N^2 + N)
+			- can drop the N, and so we just have N^2 time
+
+LECTURE 24
+
+Database and Data Management
+	
+Examples
+	- Online stores
+	- Social Networks
+	- Web search
+
+Principles
+	- nouns -> classes
+	- like if making a music store, 'song', 'album', 'artist' can be classes
+	- verbs -> methods
+	
+Collection methods
+ 	- add, remove, clear, size, contains, isEmpty, iterator
+
+Iterator
+	- allows to go through elements of a collection, one at a time
+
+FlyTunes (song store example)
+	- add Songs
+	- add Albums
+
+Class Song
+	- name (String)
+	- band (String)
+	- price (Double)
+
+	- need a unique identifier
+		- just name won't work (different songs can have same name)
+		- price can change so that isn't good
+		- can do song name AND band name
+
+Class Album
+	- name (String)
+	- band (String)
+	- list of songs (ArrayList<Song>)
+		- add songs
+		- iterate through songs
+
+LECTURE 25
+
+Social Network
+	- profile/person
+		- name (unique ID)
+		- status (String)
+		- image (GImage)
+		- list of friends (names)
+	- friendship
+		- reciprocal (if A is friend with B, then B is friend with A too)
+
+Six Degrees of Separation
+	- friends with facebook (at most 6 ppl between two people)
+
+Concurrency
+	- stuff opearting at the same time
+	- eg. email, messaging, video
+		- having one processor, it can only run one thing at once
+		- so it gives each operation a couple of ns and cycles thru each
+
+Thread
+	- implements multiple things to run at once
+
+Runnable Interface
+	- if a class implements Runnable, it can be made into a thread
+	- public class MyClass implements Runnable {
+		public MyClass() {
+			...
+		}
+		public void run() {
+			...
+		}
+	  }
+
+
+	- MyClass x = new MyClass();
+	- Thread t = new Thread(x);
+	- t.start();
+
+Shared Data between Threads
+	- can make multiple threads refer to same variable
+
+Square Racer Example 
+	- shows that threaded programs are very complicated
+	- many possibilities for bugs to arise
+
+LECTURE 26
+
+ACM Library - Association for Computer Machining
+
+Standard Java
+	- main method (where java classes start running)
+
+JAR Files
+	- Java Archive File
+	- just a bunch of classes
+
+Exporting
+	- Click on class, then File-> Export
+	- Go to Java -> JAR File -> Next
+	- select [default package] and check export generated class files and resources'
+	- choose where we want to save it
+
+	- make sure to generate the manifest file when we have external libraries (eg. acm.jar)
+	- specify where to save the manifest file (/ProjectName/manifest)
+
+	- choose main method for where it should start running
+
+	- in manifest file, add third line: Class-Path: acm.jar NameSurfer.jar
+	- after updating manifest file, re-export and replace the jar file
+	- second time, don't generate a manifest file, but use existing manifest file instead
+
+	- now we can run program from the jar file instead of eclipse
+
+Send to a Friend
+	- after doing above Exporting part...
+	- put in external libraries (acm.jar), the program itself (NameSurfer.jar), and data files
+	- data files (names.data.txt or something)
+	
+	- put the three into a folder and now others can run it
+
+	- to run jar files, they need to install JRE (java runtime environment)
+
+LECTURE 27
+
+Other Useful Courses
+
+Discrete Math
+	- non-continuous, useful for computers (1's and 0's)
+
+Cryptography
+Machine Learning
+HCI
+Databases
+
+LECTURE 28
+
+Final Exam/Awards
+
+CS is as much science as it is art
+	- code should be beautiful
