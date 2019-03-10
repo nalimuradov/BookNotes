@@ -1,0 +1,234 @@
+Python Notes
+
+install python
+ - 2.7 is legacy
+ - 3.6 is the new one
+
+IDE
+ - need a place to write the code
+ - eg. pyCharm
+
+interpreter
+ - if it asks, it wants to know which version of python to use
+
+variables
+ - name = "John"
+ - age = 55
+ - male = True
+
+\n
+ - print("Giraffe\nNewLine")
+
+strings
+ - phrase = "Hello"
+ - phrase.lower() returns "hello"
+ - len(phrase) = 5
+ - phrase[3] = "l"
+ - phrase.index("H") = 0
+ - phrase.replace("H", "E") -> Eello
+
+numbers
+ - num = 5
+ - str(num) converts it to string
+ - abs(num)
+ - pow(5, 2) is 5^2
+ - max(4, 6) is 6, same as min
+ - round(3.6) is 4
+
+import
+ - from math import * (import everything from math)
+	- math offers floor, ceil, sqrt
+
+input from user
+ - age = input("enter your age: ") [take input from user, param is prompt]
+ - by default will convert to string
+ - eg. 5 + 8.3 will concat to 58.3
+ - use int(num1) + float(num2)
+
+lists
+ - colors = ["red", "blue", "yellow"]
+ - can have dynamically typed lists
+ - arr = [3, "hello", False]
+ - arr[0] = 3
+ - arr[-1] = False (neg values index from back of list)
+ - arr[1:] = ["hello", False] (will grab index 1 and everything after)
+ - arr[0:2] = [3, "hello"] (will not grab index 2 though)
+ - arr[0] = 4, now when we ref arr the first val will be 4
+
+list functions
+ - list = ["dog", "cat", "man"]
+ - print(list) prints it out
+ - list.extend(list2) will append 'list2' to 'list'
+ - list.append(16) will add a value to the end of list
+ - list.insert(1, "6") will add that val to index 1, pushing everything to right
+ - list.remove(4)
+ - list.clear() will give empty list
+ - list.pop() will return the last item, gets rid of last one
+ - list.index("man") will return 2
+ - list.count("man") = 1 (how many times it appears in list)
+ - list.sort() will put in alphabetial
+ - list.reverse() reverse list order
+ - list2 = list.copy()
+
+tuples
+ - tuple = (4, 5)
+ - tuples are immutable (can't change after creating)
+ - print(tuple[0]) prints 4
+
+functions
+ - def sayHi(name):
+	print("hello" + name)
+ - to call, sayHi("nariman")
+
+return statements
+ - def getName()
+	return "nariman"
+ - now calling getName() will return my name
+
+if statements
+ - if isMale:
+	print("you are male")
+   else
+	print("you are not male")
+ - if isMale or isThirty:
+ - if isMale and isThirty:
+   elif isFemale and isThirty:
+   else:
+ - if not(isMale) inverts the boolean
+
+comparisons (if statements)
+ - if a > b and a >= c:
+ - if "dog" == "dog":
+ - if float(input("enter num"))
+ - *make a calculator as a good test
+
+dictionary
+ - can store values in key-value pairs
+ - months = { "Jan": "January", "Feb": "February"}
+ - keys must be unique
+ - print(month["Jan"]) will output January
+ - can also do month.get("Jan")
+
+while loops
+ - while i <= 10:
+	print(i)
+	i += 1
+ - *make a guessing game as a good test
+
+AND/OR/NOT
+ - use 'and', 'or', 'not(False)'
+ - instead of java/js !, ||, &&
+
+for loops
+ - for i in "Giraffe":
+	print(i)
+ - for i in list:
+	print(i)
+ - for i in range(3,10):
+ - for i in range(10):
+ - for i in len(list):
+ - *make a power function as a good test
+
+2D lists
+ - a list of lists
+ - grid = [[1,2,3],[4,5,6]]
+ - grid[0][0] = 1
+ - use nested loops to loop thru values
+
+translator app
+ - convert all vowels to 'g'
+ - if letter.lower() in "aeiou":
+ - * do as a test
+
+comments
+ - # this is a comment
+
+try except
+ - try:
+ 	number = int(input("enter integer: "))
+   except ValueError:
+	print("invalid input")
+
+files
+ - samplefile = open("file.txt", "r") [read-only]
+ - "w" for write, "a" for append, "r+" for read and write
+ - print(samplefile.readable()) [checks if file is readable]
+ - print(samplefile.readline())
+ - print(samplefile.readlines()[1]) [can use for loops]
+ - samplefile.close() at the end
+
+writing to files
+ - sample = open("file.txt", "a")
+ - sample.write("\nmore text")
+ - sample.close()
+
+ - sample = open("file.txt", "w")
+ - when we write, it will overwrite the entire file
+
+modules and pip
+ - modules are code we can import into other files
+ - say we have useful.py
+ - we can do import useful to use that sht
+ - print(useful.roll_dice())
+ - go on python site to see all modules i can use
+ - to see external libs:
+	- go to python folder in appdata
+ 	- lib folder
+ - to install modules:
+	- pip install python-docx
+ - pip is a package manager, like npm
+ - after pip, it is put in site-packages folder
+ - after there, import docx
+	- docx.func()
+
+classes and objects
+ - some things we can't represent as string, number, boolean
+ - eg. a phone is none of those
+
+ - class Student:
+	def __init__(self, name, program, gpa):
+		self.name = name
+	 	self.program = program
+		self.gpa = gpa
+	
+	def on_honor_roll(self):
+		if self.gpa >= 3.5:
+			return True:
+		else:
+			return False:
+
+ - in another file...
+ - from Student import Student (from student file import student class)
+ - student1 = Student("Jim", "Business", 3.1)
+ - print(student1.name)
+ - print(student1.on_honor_roll())
+
+multiple choice quiz
+ - make Questions class
+ - * do as a practice
+
+inheritance
+ - class Chef:
+	def make_chicken(self):
+		print("made chicken")
+	def make_salad(self):
+		print("made salad")
+
+ - if we have chinese chef class, can make everything chef can do also
+ - from Chef import Chef 
+   class ChineseChef(Chef):
+	def make_chicken(self):
+		print("made orange chicken")
+ - this make_chicken will override original
+
+ - in another file:
+ - from Chef import Chef
+ - myChef = Chef()
+ - myChef.make_chicken(self):
+
+python interpreter
+ - sandbox environment where we can test out python functions/commands
+ - open cmd
+ - type python3 (if error, add it to path)
+ - idle thing that opens up initially is interpreter (i think)
+ - can even put full functions in it
