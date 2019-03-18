@@ -37,3 +37,6 @@ bottom-up mergesort:
 
  - between (1/2)NlgN and NlgN compares, max 6NlgN accesses
 
+space complexity:
+ - O(n) as we need another auxiliary array
+

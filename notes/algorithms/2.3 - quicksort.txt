@@ -1,0 +1,42 @@
+2.3 - Quicksort
+
+basic idea:
+ - partition array into two parts, sort parts independently
+ - inplace sorting algorithm
+ - average running time: O(NlogN)
+ - worst case running time: O(N^2)
+ - typically the most efficient sorting algorithm
+
+process:
+ - select a value (the pivot)
+ - rearrange such that all values less than pivot are to its left, all values greater are to its right
+
+ - eg. 7 2 1 6 8 5 3 4
+	- pivot will be 4
+ - partition: 2 1 3 [4] 8 5 7 6
+	- now the two arrays we work on are: [2 1 3], [8 5 7 6]
+
+ - first sublist: [2 1 3]
+	- new pivot will be 3
+	- rearrange such that all values less to left, all values greater to right
+	- becomes [2 1 3] (stays the same)
+	- new subarray becomes [2 1]
+	- pick 1 as pivot, repeat
+	- becomes [1 2]
+	- pivot on [2]: since it's one value, stop the recursion!
+
+ - second sublist: [8 5 7 6]
+	- pivot will be 6
+	- lower arr will be [5]: one element so return
+	- upper array will be [7 8]
+	- choose pivot 8
+		- sub array will be [7]
+	- the whole list will now be sorted
+
+pseudocode:
+ - QuickSort (A, start, end) {
+	if (start >= end) return  // this will be the 'base case' of the recursive algorithm
+	pIndex = Partition (A, start, end)
+	QuickSort(A, start, pIndex - 1)
+	QuickSort(A, pIndex+1, end)
+   }
