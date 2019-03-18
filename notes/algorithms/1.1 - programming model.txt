@@ -20,3 +20,54 @@ other primitive types:
  - char (16 bit characters)
  - byte (8 bit integers)
  - float (32 bit single precision real numbers)
+
+statements:
+ - declaration (int i;)
+ - assignment (a = b + 3;)
+ - initializing declaration (int i = 1;)
+ - implicit assignment (i+=1;)
+ - conditional (if x > y)
+ - loop (while true)
+ - call (int key = StdIn.readInt();)
+ - return (return false;)
+
+array:
+ - double[] a = new double[N];
+ - int[] a = {1,2,3,4,5};
+ - fixed size
+ - arrays have aliasing:
+	- when two vars refer to same array, they both change the same array
+	- if a and b both point to same array, doing b[i] = 10 will make a[i] = 10 too
+ - 2D arrays (arr[i][j])
+
+static methods:
+ - public static double sqrt(double c):
+	- "does it make sense to call this method, even if no object has been constructed yet?"
+	- eg. class car:
+		- can have method double convertMpgToKpl(double Mpg) as static
+		- it's just constantly applicable
+
+recursion:
+ - a method that calls itself 
+ - must have:
+	- a base case
+	- recursive calls must converge to base case
+
+command line:
+ - % java RandomSeq 5 100.0 200.0
+	- '%' is the prompt
+	- 'java' invokes Java runtime
+	- 'RandomSeq' calls main() in RandomSeq
+	- '5', '100.0', '200.0' are args[0], args[1], args[2]
+
+binary search:
+ - process:
+	- compare value we're looking for with middle value
+	- if middle < target, remove lower half of array
+	- if middle > target, remove upper half of array
+	- repeat until found
+ - space complexity: O(1)
+ - worst time complexity: O(log n)
+ - average time complexity: O(log n)
+ - best time complexity: O(log n)
+ 
