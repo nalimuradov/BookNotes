@@ -1,0 +1,39 @@
+2.2 - Mergesort
+
+basic idea:
+ - recursively divide array into two halves
+ - sort the halves
+ - merge the results
+
+in-place merge:
+ - can sort by not creating another array
+ - such a sort is remarkably complicated though
+
+top-down mergesort:
+ - compare pairs of values until each value is compared with another
+ - combine into groups of 4 and compare groups
+ - combine into groups of 8 and compare
+ - continue until the entire array is sorted
+ 
+ - eg. MERGESORTEXAMPLE
+	- EM GR
+	- EGMR
+	-	ES OR
+	- 	EORS
+	- EGMR EORS
+	- EEGMORRS
+	- continue for the entire word
+
+ - between (1/2)NlgN and NlgN compares, max 6NlgN accesses
+ 
+ - to cut running time:
+	- use insertion sort for small subarrays
+	- test whether array is already in order
+	- eliminate copy to the auxiliary array
+
+bottom-up mergesort:
+ - similar to top-down but do all pairs first, then go to groups of 4, then groups of 8
+ 	- rather than doing group of 4 as soon as first two pairs done
+
+ - between (1/2)NlgN and NlgN compares, max 6NlgN accesses
+
