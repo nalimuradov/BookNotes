@@ -1,0 +1,28 @@
+1.4 - Analysis of Algorithms
+
+tilde approximations/order of growth:
+ - throw away low order terms
+ - eg. (N^3)/6 - (N^2)/2 + N/3
+	- tilde approximation: ~(N^3)/6
+	- order of growth: N^3
+
+order of growth table:
+	- constants	1	a = b + c	(eg. adding two numbers)
+	- log	        logN			(eg. binary search)
+	- linear	N	for loop	(eg. find the maximum)
+	- linearithmic  NlogN			(eg. mergesort)
+	- quadratic     N^2   double for loop	(eg. check all pairs)
+	- cubic	        N^3   triple for loop   (eg. check all triples)
+	- exponential   2^N   			(eg. check all subsets)
+
+memory usage:
+ - primitve types take up a set number of bytes
+	- bool takes 1, char takes 2, int 4, double 8, etc....
+ - objects typically have 16 byte overhead
+ - references use 8 bytes
+ - linked lists have 8 bytes of overhead
+
+padding:
+ - makes all objects take space that is a multiple of 8 bytes
+ - speeds up memory access and garbage collection
+
