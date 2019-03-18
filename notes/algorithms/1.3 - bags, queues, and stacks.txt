@@ -1,0 +1,68 @@
+1.3 - Bags, Queues, and Stacks
+
+generics:
+ - enables us to use ADTs for any data type
+ - eg. Stack<String> stack = new Stack<String>();
+ 	- stack.push("test");
+
+autoboxing:
+ - casting a primitive type to wrapper type is autoboxing
+ - casting a wrapper type to primitive type is unboxing
+
+iterable collections:
+ - allows us to loop thru a collection of items
+ - eg. for (Transaction t : collection)
+	StdOut.println(t);
+
+bags:
+ - a collection where removing items is not supported
+
+FIFO queues:
+ - first in first out queue
+ - complete tasks in the same order they arrive
+ - eg. waiting in line at a theatre
+
+pushdown stack:
+ - last in first out queue
+ - eg. web brownsing hyperlinks, clicking back takes you to most recently accessed site
+
+linked list:
+ - a data structure with nodes that contain an item and a pointer to next node
+ - eg. private class Node {
+	Item item;
+	Node next;
+       }
+ - to create a linked list:
+	- Node first = new Node();
+	- first.item = "to";
+	
+	- Node second = new Node();
+	- second.item = "be";
+	- first.next = second;
+
+	- Node third = new Node();
+	- third.item = "or";
+	- second.next = third;
+
+ - inserting at the beginning:
+	- Node oldfirst = first;
+	- first = new Node();
+	- first.item = "not";
+	- first.next = oldfirst;
+
+ - removing from the beginning:
+	- first = first.next;
+
+ - inserting at the end:
+	- Node oldlast = last;
+	- Node last = new Node();
+	- last.item = "not";
+	- oldlast.next = last;
+
+ - traversing through linked list nodes:
+	- for (Node x = first; x != null; x = x.next) {
+		process x.item
+	  }
+
+ - implementations:
+	- can implement stacks, queues, and bags with linked lists
