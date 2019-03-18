@@ -1,0 +1,57 @@
+2.4 - Priority Queues
+
+basic idea:
+ - often, we collect a set of items, then process the one with largest key
+	- then collect more items, and process one with largest, key
+	- and repeat
+ - two operations:
+	- remove the maximum
+	- insert
+ - such a data type is called a priority queue
+
+implementations:
+ - array representations (ordered and unordered)
+ - linked list representations
+
+binary heap:
+ - data structure that can support PQ operations
+ - 		T
+	    S	    R
+	 P    N   O   A
+	E I  H G
+ - root at position 1, its children at 2 and 3, their children at 5, 6, 7, 8, etc
+ - parent of node at position k is in position k/2
+
+traveling through heap:
+ - if we have nodes in wrong positions, can move through the heap
+ - bottom-up reheapify (AKA swim)
+ - top-dop reheapify (AKA sink)
+
+heap-based priority queue:
+ - insert: add new item, swim up through the heap
+ - remove max: 
+	- take largest item off the top
+	- put item at end of heap on the top
+	- decrement size of heap
+	- sink down through the heap with that item to restore heap condition
+
+practical considerations:
+ - multiway heaps (don't have to be only binary)
+ - array resizing
+ - immutability of keys
+ - index priority queue
+
+heapsort:
+ - can use PQ to develop sorting method
+ - insert all keys into a minimum-oriented priority queue
+ - repeatedly remove the minimum to remove all in order
+ - two phases:
+	- heap construction (sink and swim to order) [O(NlgN)]
+	- sortdown (pull items to build result)
+
+ - 2NlgN compares and exchanges
+
+example:
+ - say our application has huge number of inserts
+	- which one to use: heap, unordered array, ordered array?
+ - unordered array because insert is constant time
