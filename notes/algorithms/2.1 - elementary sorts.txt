@@ -1,0 +1,44 @@
+2.1 - Elementary Sorts
+
+primary concern:
+ - rearranging arrays of items where each item has a key
+ - rearrange such that keys are in ascending order
+ - can use the Comparable interface in java
+
+sorting costs:
+ - we count compares and exchanges
+ - for algs that don't exchange, we count array accesses
+ - memory:
+	- some algs sort in place, others may need additional arrays for space
+
+selection sort:
+ - find the smallest item in the array
+ - swap it with the first entry in the array
+ - find next smallest item in array
+ - swap it with second entry in array
+
+ - repeatedly 'select' smallest value and add to front
+ - (n^2)/2 compares, n exchanges
+ 
+insertion sort:
+ - order first value
+ - add second value in array and order first two values
+ - add third value and order the first three in their order
+
+ - add value and 'insert' it into proper spot
+ - (n^2)/4 compares, (n^2)/4 exchanges
+ - worst case: (n^2)/2 compares, (n^2)/2 exchanges
+ - best case: n-1 compares, 0 exchanges
+
+shellsort: 
+ - extension of insertion sort that exchanges entries that are far apart
+ - creates partially sorted arrays that can be efficiently sorted
+ - rearrange array to give it property that taking every hth entry yields a sorted sequence
+ 	- said to be h-sorted
+
+ - eg. 4-sort will compare a value with the value 4 indexes ahead
+ 	- will proceed to order like that
+ - good idea to go 13-sort -> 4-sort -> 1-sort
+
+ - then can insertion sort
+	- insertion sort is faster on inputs that are partially sorted
