@@ -1,0 +1,23 @@
+1.2 - Data Abstraction
+
+data types:
+ - a set of values and a set of operations on those values
+
+abstract data types:
+ - a data type whose internal representation is hidden from the client
+
+objects:
+ - an entity that can  take on a data-type value
+ - three properties:
+	- state: (value from its data type)
+	- identity: (distinguishes one object from another)
+	- behaviour: (effect of data type operations)
+
+API:
+ - a list of constructors and instance methods with a description of each one		
+ - eg. public class Counter
+		    Counter(String id)		create a counter named id
+	       void increment()			increment counter by one
+	        int tally() 			number of increments since creation
+	     String toString()			string representation
+
