@@ -1,0 +1,20 @@
+2.5 - Sorting Applications	
+
+stability:
+ - sort is stable if it preserves the relative order of equal keys in the array
+ - eg. two equal values shouldn't change positions during the sort
+
+algorithm 	stable?		inplace?	runtime		extra space	
+----------------------------------------------------------------------------
+selection	no		yes		N^2		1
+insertion	yes		yes		N to N^2	1
+shellsort	no		yes		N^(6/5)		1
+quicksort	no		yes		N*lgN		lgN
+mergesort	yes		no		N*lgN		N
+heapsort	no		yes		N*lgN		1
+
+quicksort:
+ - quicksort is the fastest general-purpose sort
+
+mergesort:
+ - if stability is important and space is available, mergesort might be best
