@@ -21,3 +21,33 @@ API:
 	        int tally() 			number of increments since creation
 	     String toString()			string representation
 
+using abstract data types:
+ - create object: Counter heads = new Counter("heads");
+ - invoke instance methods: heads.tally() - tails.tally();
+	- tally() is the instance method here
+
+ - examples of ADT's:
+	- Point2D.java
+	- Interval1D.java
+	- Interval2D.java
+	- Date.java
+	- Java's String data type is also an ADT
+ 
+object aliasing:
+ - Counter c2 = c1;
+	- both c2 and c1 will refer to the same object
+
+objects:
+ - can pass objects as arguments
+ - can have objects as return values
+ - arrays are objects
+ - can have array of objects
+
+immutability:
+ - an immutable objects value cannot be changed once constructued
+ - eg. Strings are immutable in java
+
+assertions:
+ - assert index >= 0;
+ - can use in our code to verify assumptions 
+	- if it is false, will terminate the program
