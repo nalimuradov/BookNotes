@@ -1,0 +1,33 @@
+1.5 - Union Find
+
+union find:
+ - we can specify connections between nodes
+ - union(p,q) establishes a link between p and q
+ - we can then check if two values are connected 
+ - connected(p,q) returns true if p and q are connected
+
+quick find:
+ - give each value an id
+ - two values are connected if their ids match
+ - the id refers to the source node
+
+quick union:
+ - each node has a link to its parent
+ - two nodes are connected if their root node is the same
+ - parent node links to itself
+
+weighted quick union:
+ - similar to quick union
+ - keep track of the size of each tree
+ - always connect the smaller tree to the larger tree
+
+weighted quick union with path compression:
+ - we want every node to directly link to the root of its tree
+ - but we do not want to pay price of changing large number of links
+ - to fix, make all examine nodes directly link to root
+
+order of growth for UF:		[constructor]	   [union]	  [find]
+ 	- quick find			    N	         N	       1
+	- quick union			    N  tree height   tree height
+	- weighted QU			    N	       lgN           lgN
+	- weighted QU with PC		    N     almost 1      almost 1
