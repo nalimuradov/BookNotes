@@ -1,0 +1,34 @@
+3.3 - Balanced Search Trees
+
+basic idea:
+ - these are BSTs where costs are guaranteed to be log
+ - height is guaranteed to be no larger than 2*lgN
+
+2-3 search trees:
+ - nodes can have 2 values, allowing for 3 children
+ - perfectly balanced 2-3 search tree is one whose null links are all same distance from root
+ 
+ 		[M]
+	[E J]		[R]
+   [A C] [H] [L]     [P]   [S X]
+
+ - search:
+	- compare with root
+	- if no hit, continue down subtrees recursively
+
+ - insert:
+	- if one value in node, put side by side
+	- if two values in node:
+		- take middle value of the three and move up
+		- if also 3 node created above, keep moving up
+
+red-black BST:
+ - same as 2-3 search tree
+ - only difference is to connect 3-node values with a red line
+ - what was [A B] before is just the same values with red line between rather than black
+
+ - red links can be rotated left and right
+ - if two red lines connected to node:
+	- make both red lines black and turn black line above middle node red
+
+ - height of red-black BST is no more than 2*lgN
