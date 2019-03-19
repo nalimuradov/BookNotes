@@ -1,2 +1,39 @@
 3.4 - Hash Tables
 
+basic idea:
+ - similar concept to arrays
+ - reference key-value pairs using arrays by doing arithmetic ops to transform keys into array indices
+ - consist of two separate parts:
+	- compute hash function that transforms search key into array index
+	- some keys may hash to same index, so must have collision resolution
+
+hash functions:
+ - if we have array that can hold M values:
+	- must create hash that gives integer in range [0, M-1]
+ - need a hash that is easy to compute and uniformly distributes keys
+ - modular hashing:
+	- common example
+	- for any positive key k, compute the remainder when dividing k by M
+	- easy to compute and will evenly distribute
+
+good hash functions:
+ - should be deterministive (equal keys must propduce same hash value)
+ - should be efficient to compute
+ - should uniformly distribute the keys
+
+collision resolution:
+ - if two keys hash to same index, can create linked list at that index
+
+modular hashing example:
+	key	hash (M=100)	hash (M=97)
+ -------------------------------------------------------
+	212	12		18
+	618	18		36
+	302	2		11
+	940	40		67
+
+hash tables:
+ - finite size
+ - do not allow null values
+ - can be useful in cases where a normal array has values with large keys
+	- hashing can make these keys smaller and more compact
