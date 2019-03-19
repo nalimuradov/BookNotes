@@ -23,4 +23,17 @@ good hash functions:
 
 collision resolution:
  - if two keys hash to same index, can create linked list at that index
- 
+
+modular hashing example:
+	key	hash (M=100)	hash (M=97)
+ -------------------------------------------------------
+	212	12		18
+	618	18		36
+	302	2		11
+	940	40		67
+
+hash tables:
+ - finite size
+ - do not allow null values
+ - can be useful in cases where a normal array has values with large keys
+	- hashing can make these keys smaller and more compact
