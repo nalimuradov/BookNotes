@@ -1,0 +1,7 @@
+3.5 - Searching Applications
+
+applicaitons of symbol tables:
+ - set APIs
+ - dictionary clients
+ - indexing clients
+ - sparse vectors and matrices
