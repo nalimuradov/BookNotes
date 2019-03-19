@@ -1,0 +1,40 @@
+3.2 - Binary Search Trees
+
+basic idea:
+ - binary tree layout
+ - for a given node:
+	- every node less than it is to left of it
+	- every node greater than it is to right of it
+
+		S
+  	  E	      X
+     A         R
+	C   H
+
+ - each node contains:
+	- key
+	- value
+	- left link
+	- right link
+	- node count
+
+search:
+ - if tree empty, search miss
+ - if key is equal to key at root, search hit
+ - otherwise, search recursively in appropriate subtree
+
+insert:
+ - similar idea to search
+ - search for key not in tree ends at a null link, replace that link with new node containing key
+ - if tree empty, return new node containing key and value
+
+tree shape:
+ - running time of algorithms on BSTs depend on tree shape
+ - best case: each node has 2 children, evenly distributed
+ - typical case: not that far off, some subtrees are larger than others
+ - worst case: each parent has one child, in a line
+
+order-based methods and deletion:
+ - big reason BSTs are so popular is that they allow us to keep keys in order
+ - many more operations are possible on an ordered symbol table
+	- methods specified in previous section
