@@ -1,0 +1,21 @@
+perceptron:
+ - type of artificial neuron
+ - take several binary inputs and output one binary output
+ - eg. x1, x2, x3 can all be inputs, y can be output
+
+ - each input can have weight w, to represent how important it is for output
+ - output of this neuron will be 0 or 1, depending if it reaches a threshold value
+
+ - cheese festival example:
+	- factors: is weather good, does your girl wanna go, is it near a bus stop
+	- each factor is an input: x1, x2, x3	
+	- eg. if weather is good x1 = 1, if weather is bad x1 = 0
+	- each one also has a weight based on how important it is to you	
+	- if you really need the bus, the weight of x3 will be thicc
+ 	- say w1 = 2, w2 = 2, w3 = 3, threshold = 5
+	- we can use this to see if threshold to go is met
+
+ - we can have layers in a network, each one can make a decision at a more abstract/complex level
+ - each perceptron has a single output:
+	- the multiple output arrows in diagrams just demonstrate that the one output is used in multiple places
+ - 
