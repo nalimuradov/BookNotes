@@ -1,0 +1,68 @@
+C# NOTES
+
+Course Overview
+ - 30% writing
+ - 30% analyzing
+ - 40% reading other src code
+
+Introducing C# and .NET
+ - .NET framework:	
+	- takes C# code and tells computer what to do with it
+	- only on windows
+	- the original .NET
+ - .NET core:
+	- open source .NET that runs on anything
+	- want to be using in new projects
+ - .NET can be broken down into two parts:
+	- CLR (common language runtime):
+		- provides us space to run our programs in C#
+		- manage memory and send instructions to processor
+	- FCL (framework class library):
+		- provides library of code written by others
+ - the .NET core SDK downloaded includes the runtime, library, and other things
+
+ - dotnet CLI:
+	- command line interface lets us interact in the console
+	- typing dotnet in cmd opens CLI
+	- dotnet -help lets us see what SDK commands we can run
+	- dotnet -new creates a new project
+		- collection of source code files that comprise an application
+		- dotnet new console
+			- creates new console application
+
+ - dotnet project:
+	- when created, some files are generated:
+		- GradeBook.csproj contains info about the application
+		- program.cs contains C# code already a part of console application
+	- dotnet run:
+		- will run the project in the current directory
+		- in our case, it is GradeBook.csproj and it will output Hello World!
+		- otherwise will need to pass in the path
+		- dotnet run --project src/GradeBook
+	- dotnet restore:
+		- NuGet is like npm or pip (package manager)
+	- dotnet build:
+		- builds into binary format that is faster to compute
+		- creates binary representation dll file of source code
+		- can then -> dotnet bin\debug\netcoreapp2.1\GradeBook.dll
+			- this is similar to running a compile jar in java
+
+ - visual studio:
+	- open folder, open the highest folder rather than proj file itself
+
+ - debugger:
+	- allows us to execute program in a controlled environment
+	- eg. error where we are asking for args[1] but no args were passed
+		- click to left of line of error to add a breakpoint (adds a red dot)
+		- any time it reaches line, it will call debugger and see what's gwanin
+		- put breakpoint and then at the top click start debugging
+	- we can also see all the variables in existence at the top left
+	- can continue past breakpoint if we click continue (only on debugger)
+	- solution to 'args' error above:
+		- check if(args.Length > 0) before asking for args[1]
+
+ - args in visual studio:
+	- normally we can easily add args in cmd line, but not easy in VS
+	- find launch.json file and there is an array called 'args'
+		- this is the args it will use
+		- we can fill this up with what we want prior to launching the program
