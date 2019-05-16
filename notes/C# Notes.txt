@@ -397,3 +397,7 @@ Object-Oriented Programming with C#
 	- prevents null reference exception
 	- private static void myMethod(IBook? book)
 		- the question mark means it can work with a null parameter input (doesn't have to be IBook)
+
+ - const vs readonly
+ 	- const is the same always
+	- readonly can be different for each instantiation
