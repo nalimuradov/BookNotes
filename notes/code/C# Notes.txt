@@ -66,3 +66,338 @@ Introducing C# and .NET
 	- find launch.json file and there is an array called 'args'
 		- this is the args it will use
 		- we can fill this up with what we want prior to launching the program
+
+Learning the C# Syntax
+ - solve compilation errors sequentially starting from the top
+	- a later error might be caused by a previous error
+
+ - variable examples:
+	- double x;
+	- int y = 34;
+	- can also use var in C#
+		- it's still strongly typed, unlike javascript
+	- double[] nums = new double[5];
+	- double[] nums = {1, 2, 3};
+
+ - looping thru arrays:
+	- foreach(var number in nums){
+		result += number	
+	  }
+
+ - namespaces:
+	- Console.WriteLine(x) -> console is actually in the system namespace
+	- normally would have to write: System.Console.WriteLine(x)
+	- if we put 'using System;' at the top, it will know we're in the System namespace
+
+ - lists:
+	- List<double> grades = new List<double>();
+	- grades.Add(69.1)
+	- grades[0];
+	- a list is dynamic, i can add new things to it
+
+Working with Classes and Objects
+ - C# is fundamentally object oriented:
+	- our basic cs file has the main method inside a class called 'Program'
+
+ - can create objects like in java:
+	- Book book1 = new Book();
+	- make a new file Book.cs and store the Book class there
+ 	- classes can have state and behavior
+	- eg. book1.AddGrade(89.1) is a method we can implement to Book
+
+ - constructors:
+	- Book book = new Book() looks like we are invoking a Book method()
+	- that is exactly what happens, it is calling the constructor
+
+ - access modifiers:
+	- code outside of this class can access it
+	- public methods are a common example
+
+	- we don't want outside sources modifying variables:
+		- create private variables -> private string name;
+		- can then this.name = name in the constructor
+
+ - instance methods:
+ 	- associated with the object 
+	- opposite of static methods (not associated with object)
+	- eg. we can't call main from another method 
+	- eg. we don't need to instantiate Console object to do Console.Write Line
+		- WriteLine is a static method
+
+Testing Your Code
+ - unit testing:
+	- automating a small 'unit' of code to see if it passes
+	- this is pretty much what we do manually, we input some values and run to see if it works
+	- unit testing just automates this process and makes it easier
+	- we will us xUnit.net to create unit tests
+	
+	- make new 'test' folder to store tests in
+	- mkdir GradeBook.Tests, cd into it
+	- dotnet new xunit
+
+	- to reference nuget package, dotnet add package xunit
+
+ - attribute:
+	- little piece of data that is attached to what follows it
+	- appears as: [Fact]
+
+ - running a test:
+	- dotnet test will run a unit test
+	- it will find a method with that [Fact] attribute
+
+ - testing from a different project:
+	- dotnet add
+		- can add a nuget package or a project-to-project reference
+	- dotnet add reference <PROJECT_PATH>
+	- dotnet add reference ..\..\src\GradeBook\GradeBook.csproj
+	- also need to make the referenced class public so that we can access it!
+
+ - precision:
+	- assert.Equal can take a third param, the precision
+	- when working with floating points, it's hard to make two values exactly equal
+	- as such, we can enter a third param as the possible range for error, the precision
+	- eg. Assert.Equal(5, 5.05, 0.1)
+		- this will return true as the difference is smaller than the precision
+
+Working with Reference Types and Value Types
+ - var b = new Book();
+	- this is a reference type
+	- b is stored in memory as a pointer to the book object
+	- b itself is not the object, but points to the address
+ 
+ - var x = 3;
+	- runtime also creates space here too
+	- but the value is directly stored in the variable
+
+ - solution file:
+	- build everything and test everything'
+	- no need to keep switching directories to test whenever i update
+	- dotnet new sln
+	- dotnet sln add src\GradeBook\GradeBook.csproj
+	- dotnet sln add test\GradeBook.Tests\GradeBook.Tests.csproj
+	- dotnet build will now look for a solution file in the directory
+
+ - object reference:
+	- two variables can refer to the same object
+	- book1 = book2 means that the pointers book1 and book2 both point to same object
+	- not the case with something like int, where each variable will have its own int
+
+ - pass by reference:
+ 	- we may want to change book name without making another object
+	- in the method, GetBookSetName(ref Book book, string name)
+		- we will get a reference to the memory location where it is stored
+ - pass by:
+	- can either pass by value or pass by reference
+	- refers to how you send parameters to methods
+	- in C#, almost always pass by value
+
+ - struct:
+	- similar to writing a class, but classes are reference types (lives on the heap)
+	- structs are value types (lives inline)
+	- reference types are pointers, value types contain everything within them
+	- if we check metadata of things like int or bool, we can see they are structs
+	 
+ - strings:
+	- always reference type
+	- say we have a string and run it thru a toUpperCase method
+		- this will return a COPY, will not change the original string
+
+ - garbage collection:
+	- if object has nothing pointing to it, garbage collection will pick it up
+
+Controlling the Flow of Execution
+ - if statements short circuiting:
+	- if we have OR and the left condition is true, don't even need to check the right condition
+
+ - foreach(var grade in grades):
+	- will execute for each value in the array
+
+ - do while loop:
+	- do something while a condition is being met (same as every other lang)
+
+ - for loop:
+	- for(var i = 0; i < 10; i++)
+
+ - jumping statements:
+	- 'break' breaks me out of the current loop
+	- 'continue' goes to the next loop of the current loop
+
+ - switch statements:
+	- switch(letter) {
+		case 'A':
+			do something
+			break;
+		case 'B': 
+			do something
+			break;
+		default:
+			do something
+		}
+ 
+	- can pass in a var in switch statements:
+		- switch(result.Avg){
+			case var d when d >= 90.0:
+			result.Letter = 'A';
+			break;
+	
+	- if a switch case returns, we don't need a break statement
+
+ - readLine:
+	- can use Console.ReadLine() to read user input from the console
+	- **user enters grades until q is hit to quit, find avg, max, min
+
+ - exceptions:
+	- throw new ArgumentException($"invalid {nameof(grade)}");
+	- once thrown, the exception will begin looking for something to catch this exception
+	- try catch:
+		- try {
+			something
+		} catch(Exception e){
+			Console.WriteLine(ex.Message);
+		} finally {
+		  	guaranteed to execute regardless of what occured above
+		}	
+
+Building Types:
+ - overloading a method:
+	- we can have multiple methods with the same name if they have different params
+	- addGrade(char letter), addGrade(char letter, int x), addGrade(double grade)
+	- constructors can be overloaded
+
+ - defining properties:
+	- we can have something like -> private string name
+	- then use getters and setters to access it
+		- public string Name {
+			get {
+				return name;
+			}
+ 			set {
+				name = value;
+			}
+		  }
+
+	- easier way to do it:
+		- public string Name {
+			get; 
+			private set;
+		  }
+
+ - readonly:
+	- readonly string category = "Science":
+	- must have set value by the time constructor exits
+	- can still write to a readonly field
+
+ - const:
+	- const string category = "Science";
+	- can make these public as you can't edit it so it's safe
+	- const names typically uppercase: const string CATEGORY
+
+ - delegate:
+	- allows to find a variable that can point to and invoke different methods
+	- defining what a method has to look like (paramters, types, return call, etc)
+	- eg. defining delegate that logs messages:
+		- public delegate string WriteLogDelegate(string logMessage); (points to a method that returns a string)
+	- test delegate:
+		- [Fact]
+		- public void WriteLogDelegatePointToMethod(){
+			WriteLogDelegate log;
+			log = new WriteLogDelegate(ReturnMessage);
+			var result = log("Hello");
+			Assert.Equal("Hello", result);
+		  }
+		- string ReturnMessage(string message){
+			return message;
+		  }
+	- the delegate matches to methods that return a string and take a single parameter of type string
+
+ - events:
+	- can make general delegate like so -> public delegate void GradeAddedDelegate(object sender, EventArgs args);
+	- can then create the event:
+		- public event GradeAddedDelegate GradeAdded;
+	- if GradeAdded is null it means no one is listening, so we need to check !GradeAdded:
+		- then we can: GradeAdded(this, new EventArgs());
+	- we can then make a method that fits the delegate created (void method with object and EventArgs params)
+
+Object-Oriented Programming with C#
+ - three pillars of object oriented programming:
+	- encapsulation: allows us to hide details about our code (public, private access modifiers)
+	- inheritance: allows us to reuse code accross similar classes
+	- polymorphism: allows us to have objects of same type that can behave differently
+
+ - deriving from a base class:
+	- we don't want to repeat ourselves, repeating methods when making multiple classes
+	- public class Book : NamedObject
+		- in this class, the constructor can look like this:
+			- public Book(string name) : base()
+	- we can now inherit get and set from NamedObject
+	- we didn't define them in Book but we did in NamedObject
+
+ - base class:
+	- in .NET, every class has a base class
+	- if we don't specify a base class, the default base class is Object
+		- public class Book : Object
+	- it's why we have some methods like toString at our disposal
+
+ - extract method:
+	- a tool we can use by highlighting text and clicking the yellow lightbulb
+	- will take highlighted code and put it in a method
+
+ - polymorphism:
+	- when we have classes that inherit frmo others, we have methods that work in both 
+	- when those methods do different things, this is known as polymorphism
+	- eg. Dog and Pig both inherit from Animal
+		- animalSound() in Animal outputs: "sound"
+		- in Dog and Pig, we can make animalSound() output different things, even though it's an inherited method
+
+ - abstract class:
+	- public abstract class Book {
+		public void AddGrade(double grade); // this is an abstract method
+	  }
+ 	- we want everything that inherits from Book to have that method
+	- we don't know how it will be implemented but we know we want it
+	- classes that inherit from abstract classes NEED to implement methods in the abstract class (or it will error)
+
+ - interface:
+	- more common than abstract classes
+	- like a class, but contains no implementatio details
+	- abstract classes might show implementations and code, interfaces do not
+	- only shows the members that are available for a type
+	- public interface IBook {
+		void AddGrade(double grade);
+		Statistics GetStatistics();
+		string Name { get; };
+		event GradeAddedDelegate GradeAdded;
+	  }
+	- to implement interface, public class Dog : Animal (same idea as abstract class?)
+	- IBook book = new DiskBook("Name")
+
+ - virtual:
+	- a keyword, here's a method but a class may override it
+	- public virtual int getInt(); // this is in the base class
+	- public override int getInt(); // this is in the derived class
+	- useful for when we have an implementation in a base class but may want to change it in a derived class
+		- if we do, we must make the method an override method in the derived class
+		- eg. public override string Name {...}
+ 
+ - write to file:
+	- var writer = File.AppendText($"{Name}.txt");
+	- writer.WriteLine(grade);
+	- writer.Close();
+	- once file is open for writing, it is locked until it is done being used
+	- can also read from file: var line = reader.ReadLine();
+
+ - using keyword:
+	- using(writer = File.AppendText($"{Name}.txt"){
+		write.writeLine(grade);
+	  }
+	- allows us to create objects and then dispose them when we are done working with them
+	- useful when working with files
+
+ - non-nullable reference types:
+	- prevents null reference exception
+	- private static void myMethod(IBook? book)
+		- the question mark means it can work with a null parameter input (doesn't have to be IBook)
+
+ - const vs readonly
+ 	- const is the same always
+	- readonly can be different for each instantiation
