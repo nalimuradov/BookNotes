@@ -28,4 +28,17 @@ common sense:
 	- eg. if i left milk carton in car, we can say there is 1 gallon of milk in car
 		- if i am sitting in car, is it fair to say there is 1 gallon of blood in car?
 
-** continue pg21 - reverse engineering the psyche
+mind-body problem:
+ - how to connect world of meaning and intention with the physical world
+ - wanting to go to the store has no physical properties
+ - but it is a cause of a physical event just like a pool ball hitting another ball
+ 
+ - we can't look at a patch of the brain and see the intricate logic
+ - we can't say all our brains the same because they look the same
+ - must look at patterns, connections, neurons
+	- eg. a book is just the same 75 characters, the order is what makes it different from other books
+
+computational theory of the mind:
+ - theory that says beliefs and desires are information
+	- these are incarnated as symbols, or bits, like in a computer
+	- these bits bump into muscle and behavior happens
