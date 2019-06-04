@@ -53,3 +53,170 @@ Fundamentals of RDBMS and Database Designs
 Introduction MySQL Workbench
  - updating table:
 	- must click apply after changing otherwise will revert
+
+ - deleting or adding rows:
+	- right above the data, small + or -
+ 
+ - alter table
+ 	- click on sakila -> Tables -> actor -> right click alter table
+	- PK: primary key`
+	- NN: not nuill
+	- UQ: unique index
+	- BIN: binary 
+	- UN: unsigned datatype
+	- ZF: default value of zero
+	- AI: auto increment (the auto increment column is a good candidate for primary key)
+
+ - snippet:
+	- can highlight code and save as snippet
+	- saves it to the RHS and able to reuse it later
+
+Data Retrieval Techniques
+ - SELECT statements:
+	- used to retrieve static value, column
+	- can filter or can get all
+	- SELECT Column_List FROM Table_Name WHERE Filter_Condition ORDER BY Column_List LIMIT Row_Limit
+
+	- SELECT 'myVal' will create 1x1 table with 'myVal' in it
+		- can do SELECT 'myVal' AS SomeValue;
+	- SELECT 1+1 AS TWO;
+	- SELECT NOW(); SELECT CURDATE(); SELECT CURTIME();
+	- SELECT PI(); SELECT MOD(45,7); SELECT SQRT(25);
+
+	- can do USE sakila; at the top
+		- can then SELECT * FROM city;
+	
+	- SELECT * FROM sakila.actor ORDER BY first_name DESC;
+		- orders by first name but will be descending
+
+	- SELECT first_name, last_name FROM sakila.city;
+		- pick specific columns to retrieve
+
+ - WHERE clause:
+	- SELECT * FROM sakila.actor WHERE actor_id < 100;
+		- return all actors whose id is less than 100
+	- SELECT * FROM sakila.actor WHERE first_name="Nick";
+
+ - example of it all together:
+	- SELECT actor_id, first_name, last_name
+	  FROM sakila.actor
+	  WHERE actor_id > 100
+	  ORDER BY first_name, last_name DESC;
+
+ - aliasing:
+	- SELECT rental_date AS RentalDate, inventory_id AS FilmListID, return_date AS ReturnDate FROM sakila.rental;
+
+ - get names that start with A:
+	- SELECT * FROM sakila.actor WHERE first_name LIKE 'a%';
+
+ - rounding:
+	- SELECT amount, ROUND(amount) Amnt, ROUND(amount,1) Amnt1, FLOOR(amount) FloorAmnt, CEILING(amount) CeilAmnt
+	  FROM sakila.payment
+	- SELECT ROUND(4.5)
+
+ - string operations:
+	- SELECT CONCAT(first_name, ' ', last_name) AS FullName
+	- SELECT LENGTH(CONCAT(first_name, ' ', last_name)) AS Length
+	- SELECT REPLACE(CONCAT(first_name, ' ', last_name), 'S', '$') AS ReplaceExample
+
+ - distinct:
+ 	- remove duplicate values
+	- SELECT DISTINT first_name FROM sakila.actor
+
+ - comparison operators:
+	- same 6 as usual
+	- != is not equal to
+
+ - logical operators:
+	- AND, OR, NOT
+
+ - IN operator:
+	- SELECT * FROM sakila.actor WHERE first_name IN ('NICK', 'JOHNNY', 'JOE', 'VIVIEN');
+	- selects all actors with one of those names
+	- can also do NOT
+		- SELECT * FROM sakila.actor WHERE first_name NOT IN ('NICK', 'JOHNNY', 'JOE', 'VIVIEN');
+
+ - subquery:
+	- SELECT * FROM sakila.actor WHERE first_name in ('NICK', 'JOHNNY', 'JOE', 'VIVIEN') OR actor_id IN (SELECT actor_id FROM sakila.actor WHERE last_name = 'DEGENERES');
+	- essentially same thing as above combining with those whose last name is Degeneres
+
+ - BETWEEN operator:
+	- same as less than greater than
+	- WHERE actor_id >= 10 AND actor_id <= 20
+		- equivalent to: WHERE actor_id BETWEEN 10 AND 20
+
+ - LIKE operator:
+	- able to find patterns
+	- SELECT * FROM sakila.actor WHERE first_name LIKE 'A%';
+	- SELECT * FROM sakila.actor WHERE first_name LIKE 'A__E';
+	- SELECT * FROM sakila.actor WHERE first_name LIKE 'A%E';
+
+ - NULL operators:
+	- can check to see if a property is null or is not null
+	- SELECT * FROM sakila.address WHERE address2 IS NULL;
+
+ - ORDER BY clause:
+	- SELECT * FROM sakila.address ORDER BY district, postal_code DESC;
+	- can order things by other properties
+	- SELECT * FROM sakila.actor ORDER BY CONCAT(first_name, ' ', last_name);
+
+ - LIMIT clause:
+	- will only retrieve x amount of rows
+	- SELECT * FROM sakila.actor ORDER BY actor_id LIMIT 12;
+		- will return first 12 lines
+	- SELECT * FROM sakila.actor ORDER BY actor_id LIMIT 15, 5;
+		- will return 15 rows starting after 5th row (offset of 5)
+
+Data Modification Techniques
+ - to create a table:
+	- USE Sakila;
+	- CREATE TABLE ActorSample ( 
+		actor_id smallint(5) unsigned NOT NULL AUTO_INCREMENT,
+		first_name varchar(45) NOT NULL,
+		last_name varchar(45) NULL,
+		last_update timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP 
+		PRIMARY KEY (actor_id)
+	  );
+
+ - INSERT statement:
+	- when we want to add one or more rows to a table
+	- INSERT INTO sakila.actorsample (first_name, last_name, last_update) VALUES ('Nariman', 'Alimuradov', '2019-05-31');
+	- can then check to make sure we inserted correctly
+		- SELECT * FROM ActorSample;`
+
+ 	- we don't have to specify which ones we editing, we can just give values for all possible entries
+		- eg. INSERT INTO sakila.actorsample VALUES (DEFAULT, 'Nariman', 'Alimuradov', '2019-06-03')
+		- must be in the correct order though
+
+ - inserting multiple values:
+	- INSERT INTo sakila.actorsample (first_name, last_name, last_update)
+		VALUES ('Dav', 'Smith', '2019'), ('Smitt', 'Johnson', '2011'), ('Gerb', 'Huncho', '2222');
+
+ - inserts with select:
+	- can add things from other tables that meet a certian condition
+	- INSERT INTO sakila.actorsample (first_name,last_name,last_update)
+		SELECT first_name,last_name,last_update FROM ACTOR WHERE first_name='Nick';
+	- this will add the Nicks from actor table into our current sample table
+
+ - delete a table:
+	- DROP TABLE ActorSample;
+
+ - UPDATE statement:
+	- can update values in a table
+	- UPDATE sakila.ActorSample SET first_name='Nariman' WHERE actor_id=1;
+	- UPDATE sakila.ActorSample SET last_name='Alimuradov' WHERE actor_id=1;
+
+	- can update first name and last name together:
+		- UPDATE sakila.ActorSample SET first_name='Nariman',last+name='Alimuradov' WHERE actor_id=2;
+
+ - update values in multiple rows:
+	- UPDATE sakila.ActorSample SET first_name='Nariman',last_name='Alimuradov' WHERE actor_id IN (3,4,5);
+
+ - update values using select statement:
+	- UPDATE sakila.ActorSample SET first_name='Habibi' WHERE actor_id IN (SELECT actor_id FROM film_actor WHERE film_id = 1);
+	- must take off safe update mode
+
+ - DELETE statement:
+	- if we don't specify WHERE, will delete everything
+	- DELETE FROM sakila.ActorSample WHERE actor_id=1;
+	- DELETE FROM sakila.ActorSample WHERE actor_id IN (1,2,3);
