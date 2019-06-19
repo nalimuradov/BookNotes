@@ -1,0 +1,41 @@
+Keras Notes
+
+sample file organization:
+ROOT:
+ - animals:
+	- cats [1000 pics]
+	- dogs [1000 pics]
+	- pandas [1000 pics]
+ - images:
+	- cat.jpg
+	- dog.jpg
+	- panda.jpg
+ - output:
+	- simple_nn.model
+	- simple_nn_lb.pickle
+	- simple_nn_plot.png
+	- smallvggnet.model	
+	- smallvggnet_lb.pickle
+	- smallvggnet_plot.png
+ - pyimagesearch:
+	- __init__.py
+	- smallvggnet.py
+ - predict.py
+ - train_simple_nn.py
+ - train_vgg.py
+
+file organization:
+ - images directory will contain the files we will use to test our model
+ - output folder:
+	- .model is a serialized Keras model, can be used in future scripts
+	- .pickle is a serialized label binarizer file, accompanies model file
+	- .png training/validation output plot images
+ - train_simple_nn.py: the training script
+ 
+packages needed:
+ - scikit
+ - imutil
+ - matplotlib
+ - keras
+ - tensorflow
+ - opencv
