@@ -1,0 +1,37 @@
+chapter 1: basic probability
+ - chance events:
+	- 50/50 to get heads/tails
+	- can manipulate (eg. weighted coin)
+	- this creates a random variable
+ 
+ - expectation of a rand var:
+	- the number that attempts to capture center of the random variable's distribution
+	- eg. expectation of 6-sided die is 3.5
+	- E[X] = sig(xP(x))
+
+ - variance:
+ 	- quantifies the spread of the random variable's distribution
+	- Var(X) = E[(X - E[X])^2]
+
+chapter 2: compound probability
+ - set theory:
+	- roll an even number: {2, 4, 6}
+	- venn diagrams (AND, OR, NOT)
+	- empty set, universal set
+
+ - counting:
+	- permutations: ordered sequencees
+	- combinations: unordered sets
+	- eg. draw marbles from a bag
+
+ - conditional probability:
+	- P(A|B)
+	- probability it will rain today given it rained yesterday
+
+chapter 3: probability distributions
+ - random variables:
+ 	- a function that assigns a real number to each outcome in the probability space
+
+ - discrete and continuous:
+	- discrete random variable: finite number of possible values
+	- continuous random variable: infinte number of possible values
