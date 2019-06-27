@@ -35,3 +35,25 @@ chapter 3: probability distributions
  - discrete and continuous:
 	- discrete random variable: finite number of possible values
 	- continuous random variable: infinte number of possible values
+	- discrete distributions: bernoulli, binomial, geometric, poisson, negative binomial
+	- continuous distributions: uniform, normal, exponential
+	- cdf: curve goes up to 1
+	- pmf: shows chance of each possibility
+
+ - central limit theorem:
+	- the sample mean of a sufficiently large number of i.i.d random variables is normally distributed
+
+chapter 4: frequentist inference
+ - point estimation:
+	- estimator: a function of randomly sampled observations
+	- can estimate pi by plotting dots on circle in a square
+	- pi = 4*(S_circ/S_sqr)
+	- let m be dots in circle and n be total dots
+		- pi_estimator = 4*(m/n)
+
+ - confidence interval:
+	- estimate a parameter by specifying a range of possible values
+	- confidence level: prob that the procedure used to generate interval will produce an interval containing the true parameter
+
+ - bootstrap:
+	- a way to estimate properties of an estimator via resampling
