@@ -1,0 +1,26 @@
+PART 1 - MATHEMATICAL FOUNDATIONS
+
+some notation that I might forget:
+ - B = (b1, b2, b3): ordered tuple
+ - B = [b1, b2, b3]: matrix
+ - B = {b1, b2, b3}: set
+ - a, b, c, ...: scalaras
+ - x, y, z, ...: vectors
+ - <x, y>: inner product of x and y
+ - rk(A): rank of matrix A
+ - Im(x): image of linear mapping x
+ - ker(x): kernel of linear mapping x
+ - I: identity matrix
+ - lambda: eigenvalue
+ - E_lambda: eigenspace corresponding to eigenvalue lambda
+ - upside down triangle: gradient
+ 
+three core concepts of ML:
+ - data:
+	- goal of ML is to extract valuable patterns from data
+ - a model:
+	- related to process that generates data, 
+	- in regression, model would describe a func that maps inputs to real-valued outputs
+	- model considered to be learning if performance improves on a given task after the data is factored in
+ - learning:
+	- a way to automatically find patterns and structure in data by optimizing the parameters of the model
