@@ -1,0 +1,234 @@
+2 - LINEAR ALGEBRA ---------------------------------------------------------------------------------------------------
+
+algebra:
+ - construct a set of objects (symbols) and a set of rules to manipulate these objects
+
+linear algebra:
+ - study of vectors and certain rules to manipulate these vectors
+
+vectors:
+ - can be added together
+ - can be multiplied by scalars to produce another object of the same kind
+ - eg. geometric vectors:
+	- directed segments (which can be drawn)
+ - eg. polynomials:
+	- also classify as vectors
+	- two polynomials can be added, and they can be multiplied by a scalar
+	- abstract concepts
+ - eg. tuples of n real numbers are vectors:
+	- a = [1 2 3] element of R^3
+
+2.1 - Systems of Linear Equations ---------------------------------------------------------------------------------------------------
+
+example:
+ - company produces products N_1, N_2, ..., N_n
+ - resources R_1, R_2, ..., R_n are required to produce them
+ - to produce a unit of product N_j, a_ij units of resource R_i are needed
+ - i = 1, ...., m
+ - j = 1, ...., n
+
+ - goal is to find an optimal production plan:
+	- how many units x_j of product N_j should be produced if a total of b_i units of resource R_i are available 
+	- no resoures are left over
+	
+ - if we produce x_1, ..., x_n units:
+	- optimal production plan: a_m1*x_1 + ... + a_mn*x_n = b_m
+	- general form of a system of linear equations
+
+solutions of linear systems:
+ - either exatly one, infinitely many, or one solution
+ - Ax = b
+ - A is the matrix of coefficients, x is the matrix of variables, b is the matrix of constants
+
+2.2 - Matrices ---------------------------------------------------------------------------------------------------
+
+A = [a11 a12 a13] 
+    [a21 a22 a23]
+    [a31 a32 a33]
+
+matrices: 
+ - (m,n) where m is row and n is col
+ - (1,n) matrices are called rows and (m,1) matrices are called columns
+ - R^mxn is the set of all real-valued matrices
+
+matrix addition:
+ - simply add corresponding values in same position
+ - two matrices must be the same size
+
+matrix multiplication:
+ - multiply row by col 
+ - A = 2x3, B = 3x2, the middle numbers have to be the same for multiplication to work
+ 	- the outer numbers will be the size of the resultant matrix (in this case, 2x2)
+	- multiplying B*A = BA will actually result in a 3x3 matrix
+ - AB != BA, matrix multiplication is not commutative
+
+identity matrix:
+ - matrix with ones on the diagonal and zeroes everywhere else
+
+properties of matrices:
+ - associativity: (AB)C = A(BC)
+ - distributivity: (A+B)C = AC + BC, A(C+D) = AC + AD
+ - mult with identity matric: I_m*A = A*I_n = A
+	- note that I_m != I_n if m != n
+
+inverse of a matrix:
+ - if we have AB = I = BA, then B is called the inverse of A (denoted by A^-1)
+ - inverse is the matrix we use to multiply another matrix to get the identity matrix
+ - not every matrix possesses an inverse
+ - if inverse exists, matrix is called regular/invertible/nonsingular
+ - if inverse does not exist, matrix is called singular/noninvertible
+
+inverse example: [1 2 1]	[-7 -7  6]
+		 [4 4 5]	[ 2  1 -1]
+		 [6 7 7]	[ 4  5 -4]
+	- these two matrices are inverse to each other since AB = I = BA
+p
+transpose of a matrix:
+ - if we have matrix A and write cols as rows and vice versa, we get matrix B, the transpose of A
+ - B = A^T
+ - eg. A = [1 3]   A^T = [1 4] 
+	   [4 2]	 [3 2]
+
+properties of inverses and transposes:
+ - AA^-1 = I = A^-1*A
+ - (AB)^-1 = B^-1 * A^-1
+ - (A+B)^1 != A^-1 + B^-1
+ - (A^T)^T = A
+ - (A+B)^T = A^T + B^T
+ - (AB)^T = B^T * A^T
+ - a matrix A is symmetric if A = A^T
+	- only (n,n) matrices can be symmetric
+	- (n,n) matrices are also called square matrices
+
+multiplication by a scalar:
+ - the scalar will scale each element of the matrix A
+ 	- associativity holds
+	- distributivity holds
+
+representation of systems of linear equations:
+ - 2x1 + 3x2 + 5x3 = 1
+ - 4x1 - 2x3 - 7x3 = 8
+ - 9x1 + 5x2 - 3x2 = 2
+
+ - [2  3  5] [x1]   [1]
+   [4 -2 -7] [x2] = [8]
+   [9  5 -3] [x3]   [2]
+
+2.3 - Solving Systems of Linear Equations ---------------------------------------------------------------------------------------------------
+
+example system:
+ 		[x1]
+ - [1  0  8 -4] [x2]   [42]
+   [0  1  2 12] [x3] = [8]
+		[x4]
+ - this system has two equations and four unkowns, therefore we would expect infinitely many solutions
+ - we could do 42 times to first col and 8 times the second so that it adds up	
+	- possible solution is [42, 8, 0, 0]^T
+	- this is the particular/special solution
+	- however, it's not the only solution
+
+ - general solution for above system:
+	- find col 3 as a combination of cols 1 and 2: [8] = 8 [1] + 2 [0]
+						       [2]     [0]     [1]
+	- now we can find values for x that make Ax = 0
+	- that vector is [8 2 -1 0]^T
+	- repeat for col 4 and we get: [-4 12 0 -1]^T
+	
+ 	- put everything together for the general solution:
+		      [42]  		[8]   		 [-4]
+		- x =  [8] + lambda_1 * [2] + lambda_2 * [12]
+		       [0]	       [-1]		  [0]
+		       [0]		[0]		 [-1]
+
+general solution steps:
+ - find a particular solution to Ax = b
+ - find all solutions to Ax = 0
+ - combine the solutions from above steps into the general solution
+
+elementary transformations:
+ - exchance two equations
+ - multiplication of an equation with a constant
+ - addition of two equations
+
+example gaussian transformation:
+ - [-2   4  -2  -1   4 | -3]
+   [ 4  -8   3  -3   1 |  2]
+   [ 1  -2   1  -1   1 |  0]
+   [ 1  -2   0  -3   4 |  a]
+ 
+ - we now represent matrix in this [A|b] form as it is much cleaner
+ - swap R1 with R3
+ - R2 = R2 - 4R1
+ - R3 = R3 + 2R1
+ - R4 = R4 - R1
+ - we end up with the below matrix (after some addition/subtraction):
+
+ - [ 1  -2   1  -1   1 |  0]
+   [ 0   0   1  -1   3 | -2]
+   [ 0   0   0   1  -2 | 10]
+   [ 0   0   0   0   0 |a+1]
+ - this solved matrix is in Row-Echelon Form (REF)
+ - we can now solve this system
+
+ - variables corresponding to the pivots in row-echelon form are called basic variables, others are free variables
+ - x1, x3, x4 are the basic variables and x2, x5 are the free variables
+
+reduced row echelon form:
+ - similar to row echelon form
+ - every pivot is 1
+ - the pivot is the only non zero entry in its column (nothing above or below it)
+ - example:
+	[1  3  0  0  3]
+	[0  0  1  0  9]
+	[0  0  0  1 -4]
+ - allows us to determine the general solution in a simple way
+
+ - so for first non-pivot column, we look at values to right of 2nd column (the first non pivot column)
+ 	- it is three times the first col so our vector becomes:
+	-  [3]
+	  [-1]
+	   [0]
+	   [0]
+	   [0]
+
+ - second non-pivot column (5th col) is 3 times col1, 9 times col3, -4 times col4
+	- also put -1 for its own col
+	-  [3]
+	   [0]
+	   [9]
+	  [-4]
+	  [-1]
+
+ - to summarize, all solutions of Ax = 0 are given by:
+			  [3]	            [3]
+			 [-1]		    [0]
+	- x = lambda_1 *  [0] + lambda_2 *  [9]
+			  [0]   	   [-4]
+			  [0]		   [-1]
+
+	- lambda_1 and lambda_2 can be any real number
+
+minus-1 trick:
+ - add row with a -1 in the pivot spot for all columns that don't have a pivot
+ - eg.  [1   3   0   0   3]
+ 	[0  -1   0   0   0] *added
+	[0   0   1   0   9]
+	[0   0   0   1  -4]
+	[0   0   0   0  -1] *added
+
+ - now we can just read those columns and use them (columns 2 and 5 are the same as the previously calculated ones above)
+
+inverse of a matrix:
+ - to calculate inverse of matrix, put an identity matrix of same size beside and reduce the original matrix to reduced row echelon form
+ - the operations will affect the identity matrix on the right
+ - the new resultant matrix on the right will be the desired inverse
+ - [A|I] -> [I|A^-1]
+
+
+algorithms for solving a system of linear equations:
+ - gaussian is effective but inefficient for systems with millions of variables as the operations scale cubically
+ - there are other ways of solving systems such as: Richardson method, Jacobi method, etc.
+
+2.4 - Vector Spaces ---------------------------------------------------------------------------------------------------
+
+	
