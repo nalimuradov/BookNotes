@@ -114,7 +114,7 @@ representation of systems of linear equations:
    [4 -2 -7] [x2] = [8]
    [9  5 -3] [x3]   [2]
 
-2.3 - Solving Systems of Linear Equations ---------------------------------------------------------------------------------------------------
+2.3 - Solving Systems of Linear Equations -----------------------------------------------------------------------------------------
 
 example system:
  		[x1]
@@ -199,6 +199,13 @@ reduced row echelon form:
 	  [-4]
 	  [-1]
 
+syl
+ahr
+zed
+
+ori
+ryz
+
  - to summarize, all solutions of Ax = 0 are given by:
 			  [3]	            [3]
 			 [-1]		    [0]
@@ -231,4 +238,195 @@ algorithms for solving a system of linear equations:
 
 2.4 - Vector Spaces ---------------------------------------------------------------------------------------------------
 
-	
+vector spaces:
+ -  a structued space in which vectors live
+
+groups:
+ - a set of elements and an operation defined on these elements that keeps some structure of the set intact
+ - must hold the following qualities:
+	- closure of G: xy is element of G 
+	- associativity: (xy)z = x(yz)
+	- neutral element: xe = x and ex = x
+	- inverse element: xy = e and yx = e
+		- ** inverse element does not necessarily mean 1/x
+
+abelian group:
+ - if xy = yx, then G = (G, dotprod) is an abelian group (commutative)
+
+examples of groups:
+ - (Z, +) is a group
+ - (N_0, +) is not a group, set of natural numbers including zero
+	- the inverse elements are missing so it's not a group
+ - (R^nxn, *), it is a group
+	- called the general linear group
+
+general linear group:
+ - set of regular matrices A which are elements of R^nxn
+ - since matrix multiplication is not commutative, the group is not abelian
+
+vector subspaces:
+ - a set contained in the original subspace
+ - have the property that when we perform vector space operations on elements within the subspace, we will never leave it
+ - intersection of arbitrarily many subspaces is a subspace itself
+
+2.5 - Linear Independence ---------------------------------------------------------------------------------------------------
+
+closure property:
+ - guarantees that when we add vectors together or multiply with scalar, we end up with another vector in the same vector space
+
+basis:
+ - set of vectors with which we can represent every vector in the vector space by adding them together and scaling them
+
+linear combination:
+ - say we have finite number of vectors x1, x2, ..., xk which are in the vector space
+	- then every vector in the space is of the form v = ax1 + bx2 + ... cx3
+	- the a, b, c, .... are constants
+	- we can say v is a linear combination of x1, x2, ..., xk
+
+linear independence:
+ - vectors can not be represented as a linear combination of other vectors
+ - opposite of linear dependence, where we may have redundant vectors
+
+ - example:
+	- x1 = [1] 	 x2 = [1]	 x3 = [-1]
+	       [2]	      [1]	      [-2]
+	       [-3]           [0]             [1]
+	       [4]	      [2]             [1]
+ - to check if they are linearly dependent:
+	- lambda_1 * x_1 + lambda_2 * x_2 + lambda_3 * x_3 = 0
+	- write the vectors as a matrix and reduce until we find pivot columns
+
+	- [ 1   1  -1]					[1   1  -1]
+	  [ 2   1  -2]		becomes.... -> 		[0   1   0]
+	  [-3   0   1]					[0   0   1]
+	  [ 4   2   1]					[0   0   0]
+	- we can see that every column of the matrix is a pivot column
+		- therefore, there is no non-trivial solution
+		- therefore, we require lambda_1 = 0, lambda_2 = 0, lambda_3 = 0 to solve
+		- therefore x1, x2, x3 are linearly independent
+ 
+ - linear dependent example:
+	- we have b1, b2, b3, b4 which are linearly independent vectors
+	- x1 = b1 - 2b2 + b3 - b4
+	- x2 = -4b1 - 2b2 + 4b4
+	- x3 = 2b1 + 3b2 - b3 - 3b4
+	- x4 = 17b1 - 10b2 + 11b3 + b4
+
+	- as a matrix:
+		- [ 1  -4   2  17]				[1   0   0  -7]
+		  [-2  -2   3 -10]  	becomes.... ->		[0   1   0 -15]
+		  [ 1   0  -1  11]				[0   0   1 -18]
+		  [-1   4  -3   1]				[0   0   0   0]
+	- last column is not a pivot column
+	- we can represent x4 as linear combination
+		- x4 = -7x1 - 15x2 - 18x3
+	- therefore x1, x2, x3, x3 are linearly dependent as x4 can be expressed as linear combination of x1, x2, x3
+
+2.6 - Basis and Rank ---------------------------------------------------------------------------------------------------
+
+span, generating set, minimal, basis:
+ - let V be vector space and A be set of vectors in V
+ - if every vector v in V can expressed as a linear combination of the vectors in A, A is called the generating set
+ - the set of all linear combinations of vectors in A is called the span of A
+ - if there is smaller set of A that spans V, A is called minimal
+ - every linearly independent generating set of V is minimal and is called a basis of V
+
+examples:
+ - the standard basis in R^3 is:
+	- [1 0 0]
+	  [0 1 0]
+	  [0 0 1]
+
+ - [1  2  1]
+   [2 -1  1]
+   [3  0  0]
+   [4  2 -4]
+	- this set is linearly independent but...
+ 	- this is not a generating set or basis
+	- eg. [1, 0, 0, 0]^T cannot be obtained by a linear combination of elements in that set
+
+basis vectors:
+ - every vector space V possesses a basis B
+ - there can be many bases of a vector space, there is no unique basis
+ - all bases possess the same number of elements, the basis vectors
+
+dimension:
+ - the dimension of V is the number of basis vectors of V
+ - written as dim(V)
+ - can be thought of as the number of independent directions in this vector space
+ - V = span([0 1]) is one-dimensional, even though the basis vector possesses two elements
+
+find basis of subspace:
+ - write the spanning vectors as columns of a matrix A
+ - determine the row-echelon form of A
+ - the spanning vectors associated with the pivot columns are a basis of U
+
+determining a basis example:
+ - x1 = [1 2 -1 -1 -1]^T
+ - x2 = [2 -1 1 2 -2]^T
+ - x3 = [3 -4 3 5 -3]^T
+ - x4 = [-1 8 -5 -6 1]^T
+
+ - as a matrix:
+	- [ 1   2   3  -1]				[1   2   3  -1]
+	  [ 2  -1  -4   8]				[0   1   2  -2]
+	  [-1   1   3  -5]	 becomes.... ->		[0   0   0   1]
+	  [-1   2   5  -6]				[0   0   0   0]
+ 	  [-1  -2  -3   1]				[0   0   0   0]
+
+ - since x1, x2, x4 have pivot columns, they are linearly independent
+ - therefore, {x1, x2, x4} is a basis of U
+
+rank:
+ - number of linearly independent columns equals the number of linearly independent rows
+	- this is called the rank of A
+ - denoted by rk(A)
+
+ - example: 
+	      [ 1   2   1]				[1 2 1]
+	- A = [-2  -3   1]	 becomes.... ->		[0 1 3]
+	      [ 3   5   0]				[0 0 0]
+	- we have two linearly independent rows and columnes, therefore rk(A) = 2
+
+ - rank of matrix has many important properties
+
+2.7 - Linear Mappings ---------------------------------------------------------------------------------------------------
+
+linear mapping:
+ - say we have vector spaces V and W
+ - sigma : V -> W is called a linear mapping if can distribute phi accross x and y like in the example
+ - better example: say we are mapping T: R^n -> R^m
+	- we have two vectors 'a' and 'b'
+ 	- it's a linear mapping iff T(a + b) = T(a) + T(b) AND T(ca) = cT(a)
+
+ - mapping is the same thing as a transformation
+ - all were doing is mapping one thing to another
+	- T([x1, x2]) = [x1+x2, 3x1]
+	- T:[x1,x2] -> [x1+x2, 3x1]
+	- the above two lines are equivalent
+
+special mappings:
+ - say we have a mapping phi: V -> W
+ - phi is injective if phi(x) = phi(y) ==> x = y
+	- if we have two blobs of area X and Y, each x must map to a unique y (if two x's map to a single y, not injective)
+ - phi is surjective if phi(V) = W 
+	- if we have a blob of area X and blob of area Y, all this is saying is that everything in the Y area is mapped to from X
+ - phi is bijective if it is injective and surjective
+ - if phi is surjective, every element in W can be reached from V using phi
+ - a bijective mapping can be undone, there is a mapping tht goes W -> V
+
+special cases of linear mappings:
+ - isomorphism: phi: V -> W linear and bijective
+ - endomorphism: phi: V -> V linear
+ - automorphism: phi: V -> V linear and bijective
+ - id_v: V -> V, x -> x is the identity mapping in V (aka identity automorphism)
+
+matrix representation of lienar mappings:
+ - any n-dimensional vector space is isomorphic to R^n 
+
+ordered basis:
+ - B = (b1, b2, ..., bn)
+
+unordered basis:
+ - B = {b1, b2, ..., bn}
+
