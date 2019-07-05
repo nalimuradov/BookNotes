@@ -430,3 +430,25 @@ ordered basis:
 unordered basis:
  - B = {b1, b2, ..., bn}
 
+coordinates:
+ - say we have vector space V and basis B = (b1, b2, b3, ..., bn)
+ - for any x in the vector space V we have a unique representation of x with respect to B
+	- x = alpha_1 * b1 + ... + alpha_b * bn
+ - the alpha_n's are the coordinates of x with respect to b
+ - the vector alpha = [alpha_1 ... alpha_n]^T is the coordinate vector/representation of x with respect to B
+
+basis:
+ - effectively defines a coordinate system
+ - eg. [1 2] and [2 1] form a basis for R^2 as every possible combination can be represented with these two vectors
+ - a set of B vectors in a vector space V is called a basis if every vector of V may be written in a unique way
+	- written as a linear combination of elements of B
+	- the coefficients of this linear combination are the 'coordinates'
+ - coordinates with respect to different bases will be different even though they make look the same
+
+example of different bases:
+ - say we have a vector with coordinates [2 3]^T
+ - if we use the standard basis ([1 0]^T [0 1]^T), we can write x = 2e1 + 3e2
+ 	- e1 and e2 are the two vectors in the standard basis, as they represent the x and y axes
+ - if we make a new basis b = (b1, b2) which has b1 = [1 -1]^T and b2 = [1 1]^T
+	- we get the coordinates (1/2)[-1, 5]^T to represent the same vector as earlier
+	- the new basis is a vector going northeast and another going southeast rather than one north and one east
