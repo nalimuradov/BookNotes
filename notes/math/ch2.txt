@@ -199,13 +199,6 @@ reduced row echelon form:
 	  [-4]
 	  [-1]
 
-syl
-ahr
-zed
-
-ori
-ryz
-
  - to summarize, all solutions of Ax = 0 are given by:
 			  [3]	            [3]
 			 [-1]		    [0]
@@ -452,3 +445,138 @@ example of different bases:
  - if we make a new basis b = (b1, b2) which has b1 = [1 -1]^T and b2 = [1 1]^T
 	- we get the coordinates (1/2)[-1, 5]^T to represent the same vector as earlier
 	- the new basis is a vector going northeast and another going southeast rather than one north and one east
+
+transformation matrix:
+ - T: R^n -> R^n
+	- if we have some vector x in R^n, T will map it to R^n and make it T(x)
+	- equivalent to T(x) = Ax where A is the matrix
+ - A is also called the transformation matrix for T with respect to the standard basis
+ - we could say B is the basis for R^n where B = {v1, v2, ..., vn}
+ 	- every vector in R^n can be represented as a linear combination of B
+ - can be used to map coordinates with respect to ordered basis V
+ - y = Ax
+ - a matrix that can map one vector space to another
+
+example transformation matriecs: 
+ - phi(b1) = c1 - c2 + 3c3 - c4
+ - phi(b2) = 2c1 + c2 + 7c3 + 2c4
+ - phi(b3) = 3c2 + c3 + 4c4
+ - transformation matrix A with respect to B and C is:
+	      [ 1  2  0]
+	- A = [-1  1  3]
+	      [ 3  7  1]
+	      [-1  2  4]
+
+ - A = [cos(pi/4)  -sin(pi/4)]
+       [sin(pi/4)   cos(pi/4)]
+ - this matrix will rotate original data by 45 degrees (square to a diamond)
+
+ - A = [2 0]
+       [0 1]
+ - this matrix will stretch original data along the horizontal axis
+
+basis change:
+ - say we have to vector spaces V and W and we map V -> W
+ - V has two ordered bases B and B`
+ - W has two ordered bases C and C`
+ - A will be transformation mapping with respect to bases B and C
+ - A` will be transformation mapping with respect to bases B` and C`
+ - A` = T^-1 * A * S
+ - S is the transformation matrix that maps coordinates with respect to B` onto coordinates with respect to B
+ - T is the transformation matrix that maps coordinates with respect to C` onto coordinates with respect to C
+
+equivalent matrices:
+ - two matrices A and B are equivalent if there exists regular matrices S and T such that B = T^-1 * A * S
+
+similar matrices:
+ - two matrices A and B are similar if there exists a regular matrix S such that B = S^-1 * A * S
+ - similar matrices are always equivalent
+ - equivalent matrices are not necessarily similar
+
+basis change example:
+ - consider a linear mapping 'phi': R^3 -> R^4 with transformation matrix:
+	      [ 1  2  0]
+	- A = [-1  1  3]
+	      [ 3  7  1]
+	      [-1  2  4]
+
+ - with respect to standard bases:
+	      [1]  [0]  [0]
+	- B = [0], [1], [0]
+	      [0]  [0]  [1]
+
+	      [1]  [0]  [0]  [0]
+	- C = [0], [1], [0], [0]
+	      [0]  [0]  [1]  [0]
+	      [0]  [0]  [0]  [1]
+
+ - we seek the transformation matrix A` with respect to the new bases:
+	       [1]  [0]  [1]
+	- B` = [1], [1], [0]
+	       [0]  [1]  [1]
+
+	       [1]  [1]  [0]  [1]
+	- C` = [1], [0], [1], [0]
+	       [0]  [1]  [1]  [0]
+	       [0]  [0]  [0]  [1]
+
+ - then from B` and C` we get S and T:
+	      [1 0 1]
+	- S = [1 1 0]
+	      [0 1 1]
+
+	      [1 1 0 1]
+	- T = [1 0 1 0]
+	      [0 1 1 0]
+	      [0 0 0 1]
+
+ - we then solve A` = T^-1 * A * S
+	       [-4  -4  -2]
+	- A` = [ 6   0   0]
+	       [ 4   8   4]
+	       [ 1   6   3]
+ - this is the new transformation matrix
+
+image and kernel:
+ - if phi is the linear mapping from V -> W, the kernel is:
+	- ker(phi) = every vector v in the vector space V such that phi(v) = 0_w
+ - kernel is the set of vectors v in V such that the transformation of the vectors v will be equal to 0 when mapped to w
+ - eg. vectors in area V are 0 in the vector space W
+ - for example, say we have matrix:
+	- [1 0 0]
+	  [0 2 1]
+	- the kernel of the above matrix is: [ 0]
+					     [-s]
+					     [2s]
+	- for regardless of what s value we have, multiplying the kernel by the matrix yields matrix of zeroes
+
+ - the image is:
+	- Im(phi) = every vector w in the vector space W and a single vector v in vector space V where phi(v) = w
+ - image of vector space V onto W is the area in W that is mapped from V (that's why the image has vars, because it's a span/plane)
+ - for example, say we have matrix below and multiply by sample variables s and t:
+	- [1 0]	  [s]	[s]
+	  [0 2] * [t] = [2t] = Im(A)
+	  [0 1]		[t]
+	- this is the image of the matrix A above
+
+ - V is called the domain phi, W is called the codomain of phi
+ - rk(A) = dim(Im(phi))
+ - kernel (also known as null space) is the general solution to Ax = 0
+
+another example of kernel and image of a transformation matrix:
+ - say we map 'phi': R^4 -> R^2,
+	  [x1]	   	       [x1]
+	- [x2] -> [1  2 -1  0] [x2] = [x1 + 2x2 - x3]  (2x1 transformation matrix)
+	  [x3]    [1  0  0  1] [x3]   [x1 + x4]
+	  [x4]	   	       [x4]
+
+ - to determine the Im(phi), take the span of the columns:
+	- Im(phi) = span([1], [2], [-1], [0])
+		  	 [1]  [0]  [0]   [1]
+
+rank-nullity theorem:
+ - say we have a mapping phi: V -> W
+	- dim(ker(phi)) + dim(Im(phi)) = dim(V)
+ - also known as the fundamental theorem of linear mappings
+
+2.8 - Affine Spaces ---------------------------------------------------------------------------------------------------
