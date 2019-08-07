@@ -1,4 +1,4 @@
-0.0 - Notation ---------------------------------------------------------------------------------------------------
+0 - Notation ---------------------------------------------------------------------------------------------------
 
 some notation that I might forget:
  - B = (b1, b2, b3): ordered tuple
@@ -31,7 +31,7 @@ predictors:
  - a system that makes predictions based on input data
 
 training:
- - when a system adapts some internal parameters of the predictor so that it performs well on futuer unseen input data
+ - when a system adapts some internal parameters of the predictor so that it performs well on future unseen input data
  - "training" a system
 
 vectors:
@@ -39,7 +39,7 @@ vectors:
  - three ways to think about vectors:
 	- array of numbers (CS view)
 	- arrow with direction and magnitude (physics view)
-	- object that obeys addition and scalign (math view)
+	- object that obeys addition and scalingg (math view)
 
 model: 
  - typically used to describe a process for generating data, similar to the dataset at hand

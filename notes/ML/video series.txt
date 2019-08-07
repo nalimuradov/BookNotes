@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=1
+
+MACHINE LEARNING
+
+picking a good algorithm is as important as knowing the algorithms:
+ - eg. can't give a carpenter tools but not teach them how to use them
+
+supervised learning:
+ - given correct data, predict a new point
+
+classification:
+ - answer is 0 or 1
+ - eg. find if benign tumor or not
+
+regression:
+ - best fit line estimate, continuous
+ - eg. find best price to sell house at
+
+unsupervised learning:
+ - find patterns in data and cluster into groups, no labels given
+ - eg. google news stories

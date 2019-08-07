@@ -42,3 +42,5 @@ computational theory of the mind:
  - theory that says beliefs and desires are information
 	- these are incarnated as symbols, or bits, like in a computer
 	- these bits bump into muscle and behavior happens
+
+pg27 continue

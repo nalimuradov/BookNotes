@@ -10,3 +10,13 @@ enzymes:
  - catalyze reactions
  	- take two things and stick em together
 	- take one thing and split it apart
+
+central dogma of life:
+ - flow of information DNA to RNA to protein
+ - it all starts with DNA (most important)
+ - DNA decides when information will flow to RNA to protein
+
+possibilities of genetic mutation in DNA:
+ - point mutation: one thing (nucleotide) changes into another thing
+ - deletion mutation: accidentaly delete the letter
+ - insertion mutation: accidentaly double the letter
