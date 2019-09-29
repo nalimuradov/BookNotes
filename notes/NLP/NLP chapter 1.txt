@@ -1,0 +1,60 @@
+regular expression:
+ - used to specify strings we want to extract from a document
+
+text normalization: 
+ - converting text to a more convenient form (eg. tokenizing)
+
+tokenization: 
+ - seperating text into 'tokens'
+ - typically words separated by white space, but not always
+ - eg. 'New York' could be one token, and 'I'm' could be split into two tokens 'I am'
+ - for tweets, a good token to track could be :) for smile emote, or a hashtag
+
+lemmatization:
+ - task of determining that two words have the same root
+ - words 'sang', 'sung', 'sing' are all forms of the same verg 'sing'
+	- 'sing' is the common lemma
+ - useful for complex languages like arabic
+
+corpus :
+ - a collection of written texts
+
+regular expressions:
+ - /woodchuck/ will find any matches containint substring 'woodchuck'
+	- case sensitive so will not match with 'Woodchuck'
+ - /a/ will find anything with an 'a' in it
+ - /[wW]oodchuck/ lowercase and uppercase
+ - /[abc]/ anything with any of these letters in it
+ - /[1234567890]/ any number
+	- writing out all numbers or all letters can get long
+ 	- as such, can write /[0-9]/
+ - for any letter, /[A-Z]/
+
+ - use a caret ^ to specify NOT
+ - /[^A-Z]/ means not an uppercase letter
+ - /[^sS]/ means neither 's' or 'S'
+
+ - ? represents 'or nothing'
+ - eg. /woodchucks?/ will return either 'woodchuck' or 'woodchucks'
+ - eg. /colou?r/ will return either 'color' or 'colour'
+
+ - asterisk used to represent zero or more instances of something
+ - /a*/ will match with anything with zero or more a's, so pretty much everything
+ - for one ore more a's, /aa*/
+
+ - period is an expression for 'wildcard'
+ - /beg.n/ will match 'begin', 'begun', 'began'
+
+ - period and asterisk can be combined to perform very useful tasks
+ 	- eg. /aardvark.*aardvark/ will find any line where 'aardvark' appears twice
+
+ - \b matches a word boundary, \B matches a non-boundary
+	- thus, /\bthe\b/ will match 'the' but not 'other'
+
+ - disjunction operator is like OR
+	- /cat|dog/ will search for either 'cat' or 'dog'
+
+ - parentheses to perform operations on certain parts of text
+ 	- eg. /gupp(y|ies)/ will search for either 'guppy' or 'guppies'
+ 	- very useful with asterisk * to find all matches of a string
+	- /the*/ will match 'theeee' and /(the)*/ will match 'thethe'
