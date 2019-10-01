@@ -17,7 +17,7 @@ lemmatization:
  - useful for complex languages like arabic
 
 corpus :
- - a collection of written texts
+ - a collection of written texts or speech
 
 regular expressions:
  - /woodchuck/ will find any matches containint substring 'woodchuck'
@@ -58,3 +58,63 @@ regular expressions:
  	- eg. /gupp(y|ies)/ will search for either 'guppy' or 'guppies'
  	- very useful with asterisk * to find all matches of a string
 	- /the*/ will match 'theeee' and /(the)*/ will match 'thethe'
+
+ - curly braces indicate exact count of something
+	- /a{3}/ will search for exactly 3 occurences of 'a'
+	- /a{3,5}/ will search for 3 to 5 occurences of 'a'
+ 
+ - use backslash to search for meta words like '*' (eg. \*)
+
+ - some common keywords like \b:
+	- \d will find any digit
+	- \D will find any non-digit
+	- \w will find any alphanumeric value
+	- \W will find any non-alphanumeric value
+	- \s will find any white space
+	- \S will find any non-white space
+
+ - regex substitution:
+	- s/colour/color/ will replace 'colour' with 'color'
+
+ - example: the Xer they were, the Xer they will be
+	- we want to check where X is the same word
+	- s/([0-9]+)/<\1>/
+	- 'the bigger they were, the bigger they will be' will work
+	- 'the bigger they were, the faster they will be' won't work
+	- /the (.*)er they (.*), the \1er we \2/
+		- will match 'the faster they ran, the faster we ran'
+		- won't match 'the faster they ran, the faster we ate'
+	- these are capture groups
+
+words:
+ - utterance:
+	- spoken correlate of a sentence
+	- 'I do uh main- mainly business data processing'
+
+ - fillers:
+	- filles or filled pauses are words like 'uh' and 'uhm'
+
+ - fragments:
+	- broken off words like 'main-' in the above utterance
+
+ - word types:
+ 	- 'They picnicked by the pool, then lay back on the grass and looked at the stars.'
+	- number of DISTINCT words in a corpus
+	- above utterance has 14 types
+
+ - word tokens:
+	- total number of words in a corpus
+	- above utterance has 16 tokens
+
+ - relationship between types V and tokens N:
+	- |V| = kN^B
+	- B depends on corpus size and genre, typically 0.67 to 0.75
+	- k is a positive constant
+	- eg. shakespear corpus has 884 thousand tokens (N) and 31 thousand types (|V|)
+
+corpora:
+ - 
+
+
+
+
