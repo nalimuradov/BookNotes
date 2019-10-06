@@ -43,4 +43,70 @@ computational theory of the mind:
 	- these are incarnated as symbols, or bits, like in a computer
 	- these bits bump into muscle and behavior happens
 
-pg27 continue
+common sense:
+ - isn't common for robots
+ - eg. if there is a carton of milk in the car, we can say there is a gallon of milk in the car
+ 	- if i'm sitting in a car, we don't typically say there is a gallon of blood in the car
+	- robots wouldn't know this
+ - eg. bachelor example
+	- what is a bachelor? someone who hasn't married
+	- many edge cases, such as young boy who goes to school
+	- what about couple with children who hasn't married?
+
+ - wise men marvel at the commonplace
+	- astounded by the wonders of hands land legs
+	- hands can grip in all kinds of ways
+	- by walking, we are constantly tipping over and catching ourselves
+
+ - for robots to have common sense, they must consider all side effects of actions
+	- but then must also consider which actions are relevant
+
+brain:
+ - the brain is like a book
+ - can't look at it piece by piece, must look at as a whole
+ - the same way we can't look at individual letters in a book to understand it, must look at the bigger picture
+
+intelligence difference:
+ - the difference between einstein and a dropout is a fraction of the difference between dropout and best robot
+
+genes:
+ - there are genes for disorders like dyslexia, etc
+ - there are no genes for language, memory, intelligence, civility
+
+wrong questions being asked:
+ - people ask wrong questions when it comes to finding why something is the way it is for human society
+ - eg. why is music popular? 
+	- the copout answer is it brings the community together
+ - the proper question to ask is "why should the community be together in the first place?"
+
+reverse engineering:
+ - best way to understand anything is reverse engineering it
+ - eg. purpose of pregnancy sickness?
+	- some foods may contain toxins that can harm fetus during critical points of development
+	- body reacts and tries to avoid it
+
+DNA similarities:
+ - common saying is that chimps and humans share 99% of the same DNA
+ - goes to show that the small 1% difference can make all the difference
+ - while we inhabit every biome and thrive, chimps are struggling to survive as a species
+
+darwinian suicide:
+ - if our goal is to pass on our genes, why do some people adopt or practice celibacy?
+	- our behaviours are still like that of foragers years ago
+	- we have evolved too fast as a species for our behaviours
+ - what evolved was our mind, not our behaviour
+
+spreading genes:
+ - people don't spread genes, genes spread themselves
+	- we are their tools 
+	- they do it by making us enjoy life, sex, friends
+	- as such, these are OUR primary goals in life
+
+ - sexual desire is not peoples strategy to propogate genes
+	- it's peoples strategy to attain pleasures of sex
+	- the pleasures of sex are the genes strategy to propogate themselves
+	- if they don't get propogated, we outsmarted them (eg. condoms, bcp)
+
+selfish genes:
+ - selfish genes don't imply selfish organisms
+ - maybe the most selfish thing to do is to build a selfless brain

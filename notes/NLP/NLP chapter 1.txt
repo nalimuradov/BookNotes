@@ -113,8 +113,21 @@ words:
 	- eg. shakespear corpus has 884 thousand tokens (N) and 31 thousand types (|V|)
 
 corpora:
- - 
+ - words have to come from somewhere, in some language, at some time, at some place, for a specific function
+ - NLP algorithms are most useful when they apply across multiple languages
+ - words can come from certain genres, religious texts, or be spoken in a combination of multiple languages
 
+text normalization:
+ - tokenizing words
+ - normalizing word formats
+ - segmenting sentences
 
+ - crude text normalization and tokenization in UNIX:
+	- can take works of shakespeare.txt and put one word on each line
+	- can then make a count of each word [1945 a, 72 AARON, etc]
+ 	- can then make case-insensitive
 
+	- to tokenize text, need to segment it into words
+	- we may want to keep punctuation
 
+2.4.2 - word tokenization
