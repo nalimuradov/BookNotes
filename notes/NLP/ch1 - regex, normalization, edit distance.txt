@@ -6,6 +6,7 @@ text normalization:
 
 tokenization: 
  - seperating text into 'tokens'
+ - segmenting running text into words
  - typically words separated by white space, but not always
  - eg. 'New York' could be one token, and 'I'm' could be split into two tokens 'I am'
  - for tweets, a good token to track could be :) for smile emote, or a hashtag
@@ -130,4 +131,68 @@ text normalization:
 	- to tokenize text, need to segment it into words
 	- we may want to keep punctuation
 
-2.4.2 - word tokenization
+punctuation:
+ - crude text normalization is fine but there are plenty of cases we need to account for
+ 	- punctuation in general
+	- punctuation within words (Ph.D)
+ - we also don't want to segment "$45.55" into two, as it is one entity, price
+ - URL's, email addresses, etc
+
+clitic:
+ - contractions that are marked by apostrophes
+ - eg. we're, what're
+
+named entity detection:
+ - the task of detecting names, dates, and organizations
+ - very intimately tied with tokenization
+
+morpheme:
+ - the smallest meaning-bearing unit of a language
+ - eg. "unlikeliest" consists of the morphemes: "un-", "likely", and "-est"
+ - subword tokens is helpful when dealing with unknown words, which is common in machine learning
+
+byte-pair encoding:
+ - AKA BPE
+ - used to merge frequent pairs of characters
+ - find most common pairs of characters in dictionary and then iteratively add to vocabulary
+ - continue by finding next most common pair and add that
+ - there are many tokenizers that work in various ways (***)
+
+word normalization:
+ - the task of putting words/tokens in a standard format
+ - done after the tokenization process
+ - case folding is a form of normalization where everything is mapped to lower case
+
+morphology:
+ - the study of the way words are built up from smaller morphemes
+
+types of morphemes:
+ - stems: the central morpheme of the word, supplying the main meaning
+ - affixes: the additional meanings of various kinds
+ - eg. "cats" contains stem "cat" and affix "-s"
+
+stemmers:
+ - used to lemmatize in a crude way
+ - chop off affixes in words
+ - example is Porter Stemmer
+
+sentence segmentation:
+ - most useful cues for segmenting a text into sentences are punctuation
+ 	- periods, question marks, exclamation points
+ - periods can be ambigious, as a period can be end of sentence OR abbreviation marker OR both
+
+minimum edit distance:
+ - the task of measuring how similar two strings are
+ - the minimum number of operations (insertion, deletion, substitution) needed to transform one string into another
+ - eg. "intention" and "execution" have an edit distance of 5
+ - if there is typo 'graffe', likely they meant to type 'giraffe' mora than 'grail'
+
+coreference:
+ - deciding wheter two strings refer to same entity
+ - eg. Stanford President Hennessy, Stanford University President John Hennessy
+
+computing edit distance:
+ - D[i,j] is the edit distance between sting X of length n, and string Y of length m
+	- i, j are the first i/j characters of strings X/Y
+ - thus, the edit distance between X and Y is D[n,m]
+
