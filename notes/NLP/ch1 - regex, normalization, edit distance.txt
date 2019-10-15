@@ -104,6 +104,12 @@ capture groups:
 		- place ?: at start of brackets()
 		- eg. (?:some|a few) (people|cats) like some \1
 			- the \1 will refer to either 'people' or 'cats', not 'some' nor 'a few'
+			
+lookahead assertions:
+ - we may want to match text that is yet to come
+ - (?=word) will return match for 'word'
+ - (?!word) will return match for anything that isn't 'word'
+ 	- eg. ^(?!Volcano)[a-zA-z]+ will match any word that doesn't start with 'Volcano'
 
 words:
  - utterance:
