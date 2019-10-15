@@ -86,7 +86,15 @@ regular expressions:
 		- will match 'the faster they ran, the faster we ran'
 		- won't match 'the faster they ran, the faster we ate'
 	- these are capture groups
-	
+
+anchors:
+ - \b specifies a word boundary:
+ 	- eg. \bthe\b will match 'the' but not 'other'
+ - ^ specifies start of line:
+ 	- different from [^] and an actual '^'
+ - $ specifies end of line:
+ 	- eg. dog$ will match every occurence of where the line ends with 'dog'
+
 capture groups:
  - brackets () have two uses:
  	- one to specify order of operations
