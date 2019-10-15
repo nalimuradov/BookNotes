@@ -86,6 +86,16 @@ regular expressions:
 		- will match 'the faster they ran, the faster we ran'
 		- won't match 'the faster they ran, the faster we ate'
 	- these are capture groups
+	
+capture groups:
+ - brackets () have two uses:
+ 	- one to specify order of operations
+	- other to create capture group and be reused later down the line
+		- eg. the (.*)er they were, the \1er they will be
+	- sometimes we want to use brackets but not create a capture group
+		- place ?: at start of brackets()
+		- eg. (?:some|a few) (people|cats) like some \1
+			- the \1 will refer to either 'people' or 'cats', not 'some' nor 'a few'
 
 words:
  - utterance:
