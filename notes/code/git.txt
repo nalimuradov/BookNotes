@@ -129,10 +129,3 @@ USEFUL COMMANDS:
  - pull repo while in its folder
 
  - ALSO FIGURE OUT HOW TO USE TAGS
-
-
-MAIN PRAC:
- - making repo locally and on github
- - working around with all above things
- - pulling and working with an existing repo 
- - submitting requests, issues, edits, etc
