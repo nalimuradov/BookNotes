@@ -1,0 +1,22 @@
+4.1 - Undirected Graphs
+
+graph:
+ - a set of vertices and a collection of edge that each connect a pair of vertices
+ - names 0 through V-1 are used as vertice names
+
+important graph notes:
+ - 'self loop' is an edge that connects a vertex to itself
+ - two edges are 'parallel' if they connect the same pair of vertices
+ - when edge connects two vertices, the vertices are now 'adjacent'
+	- that edge is now 'incident' on both
+ - 'degree' of a vertex is the number of edges on it
+ - a 'path' in a graph is a sequence of vertices connected by edges
+ 	- 'simple path' is a path with no repeated vertices
+ - 'cycle' is a path where the first and last vertices are the same
+ - the 'length' of the path or cycle is its number of edges
+ - a vertex is 'connected' to another if there exists a path between them
+ - a graph is 'connected' if there is a path from every vertex to every other vertex
+ - an 'acyclic graph' is a graph with no cycles
+ - a 'tree' is an acyclic connected graph
+ - a 'forest' is a disjoint set of trees
+ - a 'spanning tree' is a subgraph that contains all the graphs vertices in one tree
