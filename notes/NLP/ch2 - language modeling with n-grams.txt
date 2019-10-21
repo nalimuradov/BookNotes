@@ -1,0 +1,116 @@
+sentence prediction:
+ - "please turn your homework..."
+	 - good chance the following word is "in" and not "refrigerator"
+ - finding probabilities also helps with speech detection and spelling correction
+
+language models:
+ - models that assign probabilities to sentences
+
+n-gram:
+ - a sequence of words
+ - P(the|its water is so transparent that)
+	- the probability of 'the' following that sentence
+
+relative frequency counts:
+ - one way to find probability of ngrams
+	- count the number of times we see "its water is so transparent that"
+	- count the number of times that it is followed by "the"
+	- eg. 5/10 = 50%
+ - good with a large enough corpus, but sometimes web still isn't big enough
+	- many sentences are novel and will have zero counts on the web
+
+n-gram model:
+ - find probability based on last 'n' words
+	- eg. the bigram model will predict a word given the the one word before it
+ - the assumption that the probability of a word depends only on the word before it is a "Markov Assumption"
+	- markov models are models that assume we can predict the probability of some future event given recent past events
+ - trigram model predicts words based on two words before it
+
+maximum likelihood estimation (MLE):
+ - get counts from a corpus and normalize
+ - eg. <s> I am Sam </s>
+       <s> Sam I am </s>
+       <s> I do not like green eggs and ham </s>
+ - the bigram calculations of the above sample corpus will be:
+	- P(I|<s>) = 0.67
+	- P(Sam|<s>) = 0.33
+	- P(am|I) = 0.67
+	- P(</s>|Sam) = 0.5
+	- P(Sam|am) = 0.5
+	- P(do|I) = 0.33
+ - these ratios are called relative frequencies
+ - typically the bigram counts are zero (sparse matrix)
+ - eg. can use matrix to calculate full probabilities
+	- P(<s> I want food</s>) = P(I|<S>) * P(want|OI) * P(food|want) * P(</s>|food)
+ - we can use these to see common patterns in language:
+	- 'i want to eat' is usually followed by a noun
+	- 'I' is a common start to sentences
+
+higher order n-grams:
+ - we can work with trigrams, 4-grams, 5-grams depending on size of data
+ - work in log probabilities as the numbers get very small
+
+evaluation of performance:
+ - extrinsic evaluation: run speech recognizer twice, and whichever performs better is superior
+ - intrinsic evaluation: evaluate on a test set
+ - sometimes we unknowingly tune to a test set by reusing it over and over, must change it up
+
+perplexity: 
+ - the inverse probability of the test set normalized by the number of words
+	- eg. for a test set W (which is a set of words)
+		- PP(W) = P(w1w2w..wn)^(-1/N)
+ - the higher the probability, the lower the perplexity (the goal is to minimize perplexity)
+
+ - it is the weighted average branching factor
+	- the number of possible next words that can follow any word
+	- eg. if we are recognizing digits zero to nine, each digit occurs with equal probability
+		- as such P = 1/10 for each therefore the perplexity of this mini-language is 10
+		- PP(W) = P(w1w2w..wn)^(-1/N) = (1^N/10)^(-1/10) = (1/10)^-1 = 10
+		- perplexity will differ when there are uneven probabilities though (eg. many zeros)
+ - typically the more information the n-gram gives, the lower the perplexity (eg. 4-gram better than bi-gram)
+
+context of training set:
+ - training sets can vary wildly even if they are same language
+ - for example, shakespeare english vs wall street corpora
+ - genre of training data must be relevant to what we are testing on
+
+unknown words:
+ - even with a large amount of data, there are bound to be n-grams that are novel and will be given zero probability
+ - not a problem in a closed vocabulary where there are limited words (eg. speech recognition)
+ - unknown words are ones we haven't see before (AKA out of vocabulary, OOV)
+	- OOV rate is the percentage of OOV words that appear in the test set
+	- we denote them with <UNK> 
+		- this allows us to simulate a closed vocabulary even when it's open
+		- we treat <UNK> as any regulard word
+
+smoothing:
+ - pevents a model from assigning zero probability to unseen events
+ - laplace smoothing is the simplest, add one to all bigram counts
+	- not good as it gives too much probability mass to all the zeros
+ - k-smoothing is the same but just a lower fractional count k instead of 1
+
+backoff and interpolation:
+ - if we don't have a particular trigram to estimate on, we can instead use th ebigram probability 
+	- if we don't have that, we can go down and look at the unigram
+ - in backoff, use trigram if evidence is sufficient, otherwise back off to a lower order
+ - in interpolation, we mix the probability estimates of various n-gram estimators and combine them\
+
+ - eg. P(cat|I like) = lambda_1 * P(cat|I like) + lambda_2 * P(cat|like) + lambda_3 * P(cat)
+	- the sum of all lambdas is 1
+ 	- these lambdas are hyperparameters, and we can tune them with a validation set (held-out corpus)
+ - katz backoff:
+	- we use a probability P* if we've seen the n-gram before, otherwise backoff to the katz prob of shorter n-gram
+
+kneser-ney smoothing:
+ - one of the most commonly used and best performing smoothing methods
+ - precalculated probability of bigram in held out set given it's count in the training set
+	- eg. bigrams with a count of 2 typically appear 1.25 times in the test set
+ - pattern is that we can subtract 0.75 from the count in the training set
+
+ - also used to find how likely a word can appear as a novel continuation
+	- eg. I can't see without my reading ___ 
+		- glasses is the answer, but in a unigram model the word 'Kong' is more likely
+		- even though it's more likely, 'Kong' is typically found in 'Hong Kong'
+	- base our estimate on the number of different contexts the word has appeared in
+
+ - thus, P_kn(wi|wi-1) = max(c(w_i-1 * w_i) -d, 0)/C(w_i-1) + lambda(w_i-1) * P_continuation(w_i)
