@@ -1,0 +1,31 @@
+sentiment analysis:
+ - the extaction of sentiment
+ - the positive/negative orientation that writer expresses
+ - eg. review of a movie
+ - simplest sentiment analysis:
+	- binary classification: eg. greatly/awesome vs trash/awful
+	- spam detection is another simple example (key spam words)
+
+classification:
+ - extremely useful to classify data into buckets
+ - generative classifiers (naive bayes):
+	- return class most likely to have generated the observation
+ - discriminative classifiers (logistic regression):
+ 	- learn what features from input are most useful to distinguis between possible classes
+
+naive bayes:
+ - we can calculate the class of a document by:
+	- c = max(P(d|c) * P(c))
+		- removed denom because it's the same for each class
+	- to find the class, we need the prior probability of the class P(c) and the likelihood of the doc P(d|c)
+
+ - we can also represent document d as a set of features f1 to fn
+	- c = max(P(f1, f2, .. | c) * P(c))
+
+ - to simplify, we ignore the word positions and only care about count
+	- we also assume that probabilities of features are independent of each other
+	- this is why it's called NAIVE bayes
+
+ - naive bayes calculations are also done in log space (like language modeling) to avoid underflow
+ - it is a linear classifier:
+	- classifiers that use a linear combination of the inputs to make a classification decision
