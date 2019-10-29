@@ -11,7 +11,7 @@ classification:
  - generative classifiers (naive bayes):
 	- return class most likely to have generated the observation
  - discriminative classifiers (logistic regression):
- 	- learn what features from input are most useful to distinguis between possible classes
+ 	- learn what features from input are most useful to distinguish between possible classes
 
 naive bayes:
  - we can calculate the class of a document by:
@@ -29,3 +29,40 @@ naive bayes:
  - naive bayes calculations are also done in log space (like language modeling) to avoid underflow
  - it is a linear classifier:
 	- classifiers that use a linear combination of the inputs to make a classification decision
+
+training the naive bayes classifier:
+ - we can assume P(c) will be N_c/N_doc
+ 	- N_c is the number of docs in the training data with class 'c'
+	- N_doc is the total number of documents in the training data
+	
+ - to find P(f_i|c)
+ 	- assume a feature is just the existence of the word in the bag -> P(w_i|c)
+
+ - eg. P("fantastic"|positive) = count("fantastic", positive) / sum of count(w, positive)
+ 	- if "fantastic" doesn't appear in any positive reviews, will be zero!
+	- as such, we implement Laplace (add-1) smoothing
+		- add 1 to numerator and add |V| to denominator
+		
+ - unknown words:
+ 	- if words appear in test set that didn't appear in train set, ignore them
+	- do not include any probability for them at all
+
+ - stop words:
+  	- some systems may choose to ignore stop words (eg. the, a)
+	- can be done by removing 10-100 most common words in bag
+	- optional and not necessary
+	
+ - example:
+ 	- Training Data:
+		- "just plain boring" -> negative
+		- "entirely predictable and lacks energy" -> negative
+		- "no surprises and very few laughs" -> negative
+		- "very powerful" -> positive
+		- "the most fun film of the summer" -> positive
+	- Testing Data:
+		- "predictable with no fun" -> ?
+		- first remove all words that do not appear in training set (ie. "with")
+		- find class probabilities: P(negative) = 3/5, P(positive) = 2/5
+		- find probability of each word with respect to each class
+			- multiply and pick which is more likely
+			- in this case, it predicts the sentence as NEGATIVE
