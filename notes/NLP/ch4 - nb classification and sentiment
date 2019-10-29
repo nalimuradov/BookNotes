@@ -66,3 +66,41 @@ training the naive bayes classifier:
 		- find probability of each word with respect to each class
 			- multiply and pick which is more likely
 			- in this case, it predicts the sentence as NEGATIVE
+
+binary naive bayes:
+ - clip the word counts in each document at 1 (remove all duplicates)
+ - for sentiment analysis, the existence of a word matters much more than frequency
+ - if a word appears in multiple docs, it will still have a count greater than 1
+ 
+negation:
+ - "amazing" and "not amazing" have opposite meanings
+ - to deal with negation, append NOT_ to every word after a logical negation until the next punctuation mark
+ 	- eg. didnt like movie, but 
+		- didnt NOT_like NOT_movie, but
+		
+sentiment lexicons:
+ - pretrained lists of words that are annotated with positive/negative sentiment
+ - eg. POSITIVE: admirable, beautiful, ...
+ - eg. NEGATIVE: awful, cheap, ...
+ - some lexicons are LIWC, MPQA, ...
+ - can be used as an additional feature in a naive bayes classifier
+ 	- if a word in the positive lexicon of MPQA occurs, add it
+	
+language detection:
+ - can use byte n-grams to detect language ID by finding characters that are specific to one language
+ - eg. 'zw' or 'ie z' or 'thei'
+ 
+sentence probability:
+ - P(I love this|+) = P(I|+) * P(love|+) * P(this|+)
+ 
+system evaluation:
+ - accuracy is misleading, as a classifier can have high accuracy on imbalance datasets by always predicting one class
+ - f-scores are better, f1-score is common
+ 	- f1-score is f-score with beta = 1
+ - precision = tp/tp+fp
+ - recall = tp/tp+fn
+ - f-measure is the harmonic mean of precision and recall
+ 	- harmonic mean is the reciprocal of the arithmetic mean of reciprocals
+	- harmonic mean is used as it is closer to the lower of two values (thus having one lower than other is more impactful)
+
+multiple classes: 
