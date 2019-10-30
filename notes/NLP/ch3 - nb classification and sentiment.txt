@@ -104,3 +104,13 @@ system evaluation:
 	- harmonic mean is used as it is closer to the lower of two values (thus having one lower than other is more impactful)
 
 multiple classes: 
+ - two types of multi-class classification tasks:
+	- multi-label classification: each item can have more than one label
+		- given a test doc d, pass through each classifier to determine which ones it fits in
+	- multinomial classification: classes are mutually exclusive
+		- run all classifiers and choose label whose classifier has highest score
+
+cross-validation:
+ - all data used to train and test
+ - split into k sections, and test on one of those sections based on a trained model from other sections
+ - what i did with signature detection
