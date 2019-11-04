@@ -1,5 +1,123 @@
-chapter 1 - why are people?
+selfishness vs selflessness:
+ - are selfless actions actually selfless?
+ - species dont do things for the good of the group
 
-intelligent life:
- - comes of age when it works out reason for its own existence
- - darwin was first to come up with a coherent account of why we exist
+a selfless species cant exist:
+ - if a selfish individual were to be introduced, he would over power
+ - slowly will evolve to be selfish
+
+our own species' importance:
+ - a baby fetus has more privilege than an adult chimpanzee from our eyes
+ - even though the chimp can feel and think
+ - killing people outside of war is a serious crime, yet killing animals is a sport
+
+the beginning:
+ - survival of the stable
+ - hydroden atoms to helium, bubbles being spherical, they are stable
+ - stable mixtures in primeval soup was made, until the replicator came along
+
+the replicator:
+ - molecule that can create copies of itself
+ - unlikely, but bound to happen
+
+evolution:
+ - nothing wants to evolve, evolution just happens
+ - replicators sometimes make errors (which lead to evolution), but they dont want to error
+
+genes:
+ - we are the genes' hosts
+ - they use us to propogate themselves
+
+reproduction:
+ - 46 chromosomes, 23 from each parent
+ - genes from each parent determine your characteristics (eg. eye color)
+	- if both blue, will have blue eyes
+	- if one picked over the other, picked on is dominant and other is recessive
+ - alleles within same chromosome can determine eye color
+	- eg. a chromosome from one parent may have blue or brow
+
+dna:
+ - chain of nucleotides (A, C, T, G)
+ - the difference in order is what separates mouse from octopus
+ - two humans also have different orders (except twins)
+
+mimicry:
+ - some color butterflies taste nasty to birds
+ - the ones that don't taste nasty but look similar cash in
+ - the birds will think they taste nasty too and so this mimicry is passed down
+
+immortality:
+ - individuals are not stable things, neither are chromosomes
+	- they are fleeting, shuffled into oblivion like a hand of cards soon after they are dealt
+ - but the cards themselves survive the shuffling
+	- the cards are the genes, they change patterns and march on
+	- they can make copies that go forever, that is their defining property
+
+natural selection luck:
+ - genes that lose more than they win are not unlucky, they are bad
+ - there are bound to be some good genes that are lost with the bad and vice versa, but variance fades out with enough data
+
+fitting in with the rest of the body:
+ - desirable attributes must fit with the rest of the body
+ - eg. sharp teeth for meat eaters are very good
+	- if a herbivore develops sharp teeth, it's worse for it 
+	- not because sharp teeth aren't good, but because they are in a gene-pool dominated by genes for herbivorous qualities
+
+why die at all then?:
+ - well for example, some genes are lethal and can cause cancer
+	- if the show up early in one's life, they can't reproduce therefore that lethal gene dies out
+	- if the gene for cancer shows up late, the person has already reproduced and passed it on before it shows up
+ - smart jeez
+
+gene machines:
+ - as the primordial soup began to dry up, the genes needed new sources of energy
+ - plant-like organisms began obtaining energy directly from the sun
+ - animal-like organisms began obtaining energy from plants or other animals
+ - both have evolved massively to rule the skies, the waters, the ground, etc 
+
+nerve control:
+ - creatures have evolved ways to contract muscles when needed from the outside world
+ - need to contract jaw only when biting, or need to run only when being chased, rather than just willy nilly
+ - therefore, natural selection favored genes that were equipped with sense organs
+
+genes and hosts:
+ - the gene is to the person in the same way the person is to a program
+ - eg. say we make a chess AI, we tell it good tactics and rules and then it's on its own
+ - we are being controlled by genes in the same way
+	- all the genes can do is set us up before hand and then passively watch, we are on our own
+ - they cannot control us moment to moment because of time-lag problems
+ 	- it takes too long for it to be a conversation, it's more like letters being sent back and forth
+ - rather than that, they make bodies with nervous systems who can handle split second decisions
+
+ - genes must predict:
+	- polar bear genes don't know ahead of time what enemies are lurking behind bush, etc
+	- they safely predict though that their future is a cold one so they make a fur coat
+		- because it is what they have always done and worked
+
+ - prediction is gambling:
+	- genes must make decisions and hope they off, so they maximize their likelihood of success
+	- greatly cuts down time, but not all decisions are anticipated
+	- genes predict sweet tastes or orgasms as 'good' as they likely lead to gene survival
+		- overeating, sweeteners, are masturbation are not anticipated
+
+simulation:
+ - survival machines that can simulate the future are one jump ahead of survival machines who only learn through trial and error
+ - trial and error is time consuming and often fatal, simulation is safer and faster
+ - we are programs created by genes, and the world is the judge
+
+communication:
+ - a survival machine is said to have communicated with another one when it influences its behavior or state of nervous system
+ - eg. bird singing, dog wagging tail, chimp grinning
+ - could an animal lie then?
+	- bird signals that 'hawks are coming' to other birds and is left with all the food to himself
+
+lying:
+ - it's not uncommon if it benefits the gene
+ - eg. angler fish technically 'deceive' it's prey with the lure
+ - fireflies have genus groups:
+	- they typically mate within their group, not other
+	- some females of one group may signal other group and then eat them when they arrive 
+ - whenever communication evolves, there is always the danger of it's exploitation
+ - will always occur when there is a conflict of interest
+
+CONTINUE AT #5 pg 64
