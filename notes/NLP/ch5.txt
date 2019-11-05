@@ -1,0 +1,81 @@
+discriminative vs generative classifiers:
+ - generative models look to understand what 'cats' and 'dogs' look like
+	- could ask it to 'generate' a dog or cat
+ - discriminative models learn to distinguish classes ONLY
+	- finds a feature(s) that separates data nicely
+		- eg. collars on dogs
+		- will know that dogs have collars but won't know what a dog is
+
+components of ML classification system:
+ - input feature matrix
+ - classification function that computes the estimated class
+ - objective function that minimizes loss
+ - algorithm for optimizing objective function (eg. SGD)
+
+sigmoid:
+ - z = wx + b is how we get our output prediction
+	- z is the resultant weighted sum
+	- b is the bias matrix
+	- w is the weight matrix
+	- x is the input feature matrix
+
+ - sigmoid forces result to be between 0 and 1
+	- sig = 1 / (1 + e^-z)
+
+ - benefits:
+	- almost linear around 0 but has a sharp slope toward ends
+		- allows it to squash outliers
+	- it is also differntiable at all points
+
+logistic regression example:
+ - basic neural net without layers
+ - eg. weights = [2.5, -5.0, -1.2]
+	bias = 0.1
+	feautres = [3, 2, 1] which are counts of pos words, neg words, and counts of "no"
+ - the weights show us that negative words are twice as important than positive words 
+ - continued...
+	- [2.5, -5.0, -1.2] * [3, 2, 1] + 0.1
+		= -3.6
+	- put thru sigmoid:
+		- sig(-3.6) = 0.0266
+ - therefore, the probability it's positive is 0.0266 and prob it's negative is 1 - 0.0266
+
+logistic regression vs naive bayes:
+ - LR better on larger documents and datasets
+ - LR is more robust with correlated features
+
+learning in logistic regression:
+ - we want to find w, b that make our guess as close as possible to the correct answer
+ - the loss function is the distance between our system output and our gold output
+ - the optimization algorithm will update the weights to minimize loss function
+	- a standard algorithm is stochastic gradient descent
+
+loss function:
+ - L_CE(w,b) eq'n 5.11
+ - will be greater when it's confused
+ - eg. on a confindent one loss was 0.37, but was 1.17 on an unconfident sentence
+ - THIS IS WHAT WE MINIMIZE, NOW WE NEED TO FIND HOW TO MINIMIZE IT
+
+gradient descent:
+ - THIS IS HOW WE WILL MINIMIZE IT
+ - it finds where the function's slope is rising most steeply and goes the opposite way
+ - our example is convex (one minimum) so there are no local minima to get stuck at
+
+gradient:
+ - a multi-variable generalization of the slop
+ - for a function with one variable, gradient = slope
+
+learning rate:
+ - the amount we move by in gradient descent 
+ - higher learning rate means our w is moved more on each step
+ - too high and we may never converge, too low and it will take too long to converge
+ - a good alternative is start big and gradually make it smaller as we converge
+
+SGD steps:
+ - for each training tuple:
+	1) what is our estimated output?
+	2) how far off is our estimated output from the true output?
+	3) how should we move theta to maximize loss?
+	4) go the other way instead
+
+cont start of pg 12
