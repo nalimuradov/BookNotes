@@ -78,4 +78,21 @@ SGD steps:
 	3) how should we move theta to maximize loss?
 	4) go the other way instead
 
-cont start of pg 12
+batch training:
+ - if batch is 1, we are just doing stochastic 
+	- each example, we move thew weights a little
+ - this can be choppy, so sometimes we compute over batches of training data
+
+regularization:
+ - overfitting:
+	- when feature weights fit too perfectly to training data
+	- won't be able to generalize well to other data
+ - to prevent overfitting, a new regularization term is added
+	- this helps penalize large weights
+	- penalizes complexity that make it hard to generalize well
+ - there are two common ways to compute regularization term:
+	- L2 regularization:
+		- quadratic function of the weight values
+	- L1 regularization
+	
+cont 5.5 REGULARIZATION
