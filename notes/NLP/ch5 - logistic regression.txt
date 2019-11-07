@@ -91,8 +91,48 @@ regularization:
 	- this helps penalize large weights
 	- penalizes complexity that make it hard to generalize well
  - there are two common ways to compute regularization term:
-	- L2 regularization:
-		- quadratic function of the weight values
+	- L2 regularization
 	- L1 regularization
 	
-cont 5.5 REGULARIZATION
+to update theta based on the gradient:
+ - theta_t+1 = theta_t - learning_rate * gradient of loss function
+
+gradient of loss function:
+ - we can use the cross entropy loss function
+
+regularization:
+ - weights that matches training data but uses many high value weights to do so
+	- will be penalized more than settings with less accuracy but smaller weighst
+ - two ways to compute R(theta) regularization term, L1 and L2
+
+L1 regularization:
+ - linear function of the weight values
+ - harder to optimize since derivative of |theta| is non-continuous at zero
+ - prefers sparse solutions with some larger weights
+	- therefore L1 leads to fewer features
+
+L2 regulariztion:
+ - a quadratic function of the weight values 
+ - easier to optimize because derivative of theta^2 is 2*theta
+
+multinomial logistic regression:
+ - AKA softmax regression
+ - the target variable y ranges over more than two classes
+	- find probability of y being in each potential class
+
+softmax function:
+ - takes a vector z of k arbitrary values and maps them to a probability distribution
+ - each value between 0 and 1 and summing to 1
+ - exponential function
+	- if one input is larger than others, it will push its prob to 1 and squash others
+
+features in multinomial regression:
+ - for example, say we have 3 classes: positive, negative, neutral reviews
+ - exclamation mark could be a feature that has positive weight for + and - classes
+	- but has negative weight for 0 (neutral) classes
+
+multinomial loss function:
+ - has slightly differnet loss function than binary as binary uses sigmoid and multi uses softmax
+
+benefits of logistic regression:
+ - able to study the importance of individual features when classifying
