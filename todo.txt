@@ -1,9 +1,9 @@
 Monday November 11:
- - faster RCNN implementation
- - find per document accuracy (25x4)
+ - find 50 documents today and run sig (strike before leave home)
  - ch6 vector semantics
+ - faster RCNN implementation
 
-100pg/day [1834 page] (dawkins, pinker, sapolsky)
+50pg/day [900 page] (dawkins, pinker)
 1nlp/day [21 sect]
 yt thumbnail [1h/dy]
 
