@@ -1,0 +1,12 @@
+Monday November 11:
+ - faster RCNN implementation
+ - find per document accuracy (25x4)
+ - ch6 vector semantics
+
+100pg/day [1834 page] (dawkins, pinker, sapolsky)
+1nlp/day [21 sect]
+yt thumbnail [1h/dy]
+
+qlearning
+nltk
+tensorflow
