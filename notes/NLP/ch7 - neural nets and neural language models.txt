@@ -1,0 +1,32 @@
+units:
+ - building blocks of a neural net
+ - takes real valued numbers as input -> performs computation on them -> produces an output
+ - z = w * x + b
+	- b is the bias, w are the weights, x are the inputs
+	- conveniently represented as a dot product (w and x are vectors)
+
+ - then we apply a non-linear function f to z and call it y
+	- y = f(z)
+	- this is the activation function
+	- eg. sigmoid 
+
+ - combining sigmoid with unit eq'n:
+	- y = sig(wx + b) = (1 + e(-(wx + b)))^-1
+
+other activation functions:
+ - sigmoid is not commonly used 
+ - tanh is almost always better, ranges from -1 to 1
+	- y = (e^z - e^-z) / (e^z + e^-z)
+ - relu is also good:
+	- y = max(x, 0)
+	- it's equal to x when x is positive, otherwise it'z zero
+
+logical XOR example:
+ - can use perceptrons to compute logical AND and OR, but XOR is not possible
+	- XOR is 1 or 2 but not both [0 1 1 0]
+ - the perception equation creates a decision boundary that separates inputs
+	- it's not physically possible to draw a line that separates XOR points
+	- therefore, XOR is not linearly separable
+		- if we want to draw a boundary, we need more than just a line
+
+cont notes at 7.2.1 page 5
