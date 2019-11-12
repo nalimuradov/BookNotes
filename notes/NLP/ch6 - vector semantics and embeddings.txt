@@ -117,7 +117,7 @@ word2vec:
 	- take the learned classifier weights as the word embeddings
 
 skip-gram algorithm:
- - 1) treat tager towrd and neighbouring context word as positive examples
+ - 1) treat target word and neighbouring context word as positive examples
  - 2) randomly sample other words in the lexicon to get negative samples
  - 3) use logistic regression to train a classifie to distinguis the two cases
  - 4) use regression weights as the embeddings
@@ -134,4 +134,42 @@ skip-gram algorithm:
 	- maximize the similarity of target word, context word pairs (t,c) from positive samples
 	- minimize similarity of (t,c) pairs from negative samples
 
-CONT AT PG 21
+ - learns two embeddings for each word:
+	- target embedding t (stored in matrix T) [eg. apricot]
+	- context embedding c (stored in matrix C) [eg. jam]
+	- just like in logistic regression, start with random W and C and use grad descent
+
+	- similarity(apricot, aardvark) will be decreased in t * c
+	- similarity(apricot, jam) will be increased in t * c
+
+context window:
+ - size of context window we choose to use (num words to left and right) can affect representation
+ - smaller windows tend to lead to words that are more syntactic
+ - bigger windows tend to lead to words that are topically related but not similar
+ - eg. length 2 context window skip-gram on the word 'Hogwarts':
+	- lead to words like 'Sunnydale', 'Evernight'
+	- names of other fictional schools
+ - eg. length 5 context window skip-gram on the word 'Hogwarts':
+	- lead to words like 'Dumbledore', 'Malfoy'
+	- Harry Potter related things
+
+first-order co-occurence:
+ - when two words are typically nearby each other
+ - eg. 'wrote' is a first-order associate to 'book' or 'poem'
+
+second-order co-occurence:
+ - when two words have similar neighbours
+ - eg. 'wrote' is a second-order associate to 'said' or 'remarked'
+
+embedding properties:
+ - can capture relational meanings by seeing the offsets between vector embeddings
+	- eg. the vectors of 'king', 'man', and 'woman' result to a vector close to 'queen'
+ - can also see how word meanigns change over time
+	- compute embeddings using texts from different time periods
+	- eg. 'awful' used to be a positive word (like 'awe-ful')
+
+bias and embeddings:
+ - these relational meanings can uncover implicit stereotypes
+ - eg. like man:woman:king:queen there is man:programmer:woman:homemaker
+	- father:doctor:mother:nurse
+ - african-american names like 'Shaniqua' had a higher cosine with unpleasant words than European names did
