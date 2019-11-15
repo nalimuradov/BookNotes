@@ -1,0 +1,117 @@
+import nltk
+from nltk.corpus import stopwords, wordnet
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+
+text1 = "You won't believe what happens next!"
+text2 = "10 Reasons Cats Is Going to Be Big in the United States of America"
+text3 = "8 Unbelievable Things You Never Knew About Bread"
+text4 = "The Rise of Bread and How to Make It Stop"
+
+tokens1 = nltk.word_tokenize(text1)
+tagged1 = nltk.pos_tag(tokens1)
+print(tagged1)
+tokens2 = nltk.word_tokenize(text2)
+tagged2 = nltk.pos_tag(tokens2)
+print(tagged2)
+tokens3 = nltk.word_tokenize(text3)
+tagged3 = nltk.pos_tag(tokens3)
+print(tagged3)
+tokens4 = nltk.word_tokenize(text4)
+tagged4 = nltk.pos_tag(tokens4)
+print(tagged4)
+
+print("-----------------------------------------------")
+# word count, tokenize by word -> count and sum most common ones excluding 'is', 'a', 'the', etc
+
+# can pull out stop words like this when preprocessing
+stop_words = set(stopwords.words("english"))
+print(stop_words)
+
+print("-----------------------------------------------")
+
+# cam stem to find a common lemma - writing -> write
+sample = "writing"
+ps = PorterStemmer()
+print(ps.stem(sample))
+# tbh use word net as it's much better
+
+print("-----------------------------------------------")
+
+# part of speech tagging
+
+# above example at the top
+
+
+print("-----------------------------------------------")
+
+# chunking
+
+
+def chunk():
+    words = nltk.word_tokenize(text2)
+    tagged = nltk.pos_tag(words)
+
+    chunk_gram = r"""Chunk: {<RB.?>*<VB.?>*<NNP><NN>?} """
+
+    chunk_parser = nltk.RegexpParser(chunk_gram)
+    chunked = chunk_parser.parse(tagged)
+    print(chunked)
+
+
+chunk()
+
+print("-----------------------------------------------")
+
+
+# chinking, opposite of chunking, can use to filter stuff we don't want to chunk
+
+def chink():
+    words = nltk.word_tokenize(text2)
+    tagged = nltk.pos_tag(words)
+
+    chunk_gram = r"""Chunk: {<.*>+} 
+                            }<VB.?|IN|DT>{ """
+
+    chunk_parser = nltk.RegexpParser(chunk_gram)
+    chunked = chunk_parser.parse(tagged)
+    print(chunked)
+
+
+chink()
+
+print("-----------------------------------------------")
+
+# named entity recognition (eg. we want 'United States of America' to be one entity togeth
+
+word = nltk.word_tokenize(text2)
+tag = nltk.pos_tag(word)
+named_ent = nltk.ne_chunk(tag, binary=True)
+print(named_ent)
+
+print("-----------------------------------------------")
+
+# lemmatization -> better stemming
+# eg. better -> best
+
+
+lemmatizer = WordNetLemmatizer()
+print(lemmatizer.lemmatize("cacti"))
+
+# find the actual corpora files, useful to look through it
+
+print("-----------------------------------------------")
+
+# wordnet, lots of useful things to use it with
+
+synon = wordnet.synsets("animal")
+print(synon)
+print(synon[0].definition())
+print(synon[0].examples())
+
+# can also find antonyms, not only synonyms
+
+# can see similarity between words (wu-palmer)
+w1 = wordnet.synset("ship.n.01")
+w2 = wordnet.synset("boat.n.01")
+
+print(w1.wup_similarity(w2))
