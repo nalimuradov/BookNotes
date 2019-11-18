@@ -120,4 +120,52 @@ lying:
  - whenever communication evolves, there is always the danger of it's exploitation
  - will always occur when there is a conflict of interest
 
-CONTINUE AT #5 pg 64
+survival machines:
+ - to a survival machine, another survival machine is just part of its environment, just like a rock
+ 	- only difference is, it is inclined to hit back
+ - sometimes survival machines seem to not interact with each other at all, but not always true:
+	- blackbirds and moles don't interact at all, but they compete for earthworms
+	- a blackbird may not ever see a mole in its life and vice versa
+	- but if you eliminate all blackbirds, the earthworm surplus will have a huge effect on the mole population
+ - a survival machine's biggest competitor is another one of the same species:
+	- a blacbird and a mole may compete for food, but a blackbird and another blackbird compete for that and everything else
+
+ - why not murder its rivals?
+	- not always efficient, as you may be helping others have it easier
+	- others will have more energy to steal from you, and that's assuming you win the inital fight
+	- also, there is typically a reason you may want to fight someone, eg. they have food/resource
+		- need to consider why they have it, they probably beat someone else to get it (implying they're strong)
+
+evolutionary stable strategy:
+ - a strategy in which, if most of the population adopts it, cannot be bettered by an alternative strategy
+	- to deviate from this strategy, natural selection will penalize it
+ - doves and hawks example:
+	- doves always run, hawks always fight, hawks kill doves
+	- say a singular hawk is introduced to a population of doves
+		- he will tear through the competition, and more hawk genes will spread
+		- but now the hawk cannot rely on every opponent being a dove, there is a chance for death
+	- if too many hawks arise, then doves actually become superior as they don't die and reap benefit
+	- there will be an equilibrium that arises (5/12 doves and 7/12 hawks)
+	- same reason 50:50 male female ratio is stable 
+ 	- there are scenarios where everyone benefits more, but these are open to abuse:
+		- some creatures will seek short term gain and so it cannot be in equilibrium
+	- other classes can be introduced:
+		- retaliator: 
+			- plays like a dove but attacks if his opponent attacks him first
+			- this is STABLE
+		- bully:
+			- plays like a hawk until attacked, in which case he runs like a dove
+			- this is NOT STABLE because a population of bullies would be invaded by hawks
+
+war of attrition:
+ - some battles for resources aren't only combat related
+ - in species where it is unlikely to get injured, attrition is the tool of war
+	- "who can stand their ground and wait for the resource the longest?"
+	- like an auction sale, one will eventually need to cut
+ - an unstable strategy would be to hold out one second longer than the opponent each time
+	- but what if facing another one doing this strat? no gain
+  - the best strategy would be to call your losses early, like folding early in poker
+	- but then it would favor those who wait just a little, etc
+	- oscillating 
+
+pg 75, paragraph ending in ESS
