@@ -1,0 +1,175 @@
+representation learning:
+ - automatically learning useful representations of the input text
+ - self-supervised way to learn
+
+word sense:
+ - each aspect of the meaning of a word
+ - eg. mouse can mean either the rodent or the cursor control device
+
+synonyms:
+ - water/H20
+ - car/automobile
+ - while synonyms are truth preserving, no two words are absolutely identical in meaning
+ - eg. H20 is used in a scientific context, whereas water is more common
+
+word similarity:
+ - cat/dog
+ - don't mean the same thing, but are similar in context
+
+word relatedness:
+ - coffee/cup
+ - not similar to eachother, they practically share no features
+ - but, they are associated by co-participating in an event: drinking coffee out of a cup
+
+semantic field:
+ - set of words which cover a particular semantic domain
+ - eg. hospitals: (surgeon, scalpel, nurse, ...)
+
+connotations:
+ - words can have different meanings depending on writer's sentimen, opinions, evaluations
+ - words varied on three dimensions of affective meaning:
+	- valence: pleasantness
+	- arousal: intensity of emotion
+	- dominance: degree of control 
+ - eg. 'excited' is high on valence and arousal
+
+vector semantics:
+ - the meaning of a word is its use in the language
+ - two words that occur in very similar distributions (words) are likely to have same meaning
+ - eg. 'ongchoi is super over rice' + other sentences imply ongchoi is a dark leafy green vegetable
+
+embedding:
+ - vector representation of words
+ - vector semantic models can be automatically learned from text without labeling or supervision
+	- therefore commonly used
+	- creates many sparse vectors (since most words don't occur in context of others)
+ - can use word2vec to construct dense vectors
+
+vector space:
+ - collection of vectors (with a certain dimension)
+	- eg. [a b c d] would be vectors of dimension 4
+
+information retrieval (IR):
+ - task of finding a document d from documents D that best matches query q
+ - the query is represented by a vector of length |V|
+
+word-word matrix:
+ - can take x words around the word to see co-occurences rather than the whole document
+ - eg. "often mixed, such as STRAWBERRY rhubarb pie. Apple pie"
+
+measuring similarity with cosine:
+ - can use the normalized dot product to see how similar two words are
+ - dot product will be higher when vectors have large values in same dimension
+ - normalized as it will favour larger values and we only want the angle
+ - eg. 		PIE	DATA 	COMPUTER
+	CHERRY	442	   8	     2
+	DIGITAL   5	1683      1670
+	INFO	  5	3982	  3325
+ - cos(cherry, info) = (442*5 + 8*3982 + 2*3325)/(sqrt(442^2 + 8^2 + 2^2) * sqrt(5^2 + 3982^2 + 3325^2)) = 0.017
+	- therefore it is very low as they have nothing to do with eachother
+
+tf-idf:
+ - simple frequency isn't good enough as words like 'the', 'it', 'they' will skew it
+	- they aren't very discriminative words as they appear everywhere
+ - use term frequency with the inverse document frequency
+ 	- combine the count with the amount of documents the word appears in the whole corpora
+	- eg. 		Collection Frequency	Document Frequency
+	      Romeo		113			 1
+	      action		113			31
+	- as such 'Romeo' is a better discrimnative word
+ - tf = log(count(t,d) + 1)
+ - idf = log(N/df)
+	- eg. tf_Romeo = 1, idf_Romeo = 1.57
+ - weighted value = tf * idf
+ - very useful for computing word similarity
+
+centroid:
+ - multi-dimensional version of the mean
+ - centroid document vector d = (w1 + w2 + ... + w_k) / k
+	- w being word vectors (k total in length)
+ - we can then use two document vectors d1 and d2 to estimate similarity between two documents
+	- cos(d1, d2) will find doc similarities
+
+Pontwise Mutual Information (PMI):
+ - alternative weighting function to tf-idf 
+ - best way to weigh the association of two words is to ask how much more they co-occur in our corpus than we would have expected them to appear by chance
+ - PMI(w,c) = log_2 (P(w,c)/P(w)P(c))
+ - numerator tells us how often we observed the two words together
+ - denominator tells us how oftern we would expect the two words to co-occur assument they occured independently
+ - useful for finding words that are strongly associated
+ - will result in values from + to - infinity, but we range from 0 to +inf as -inf is unreliable
+
+ - using word counts and co-occurence matrix:
+ - eg.  P(w=info, c=data) = 3982/11716 = 0.3399
+ 	P(w=info) = 7703/11716 = 0.6575
+	P(c=data) = 5673/11716 = 0.4842
+	ppmi(info, data) = log2(0.3399/(0.6575*0.4842)) = 0.0944
+
+word2vec:
+ - PPMI and tf-idf use sparse vectors
+ - dense vectors seem to work better in every NLP task
+	- length 50-1000 where most values aren't zero
+ - fewer weights to learn, generalize better to avoid overfitting, better at capturing synonymy 
+	- eg. sparse vectors may fail to capture similarity between 'car' and 'automobile'
+ - instead of counting how often each word occurs near 'apricot':
+	- we'll instead train a classifier on a binary prediction task
+ 	- "is the word w likely to show up near apricot?"
+	- take the learned classifier weights as the word embeddings
+
+skip-gram algorithm:
+ - 1) treat target word and neighbouring context word as positive examples
+ - 2) randomly sample other words in the lexicon to get negative samples
+ - 3) use logistic regression to train a classifie to distinguis the two cases
+ - 4) use regression weights as the embeddings
+
+ - goal is to train a classifier that will:
+	- given an input (apricot, jam) will either return true or false depending on if it's a real context word or not
+ 	- we take the dot product of the embeddings and run them through a sigmoid to get probability
+
+ - take two words to left and right and those are positive examples
+ - sample some random words that are different from target word and those are negative examples
+ 	- slightly increase chances of rare words so it's not just 'the' and 'it' everywhere
+
+ - given +ve and -ve training instances and initial embeddings:
+	- maximize the similarity of target word, context word pairs (t,c) from positive samples
+	- minimize similarity of (t,c) pairs from negative samples
+
+ - learns two embeddings for each word:
+	- target embedding t (stored in matrix T) [eg. apricot]
+	- context embedding c (stored in matrix C) [eg. jam]
+	- just like in logistic regression, start with random W and C and use grad descent
+
+	- similarity(apricot, aardvark) will be decreased in t * c
+	- similarity(apricot, jam) will be increased in t * c
+
+context window:
+ - size of context window we choose to use (num words to left and right) can affect representation
+ - smaller windows tend to lead to words that are more syntactic
+ - bigger windows tend to lead to words that are topically related but not similar
+ - eg. length 2 context window skip-gram on the word 'Hogwarts':
+	- lead to words like 'Sunnydale', 'Evernight'
+	- names of other fictional schools
+ - eg. length 5 context window skip-gram on the word 'Hogwarts':
+	- lead to words like 'Dumbledore', 'Malfoy'
+	- Harry Potter related things
+
+first-order co-occurence:
+ - when two words are typically nearby each other
+ - eg. 'wrote' is a first-order associate to 'book' or 'poem'
+
+second-order co-occurence:
+ - when two words have similar neighbours
+ - eg. 'wrote' is a second-order associate to 'said' or 'remarked'
+
+embedding properties:
+ - can capture relational meanings by seeing the offsets between vector embeddings
+	- eg. the vectors of 'king', 'man', and 'woman' result to a vector close to 'queen'
+ - can also see how word meanigns change over time
+	- compute embeddings using texts from different time periods
+	- eg. 'awful' used to be a positive word (like 'awe-ful')
+
+bias and embeddings:
+ - these relational meanings can uncover implicit stereotypes
+ - eg. like man:woman:king:queen there is man:programmer:woman:homemaker
+	- father:doctor:mother:nurse
+ - african-american names like 'Shaniqua' had a higher cosine with unpleasant words than European names did

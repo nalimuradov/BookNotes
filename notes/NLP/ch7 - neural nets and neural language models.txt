@@ -1,0 +1,96 @@
+units:
+ - building blocks of a neural net
+ - takes real valued numbers as input -> performs computation on them -> produces an output
+ - z = w * x + b
+	- b is the bias, w are the weights, x are the inputs
+	- conveniently represented as a dot product (w and x are vectors)
+
+ - then we apply a non-linear function f to z and call it y
+	- y = f(z)
+	- this is the activation function
+	- eg. sigmoid 
+
+ - combining sigmoid with unit eq'n:
+	- y = sig(wx + b) = (1 + e(-(wx + b)))^-1
+
+other activation functions:
+ - sigmoid is not commonly used 
+ - tanh is almost always better, ranges from -1 to 1
+	- y = (e^z - e^-z) / (e^z + e^-z)
+ - relu is also good:
+	- y = max(x, 0)
+	- it's equal to x when x is positive, otherwise it'z zero
+
+logical XOR example:
+ - can use perceptrons to compute logical AND and OR, but XOR is not possible
+	- XOR is 1 or 2 but not both [0 1 1 0]
+ - the perception equation creates a decision boundary that separates inputs
+	- it's not physically possible to draw a line that separates XOR points
+	- therefore, XOR is not linearly separable
+		- if we want to draw a boundary, we need more than just a line
+ - can be solved using a layered network of units
+	- hidden layers linearly separates the positive and negative cases in the XOR
+	- formed a useful representation of the input
+ 	- must have non-linear activation functions, otherwise purely linearly units can always be reduced
+
+feedforward neural net:
+ - net with no cycles, no outputs are passed back to lower layers
+ - fully-connected: each unit in each layer takes as input all the outputs from the units in previous layer
+ - efficient to store all weights ina  single matrix W:
+	- can be operated on very efficiently now
+	- multiply weights by input vector x -> add bias vector b -> apply activation function g
+		- h = sig(Wx + b)
+
+normalizing output:
+ - once we get final vector z, we need to normalize it so it's useful output
+ - softmax will make all numbers lie between 0 and 1 and sum to 1
+ - activation functions for intermediate layser will be ReLU or tanh but will be softmax for final layer
+
+training neural nets:
+ - we will need a loss function, will use cross-entropy loss like in LR
+ - then to find the params to minimizes the loss function, can use gradient descent
+ - with nets though, it's much harder to compute the gradients of millions of params in many layers
+	- can use backprop
+
+backpropogation:
+ - L(a,b,c) = c(a+2b) example
+ - split into individual steps:
+	- d = 2b
+	- e = a + d
+	- L = ce
+ - compute the partial derivatives as we move back through the network
+ - will find in what ways we need to update weights and biases
+
+more on learning:
+ - neural nets are a non-convext optimization problem, more complex than LR
+ - for LR we can start with all weights and biases at 0 but in neural nets must start as small random numbers
+ - also useful to normalize input values to have 0 mean and variance
+ - common form of regularization is dropout:
+	- randomly drop some units and their connections from the network when training
+ - hyperparameter tuning:
+	- hyperparams are chosen by designer, such as learning rate, batch size, activation function choice
+	- must be tuned on a separate set of data
+
+neural language models:
+ - example model will be a 4-gram feedforward neural LM 
+	- ie. will predict the probability of a word given 3 prior words
+ - using embeddings will make it generalize better:
+	- eg. "I have to feed my cat"
+		- will not predict "dog" after "feed my" as they are different words
+		- but if we use embeddings, "dog" and "cat" will have similar embeddings
+		- high probability for it to suggest "dog" too, which is what we want
+ - the process of learning embedding representation for input words is called "pretraining"
+
+ - example model input will be three embeddings concatenated together
+	- so a long array of length 3*n where n is the total number of words in vocab
+	- the embeddings will be one-hot vectors
+		- correct word index will be 1 and everything else will be 0 ([0 0 0 1 ... 0 0 0])
+		- the 1 will be where the word is indexed in the vocabulary
+			- eg. if 'teeth' is index 5 in vocab, the 5th index of input array will be 1
+		- this is useful as we don't want to worry about position 
+			- if a word appears as w_t-2 or w_t-1 shouldn't matter
+
+training the neural language model:
+ - set all params to 0 and do gradient descent
+ - training will set the weights but also learn the embeddings for words that best predict upcoming words
+	- these embeddings can the be used as a word representation for other tasks
