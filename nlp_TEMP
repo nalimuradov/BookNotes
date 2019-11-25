@@ -1,11 +1,12 @@
 import nltk
-from nltk.corpus import stopwords, wordnet
+from nltk.corpus import stopwords, wordnet, movie_reviews
 from nltk.stem import PorterStemmer, WordNetLemmatizer
+import random
 
 text1 = "You won't believe what happens next!"
-text2 = "10 Reasons Cats Is Going to Be Big in the United States of America"
-text3 = "8 Unbelievable Things You Never Knew About Bread"
-text4 = "The Rise of Bread and How to Make It Stop"
+text2 = "10 Reasons This Is Going to Be Big in the United States of America"
+text3 = "8 Unbelievable Things You Never Knew About Them"
+text4 = "The Rise of 090 and How to Make It Stop"
 
 tokens1 = nltk.word_tokenize(text1)
 tagged1 = nltk.pos_tag(tokens1)
@@ -116,4 +117,35 @@ w2 = wordnet.synset("boat.n.01")
 
 print(w1.wup_similarity(w2))
 
-VID11
+print("-----------------------------------------------")
+
+documents = []
+
+for category in movie_reviews.categories():
+    for fileid in movie_reviews.fileids(category):
+        documents.append(list(movie_reviews.words(fileid)))
+
+random.shuffle(documents)
+
+all_words = []
+for w in movie_reviews.words():
+    all_words.append(w.lower())
+
+all_words = nltk.FreqDist(all_words)
+print(all_words["stupid"])
+
+print("-----------------------------------------------")
+
+training_set = []
+testing_set = []
+classifier = nltk.NaiveBayesClassifier.train(training_set)
+print(nltk.classify.accuracy(classifier, testing_set))
+classifier.show_most_informative_features(15)
+
+
+print("-----------------------------------------------")
+
+# scikit icorporation
+
+# can use all classifiers in sklearn to train on that data
+# can also then combine algorithms to vote on probability (can also find confidence this way)
