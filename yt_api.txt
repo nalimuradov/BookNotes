@@ -1,0 +1,60 @@
+import json
+import urllib.request
+import nltk
+
+api_key = r"AIzaSyDmVJu0dTtlKe36VTd2hmywO5pzPpSsGn4"
+
+
+class Video:
+    def __init__(self, video_id):
+        metadata_url = f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id={video_id}&key={api_key}"
+        statistics_url = f"https://www.googleapis.com/youtube/v3/videos?part=statistics&id={video_id}&key={api_key}"
+        metadata_url = urllib.request.urlopen(metadata_url)
+        statistics_url = urllib.request.urlopen(statistics_url)
+
+        self.metadata_info = json.loads(metadata_url.read())
+        self.statistics_info = json.loads(statistics_url.read())
+
+        channel_id = self.metadata_info['items'][0]['snippet']['channelId']
+        channel_url = urllib.request.urlopen(f"https://www.googleapis.com/youtube/v3/channels?part=statistics&id="
+                                             f"{channel_id}&key={api_key}")
+
+        self.channel_info = json.loads(channel_url.read())
+
+    def get_video_title(self):
+        return self.metadata_info["items"][0]["snippet"]["title"]
+
+    def get_thumbnail(self):
+        return self.metadata_info['items'][0]['snippet']['thumbnails']['default']['url']
+
+    def get_view_count(self):
+        return self.statistics_info['items'][0]['statistics']['viewCount']
+
+    def get_subscriber_count(self):
+        return self.channel_info['items'][0]['statistics']['subscriberCount']
+
+
+# key: video_id
+# value: [title, subs, thumb, views]
+videos = ["Yo2SepcNyw4", "5-46n5yBE9g", "UmIYanq5gH8"]
+training_data = {}
+
+for video in videos:
+    vid_data = Video(video)
+    training_data[video] = (vid_data.get_video_title().lower(),
+                            vid_data.get_subscriber_count(),
+                            vid_data.get_thumbnail(),
+                            vid_data.get_view_count())
+
+# STORE AS JSON LOCALLY
+# CHANNEL_ID FOR VID_ID
+# NLP AGGREGATE
+# regression vs classification
+# most common tags, most common order of tags, most common words (bag)
+
+tokens = nltk.word_tokenize(training_data['Yo2SepcNyw4'][0])
+tagged = nltk.pos_tag(tokens)
+named_ent = nltk.ne_chunk(tagged, binary=True)
+
+print(named_ent)
+print(training_data)
