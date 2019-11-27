@@ -1,8 +1,23 @@
 import json
 import urllib.request
 import nltk
+from pprint import pprint
+from sklearn.feature_extraction.text import CountVectorizer
 
 api_key = r"AIzaSyDmVJu0dTtlKe36VTd2hmywO5pzPpSsGn4"
+
+
+def get_videos_from_channel(channel_id):
+    video_ids = []
+    channel_videos = urllib.request.urlopen(f"https://www.googleapis.com/youtube/v3/search?part=snippet&"
+                                            f"channelId={channel_id}&type=video&order=date&maxResults=10&key={api_key}")
+    channel_videos_json = json.loads(channel_videos.read())['items']
+    for x in channel_videos_json:
+        video_ids.append(x['id']['videoId'])
+    return video_ids
+
+
+# print(get_videos_from_channel("UCfzlCWGWYyIQ0aLC5w48gBQ"))
 
 
 class Video:
@@ -36,7 +51,8 @@ class Video:
 
 # key: video_id
 # value: [title, subs, thumb, views]
-videos = ["Yo2SepcNyw4", "5-46n5yBE9g", "UmIYanq5gH8"]
+videos = ['8Z8nkjmzC14', 'xStvKju-4-o', 'Dgo7F-lpyYE', '6gk7giKER6s', '1gQR24B3ISE', 'p9bkz3hxrSM', '9aYuQmMJvjA',
+          '9j-_dOze4IM', 'ixathu7U-LQ', 'i2yPxY2rOzs']
 training_data = {}
 
 for video in videos:
@@ -46,15 +62,22 @@ for video in videos:
                             vid_data.get_thumbnail(),
                             vid_data.get_view_count())
 
-# STORE AS JSON LOCALLY
-# CHANNEL_ID FOR VID_ID
-# NLP AGGREGATE
-# regression vs classification
-# most common tags, most common order of tags, most common words (bag)
+positive = []
+negative = []
 
-tokens = nltk.word_tokenize(training_data['Yo2SepcNyw4'][0])
+for i in training_data:
+    ratio = int(training_data[i][3])/int(training_data[i][1])
+    tokenize = nltk.word_tokenize(training_data[i][0])
+    for j in tokenize:
+        if ratio > 0.2:
+            positive.append(j)
+        else:
+            negative.append(j)
+
+tokens = nltk.word_tokenize(training_data['8Z8nkjmzC14'][0])
 tagged = nltk.pos_tag(tokens)
 named_ent = nltk.ne_chunk(tagged, binary=True)
 
-print(named_ent)
-print(training_data)
+freq_dist = nltk.FreqDist(positive)
+print(freq_dist.most_common(10))
+print(negative)
