@@ -1,0 +1,602 @@
+{
+    "8Z8nkjmzC14": [
+        "thank you",
+        "767000",
+        "https://i.ytimg.com/vi/8Z8nkjmzC14/default.jpg",
+        "46098"
+    ],
+    "JDQediQb1Wc": [
+        "checking out a 7\" mini laptop from peakago",
+        "767000",
+        "https://i.ytimg.com/vi/JDQediQb1Wc/default.jpg",
+        "56598"
+    ],
+    "xStvKju-4-o": [
+        "explorations and testing ideas - brain computer interface w/ python, openbci, and eeg data p.2",
+        "767000",
+        "https://i.ytimg.com/vi/xStvKju-4-o/default.jpg",
+        "18303"
+    ],
+    "Dgo7F-lpyYE": [
+        "brain computer interface w/ python and openbci for eeg data",
+        "767000",
+        "https://i.ytimg.com/vi/Dgo7F-lpyYE/default.jpg",
+        "47406"
+    ],
+    "6gk7giKER6s": [
+        "on the gpu - deep learning and neural networks with python and pytorch p.7",
+        "767000",
+        "https://i.ytimg.com/vi/6gk7giKER6s/default.jpg",
+        "9153"
+    ],
+    "1gQR24B3ISE": [
+        "training convnet - deep learning and neural networks with python and pytorch p.6",
+        "767000",
+        "https://i.ytimg.com/vi/1gQR24B3ISE/default.jpg",
+        "12050"
+    ],
+    "p9bkz3hxrSM": [
+        "checking out a data science workstation",
+        "767000",
+        "https://i.ytimg.com/vi/p9bkz3hxrSM/default.jpg",
+        "101924"
+    ],
+    "9aYuQmMJvjA": [
+        "convnet intro - deep learning and neural networks with python and pytorch p.5",
+        "767000",
+        "https://i.ytimg.com/vi/9aYuQmMJvjA/default.jpg",
+        "12485"
+    ],
+    "9j-_dOze4IM": [
+        "training model - deep learning and neural networks with python and pytorch p.4",
+        "767000",
+        "https://i.ytimg.com/vi/9j-_dOze4IM/default.jpg",
+        "17107"
+    ],
+    "ixathu7U-LQ": [
+        "building our neural network - deep learning and neural networks with python and pytorch p.3",
+        "767000",
+        "https://i.ytimg.com/vi/ixathu7U-LQ/default.jpg",
+        "20731"
+    ],
+    "i2yPxY2rOzs": [
+        "data - deep learning and neural networks with python and pytorch p.2",
+        "767000",
+        "https://i.ytimg.com/vi/i2yPxY2rOzs/default.jpg",
+        "27347"
+    ],
+    "BzcBsTou0C0": [
+        "introduction - deep learning and neural networks with python and pytorch p.1",
+        "767000",
+        "https://i.ytimg.com/vi/BzcBsTou0C0/default.jpg",
+        "62020"
+    ],
+    "62keA5pdykM": [
+        "cloud vs local gpu hosting (what to use and when?)",
+        "767000",
+        "https://i.ytimg.com/vi/62keA5pdykM/default.jpg",
+        "12225"
+    ],
+    "LwNPWNCA7ZI": [
+        "\"members only\" bug.",
+        "767000",
+        "https://i.ytimg.com/vi/LwNPWNCA7ZI/default.jpg",
+        "13887"
+    ],
+    "qWGgK4IrH-s": [
+        "cloud gpus tutorial (comparing & using)",
+        "767000",
+        "https://i.ytimg.com/vi/qWGgK4IrH-s/default.jpg",
+        "18354"
+    ],
+    "MynOPIJi4VY": [
+        "running our reinforcement learning agent - self-driving cars with carla and python p.5",
+        "767000",
+        "https://i.ytimg.com/vi/MynOPIJi4VY/default.jpg",
+        "13893"
+    ],
+    "hWLurYddo88": [
+        "reinforcement learning agent - self-driving cars with carla and python p.4",
+        "767000",
+        "https://i.ytimg.com/vi/hWLurYddo88/default.jpg",
+        "11465"
+    ],
+    "PRsp5p1l7DI": [
+        "reinforcement learning environment for car agent - self-driving cars with carla and python p.3",
+        "767000",
+        "https://i.ytimg.com/vi/PRsp5p1l7DI/default.jpg",
+        "15926"
+    ],
+    "2hM44nr7Wms": [
+        "controlling the car and getting camera sensor data - self-driving cars with carla and python p.2",
+        "767000",
+        "https://i.ytimg.com/vi/2hM44nr7Wms/default.jpg",
+        "24711"
+    ],
+    "J1F32aVSYaU": [
+        "programming autonomous self-driving cars with carla and python",
+        "767000",
+        "https://i.ytimg.com/vi/J1F32aVSYaU/default.jpg",
+        "57258"
+    ],
+    "GPtGYfCV1hY": [
+        "jetson nano review and object detection ft. tensorrt",
+        "767000",
+        "https://i.ytimg.com/vi/GPtGYfCV1hY/default.jpg",
+        "36090"
+    ],
+    "6bFN2YkN6bo": [
+        "fake voice text to speech deep learning ft. elon musk, trump, obama, and joe rogan",
+        "767000",
+        "https://i.ytimg.com/vi/6bFN2YkN6bo/default.jpg",
+        "105691"
+    ],
+    "AOeRbuwCd-Y": [
+        "my biggest challenge with programming (q&a #11)",
+        "767000",
+        "https://i.ytimg.com/vi/AOeRbuwCd-Y/default.jpg",
+        "37136"
+    ],
+    "dI9M6JZR1lM": [
+        "elon musk tts neural network...a work in progress.",
+        "767000",
+        "https://i.ytimg.com/vi/dI9M6JZR1lM/default.jpg",
+        "25593"
+    ],
+    "qfovbG84EBg": [
+        "training & testing deep reinforcement learning (dqn) agent - reinforcement learning p.6",
+        "767000",
+        "https://i.ytimg.com/vi/qfovbG84EBg/default.jpg",
+        "16176"
+    ],
+    "t3fbETsIBCY": [
+        "deep q learning w/ dqn - reinforcement learning p.5",
+        "767000",
+        "https://i.ytimg.com/vi/t3fbETsIBCY/default.jpg",
+        "18720"
+    ],
+    "G92TF4xYQcU": [
+        "creating a reinforcement learning (rl) environment - reinforcement learning p.4",
+        "767000",
+        "https://i.ytimg.com/vi/G92TF4xYQcU/default.jpg",
+        "21029"
+    ],
+    "rTyEMsD-NNM": [
+        "why i use a standing desk",
+        "767000",
+        "https://i.ytimg.com/vi/rTyEMsD-NNM/default.jpg",
+        "22329"
+    ],
+    "Gq1Azv_B4-4": [
+        "q learning algorithm and agent  - reinforcement learning p.2",
+        "767000",
+        "https://i.ytimg.com/vi/Gq1Azv_B4-4/default.jpg",
+        "25221"
+    ],
+    "yMk_XtIEzH8": [
+        "q learning intro/table - reinforcement learning p.1",
+        "767000",
+        "https://i.ytimg.com/vi/yMk_XtIEzH8/default.jpg",
+        "66072"
+    ],
+    "dV8b-Rw2BW8": [
+        "oculus rift s review",
+        "767000",
+        "https://i.ytimg.com/vi/dV8b-Rw2BW8/default.jpg",
+        "37165"
+    ],
+    "IsyyRKbFi7w": [
+        "object oriented programming in js - javascript programming basics p.5",
+        "767000",
+        "https://i.ytimg.com/vi/IsyyRKbFi7w/default.jpg",
+        "8396"
+    ],
+    "_2vW0JE18pY": [
+        "running functions on an interval with setinterval - javascript programming basics p.3",
+        "767000",
+        "https://i.ytimg.com/vi/_2vW0JE18pY/default.jpg",
+        "7789"
+    ],
+    "GRtSc2Mp0WI": [
+        "introduction - javascript programming basics p.1",
+        "767000",
+        "https://i.ytimg.com/vi/GRtSc2Mp0WI/default.jpg",
+        "28731"
+    ],
+    "vbuwSS6jRXc": [
+        "3d printing w/ cr 10s first impressions",
+        "767000",
+        "https://i.ytimg.com/vi/vbuwSS6jRXc/default.jpg",
+        "9891"
+    ],
+    "msNAEaCTleQ": [
+        "creating search over time video graphs - data analysis of google takeout p.2",
+        "767000",
+        "https://i.ytimg.com/vi/msNAEaCTleQ/default.jpg",
+        "7700"
+    ],
+    "Siyg1Wn5VDs": [
+        "building search word database - data analysis of google tracking takeout p.1",
+        "767000",
+        "https://i.ytimg.com/vi/Siyg1Wn5VDs/default.jpg",
+        "13156"
+    ],
+    "CIW0H70wo0M": [
+        "android deployment - kivy mobile and desktop app dev w/ python",
+        "767000",
+        "https://i.ytimg.com/vi/CIW0H70wo0M/default.jpg",
+        "29119"
+    ],
+    "lmWE2bydekk": [
+        "finishing chat application - kivy mobile and desktop app dev w/ python",
+        "767000",
+        "https://i.ytimg.com/vi/lmWE2bydekk/default.jpg",
+        "17250"
+    ],
+    "62LSK62Gudc": [
+        "chat application page - kivy mobile and desktop app dev w/ python",
+        "767000",
+        "https://i.ytimg.com/vi/62LSK62Gudc/default.jpg",
+        "12343"
+    ],
+    "hsnch676Lco": [
+        "scheduling tasks/functions/methods - kivy mobile and desktop app dev w/ python",
+        "767000",
+        "https://i.ytimg.com/vi/hsnch676Lco/default.jpg",
+        "12966"
+    ],
+    "sJmkhV02lnM": [
+        "changing screen/view/page - kivy mobile and desktop app dev w/ python",
+        "767000",
+        "https://i.ytimg.com/vi/sJmkhV02lnM/default.jpg",
+        "15725"
+    ],
+    "8I2fMqrruwc": [
+        "buttons & events - kivy mobile and desktop app dev w/ python",
+        "767000",
+        "https://i.ytimg.com/vi/8I2fMqrruwc/default.jpg",
+        "22717"
+    ],
+    "FjwD0SOGQ1k": [
+        "kivy intro - mobile and desktop app dev w/ python",
+        "767000",
+        "https://i.ytimg.com/vi/FjwD0SOGQ1k/default.jpg",
+        "82721"
+    ],
+    "dTW_PQyUHXA": [
+        "what's it like to race a race car for the first time?",
+        "767000",
+        "https://i.ytimg.com/vi/dTW_PQyUHXA/default.jpg",
+        "24929"
+    ],
+    "ytu2yV3Gn1I": [
+        "socket chatroom client - creating chat application with sockets in python",
+        "767000",
+        "https://i.ytimg.com/vi/ytu2yV3Gn1I/default.jpg",
+        "29079"
+    ],
+    "CV7_stUWvBQ": [
+        "socket chatroom server - creating chat application with sockets in python",
+        "767000",
+        "https://i.ytimg.com/vi/CV7_stUWvBQ/default.jpg",
+        "50267"
+    ],
+    "WM1z8soch0Q": [
+        "sockets tutorial with python 3 part 3 - sending and receiving python objects w/ pickle",
+        "767000",
+        "https://i.ytimg.com/vi/WM1z8soch0Q/default.jpg",
+        "33639"
+    ],
+    "8A4dqoGL62E": [
+        "sockets tutorial with python 3 part 2 - buffering and streaming data",
+        "767000",
+        "https://i.ytimg.com/vi/8A4dqoGL62E/default.jpg",
+        "46151"
+    ],
+    "Lbfe3-v7yE0": [
+        "sockets tutorial with python 3 part 1 - sending and receiving data",
+        "767000",
+        "https://i.ytimg.com/vi/Lbfe3-v7yE0/default.jpg",
+        "131838"
+    ],
+    "pzTal29oQeI": [
+        "why india banned 86% of its currency",
+        "991000",
+        "https://i.ytimg.com/vi/pzTal29oQeI/default.jpg",
+        "4140"
+    ],
+    "-bbfFf07WNw": [
+        "the economics of k-pop",
+        "991000",
+        "https://i.ytimg.com/vi/-bbfFf07WNw/default.jpg",
+        "288205"
+    ],
+    "S7BycrGnaJA": [
+        "why costco is cheaper than amazon",
+        "991000",
+        "https://i.ytimg.com/vi/S7BycrGnaJA/default.jpg",
+        "1366682"
+    ],
+    "5Wq0yv73NpY": [
+        "zimbabwe\u2019s currency crisis: the worthless $100 trillion bill",
+        "991000",
+        "https://i.ytimg.com/vi/5Wq0yv73NpY/default.jpg",
+        "2117908"
+    ],
+    "ELy9fOX8vtc": [
+        "how hong kong built the world's best transit \ud83c\udded\ud83c\uddf0",
+        "991000",
+        "https://i.ytimg.com/vi/ELy9fOX8vtc/default.jpg",
+        "529255"
+    ],
+    "TVCEvx8JCTQ": [
+        "why so many chinese students come to america",
+        "991000",
+        "https://i.ytimg.com/vi/TVCEvx8JCTQ/default.jpg",
+        "1025130"
+    ],
+    "xfQBkdLa6fo": [
+        "why in-n-out isn't coming to a city near you",
+        "991000",
+        "https://i.ytimg.com/vi/xfQBkdLa6fo/default.jpg",
+        "1647090"
+    ],
+    "wxxhuzjT9aM": [
+        "why facebook is building a city",
+        "991000",
+        "https://i.ytimg.com/vi/wxxhuzjT9aM/default.jpg",
+        "674123"
+    ],
+    "_ES8x6_vxqc": [
+        "will apple ever leave china?",
+        "991000",
+        "https://i.ytimg.com/vi/_ES8x6_vxqc/default.jpg",
+        "509187"
+    ],
+    "1rb3bMvDdX4": [
+        "why the $5 footlong failed: how franchising works",
+        "991000",
+        "https://i.ytimg.com/vi/1rb3bMvDdX4/default.jpg",
+        "1451304"
+    ],
+    "hx1tEXrYZLE": [
+        "huawei: the big picture",
+        "991000",
+        "https://i.ytimg.com/vi/hx1tEXrYZLE/default.jpg",
+        "894447"
+    ],
+    "FsfyAqtiEho": [
+        "what to do when your country is drowning",
+        "991000",
+        "https://i.ytimg.com/vi/FsfyAqtiEho/default.jpg",
+        "480185"
+    ],
+    "CjLHuhOTnaI": [
+        "can you trust apple? facebook? google?",
+        "991000",
+        "https://i.ytimg.com/vi/CjLHuhOTnaI/default.jpg",
+        "436440"
+    ],
+    "rc4JmEMRHgA": [
+        "why china is building the world\u2019s biggest city",
+        "991000",
+        "https://i.ytimg.com/vi/rc4JmEMRHgA/default.jpg",
+        "1770944"
+    ],
+    "EYPs-ya_GDA": [
+        "is amazon too big?",
+        "991000",
+        "https://i.ytimg.com/vi/EYPs-ya_GDA/default.jpg",
+        "1736218"
+    ],
+    "RuPx61911Oo": [
+        "why israel is a tech capital of the world",
+        "991000",
+        "https://i.ytimg.com/vi/RuPx61911Oo/default.jpg",
+        "760474"
+    ],
+    "-gNZtI7hbvI": [
+        "why china doesn\u2019t want your trash anymore",
+        "991000",
+        "https://i.ytimg.com/vi/-gNZtI7hbvI/default.jpg",
+        "1545506"
+    ],
+    "5kZRY5xlP6Y": [
+        "the true cost of the iphone",
+        "991000",
+        "https://i.ytimg.com/vi/5kZRY5xlP6Y/default.jpg",
+        "3359208"
+    ],
+    "R24ihv5JUeU": [
+        "china's war on pollution",
+        "991000",
+        "https://i.ytimg.com/vi/R24ihv5JUeU/default.jpg",
+        "1205699"
+    ],
+    "dZh0B8AYxac": [
+        "how somalia\u2019s pirates make money",
+        "991000",
+        "https://i.ytimg.com/vi/dZh0B8AYxac/default.jpg",
+        "2317602"
+    ],
+    "DwAyUV6hTf8": [
+        "the most overvalued startup in the world?",
+        "991000",
+        "https://i.ytimg.com/vi/DwAyUV6hTf8/default.jpg",
+        "1062091"
+    ],
+    "dYe1KG61o6Y": [
+        "why china cares so much about space",
+        "991000",
+        "https://i.ytimg.com/vi/dYe1KG61o6Y/default.jpg",
+        "704030"
+    ],
+    "WrYbvyddS1s": [
+        "why apple fails in india (& why it matters)",
+        "991000",
+        "https://i.ytimg.com/vi/WrYbvyddS1s/default.jpg",
+        "1802260"
+    ],
+    "f5SE47Xjx2Q": [
+        "why 50 million chinese homes are empty",
+        "991000",
+        "https://i.ytimg.com/vi/f5SE47Xjx2Q/default.jpg",
+        "2929622"
+    ],
+    "H4bxzKR7MQs": [
+        "how to fix the patent system",
+        "991000",
+        "https://i.ytimg.com/vi/H4bxzKR7MQs/default.jpg",
+        "302208"
+    ],
+    "X0uv5jFaJFk": [
+        "the case against patents - amazon\u2019s 1-click \u201cinvention\u201d",
+        "991000",
+        "https://i.ytimg.com/vi/X0uv5jFaJFk/default.jpg",
+        "427342"
+    ],
+    "DY9VE3i-KcM": [
+        "how container ships work",
+        "991000",
+        "https://i.ytimg.com/vi/DY9VE3i-KcM/default.jpg",
+        "1496990"
+    ],
+    "_M_d7EIaXV4": [
+        "why scooter startups are worth billions",
+        "991000",
+        "https://i.ytimg.com/vi/_M_d7EIaXV4/default.jpg",
+        "1170773"
+    ],
+    "Fg7jIjmLyWs": [
+        "why china ended its one-child policy",
+        "991000",
+        "https://i.ytimg.com/vi/Fg7jIjmLyWs/default.jpg",
+        "3724787"
+    ],
+    "w8Il1y1hTFc": [
+        "how to save the online economy",
+        "991000",
+        "https://i.ytimg.com/vi/w8Il1y1hTFc/default.jpg",
+        "617841"
+    ],
+    "cp1Aq4h3sXA": [
+        "why amazon is worth $1 trillion",
+        "991000",
+        "https://i.ytimg.com/vi/cp1Aq4h3sXA/default.jpg",
+        "945307"
+    ],
+    "-dsM8zPGqa0": [
+        "dubai's plan to outlive oil",
+        "991000",
+        "https://i.ytimg.com/vi/-dsM8zPGqa0/default.jpg",
+        "1703134"
+    ],
+    "NM-odCvJdrI": [
+        "self-driving cars won\u2019t save cities - here\u2019s what will",
+        "991000",
+        "https://i.ytimg.com/vi/NM-odCvJdrI/default.jpg",
+        "554462"
+    ],
+    "OUZ7R7AdIiI": [
+        "the challenge of creative work",
+        "991000",
+        "https://i.ytimg.com/vi/OUZ7R7AdIiI/default.jpg",
+        "218215"
+    ],
+    "1SrckSJvGc8": [
+        "apple glasses are coming - here's why",
+        "991000",
+        "https://i.ytimg.com/vi/1SrckSJvGc8/default.jpg",
+        "797345"
+    ],
+    "jzFTwBkIC5o": [
+        "the economics of uber",
+        "991000",
+        "https://i.ytimg.com/vi/jzFTwBkIC5o/default.jpg",
+        "1494117"
+    ],
+    "UyohSu-Ft_U": [
+        "the grand theory of amazon",
+        "991000",
+        "https://i.ytimg.com/vi/UyohSu-Ft_U/default.jpg",
+        "1874188"
+    ],
+    "lTKuQQegNTs": [
+        "subscription affliction - everything is $10/month",
+        "991000",
+        "https://i.ytimg.com/vi/lTKuQQegNTs/default.jpg",
+        "1037323"
+    ],
+    "AKr4ih5cLl4": [
+        "how to make a blockbuster movie",
+        "991000",
+        "https://i.ytimg.com/vi/AKr4ih5cLl4/default.jpg",
+        "252058"
+    ],
+    "mviTS_cIWXg": [
+        "why bing isn't a failure (& the future of the internet)",
+        "991000",
+        "https://i.ytimg.com/vi/mviTS_cIWXg/default.jpg",
+        "3664640"
+    ],
+    "WAaL0ZhpuQM": [
+        "apple is (kind of) a game company",
+        "991000",
+        "https://i.ytimg.com/vi/WAaL0ZhpuQM/default.jpg",
+        "712149"
+    ],
+    "PEoZLGHKvy8": [
+        "kim jong-un's new strategy: explained",
+        "991000",
+        "https://i.ytimg.com/vi/PEoZLGHKvy8/default.jpg",
+        "3185160"
+    ],
+    "EFwa5Owp0-k": [
+        "not everyone should code",
+        "991000",
+        "https://i.ytimg.com/vi/EFwa5Owp0-k/default.jpg",
+        "2251097"
+    ],
+    "ZY1BFv8qEeM": [
+        "how cruise ships work",
+        "991000",
+        "https://i.ytimg.com/vi/ZY1BFv8qEeM/default.jpg",
+        "4513136"
+    ],
+    "yloJi635Ya8": [
+        "apple's money problem (& why it won't buy netflix)",
+        "991000",
+        "https://i.ytimg.com/vi/yloJi635Ya8/default.jpg",
+        "4274755"
+    ],
+    "mxgOjH7szdk": [
+        "how to do politics",
+        "991000",
+        "https://i.ytimg.com/vi/mxgOjH7szdk/default.jpg",
+        "308338"
+    ],
+    "4A89J4zrBw8": [
+        "the biology of business",
+        "991000",
+        "https://i.ytimg.com/vi/4A89J4zrBw8/default.jpg",
+        "181512"
+    ],
+    "fwRiFQjMkNs": [
+        "what makes black mirror so good?",
+        "991000",
+        "https://i.ytimg.com/vi/fwRiFQjMkNs/default.jpg",
+        "290231"
+    ],
+    "zO0b-l-u7Yk": [
+        "the grand theory of apple",
+        "991000",
+        "https://i.ytimg.com/vi/zO0b-l-u7Yk/default.jpg",
+        "1758865"
+    ],
+    "o0PyzrTze2U": [
+        "the death of malls?",
+        "991000",
+        "https://i.ytimg.com/vi/o0PyzrTze2U/default.jpg",
+        "1034926"
+    ]
+}
