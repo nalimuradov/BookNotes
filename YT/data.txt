@@ -1,602 +1,2402 @@
 {
-    "8Z8nkjmzC14": [
-        "thank you",
-        "767000",
-        "https://i.ytimg.com/vi/8Z8nkjmzC14/default.jpg",
-        "46098"
-    ],
-    "JDQediQb1Wc": [
-        "checking out a 7\" mini laptop from peakago",
-        "767000",
-        "https://i.ytimg.com/vi/JDQediQb1Wc/default.jpg",
-        "56598"
-    ],
-    "xStvKju-4-o": [
-        "explorations and testing ideas - brain computer interface w/ python, openbci, and eeg data p.2",
-        "767000",
-        "https://i.ytimg.com/vi/xStvKju-4-o/default.jpg",
-        "18303"
-    ],
-    "Dgo7F-lpyYE": [
-        "brain computer interface w/ python and openbci for eeg data",
-        "767000",
-        "https://i.ytimg.com/vi/Dgo7F-lpyYE/default.jpg",
-        "47406"
-    ],
-    "6gk7giKER6s": [
-        "on the gpu - deep learning and neural networks with python and pytorch p.7",
-        "767000",
-        "https://i.ytimg.com/vi/6gk7giKER6s/default.jpg",
-        "9153"
-    ],
-    "1gQR24B3ISE": [
-        "training convnet - deep learning and neural networks with python and pytorch p.6",
-        "767000",
-        "https://i.ytimg.com/vi/1gQR24B3ISE/default.jpg",
-        "12050"
-    ],
-    "p9bkz3hxrSM": [
-        "checking out a data science workstation",
-        "767000",
-        "https://i.ytimg.com/vi/p9bkz3hxrSM/default.jpg",
-        "101924"
-    ],
-    "9aYuQmMJvjA": [
-        "convnet intro - deep learning and neural networks with python and pytorch p.5",
-        "767000",
-        "https://i.ytimg.com/vi/9aYuQmMJvjA/default.jpg",
-        "12485"
-    ],
-    "9j-_dOze4IM": [
-        "training model - deep learning and neural networks with python and pytorch p.4",
-        "767000",
-        "https://i.ytimg.com/vi/9j-_dOze4IM/default.jpg",
-        "17107"
-    ],
-    "ixathu7U-LQ": [
-        "building our neural network - deep learning and neural networks with python and pytorch p.3",
-        "767000",
-        "https://i.ytimg.com/vi/ixathu7U-LQ/default.jpg",
-        "20731"
-    ],
-    "i2yPxY2rOzs": [
-        "data - deep learning and neural networks with python and pytorch p.2",
-        "767000",
-        "https://i.ytimg.com/vi/i2yPxY2rOzs/default.jpg",
-        "27347"
-    ],
-    "BzcBsTou0C0": [
-        "introduction - deep learning and neural networks with python and pytorch p.1",
-        "767000",
-        "https://i.ytimg.com/vi/BzcBsTou0C0/default.jpg",
-        "62020"
-    ],
-    "62keA5pdykM": [
-        "cloud vs local gpu hosting (what to use and when?)",
-        "767000",
-        "https://i.ytimg.com/vi/62keA5pdykM/default.jpg",
-        "12225"
-    ],
-    "LwNPWNCA7ZI": [
-        "\"members only\" bug.",
-        "767000",
-        "https://i.ytimg.com/vi/LwNPWNCA7ZI/default.jpg",
-        "13887"
-    ],
-    "qWGgK4IrH-s": [
-        "cloud gpus tutorial (comparing & using)",
-        "767000",
-        "https://i.ytimg.com/vi/qWGgK4IrH-s/default.jpg",
-        "18354"
-    ],
-    "MynOPIJi4VY": [
-        "running our reinforcement learning agent - self-driving cars with carla and python p.5",
-        "767000",
-        "https://i.ytimg.com/vi/MynOPIJi4VY/default.jpg",
-        "13893"
-    ],
-    "hWLurYddo88": [
-        "reinforcement learning agent - self-driving cars with carla and python p.4",
-        "767000",
-        "https://i.ytimg.com/vi/hWLurYddo88/default.jpg",
-        "11465"
-    ],
-    "PRsp5p1l7DI": [
-        "reinforcement learning environment for car agent - self-driving cars with carla and python p.3",
-        "767000",
-        "https://i.ytimg.com/vi/PRsp5p1l7DI/default.jpg",
-        "15926"
-    ],
-    "2hM44nr7Wms": [
-        "controlling the car and getting camera sensor data - self-driving cars with carla and python p.2",
-        "767000",
-        "https://i.ytimg.com/vi/2hM44nr7Wms/default.jpg",
-        "24711"
-    ],
-    "J1F32aVSYaU": [
-        "programming autonomous self-driving cars with carla and python",
-        "767000",
-        "https://i.ytimg.com/vi/J1F32aVSYaU/default.jpg",
-        "57258"
-    ],
-    "GPtGYfCV1hY": [
-        "jetson nano review and object detection ft. tensorrt",
-        "767000",
-        "https://i.ytimg.com/vi/GPtGYfCV1hY/default.jpg",
-        "36090"
-    ],
-    "6bFN2YkN6bo": [
-        "fake voice text to speech deep learning ft. elon musk, trump, obama, and joe rogan",
-        "767000",
-        "https://i.ytimg.com/vi/6bFN2YkN6bo/default.jpg",
-        "105691"
-    ],
-    "AOeRbuwCd-Y": [
-        "my biggest challenge with programming (q&a #11)",
-        "767000",
-        "https://i.ytimg.com/vi/AOeRbuwCd-Y/default.jpg",
-        "37136"
-    ],
-    "dI9M6JZR1lM": [
-        "elon musk tts neural network...a work in progress.",
-        "767000",
-        "https://i.ytimg.com/vi/dI9M6JZR1lM/default.jpg",
-        "25593"
-    ],
-    "qfovbG84EBg": [
-        "training & testing deep reinforcement learning (dqn) agent - reinforcement learning p.6",
-        "767000",
-        "https://i.ytimg.com/vi/qfovbG84EBg/default.jpg",
-        "16176"
-    ],
-    "t3fbETsIBCY": [
-        "deep q learning w/ dqn - reinforcement learning p.5",
-        "767000",
-        "https://i.ytimg.com/vi/t3fbETsIBCY/default.jpg",
-        "18720"
-    ],
-    "G92TF4xYQcU": [
-        "creating a reinforcement learning (rl) environment - reinforcement learning p.4",
-        "767000",
-        "https://i.ytimg.com/vi/G92TF4xYQcU/default.jpg",
-        "21029"
-    ],
-    "rTyEMsD-NNM": [
-        "why i use a standing desk",
-        "767000",
-        "https://i.ytimg.com/vi/rTyEMsD-NNM/default.jpg",
-        "22329"
-    ],
-    "Gq1Azv_B4-4": [
-        "q learning algorithm and agent  - reinforcement learning p.2",
-        "767000",
-        "https://i.ytimg.com/vi/Gq1Azv_B4-4/default.jpg",
-        "25221"
-    ],
-    "yMk_XtIEzH8": [
-        "q learning intro/table - reinforcement learning p.1",
-        "767000",
-        "https://i.ytimg.com/vi/yMk_XtIEzH8/default.jpg",
-        "66072"
-    ],
-    "dV8b-Rw2BW8": [
-        "oculus rift s review",
-        "767000",
-        "https://i.ytimg.com/vi/dV8b-Rw2BW8/default.jpg",
-        "37165"
-    ],
-    "IsyyRKbFi7w": [
-        "object oriented programming in js - javascript programming basics p.5",
-        "767000",
-        "https://i.ytimg.com/vi/IsyyRKbFi7w/default.jpg",
-        "8396"
-    ],
-    "_2vW0JE18pY": [
-        "running functions on an interval with setinterval - javascript programming basics p.3",
-        "767000",
-        "https://i.ytimg.com/vi/_2vW0JE18pY/default.jpg",
-        "7789"
-    ],
-    "GRtSc2Mp0WI": [
-        "introduction - javascript programming basics p.1",
-        "767000",
-        "https://i.ytimg.com/vi/GRtSc2Mp0WI/default.jpg",
-        "28731"
-    ],
-    "vbuwSS6jRXc": [
-        "3d printing w/ cr 10s first impressions",
-        "767000",
-        "https://i.ytimg.com/vi/vbuwSS6jRXc/default.jpg",
-        "9891"
-    ],
-    "msNAEaCTleQ": [
-        "creating search over time video graphs - data analysis of google takeout p.2",
-        "767000",
-        "https://i.ytimg.com/vi/msNAEaCTleQ/default.jpg",
-        "7700"
-    ],
-    "Siyg1Wn5VDs": [
-        "building search word database - data analysis of google tracking takeout p.1",
-        "767000",
-        "https://i.ytimg.com/vi/Siyg1Wn5VDs/default.jpg",
-        "13156"
-    ],
-    "CIW0H70wo0M": [
-        "android deployment - kivy mobile and desktop app dev w/ python",
-        "767000",
-        "https://i.ytimg.com/vi/CIW0H70wo0M/default.jpg",
-        "29119"
-    ],
-    "lmWE2bydekk": [
-        "finishing chat application - kivy mobile and desktop app dev w/ python",
-        "767000",
-        "https://i.ytimg.com/vi/lmWE2bydekk/default.jpg",
-        "17250"
-    ],
-    "62LSK62Gudc": [
-        "chat application page - kivy mobile and desktop app dev w/ python",
-        "767000",
-        "https://i.ytimg.com/vi/62LSK62Gudc/default.jpg",
-        "12343"
-    ],
-    "hsnch676Lco": [
-        "scheduling tasks/functions/methods - kivy mobile and desktop app dev w/ python",
-        "767000",
-        "https://i.ytimg.com/vi/hsnch676Lco/default.jpg",
-        "12966"
-    ],
-    "sJmkhV02lnM": [
-        "changing screen/view/page - kivy mobile and desktop app dev w/ python",
-        "767000",
-        "https://i.ytimg.com/vi/sJmkhV02lnM/default.jpg",
-        "15725"
-    ],
-    "8I2fMqrruwc": [
-        "buttons & events - kivy mobile and desktop app dev w/ python",
-        "767000",
-        "https://i.ytimg.com/vi/8I2fMqrruwc/default.jpg",
-        "22717"
-    ],
-    "FjwD0SOGQ1k": [
-        "kivy intro - mobile and desktop app dev w/ python",
-        "767000",
-        "https://i.ytimg.com/vi/FjwD0SOGQ1k/default.jpg",
-        "82721"
-    ],
-    "dTW_PQyUHXA": [
-        "what's it like to race a race car for the first time?",
-        "767000",
-        "https://i.ytimg.com/vi/dTW_PQyUHXA/default.jpg",
-        "24929"
-    ],
-    "ytu2yV3Gn1I": [
-        "socket chatroom client - creating chat application with sockets in python",
-        "767000",
-        "https://i.ytimg.com/vi/ytu2yV3Gn1I/default.jpg",
-        "29079"
-    ],
-    "CV7_stUWvBQ": [
-        "socket chatroom server - creating chat application with sockets in python",
-        "767000",
-        "https://i.ytimg.com/vi/CV7_stUWvBQ/default.jpg",
-        "50267"
-    ],
-    "WM1z8soch0Q": [
-        "sockets tutorial with python 3 part 3 - sending and receiving python objects w/ pickle",
-        "767000",
-        "https://i.ytimg.com/vi/WM1z8soch0Q/default.jpg",
-        "33639"
-    ],
-    "8A4dqoGL62E": [
-        "sockets tutorial with python 3 part 2 - buffering and streaming data",
-        "767000",
-        "https://i.ytimg.com/vi/8A4dqoGL62E/default.jpg",
-        "46151"
-    ],
-    "Lbfe3-v7yE0": [
-        "sockets tutorial with python 3 part 1 - sending and receiving data",
-        "767000",
-        "https://i.ytimg.com/vi/Lbfe3-v7yE0/default.jpg",
-        "131838"
-    ],
     "pzTal29oQeI": [
         "why india banned 86% of its currency",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/pzTal29oQeI/default.jpg",
-        "4140"
+        "405383"
     ],
     "-bbfFf07WNw": [
         "the economics of k-pop",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/-bbfFf07WNw/default.jpg",
-        "288205"
+        "308757"
     ],
     "S7BycrGnaJA": [
         "why costco is cheaper than amazon",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/S7BycrGnaJA/default.jpg",
-        "1366682"
+        "1399227"
     ],
     "5Wq0yv73NpY": [
         "zimbabwe\u2019s currency crisis: the worthless $100 trillion bill",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/5Wq0yv73NpY/default.jpg",
-        "2117908"
+        "2157200"
     ],
     "ELy9fOX8vtc": [
         "how hong kong built the world's best transit \ud83c\udded\ud83c\uddf0",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/ELy9fOX8vtc/default.jpg",
-        "529255"
+        "538571"
     ],
     "TVCEvx8JCTQ": [
         "why so many chinese students come to america",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/TVCEvx8JCTQ/default.jpg",
-        "1025130"
+        "1044526"
     ],
     "xfQBkdLa6fo": [
         "why in-n-out isn't coming to a city near you",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/xfQBkdLa6fo/default.jpg",
-        "1647090"
+        "1685553"
     ],
     "wxxhuzjT9aM": [
         "why facebook is building a city",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/wxxhuzjT9aM/default.jpg",
-        "674123"
+        "684587"
     ],
     "_ES8x6_vxqc": [
         "will apple ever leave china?",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/_ES8x6_vxqc/default.jpg",
-        "509187"
+        "517335"
     ],
     "1rb3bMvDdX4": [
         "why the $5 footlong failed: how franchising works",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/1rb3bMvDdX4/default.jpg",
-        "1451304"
+        "1458598"
     ],
     "hx1tEXrYZLE": [
         "huawei: the big picture",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/hx1tEXrYZLE/default.jpg",
-        "894447"
+        "912768"
     ],
     "FsfyAqtiEho": [
         "what to do when your country is drowning",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/FsfyAqtiEho/default.jpg",
-        "480185"
+        "487344"
     ],
     "CjLHuhOTnaI": [
         "can you trust apple? facebook? google?",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/CjLHuhOTnaI/default.jpg",
-        "436440"
+        "441054"
     ],
     "rc4JmEMRHgA": [
         "why china is building the world\u2019s biggest city",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/rc4JmEMRHgA/default.jpg",
-        "1770944"
+        "1796807"
     ],
     "EYPs-ya_GDA": [
         "is amazon too big?",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/EYPs-ya_GDA/default.jpg",
-        "1736218"
+        "1761774"
     ],
     "RuPx61911Oo": [
         "why israel is a tech capital of the world",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/RuPx61911Oo/default.jpg",
-        "760474"
+        "768348"
     ],
     "-gNZtI7hbvI": [
         "why china doesn\u2019t want your trash anymore",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/-gNZtI7hbvI/default.jpg",
-        "1545506"
+        "1551960"
     ],
     "5kZRY5xlP6Y": [
         "the true cost of the iphone",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/5kZRY5xlP6Y/default.jpg",
-        "3359208"
+        "3372503"
     ],
     "R24ihv5JUeU": [
         "china's war on pollution",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/R24ihv5JUeU/default.jpg",
-        "1205699"
+        "1217779"
     ],
     "dZh0B8AYxac": [
         "how somalia\u2019s pirates make money",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/dZh0B8AYxac/default.jpg",
-        "2317602"
+        "2324632"
     ],
     "DwAyUV6hTf8": [
         "the most overvalued startup in the world?",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/DwAyUV6hTf8/default.jpg",
-        "1062091"
+        "1068176"
     ],
     "dYe1KG61o6Y": [
         "why china cares so much about space",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/dYe1KG61o6Y/default.jpg",
-        "704030"
+        "710272"
     ],
     "WrYbvyddS1s": [
         "why apple fails in india (& why it matters)",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/WrYbvyddS1s/default.jpg",
-        "1802260"
+        "1813899"
     ],
     "f5SE47Xjx2Q": [
         "why 50 million chinese homes are empty",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/f5SE47Xjx2Q/default.jpg",
-        "2929622"
+        "2948772"
     ],
     "H4bxzKR7MQs": [
         "how to fix the patent system",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/H4bxzKR7MQs/default.jpg",
-        "302208"
+        "303456"
     ],
     "X0uv5jFaJFk": [
         "the case against patents - amazon\u2019s 1-click \u201cinvention\u201d",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/X0uv5jFaJFk/default.jpg",
-        "427342"
+        "429428"
     ],
     "DY9VE3i-KcM": [
         "how container ships work",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/DY9VE3i-KcM/default.jpg",
-        "1496990"
+        "1504675"
     ],
     "_M_d7EIaXV4": [
         "why scooter startups are worth billions",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/_M_d7EIaXV4/default.jpg",
-        "1170773"
+        "1174684"
     ],
     "Fg7jIjmLyWs": [
         "why china ended its one-child policy",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/Fg7jIjmLyWs/default.jpg",
-        "3724787"
+        "3731055"
     ],
     "w8Il1y1hTFc": [
         "how to save the online economy",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/w8Il1y1hTFc/default.jpg",
-        "617841"
+        "621764"
     ],
     "cp1Aq4h3sXA": [
         "why amazon is worth $1 trillion",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/cp1Aq4h3sXA/default.jpg",
-        "945307"
+        "949911"
     ],
     "-dsM8zPGqa0": [
         "dubai's plan to outlive oil",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/-dsM8zPGqa0/default.jpg",
-        "1703134"
+        "1717153"
     ],
     "NM-odCvJdrI": [
         "self-driving cars won\u2019t save cities - here\u2019s what will",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/NM-odCvJdrI/default.jpg",
-        "554462"
+        "556862"
     ],
     "OUZ7R7AdIiI": [
         "the challenge of creative work",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/OUZ7R7AdIiI/default.jpg",
-        "218215"
+        "219041"
     ],
     "1SrckSJvGc8": [
         "apple glasses are coming - here's why",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/1SrckSJvGc8/default.jpg",
-        "797345"
+        "799458"
     ],
     "jzFTwBkIC5o": [
         "the economics of uber",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/jzFTwBkIC5o/default.jpg",
-        "1494117"
+        "1500825"
     ],
     "UyohSu-Ft_U": [
         "the grand theory of amazon",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/UyohSu-Ft_U/default.jpg",
-        "1874188"
+        "1885016"
     ],
     "lTKuQQegNTs": [
         "subscription affliction - everything is $10/month",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/lTKuQQegNTs/default.jpg",
-        "1037323"
+        "1042694"
     ],
     "AKr4ih5cLl4": [
         "how to make a blockbuster movie",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/AKr4ih5cLl4/default.jpg",
-        "252058"
+        "253300"
     ],
     "mviTS_cIWXg": [
         "why bing isn't a failure (& the future of the internet)",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/mviTS_cIWXg/default.jpg",
-        "3664640"
+        "3706538"
     ],
     "WAaL0ZhpuQM": [
         "apple is (kind of) a game company",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/WAaL0ZhpuQM/default.jpg",
-        "712149"
+        "713829"
     ],
     "PEoZLGHKvy8": [
         "kim jong-un's new strategy: explained",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/PEoZLGHKvy8/default.jpg",
-        "3185160"
+        "3187821"
     ],
     "EFwa5Owp0-k": [
         "not everyone should code",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/EFwa5Owp0-k/default.jpg",
-        "2251097"
+        "2260972"
     ],
     "ZY1BFv8qEeM": [
         "how cruise ships work",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/ZY1BFv8qEeM/default.jpg",
-        "4513136"
+        "4521814"
     ],
     "yloJi635Ya8": [
         "apple's money problem (& why it won't buy netflix)",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/yloJi635Ya8/default.jpg",
-        "4274755"
+        "4292461"
     ],
     "mxgOjH7szdk": [
         "how to do politics",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/mxgOjH7szdk/default.jpg",
-        "308338"
+        "309561"
     ],
     "4A89J4zrBw8": [
         "the biology of business",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/4A89J4zrBw8/default.jpg",
-        "181512"
+        "182047"
     ],
     "fwRiFQjMkNs": [
         "what makes black mirror so good?",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/fwRiFQjMkNs/default.jpg",
-        "290231"
+        "290411"
     ],
     "zO0b-l-u7Yk": [
         "the grand theory of apple",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/zO0b-l-u7Yk/default.jpg",
-        "1758865"
+        "1762428"
     ],
     "o0PyzrTze2U": [
         "the death of malls?",
-        "991000",
+        "997000",
         "https://i.ytimg.com/vi/o0PyzrTze2U/default.jpg",
-        "1034926"
+        "1037174"
+    ],
+    "ySzzjut3c9A": [
+        "protests in beirut: christina has had enough | dw documentary (arab world documentary)",
+        "1070000",
+        "https://i.ytimg.com/vi/ySzzjut3c9A/default.jpg",
+        "27230"
+    ],
+    "xO6AnTc0OE8": [
+        "colombia - the long road to peace after the civil war | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/xO6AnTc0OE8/default.jpg",
+        "26849"
+    ],
+    "JHDkALRz5Rk": [
+        "how poor people survive in the usa | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/JHDkALRz5Rk/default.jpg",
+        "2476022"
+    ],
+    "cWUb9PSp3fc": [
+        "rwanda - from genocide to a model state | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/cWUb9PSp3fc/default.jpg",
+        "27534"
+    ],
+    "e9SsnK6t-z8": [
+        "the school for role-play in denmark | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/e9SsnK6t-z8/default.jpg",
+        "13131"
+    ],
+    "-6NeAOMBBd0": [
+        "drokpa - nomads of tibet  | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/-6NeAOMBBd0/default.jpg",
+        "115706"
+    ],
+    "UAjbTiqMcfY": [
+        "the power of play: the health benefits of goofing around | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/UAjbTiqMcfY/default.jpg",
+        "29273"
+    ],
+    "-AqF-2Htv-I": [
+        "off to a dream wedding in kerala | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/-AqF-2Htv-I/default.jpg",
+        "168116"
+    ],
+    "fxpGWcACW6k": [
+        "venice's need to rescue its future | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/fxpGWcACW6k/default.jpg",
+        "1491801"
+    ],
+    "W6gyEbprEiQ": [
+        "from a nazi childhood to living with a syrian refugee | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/W6gyEbprEiQ/default.jpg",
+        "21614"
+    ],
+    "o4ah2I8YjkQ": [
+        "the apostle comes from africa \u2014 a contemporary passion story | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/o4ah2I8YjkQ/default.jpg",
+        "9941"
+    ],
+    "n7hzomuDEIk": [
+        "luxury: behind the mirror of high-end fashion | dw documentary (fashion documentary)",
+        "1070000",
+        "https://i.ytimg.com/vi/n7hzomuDEIk/default.jpg",
+        "596671"
+    ],
+    "N5F4m3vPv9g": [
+        "the berlin synagogue with the golden dome | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/N5F4m3vPv9g/default.jpg",
+        "11406"
+    ],
+    "rHrdFc9kC7M": [
+        "the defector and the border guard | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/rHrdFc9kC7M/default.jpg",
+        "12093"
+    ],
+    "b3U8eH8LTp0": [
+        "udo lindenberg: the godfather of german rock and the fall of the berlin wall | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/b3U8eH8LTp0/default.jpg",
+        "5709"
+    ],
+    "7YrTjyBDzlU": [
+        "greta thunberg and \"fridays for future\" \u2013 a growing student movement | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/7YrTjyBDzlU/default.jpg",
+        "18958"
+    ],
+    "bArtnedm3eQ": [
+        "targeted by the stasi: revisiting the past | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/bArtnedm3eQ/default.jpg",
+        "12534"
+    ],
+    "TWpCj8jIxkY": [
+        "the berlin wall \u2013 life 30 years after the fall | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/TWpCj8jIxkY/default.jpg",
+        "82847"
+    ],
+    "iLVhkdefZLU": [
+        "women's football in kabul | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/iLVhkdefZLU/default.jpg",
+        "10078"
+    ],
+    "S5Zre_puj6g": [
+        "how psychiatric patients became victims  | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/S5Zre_puj6g/default.jpg",
+        "23872"
+    ],
+    "KSwqdl0Q9F8": [
+        "living with bipolar disorder: maarten opens up | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/KSwqdl0Q9F8/default.jpg",
+        "20594"
+    ],
+    "xIBf48PP9hI": [
+        "bosnia's invisible children: living in dignity | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/xIBf48PP9hI/default.jpg",
+        "94063"
+    ],
+    "J6QV5wb4DeA": [
+        "hong kong protests \u2014 video diary of an uprising | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/J6QV5wb4DeA/default.jpg",
+        "96369"
+    ],
+    "4a0-WnFA1wA": [
+        "from taxi driver to opera star \u2014 a transformation | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/4a0-WnFA1wA/default.jpg",
+        "9055"
+    ],
+    "8FLXf-mW5QI": [
+        "the dinosaur village | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/8FLXf-mW5QI/default.jpg",
+        "45730"
+    ],
+    "CidaOP7PA-o": [
+        "the great death of insects | dw documentary (ecology documentary)",
+        "1070000",
+        "https://i.ytimg.com/vi/CidaOP7PA-o/default.jpg",
+        "105456"
+    ],
+    "ApdC4hBYxMY": [
+        "atom, mon amour \u2014 france's faith in nuclear energy | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/ApdC4hBYxMY/default.jpg",
+        "57996"
+    ],
+    "x6sM5sShTSs": [
+        "the snake catchers of bangkok | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/x6sM5sShTSs/default.jpg",
+        "7869"
+    ],
+    "W1u57UB8Zno": [
+        "the arctic is melting | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/W1u57UB8Zno/default.jpg",
+        "14115"
+    ],
+    "peOvrU4WVbs": [
+        "mission on the amazon | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/peOvrU4WVbs/default.jpg",
+        "11351"
+    ],
+    "vFfW4Vp2J8U": [
+        "pushing the limit: ironman sebastian kienle | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/vFfW4Vp2J8U/default.jpg",
+        "35108"
+    ],
+    "2Hy4ggArPrE": [
+        "german colonialism in namibia | dw documentary (colonialism documentary)",
+        "1070000",
+        "https://i.ytimg.com/vi/2Hy4ggArPrE/default.jpg",
+        "140854"
+    ],
+    "U0aNeYZL8jY": [
+        "melting ice \u2013 the future of the arctic | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/U0aNeYZL8jY/default.jpg",
+        "74969"
+    ],
+    "HKQoRg0dZg4": [
+        "human trafficking in libya | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/HKQoRg0dZg4/default.jpg",
+        "27557"
+    ],
+    "l14L6vI-go4": [
+        "waiting for a lung \u2014 organ donors wanted |  dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/l14L6vI-go4/default.jpg",
+        "15814"
+    ],
+    "s0dMTAQM4cw": [
+        "artificial intelligence & algorithms: pros & cons | dw documentary (ai documentary)",
+        "1070000",
+        "https://i.ytimg.com/vi/s0dMTAQM4cw/default.jpg",
+        "389730"
+    ],
+    "H0k31FURJPg": [
+        "intersex \u2014 redefining gender | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/H0k31FURJPg/default.jpg",
+        "34387"
+    ],
+    "oCZr4j24dsg": [
+        "no more fish \u2014 empty net syndrome in greece | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/oCZr4j24dsg/default.jpg",
+        "130382"
+    ],
+    "rcCu3Yia6WU": [
+        "what neo-nazis have inherited from original nazism | dw documentary (neo-nazi documentary)",
+        "1070000",
+        "https://i.ytimg.com/vi/rcCu3Yia6WU/default.jpg",
+        "149253"
+    ],
+    "vTgMIivWu8o": [
+        "black market for dogs | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/vTgMIivWu8o/default.jpg",
+        "20777"
+    ],
+    "-fusUxEPwsw": [
+        "rubber tires \u2014 a dirty business | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/-fusUxEPwsw/default.jpg",
+        "1353879"
+    ],
+    "fufUZWz6fMo": [
+        "cancer, alzheimer's \u2014 our genes decide |  dw documentary (science documentary)",
+        "1070000",
+        "https://i.ytimg.com/vi/fufUZWz6fMo/default.jpg",
+        "69085"
+    ],
+    "QcXWCSyXMBM": [
+        "humboldt discovers biodiversity in the orinoco basin \u2014 part 5 | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/QcXWCSyXMBM/default.jpg",
+        "5054"
+    ],
+    "Kap1dQnkKPw": [
+        "tracing humboldt's tracks \u2014 part 6 | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/Kap1dQnkKPw/default.jpg",
+        "3194"
+    ],
+    "TySxK0GyBsM": [
+        "a. v. humboldt: everything is interaction \u2014 part 7 | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/TySxK0GyBsM/default.jpg",
+        "4883"
+    ],
+    "IecNzgdILic": [
+        "in humboldt's footsteps \u2014 part 3 | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/IecNzgdILic/default.jpg",
+        "5996"
+    ],
+    "5q4D7apcQ80": [
+        "alexander von humboldt in the americas \u2014 part 1 | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/5q4D7apcQ80/default.jpg",
+        "29777"
+    ],
+    "K2-mQ4UJpJ8": [
+        "the humboldt current \u2014 part 4 | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/K2-mQ4UJpJ8/default.jpg",
+        "5266"
+    ],
+    "G0Iq45Nbevk": [
+        "testosterone \u2014 new discoveries about the male hormone | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/G0Iq45Nbevk/default.jpg",
+        "664136"
+    ],
+    "EwllBdC0Iww": [
+        "turning toxic \u2014 the bayer-monsanto merger | dw documentary",
+        "1070000",
+        "https://i.ytimg.com/vi/EwllBdC0Iww/default.jpg",
+        "158794"
+    ],
+    "tfDUQ5O2w8Y": [
+        "best of the week - november 24, 2019 - joe rogan experience",
+        "3320000",
+        "https://i.ytimg.com/vi/tfDUQ5O2w8Y/default.jpg",
+        "64831"
+    ],
+    "x3dMnyYw40c": [
+        "joe rogan on ksi vs. logan paul 2",
+        "3320000",
+        "https://i.ytimg.com/vi/x3dMnyYw40c/default.jpg",
+        "533210"
+    ],
+    "ZvyzHyiJYSM": [
+        "joe rogan on deontay wilder's crazy ko of ortiz",
+        "3320000",
+        "https://i.ytimg.com/vi/ZvyzHyiJYSM/default.jpg",
+        "1269440"
+    ],
+    "0QpKLaCmKQM": [
+        "joe rogan on the upcoming ruiz vs. joshua rematch",
+        "3320000",
+        "https://i.ytimg.com/vi/0QpKLaCmKQM/default.jpg",
+        "741689"
+    ],
+    "bncjswefp6Y": [
+        "headbutts change everything w/firaz zahabi | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/bncjswefp6Y/default.jpg",
+        "186913"
+    ],
+    "vxj1ej2S-IU": [
+        "joe rogan talks kevin lee ko'ing gregor gillespie with trainer firas zahabi",
+        "3320000",
+        "https://i.ytimg.com/vi/vxj1ej2S-IU/default.jpg",
+        "392254"
+    ],
+    "8YojGkkAhs8": [
+        "joe rogan and firas zahabi on kazushi \u201cthe gracie hunter\u201d sakuraba",
+        "3320000",
+        "https://i.ytimg.com/vi/8YojGkkAhs8/default.jpg",
+        "291738"
+    ],
+    "HGqxbdLD4M0": [
+        "is georges st-pierre done fighting?",
+        "3320000",
+        "https://i.ytimg.com/vi/HGqxbdLD4M0/default.jpg",
+        "227031"
+    ],
+    "i8HyfEZ0T2Q": [
+        "a russian man died participating in the sauna world championship",
+        "3320000",
+        "https://i.ytimg.com/vi/i8HyfEZ0T2Q/default.jpg",
+        "483484"
+    ],
+    "pHvp_hFFY-U": [
+        "firas zahabi on the watering down of bjj",
+        "3320000",
+        "https://i.ytimg.com/vi/pHvp_hFFY-U/default.jpg",
+        "314556"
+    ],
+    "FMZFitVUw5E": [
+        "firas zahabi: some people don\u2019t know the reality of violence",
+        "3320000",
+        "https://i.ytimg.com/vi/FMZFitVUw5E/default.jpg",
+        "438904"
+    ],
+    "7dXvgPrmC68": [
+        "firas zahabi's pick for best bjj school in the world",
+        "3320000",
+        "https://i.ytimg.com/vi/7dXvgPrmC68/default.jpg",
+        "168938"
+    ],
+    "96B8_Vfkxmw": [
+        "should orthodox stance fighters learn to fight southpaw?",
+        "3320000",
+        "https://i.ytimg.com/vi/96B8_Vfkxmw/default.jpg",
+        "56926"
+    ],
+    "ojFfFgcBQ3A": [
+        "joe rogan: you can find peace through fighting",
+        "3320000",
+        "https://i.ytimg.com/vi/ojFfFgcBQ3A/default.jpg",
+        "31008"
+    ],
+    "xjs7Nu3PXsM": [
+        "jocko willink - what we should consider when going to war | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/xjs7Nu3PXsM/default.jpg",
+        "391807"
+    ],
+    "behsy2owilI": [
+        "tulsi gabbard on being called a \"russian asset\" by hillary clinton",
+        "3320000",
+        "https://i.ytimg.com/vi/behsy2owilI/default.jpg",
+        "600611"
+    ],
+    "RGNWZTFgaqg": [
+        "tulsi gabbard on receiving backlash over calling out kamala harris | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/RGNWZTFgaqg/default.jpg",
+        "251005"
+    ],
+    "YKXvBxPawZs": [
+        "tulsi gabbard on the corruptive power of money in politics",
+        "3320000",
+        "https://i.ytimg.com/vi/YKXvBxPawZs/default.jpg",
+        "68055"
+    ],
+    "_D78fDfuHPI": [
+        "this is how tulsi gabbard would rein in social media giants",
+        "3320000",
+        "https://i.ytimg.com/vi/_D78fDfuHPI/default.jpg",
+        "79938"
+    ],
+    "1PayXEyRhCI": [
+        "short-term thinking weakens our country at home and abroad",
+        "3320000",
+        "https://i.ytimg.com/vi/1PayXEyRhCI/default.jpg",
+        "35522"
+    ],
+    "0A1dTRCe7jg": [
+        "tulsi gabbard responds to criticism over fox news appearances",
+        "3320000",
+        "https://i.ytimg.com/vi/0A1dTRCe7jg/default.jpg",
+        "172011"
+    ],
+    "KFDngVmNFFM": [
+        "tulsi gabbard shares her thoughts on impeachment",
+        "3320000",
+        "https://i.ytimg.com/vi/KFDngVmNFFM/default.jpg",
+        "447683"
+    ],
+    "8m89ZxB4-UY": [
+        "tulsi gabbard: regime change wars hobble american diplomacy",
+        "3320000",
+        "https://i.ytimg.com/vi/8m89ZxB4-UY/default.jpg",
+        "31651"
+    ],
+    "w5o-zqII6eQ": [
+        "why tulsi gabbard sued google",
+        "3320000",
+        "https://i.ytimg.com/vi/w5o-zqII6eQ/default.jpg",
+        "306991"
+    ],
+    "8QiDl-v0GHY": [
+        "tulsi gabbard: the dangers of trump\u2019s twitter diplomacy",
+        "3320000",
+        "https://i.ytimg.com/vi/8QiDl-v0GHY/default.jpg",
+        "67027"
+    ],
+    "Tb0AokjhjTw": [
+        "jocko willink talks about his political convictions",
+        "3320000",
+        "https://i.ytimg.com/vi/Tb0AokjhjTw/default.jpg",
+        "109416"
+    ],
+    "9H9vF-Wlf6U": [
+        "joey diaz's nose doctor moment - jre toons",
+        "3320000",
+        "https://i.ytimg.com/vi/9H9vF-Wlf6U/default.jpg",
+        "106269"
+    ],
+    "fKISlSd0vLk": [
+        "best of the week - november 17, 2019 - joe rogan experience",
+        "3320000",
+        "https://i.ytimg.com/vi/fKISlSd0vLk/default.jpg",
+        "88719"
+    ],
+    "ywMQFy-3bac": [
+        "joe rogan on how candace owens gets underestimated",
+        "3320000",
+        "https://i.ytimg.com/vi/ywMQFy-3bac/default.jpg",
+        "217373"
+    ],
+    "fLxKLO0h7vk": [
+        "jeffrey epstein, jfk, and 9/11 - joe rogan & tim dillon",
+        "3320000",
+        "https://i.ytimg.com/vi/fLxKLO0h7vk/default.jpg",
+        "805448"
+    ],
+    "VkUyZRk-IWE": [
+        "what's destroying the great barrier reef? w/louie psihoyos | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/VkUyZRk-IWE/default.jpg",
+        "99277"
+    ],
+    "fX2ZtMAlizs": [
+        "josh homme was once stung by a scorpion | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/fX2ZtMAlizs/default.jpg",
+        "164345"
+    ],
+    "x82_yXchq_U": [
+        "joe rogan | what if bugs were big and intelligent? w/josh homme",
+        "3320000",
+        "https://i.ytimg.com/vi/x82_yXchq_U/default.jpg",
+        "272971"
+    ],
+    "aC321k61dcc": [
+        "josh homme talks esther hicks and the law of attraction",
+        "3320000",
+        "https://i.ytimg.com/vi/aC321k61dcc/default.jpg",
+        "282034"
+    ],
+    "yWvzJSlEX-M": [
+        "matt taibbi and joe rogan on the brilliance of hunter s. thompson",
+        "3320000",
+        "https://i.ytimg.com/vi/yWvzJSlEX-M/default.jpg",
+        "96842"
+    ],
+    "Uqxx9EFK6u0": [
+        "joe rogan asks matt taibbi if donald trump is on speed",
+        "3320000",
+        "https://i.ytimg.com/vi/Uqxx9EFK6u0/default.jpg",
+        "605909"
+    ],
+    "_WD_3cGQ0wc": [
+        "joe rogan on instagram hiding likes",
+        "3320000",
+        "https://i.ytimg.com/vi/_WD_3cGQ0wc/default.jpg",
+        "422804"
+    ],
+    "Vhu5GsaSGYs": [
+        "the curious death of sandra bland w/malcolm gladwell | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/Vhu5GsaSGYs/default.jpg",
+        "496881"
+    ],
+    "raX4BLcPepU": [
+        "rza shares the advice he gave martin shkreli",
+        "3320000",
+        "https://i.ytimg.com/vi/raX4BLcPepU/default.jpg",
+        "517909"
+    ],
+    "rp0frvfG-vw": [
+        "joe rogan - kevin smith is all day high",
+        "3320000",
+        "https://i.ytimg.com/vi/rp0frvfG-vw/default.jpg",
+        "177449"
+    ],
+    "2BcoXCD9rWQ": [
+        "donnell rawlings says dave chappelle loves worldstar videos | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/2BcoXCD9rWQ/default.jpg",
+        "107608"
+    ],
+    "goZm_zKByis": [
+        "nipsey hussle gave everything to the hood  - donnell rawlings",
+        "3320000",
+        "https://i.ytimg.com/vi/goZm_zKByis/default.jpg",
+        "156907"
+    ],
+    "oX5nz7aBH8E": [
+        "joe rogan: they snapped jeffrey epstein\u2019s neck",
+        "3320000",
+        "https://i.ytimg.com/vi/oX5nz7aBH8E/default.jpg",
+        "2296650"
+    ],
+    "W8WkukMityM": [
+        "pete dominick was told he'd have to pay-off people to run for congress | joe rogan",
+        "3320000",
+        "https://i.ytimg.com/vi/W8WkukMityM/default.jpg",
+        "93549"
+    ],
+    "seoFN5bCdL8": [
+        "how one fentanyl dealer morally justifies his business",
+        "3320000",
+        "https://i.ytimg.com/vi/seoFN5bCdL8/default.jpg",
+        "549938"
+    ],
+    "xsP0JvuuqAM": [
+        "how much time do we spend trying to get laid?",
+        "3320000",
+        "https://i.ytimg.com/vi/xsP0JvuuqAM/default.jpg",
+        "76726"
+    ],
+    "NSKGWR81Odw": [
+        "rick baker on \"the wolfman\" and working with benicio del toro",
+        "3320000",
+        "https://i.ytimg.com/vi/NSKGWR81Odw/default.jpg",
+        "77143"
+    ],
+    "RTUwjLj0xsI": [
+        "what was chris farley doing in the bathroom with andy dick?",
+        "3320000",
+        "https://i.ytimg.com/vi/RTUwjLj0xsI/default.jpg",
+        "338904"
+    ],
+    "p3TOMUbDwHs": [
+        "best of the week - october 27, 2019 - joe rogan experience",
+        "3320000",
+        "https://i.ytimg.com/vi/p3TOMUbDwHs/default.jpg",
+        "103048"
+    ],
+    "bE6l3LpqTUk": [
+        "the industry underestimated people\u2019s appetite for real conversation",
+        "3320000",
+        "https://i.ytimg.com/vi/bE6l3LpqTUk/default.jpg",
+        "183808"
+    ],
+    "8hY0Xa3G9IQ": [
+        "best cell phones [december 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/8hY0Xa3G9IQ/default.jpg",
+        "4134"
+    ],
+    "YQLsxL6NutA": [
+        "best cell phone plans [december 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/YQLsxL6NutA/default.jpg",
+        "3090"
+    ],
+    "LAttC8BMtrg": [
+        "should i get a 5g phone in 2020? here's the truth!",
+        "189000",
+        "https://i.ytimg.com/vi/LAttC8BMtrg/default.jpg",
+        "3953"
+    ],
+    "b7IUSc43Btk": [
+        "how to create a wordpress website [2020] for beginners + seo!",
+        "189000",
+        "https://i.ytimg.com/vi/b7IUSc43Btk/default.jpg",
+        "2786"
+    ],
+    "tZqx2LMyud8": [
+        "parental controls on iphone feat. eva amurri martino",
+        "189000",
+        "https://i.ytimg.com/vi/tZqx2LMyud8/default.jpg",
+        "1998"
+    ],
+    "nSbAn2ZLPI8": [
+        "7 mac settings you need to turn off now",
+        "189000",
+        "https://i.ytimg.com/vi/nSbAn2ZLPI8/default.jpg",
+        "7071"
+    ],
+    "KH86zMz5vxg": [
+        "why apple watch is a great gift for moms and dads",
+        "189000",
+        "https://i.ytimg.com/vi/KH86zMz5vxg/default.jpg",
+        "2761"
+    ],
+    "o1sCIZrs04g": [
+        "youtube silver creator award \ud83c\udfc6 unboxing [2019]",
+        "189000",
+        "https://i.ytimg.com/vi/o1sCIZrs04g/default.jpg",
+        "2618"
+    ],
+    "28RLTQU-_TM": [
+        "ten ios 13 settings to turn off now",
+        "189000",
+        "https://i.ytimg.com/vi/28RLTQU-_TM/default.jpg",
+        "197104"
+    ],
+    "czwFq_e-dMs": [
+        "how much money do youtubers make? the truth!",
+        "189000",
+        "https://i.ytimg.com/vi/czwFq_e-dMs/default.jpg",
+        "8911"
+    ],
+    "3FD-WCcC2Pk": [
+        "best cell phone plans [november 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/3FD-WCcC2Pk/default.jpg",
+        "9056"
+    ],
+    "xrYkzMjy_Nc": [
+        "best cell phones [november 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/xrYkzMjy_Nc/default.jpg",
+        "7727"
+    ],
+    "Zrt5inc2sVU": [
+        "10 ways to optimize your iphone",
+        "189000",
+        "https://i.ytimg.com/vi/Zrt5inc2sVU/default.jpg",
+        "27916"
+    ],
+    "fVgMexZO5Z8": [
+        "how to hard reset an iphone 11, 11 pro, and 11 pro max",
+        "189000",
+        "https://i.ytimg.com/vi/fVgMexZO5Z8/default.jpg",
+        "4839"
+    ],
+    "cdQl0vc9D3M": [
+        "11 ways to speed up your iphone",
+        "189000",
+        "https://i.ytimg.com/vi/cdQl0vc9D3M/default.jpg",
+        "30171"
+    ],
+    "14WFTNPXw3k": [
+        "october 2019 payette forward channel update",
+        "189000",
+        "https://i.ytimg.com/vi/14WFTNPXw3k/default.jpg",
+        "4656"
+    ],
+    "1MczJMNIf5g": [
+        "5 ipad settings you need to turn on now",
+        "189000",
+        "https://i.ytimg.com/vi/1MczJMNIf5g/default.jpg",
+        "10942"
+    ],
+    "Vb57sYbWBN4": [
+        "6 apple watch settings you should change now",
+        "189000",
+        "https://i.ytimg.com/vi/Vb57sYbWBN4/default.jpg",
+        "5492"
+    ],
+    "8IMFcYy2ALo": [
+        "my iphone 11, 11 pro, or 11 pro max won't turn off! here's the fix.",
+        "189000",
+        "https://i.ytimg.com/vi/8IMFcYy2ALo/default.jpg",
+        "12497"
+    ],
+    "y4CB8aMWZKU": [
+        "why being a youtuber is the best job in the world",
+        "189000",
+        "https://i.ytimg.com/vi/y4CB8aMWZKU/default.jpg",
+        "2227"
+    ],
+    "KsT4PdcZYTg": [
+        "iphone 11 pro vs. xs camera comparison: video & golf match",
+        "189000",
+        "https://i.ytimg.com/vi/KsT4PdcZYTg/default.jpg",
+        "1527"
+    ],
+    "t_hbOW6H-Gk": [
+        "my iphone 11, 11 pro, or 11 pro max won't turn on! here's the fix.",
+        "189000",
+        "https://i.ytimg.com/vi/t_hbOW6H-Gk/default.jpg",
+        "44261"
+    ],
+    "KKPYoudGEHo": [
+        "my iphone 11, 11 pro, or 11 pro max won't connect to wi-fi. here's the fix!",
+        "189000",
+        "https://i.ytimg.com/vi/KKPYoudGEHo/default.jpg",
+        "10925"
+    ],
+    "kPb0eKUdLfg": [
+        "my iphone 11, 11 pro, or 11 pro max won't ring! here's the fix.",
+        "189000",
+        "https://i.ytimg.com/vi/kPb0eKUdLfg/default.jpg",
+        "32378"
+    ],
+    "JzT8cUymD3I": [
+        "my iphone 11, 11 pro, or 11 pro max won't charge! here's the fix.",
+        "189000",
+        "https://i.ytimg.com/vi/JzT8cUymD3I/default.jpg",
+        "24919"
+    ],
+    "W035k5uk8Ew": [
+        "best cell phone plans for seniors",
+        "189000",
+        "https://i.ytimg.com/vi/W035k5uk8Ew/default.jpg",
+        "8832"
+    ],
+    "oQiUBy1VNSk": [
+        "how cell phone companies take advantage of seniors",
+        "189000",
+        "https://i.ytimg.com/vi/oQiUBy1VNSk/default.jpg",
+        "2102"
+    ],
+    "ynFVLzdKViU": [
+        "how to put an iphone 11, iphone 11 pro, or iphone 11 pro max in dfu mode",
+        "189000",
+        "https://i.ytimg.com/vi/ynFVLzdKViU/default.jpg",
+        "9703"
+    ],
+    "eZHudOOsB1k": [
+        "7 ipad settings you need to turn off now",
+        "189000",
+        "https://i.ytimg.com/vi/eZHudOOsB1k/default.jpg",
+        "55951"
+    ],
+    "exe6NgrRZlI": [
+        "best cell phones [october 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/exe6NgrRZlI/default.jpg",
+        "7100"
+    ],
+    "JyJ9K0WNRbM": [
+        "best cell phone plans [october 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/JyJ9K0WNRbM/default.jpg",
+        "10585"
+    ],
+    "ttP4cbPpmhs": [
+        "3 reasons why you should apply for apple's credit card",
+        "189000",
+        "https://i.ytimg.com/vi/ttP4cbPpmhs/default.jpg",
+        "8329"
+    ],
+    "H12DPijkMUc": [
+        "apple lied. this is not for pros!",
+        "189000",
+        "https://i.ytimg.com/vi/H12DPijkMUc/default.jpg",
+        "6491"
+    ],
+    "q_bvwm4Euq4": [
+        "how to turn off dark mode on iphone in ios 13",
+        "189000",
+        "https://i.ytimg.com/vi/q_bvwm4Euq4/default.jpg",
+        "29492"
+    ],
+    "hCVNmn-9Lr8": [
+        "why the internet hated the apple event & the iphone 11 pro",
+        "189000",
+        "https://i.ytimg.com/vi/hCVNmn-9Lr8/default.jpg",
+        "5290"
+    ],
+    "UZW5wA9f9rc": [
+        "13 ios 13 iphone battery tips: best settings to turn on & off",
+        "189000",
+        "https://i.ytimg.com/vi/UZW5wA9f9rc/default.jpg",
+        "203560"
+    ],
+    "8neOn4dBY58": [
+        "7 safari tips you didn't know about",
+        "189000",
+        "https://i.ytimg.com/vi/8neOn4dBY58/default.jpg",
+        "14748"
+    ],
+    "HdB2cThv4o0": [
+        "what apple left out of the iphone 11 event",
+        "189000",
+        "https://i.ytimg.com/vi/HdB2cThv4o0/default.jpg",
+        "14060"
+    ],
+    "958LHYp9704": [
+        "apple event recap in 5 minutes: iphone 11 pro, ipad 7th gen, apple watch series 5, apple tv+, & more",
+        "189000",
+        "https://i.ytimg.com/vi/958LHYp9704/default.jpg",
+        "10596"
+    ],
+    "vcK3RZCJ_oQ": [
+        "$100,000 mac pro!? apple's most expensive computer!",
+        "189000",
+        "https://i.ytimg.com/vi/vcK3RZCJ_oQ/default.jpg",
+        "3726"
+    ],
+    "LEqmpqiOxkQ": [
+        "iphone 11 leaks & rumors: fact or fiction?",
+        "189000",
+        "https://i.ytimg.com/vi/LEqmpqiOxkQ/default.jpg",
+        "5110"
+    ],
+    "VX2SJZmJjV4": [
+        "best cell phones for seniors",
+        "189000",
+        "https://i.ytimg.com/vi/VX2SJZmJjV4/default.jpg",
+        "10526"
+    ],
+    "fzlzUSoMvkc": [
+        "best cell phones [september 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/fzlzUSoMvkc/default.jpg",
+        "11805"
+    ],
+    "E0NpcA7BHnQ": [
+        "best cell phone plans [september 2019]",
+        "189000",
+        "https://i.ytimg.com/vi/E0NpcA7BHnQ/default.jpg",
+        "8656"
+    ],
+    "9wWg3SmY2pA": [
+        "unveiling our new (fake) iphone 11, rumor updates, & best plans",
+        "189000",
+        "https://i.ytimg.com/vi/9wWg3SmY2pA/default.jpg",
+        "2825"
+    ],
+    "AGKVV4NABNA": [
+        "how to update apps on iphone [ios 13]",
+        "189000",
+        "https://i.ytimg.com/vi/AGKVV4NABNA/default.jpg",
+        "28488"
+    ],
+    "gqdx11GfxHQ": [
+        "5 iphone mistakes you need to stop making now",
+        "189000",
+        "https://i.ytimg.com/vi/gqdx11GfxHQ/default.jpg",
+        "271040"
+    ],
+    "a0pyMOd-3Rw": [
+        "how to create an email account on iphone",
+        "189000",
+        "https://i.ytimg.com/vi/a0pyMOd-3Rw/default.jpg",
+        "3958"
+    ],
+    "oAjDKSlAvAY": [
+        "how to set up an email account on iphone",
+        "189000",
+        "https://i.ytimg.com/vi/oAjDKSlAvAY/default.jpg",
+        "2894"
+    ],
+    "EWsrWLM2IRk": [
+        "how to set up oculus rift s on mac! works perfect!",
+        "189000",
+        "https://i.ytimg.com/vi/EWsrWLM2IRk/default.jpg",
+        "6136"
+    ],
+    "sf3adAPotrM": [
+        "our immigration conversation is broken -- here's how to have a better one | paul a. kramer",
+        "15500000",
+        "https://i.ytimg.com/vi/sf3adAPotrM/default.jpg",
+        "35081"
+    ],
+    "fFJeTy1_8Ng": [
+        "urban architecture inspired by mountains, clouds and volcanoes | ma yansong",
+        "15500000",
+        "https://i.ytimg.com/vi/fFJeTy1_8Ng/default.jpg",
+        "67099"
+    ],
+    "8UNCvk9YXOo": [
+        "what happens to people in solitary confinement | laura rovner",
+        "15500000",
+        "https://i.ytimg.com/vi/8UNCvk9YXOo/default.jpg",
+        "106487"
+    ],
+    "TLZ6W-Nqv1I": [
+        "the business case for working with your toughest critics | bob langert",
+        "15500000",
+        "https://i.ytimg.com/vi/TLZ6W-Nqv1I/default.jpg",
+        "38125"
+    ],
+    "kdAs3UVgIGg": [
+        "the next software revolution: programming biological cells | sara-jane dunn",
+        "15500000",
+        "https://i.ytimg.com/vi/kdAs3UVgIGg/default.jpg",
+        "69381"
+    ],
+    "O_MQr4lHm0c": [
+        "how changing your story can change your life | lori gottlieb",
+        "15500000",
+        "https://i.ytimg.com/vi/O_MQr4lHm0c/default.jpg",
+        "298169"
+    ],
+    "uFt-q8HgYpI": [
+        "how we can eliminate child sexual abuse material from the internet | julie cordua",
+        "15500000",
+        "https://i.ytimg.com/vi/uFt-q8HgYpI/default.jpg",
+        "67511"
+    ],
+    "TSDOXxlT0U0": [
+        "what bruce lee can teach us about living fully | shannon lee",
+        "15500000",
+        "https://i.ytimg.com/vi/TSDOXxlT0U0/default.jpg",
+        "178581"
+    ],
+    "idfv7Lw4Y_s": [
+        "this ancient rock is changing our theory on the origin of life | tara djokic",
+        "15500000",
+        "https://i.ytimg.com/vi/idfv7Lw4Y_s/default.jpg",
+        "371179"
+    ],
+    "th3KE_H27bs": [
+        "the dirty secret of capitalism -- and a new way forward | nick hanauer",
+        "15500000",
+        "https://i.ytimg.com/vi/th3KE_H27bs/default.jpg",
+        "476497"
+    ],
+    "HzAtOyw6ACw": [
+        "what reading slowly taught me about writing | jacqueline woodson",
+        "15500000",
+        "https://i.ytimg.com/vi/HzAtOyw6ACw/default.jpg",
+        "96132"
+    ],
+    "uU2L5nTSHtc": [
+        "how one tree grows 40 different kinds of fruit | sam van aken",
+        "15500000",
+        "https://i.ytimg.com/vi/uU2L5nTSHtc/default.jpg",
+        "132798"
+    ],
+    "9A7_xCrgX1U": [
+        "a climate change solution that's right under our feet | asmeret asefaw berhe:",
+        "15500000",
+        "https://i.ytimg.com/vi/9A7_xCrgX1U/default.jpg",
+        "84901"
+    ],
+    "byAogVoMViE": [
+        "how i help people understand vitiligo | lee thomas",
+        "15500000",
+        "https://i.ytimg.com/vi/byAogVoMViE/default.jpg",
+        "430570"
+    ],
+    "dsJWs6Z6eNs": [
+        "how the west can adapt to a rising asia | kishore mahbubani",
+        "15500000",
+        "https://i.ytimg.com/vi/dsJWs6Z6eNs/default.jpg",
+        "110407"
+    ],
+    "Zd_Lbg9jroU": [
+        "the power to think ahead in a reckless age | bina venkataraman",
+        "15500000",
+        "https://i.ytimg.com/vi/Zd_Lbg9jroU/default.jpg",
+        "92608"
+    ],
+    "flb_S5JJC4k": [
+        "what it was like to grow up under china's one-child policy | nanfu wang",
+        "15500000",
+        "https://i.ytimg.com/vi/flb_S5JJC4k/default.jpg",
+        "411667"
+    ],
+    "OQuwz64qsBM": [
+        "why kids need to learn about gender and sexuality | lindsay amer",
+        "15500000",
+        "https://i.ytimg.com/vi/OQuwz64qsBM/default.jpg",
+        "136240"
+    ],
+    "R9XKRR7aKHI": [
+        "the story we tell about millennials -- and who we leave out | reniqua allen",
+        "15500000",
+        "https://i.ytimg.com/vi/R9XKRR7aKHI/default.jpg",
+        "81847"
+    ],
+    "Stt4iGMiHiI": [
+        "architectural secrets of the world's ancient wonders | brandon clifford",
+        "15500000",
+        "https://i.ytimg.com/vi/Stt4iGMiHiI/default.jpg",
+        "88011"
+    ],
+    "ppfONdsOkWI": [
+        "3 steps to turn everyday get-togethers into transformative gatherings | priya parker",
+        "15500000",
+        "https://i.ytimg.com/vi/ppfONdsOkWI/default.jpg",
+        "83230"
+    ],
+    "A2DzsgJSwcc": [
+        "the mysterious microbes living deep inside the earth -- and how they could help humanity | k. lloyd",
+        "15500000",
+        "https://i.ytimg.com/vi/A2DzsgJSwcc/default.jpg",
+        "92152"
+    ],
+    "iB4MS1hsWXU": [
+        "the lies our culture tells us about what matters --- and a better way to live | david brooks",
+        "15500000",
+        "https://i.ytimg.com/vi/iB4MS1hsWXU/default.jpg",
+        "1349470"
+    ],
+    "DTcJmIbn5nw": [
+        "\"everything happens for a reason\" -- and other lies i've loved | kate bowler",
+        "15500000",
+        "https://i.ytimg.com/vi/DTcJmIbn5nw/default.jpg",
+        "1636613"
+    ],
+    "RZgkjEdMbSw": [
+        "how to deconstruct racism, one headline at a time | baratunde thurston",
+        "15500000",
+        "https://i.ytimg.com/vi/RZgkjEdMbSw/default.jpg",
+        "436448"
+    ],
+    "RjquHTj4HlY": [
+        "my identity is a superpower -- not an obstacle | america ferrera",
+        "15500000",
+        "https://i.ytimg.com/vi/RjquHTj4HlY/default.jpg",
+        "131996"
+    ],
+    "SGTMSV8QUrs": [
+        "the anti-ceo playbook | hamdi ulukaya",
+        "15500000",
+        "https://i.ytimg.com/vi/SGTMSV8QUrs/default.jpg",
+        "128012"
+    ],
+    "87qLWFZManA": [
+        "three ideas. three contradictions. or not. | hannah gadsby",
+        "15500000",
+        "https://i.ytimg.com/vi/87qLWFZManA/default.jpg",
+        "497078"
+    ],
+    "ON4iy8hq2hM": [
+        "the difference between healthy and unhealthy love | katie hood",
+        "15500000",
+        "https://i.ytimg.com/vi/ON4iy8hq2hM/default.jpg",
+        "1321013"
+    ],
+    "OQSMr-3GGvQ": [
+        "facebook's role in brexit \u2014 and the threat to democracy | carole cadwalladr",
+        "15500000",
+        "https://i.ytimg.com/vi/OQSMr-3GGvQ/default.jpg",
+        "803419"
+    ],
+    "a63t8r70QN0": [
+        "what you should know about vaping and e-cigarettes | suchitra krishnan-sarin",
+        "15500000",
+        "https://i.ytimg.com/vi/a63t8r70QN0/default.jpg",
+        "206045"
+    ],
+    "5MuIMqhT8DM": [
+        "sleep is your superpower | matt walker",
+        "15500000",
+        "https://i.ytimg.com/vi/5MuIMqhT8DM/default.jpg",
+        "3452253"
+    ],
+    "qAC-5hTK-4c": [
+        "how your brain's executive function works -- and how to improve it | sabine doebel",
+        "15500000",
+        "https://i.ytimg.com/vi/qAC-5hTK-4c/default.jpg",
+        "128770"
+    ],
+    "DBBA2LAsepU": [
+        "why we ignore obvious problems \u2014 and how to act on them | michele wucker",
+        "15500000",
+        "https://i.ytimg.com/vi/DBBA2LAsepU/default.jpg",
+        "92228"
+    ],
+    "uyMtsyzXWd4": [
+        "inside the black hole image that made history | sheperd doeleman",
+        "15500000",
+        "https://i.ytimg.com/vi/uyMtsyzXWd4/default.jpg",
+        "812390"
+    ],
+    "vXlJEcrinwg": [
+        "how empowering women and girls can help stop global warming | katharine wilkinson",
+        "15500000",
+        "https://i.ytimg.com/vi/vXlJEcrinwg/default.jpg",
+        "78564"
+    ],
+    "H2QxFM9y0tY": [
+        "the disarming case to act right now on climate change | greta thunberg",
+        "15500000",
+        "https://i.ytimg.com/vi/H2QxFM9y0tY/default.jpg",
+        "1612551"
+    ],
+    "mCHC99MqVfE": [
+        "why you should bring your whole self to work | the way we work, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/mCHC99MqVfE/default.jpg",
+        "103532"
+    ],
+    "PYJ22-YYNW8": [
+        "this is what makes employees happy at work | the way we work, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/PYJ22-YYNW8/default.jpg",
+        "295817"
+    ],
+    "x6fIseKzzH0": [
+        "why working from home is good for business | the way we work, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/x6fIseKzzH0/default.jpg",
+        "181644"
+    ],
+    "UJz69v_7258": [
+        "how to make applying for jobs less painful | the way we work, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/UJz69v_7258/default.jpg",
+        "92164"
+    ],
+    "H8rDS6Wto5g": [
+        "7 common questions about workplace romance | the way we work, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/H8rDS6Wto5g/default.jpg",
+        "227625"
+    ],
+    "iBa9EoEbb38": [
+        "8 lessons on building a company people enjoy working for | the way we work, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/iBa9EoEbb38/default.jpg",
+        "387591"
+    ],
+    "yjYrxcGSWX4": [
+        "a powerful way to unleash your natural creativity | tim harford",
+        "15500000",
+        "https://i.ytimg.com/vi/yjYrxcGSWX4/default.jpg",
+        "185600"
+    ],
+    "-BvcToPZCLI": [
+        "the most important thing you can do to fight climate change: talk about it | katharine hayhoe",
+        "15500000",
+        "https://i.ytimg.com/vi/-BvcToPZCLI/default.jpg",
+        "108581"
+    ],
+    "AHV_BxlNzmM": [
+        "when technology can read minds, how will we protect our privacy? | nita farahany",
+        "15500000",
+        "https://i.ytimg.com/vi/AHV_BxlNzmM/default.jpg",
+        "90046"
+    ],
+    "dDClQv1SeeE": [
+        "how nationalism and globalism can coexist | wanis kabbaj",
+        "15500000",
+        "https://i.ytimg.com/vi/dDClQv1SeeE/default.jpg",
+        "68056"
+    ],
+    "4xKgo0_HGRM": [
+        "the hidden ways stairs shape your life | small thing big idea, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/4xKgo0_HGRM/default.jpg",
+        "120778"
+    ],
+    "7LN4L5EMmmc": [
+        "how the button changed fashion | small thing big idea, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/7LN4L5EMmmc/default.jpg",
+        "103939"
+    ],
+    "NuBtcUGqgMc": [
+        "how the jump rope got its rhythm | small thing big idea, a ted series",
+        "15500000",
+        "https://i.ytimg.com/vi/NuBtcUGqgMc/default.jpg",
+        "109608"
+    ],
+    "Bx5hxm9iNfE": [
+        "pastry chef attempts to make gourmet warheads | gourmet makes | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/Bx5hxm9iNfE/default.jpg",
+        "1779875"
+    ],
+    "IYOa54hxulQ": [
+        "sohla makes red lentil zucchini fritters | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/IYOa54hxulQ/default.jpg",
+        "328109"
+    ],
+    "A2VAN7PtQW0": [
+        "every way to cook a tomato (47 methods) | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/A2VAN7PtQW0/default.jpg",
+        "1181749"
+    ],
+    "KwFhEB34Hj8": [
+        "pro chefs compete in a pizza making speed challenge | test kitchen talks | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/KwFhEB34Hj8/default.jpg",
+        "695249"
+    ],
+    "hoz5GmDhzUs": [
+        "deandre jordan tries to keep up with a professional chef | back-to-back chef | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/hoz5GmDhzUs/default.jpg",
+        "578128"
+    ],
+    "IsMonxeCQqE": [
+        "pro chef learns how to cook ostrich eggs | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/IsMonxeCQqE/default.jpg",
+        "1625105"
+    ],
+    "HzUIUTatyZI": [
+        "pastry chef attempts to make gourmet krispy kreme doughnuts | gourmet makes | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/HzUIUTatyZI/default.jpg",
+        "3502231"
+    ],
+    "_VPMVJ8fVC0": [
+        "hailee steinfeld tries to keep up with a professional chef | back-to-back chef | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/_VPMVJ8fVC0/default.jpg",
+        "920323"
+    ],
+    "PMAPGcO-s1c": [
+        "pro chefs decide if 9 foods are a meal or a snack | test kitchen talks | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/PMAPGcO-s1c/default.jpg",
+        "865914"
+    ],
+    "Dxt2QE3wl90": [
+        "brad makes surf & turf on an outdoor grill (part 2) | it's alive goin' places | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/Dxt2QE3wl90/default.jpg",
+        "898743"
+    ],
+    "iV3p2P7jA2A": [
+        "the ba test kitchen makes the perfect thanksgiving meal | making perfect: thanksgiving finale",
+        "4830000",
+        "https://i.ytimg.com/vi/iV3p2P7jA2A/default.jpg",
+        "1701790"
+    ],
+    "8wAgaNPRnbU": [
+        "recreating snoop dogg's lobster thermidor from taste | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/8wAgaNPRnbU/default.jpg",
+        "1855869"
+    ],
+    "BW1x6F63F80": [
+        "pro chefs make their favorite egg recipes | test kitchen talks | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/BW1x6F63F80/default.jpg",
+        "1839149"
+    ],
+    "8aP8sbQuQDg": [
+        "molly and adam make pumpkin chiffon pie | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/8aP8sbQuQDg/default.jpg",
+        "565439"
+    ],
+    "LCkneiz2JPo": [
+        "pastry chef attempts to make gourmet mentos | gourmet makes | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/LCkneiz2JPo/default.jpg",
+        "2992675"
+    ],
+    "IYvJIgjLzxs": [
+        "claire & brad make the perfect thanksgiving pie | making perfect: thanksgiving ep 5 | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/IYvJIgjLzxs/default.jpg",
+        "2170349"
+    ],
+    "1nVKV3LyCQA": [
+        "priya makes garlic ginger chicken | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/1nVKV3LyCQA/default.jpg",
+        "474154"
+    ],
+    "mWfn2PLkwJg": [
+        "professional chefs answer 14 common steak questions | test kitchen talks | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/mWfn2PLkwJg/default.jpg",
+        "777111"
+    ],
+    "YsFFYS5WPeo": [
+        "brad makes an outdoor grill (part 1) | it's alive: goin' places | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/YsFFYS5WPeo/default.jpg",
+        "879056"
+    ],
+    "Ea-qS1zCT5A": [
+        "claire & christina try to make the perfect thanksgiving sides | making perfect: thanksgiving ep 4",
+        "4830000",
+        "https://i.ytimg.com/vi/Ea-qS1zCT5A/default.jpg",
+        "1419046"
+    ],
+    "LrRzZXuE9qA": [
+        "pastry chef attempts to make gourmet takis | gourmet makes | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/LrRzZXuE9qA/default.jpg",
+        "4664307"
+    ],
+    "jrLJ4ra7s3E": [
+        "carla makes thanksgiving stuffing | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/jrLJ4ra7s3E/default.jpg",
+        "874176"
+    ],
+    "b_8YvN1ptng": [
+        "pro chef learns how to make a raindrop cake | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/b_8YvN1ptng/default.jpg",
+        "1582067"
+    ],
+    "1kC51RAGef4": [
+        "rick makes pork tamales | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/1kC51RAGef4/default.jpg",
+        "669074"
+    ],
+    "pSyCiMyQVgU": [
+        "trying everything on the menu at a famous nyc taco shop (ft rick martinez) | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/pSyCiMyQVgU/default.jpg",
+        "800502"
+    ],
+    "0j9XYLsV5DM": [
+        "chris and rick try to make the perfect stuffing | making perfect: thanksgiving ep 3 | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/0j9XYLsV5DM/default.jpg",
+        "1425089"
+    ],
+    "P3rF5t7tegs": [
+        "professional chefs blindly taste test cured meats | test kitchen talks | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/P3rF5t7tegs/default.jpg",
+        "1065969"
+    ],
+    "MSgbPZOIBHk": [
+        "andy learns how to cook senegalese food | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/MSgbPZOIBHk/default.jpg",
+        "521549"
+    ],
+    "nq9x9GtUuu4": [
+        "priya makes red pepper and potato sabzi | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/nq9x9GtUuu4/default.jpg",
+        "338119"
+    ],
+    "RXAEN8MP8N4": [
+        "brad makes ginger beer | it's alive | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/RXAEN8MP8N4/default.jpg",
+        "1883905"
+    ],
+    "zO5qtrG_ln4": [
+        "molly and carla try to make the perfect mashed potatoes & gravy | making perfect: thanksgiving ep 2",
+        "4830000",
+        "https://i.ytimg.com/vi/zO5qtrG_ln4/default.jpg",
+        "2481754"
+    ],
+    "jhe4GjxrM_Q": [
+        "pastry chef attempts to make gourmet ruffles | gourmet makes | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/jhe4GjxrM_Q/default.jpg",
+        "3857166"
+    ],
+    "AbxbOd_mtn8": [
+        "every way to cook salmon (43 methods) | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/AbxbOd_mtn8/default.jpg",
+        "1800195"
+    ],
+    "qBGepey5_o4": [
+        "carla makes roasted pork | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/qBGepey5_o4/default.jpg",
+        "689682"
+    ],
+    "E3e20718ioY": [
+        "recreating guy fieri's trash can nachos from taste | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/E3e20718ioY/default.jpg",
+        "2360611"
+    ],
+    "brAJ7pEudFU": [
+        "brad and andy try to make the perfect turkey & cranberry sauce | making perfect: thanksgiving ep 1",
+        "4830000",
+        "https://i.ytimg.com/vi/brAJ7pEudFU/default.jpg",
+        "3010551"
+    ],
+    "GhxEr2-sA2I": [
+        "what makes the perfect thanksgiving meal? | making perfect: thanksgiving - prologue | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/GhxEr2-sA2I/default.jpg",
+        "906686"
+    ],
+    "RApzagDfqdc": [
+        "andy makes ba's best pesto | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/RApzagDfqdc/default.jpg",
+        "729621"
+    ],
+    "zr8wAm7i-vo": [
+        "brad makes fermented popcorn seasoning | it's alive | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/zr8wAm7i-vo/default.jpg",
+        "1628592"
+    ],
+    "ppi0khS0s_8": [
+        "pastry chef attempts to make gourmet sour patch kids | gourmet makes | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/ppi0khS0s_8/default.jpg",
+        "4802306"
+    ],
+    "RQV4jUi4Nas": [
+        "wwe superstar braun strowman tries to keep up with a professional chef | back-to-back chef",
+        "4830000",
+        "https://i.ytimg.com/vi/RQV4jUi4Nas/default.jpg",
+        "1144030"
+    ],
+    "_LyR8Nhzoxw": [
+        "pro chefs give 26 cooking tips for every letter a-z | test kitchen talks | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/_LyR8Nhzoxw/default.jpg",
+        "940581"
+    ],
+    "VF6WPDZF9kk": [
+        "molly makes coconut grilled chicken, steak and shrimp | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/VF6WPDZF9kk/default.jpg",
+        "785902"
+    ],
+    "6HDc8B1RxzU": [
+        "rick makes apple pie | from the test kitchen | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/6HDc8B1RxzU/default.jpg",
+        "603845"
+    ],
+    "Jpd_CUX2o98": [
+        "every way to cook a steak (43 methods) | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/Jpd_CUX2o98/default.jpg",
+        "4166322"
+    ],
+    "0olmZzsF4Xo": [
+        "pro chef learns how to carve a $1,500 leg of ham | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/0olmZzsF4Xo/default.jpg",
+        "2433635"
+    ],
+    "BriBDiBxaMY": [
+        "pastry chef attempts to make gourmet hot pockets | gourmet makes | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/BriBDiBxaMY/default.jpg",
+        "4882261"
+    ],
+    "49edFdjw920": [
+        "professional chefs show us their knives | test kitchen talks | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/49edFdjw920/default.jpg",
+        "1318828"
+    ],
+    "wiCRhrWpDbI": [
+        "brad and matty matheson go noodling for catfish part 2 | it's alive | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/wiCRhrWpDbI/default.jpg",
+        "1667991"
+    ],
+    "-JkcZRBUNtw": [
+        "brad and matty matheson go noodling for catfish part 1 | it's alive | bon app\u00e9tit",
+        "4830000",
+        "https://i.ytimg.com/vi/-JkcZRBUNtw/default.jpg",
+        "2350174"
+    ],
+    "D8XheaeGVlk": [
+        "trying french army rations: tastiest in the world!?!",
+        "1650000",
+        "https://i.ytimg.com/vi/D8XheaeGVlk/default.jpg",
+        "460259"
+    ],
+    "l114-xE5JHI": [
+        "british 2 year-old tries oreos for the first time!!",
+        "1650000",
+        "https://i.ytimg.com/vi/l114-xE5JHI/default.jpg",
+        "2107935"
+    ],
+    "RlsYc_w-doM": [
+        "samsung sent us an 82-inch tv?!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/RlsYc_w-doM/default.jpg",
+        "601076"
+    ],
+    "pmY1tiJD-us": [
+        "jolly mail time!! we get sent some crazy stuff!!!!",
+        "1650000",
+        "https://i.ytimg.com/vi/pmY1tiJD-us/default.jpg",
+        "382439"
+    ],
+    "aK6j-wHpGT4": [
+        "live with rev. chris!!! \uc2e0\ubd80\ub2d8\uacfc \ub77c\uc774\ube0c!!!",
+        "1650000",
+        "https://i.ytimg.com/vi/aK6j-wHpGT4/default.jpg",
+        "126112"
+    ],
+    "e7A-lHlmShA": [
+        "how we almost got a super m world exclusive",
+        "1650000",
+        "https://i.ytimg.com/vi/e7A-lHlmShA/default.jpg",
+        "388233"
+    ],
+    "WbvCwPav9bA": [
+        "british priest reacts to \"dank christian memes\"?!!",
+        "1650000",
+        "https://i.ytimg.com/vi/WbvCwPav9bA/default.jpg",
+        "1546087"
+    ],
+    "65kPnykzvJI": [
+        "how we filmed with arnold schwarzenegger \ud83d\ude31",
+        "1650000",
+        "https://i.ytimg.com/vi/65kPnykzvJI/default.jpg",
+        "365630"
+    ],
+    "nQA6AYhiv0I": [
+        "we spoke only in korean for 24 hours... (ollie's reaction?!\ud83d\ude02)",
+        "1650000",
+        "https://i.ytimg.com/vi/nQA6AYhiv0I/default.jpg",
+        "812340"
+    ],
+    "HNYa1eaw6GU": [
+        "how we filmed with david beckham \ud83d\ude31",
+        "1650000",
+        "https://i.ytimg.com/vi/HNYa1eaw6GU/default.jpg",
+        "591801"
+    ],
+    "nkn1r7kHNNA": [
+        "trying some crazy hawaiian snacks!?! (whole crispy crabs!?!)",
+        "1650000",
+        "https://i.ytimg.com/vi/nkn1r7kHNNA/default.jpg",
+        "390967"
+    ],
+    "bMivrLg5-Tk": [
+        "real priest reacts to \"all the good girls go to hell\"!!? (billie eilish)",
+        "1650000",
+        "https://i.ytimg.com/vi/bMivrLg5-Tk/default.jpg",
+        "3252777"
+    ],
+    "o7bD7dwzWP0": [
+        "ollie's wife lizzie transforms our set!!!! (+ she doesn't watch our videos \ud83d\ude2d)",
+        "1650000",
+        "https://i.ytimg.com/vi/o7bD7dwzWP0/default.jpg",
+        "567179"
+    ],
+    "lALDNo9xeOQ": [
+        "we meet the real tommy hilfiger!?! (.....jolly hilfiger!!!)",
+        "1650000",
+        "https://i.ytimg.com/vi/lALDNo9xeOQ/default.jpg",
+        "485873"
+    ],
+    "DRstKX5fLcM": [
+        "\"i studied korean for 2 years.\" how much did i learn???",
+        "1650000",
+        "https://i.ytimg.com/vi/DRstKX5fLcM/default.jpg",
+        "554578"
+    ],
+    "p11E9jQB87U": [
+        "world's unhealthiest cereal (rare all-sugar lucky charms!?!)",
+        "1650000",
+        "https://i.ytimg.com/vi/p11E9jQB87U/default.jpg",
+        "594898"
+    ],
+    "T_5Xh9padyg": [
+        "taste tasting a \u201czebra tarantula\u201d!!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/T_5Xh9padyg/default.jpg",
+        "397889"
+    ],
+    "13Rn60CEH_Y": [
+        "ultimate german snack haul!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/13Rn60CEH_Y/default.jpg",
+        "688232"
+    ],
+    "pyxReIV1TQg": [
+        "indomie sent us a box of secret goods!?!? (not an ad\ud83d\ude02)",
+        "1650000",
+        "https://i.ytimg.com/vi/pyxReIV1TQg/default.jpg",
+        "867571"
+    ],
+    "E9jb16KOjXs": [
+        "the ultimate fudge flavour taste test!!",
+        "1650000",
+        "https://i.ytimg.com/vi/E9jb16KOjXs/default.jpg",
+        "627200"
+    ],
+    "OiMYxnCd-xU": [
+        "british priest gives relationship advice on reddit?!",
+        "1650000",
+        "https://i.ytimg.com/vi/OiMYxnCd-xU/default.jpg",
+        "736545"
+    ],
+    "U3vZCVUUDwE": [
+        "best burger in the uk. the search is over. we've found it.",
+        "1650000",
+        "https://i.ytimg.com/vi/U3vZCVUUDwE/default.jpg",
+        "492799"
+    ],
+    "HKBU3lD-cBc": [
+        "iranian dad introduces us to iranian afternoon tea!!??",
+        "1650000",
+        "https://i.ytimg.com/vi/HKBU3lD-cBc/default.jpg",
+        "598548"
+    ],
+    "zxpuXLxNYHc": [
+        "english gentleman learns internet slang...\ud83d\udc4ffor\ud83d\udc4fthe\ud83d\udc4ffirst\ud83d\udc4ftime!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/zxpuXLxNYHc/default.jpg",
+        "513529"
+    ],
+    "IBIGD4CvF1I": [
+        "british twins react to movie twin stereotypes!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/IBIGD4CvF1I/default.jpg",
+        "895153"
+    ],
+    "AOC0wkNlj7k": [
+        "trying malaysian noodles and snacks!! (ft. incredible duck flavour noodles???)",
+        "1650000",
+        "https://i.ytimg.com/vi/AOC0wkNlj7k/default.jpg",
+        "574660"
+    ],
+    "m0WM9CZBhus": [
+        "english gentleman tries durian for the first time!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/m0WM9CZBhus/default.jpg",
+        "976100"
+    ],
+    "0MZa4PqXb_M": [
+        "russian army rations: (what is this!?!?\ud83e\udd22)",
+        "1650000",
+        "https://i.ytimg.com/vi/0MZa4PqXb_M/default.jpg",
+        "720856"
+    ],
+    "h3xQepMiiq8": [
+        "british army major reviews dank military memes",
+        "1650000",
+        "https://i.ytimg.com/vi/h3xQepMiiq8/default.jpg",
+        "2096276"
+    ],
+    "bFYTYWaFAYk": [
+        "british guys shocked by israeli snacks!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/bFYTYWaFAYk/default.jpg",
+        "504690"
+    ],
+    "KH4EVLxeQvU": [
+        "british twins take twin telepathy test!!!",
+        "1650000",
+        "https://i.ytimg.com/vi/KH4EVLxeQvU/default.jpg",
+        "1467870"
+    ],
+    "KZS95mHG3FA": [
+        "brits try the famous salted egg fish skin from singapore???",
+        "1650000",
+        "https://i.ytimg.com/vi/KZS95mHG3FA/default.jpg",
+        "641217"
+    ],
+    "l_oI1jolAXE": [
+        "international jolly mail time!! opening time sensitive boxes!?\ud83d\udce6\ud83d\udce6\u2049\ufe0f",
+        "1650000",
+        "https://i.ytimg.com/vi/l_oI1jolAXE/default.jpg",
+        "598263"
+    ],
+    "49V9lElPaeo": [
+        "british priest reacts to a$ap rocky...",
+        "1650000",
+        "https://i.ytimg.com/vi/49V9lElPaeo/default.jpg",
+        "898113"
+    ],
+    "86708vvECJw": [
+        "indomie vs the world: finding the best instant noodle!!!\ud83c\udf5c",
+        "1650000",
+        "https://i.ytimg.com/vi/86708vvECJw/default.jpg",
+        "1392965"
+    ],
+    "5f8GMF7tKs8": [
+        "when a top korean tv presenter tries to teach ollie korean?!",
+        "1650000",
+        "https://i.ytimg.com/vi/5f8GMF7tKs8/default.jpg",
+        "1710404"
+    ],
+    "Yk7N76SAvzw": [
+        "british priest reviews dank christian memes!! (part 3)",
+        "1650000",
+        "https://i.ytimg.com/vi/Yk7N76SAvzw/default.jpg",
+        "2397689"
+    ],
+    "Kp3cjetx9Yw": [
+        "real army major reacts to bts army!!?",
+        "1650000",
+        "https://i.ytimg.com/vi/Kp3cjetx9Yw/default.jpg",
+        "1703630"
+    ],
+    "kDcFHVm6e2w": [
+        "jollibie tries the whole jollibee menu for the first time!!!",
+        "1650000",
+        "https://i.ytimg.com/vi/kDcFHVm6e2w/default.jpg",
+        "1561255"
+    ],
+    "kMcuu8mLQ0s": [
+        "british priest reacts to billie eilish for the first time...",
+        "1650000",
+        "https://i.ytimg.com/vi/kMcuu8mLQ0s/default.jpg",
+        "8379211"
+    ],
+    "i-sLPMICQhw": [
+        "worst british delivery food: chip sandwich!?",
+        "1650000",
+        "https://i.ytimg.com/vi/i-sLPMICQhw/default.jpg",
+        "297048"
+    ],
+    "RmpYII-Rv1s": [
+        "how slow is delivery food in the uk!?? // \uc601\uad6d \ubc30\ub2ec\uc74c\uc2dd\uc740 \uc5bc\ub9c8\ub098 \ub290\ub9ac\uac8c\uc694~~??",
+        "1650000",
+        "https://i.ytimg.com/vi/RmpYII-Rv1s/default.jpg",
+        "145809"
+    ],
+    "M_ESrmpp2gE": [
+        "english gentleman tries korean asmr soft gummy mukbang?! \ud83d\ude02",
+        "1650000",
+        "https://i.ytimg.com/vi/M_ESrmpp2gE/default.jpg",
+        "481100"
+    ],
+    "l3B02xqJwA4": [
+        "british guys mind blown by indonesian snacks!!?\ud83e\udd2f",
+        "1650000",
+        "https://i.ytimg.com/vi/l3B02xqJwA4/default.jpg",
+        "1145105"
+    ],
+    "vMRae0NJ9w4": [
+        "how we got to interview chris hemsworth\u2026",
+        "1650000",
+        "https://i.ytimg.com/vi/vMRae0NJ9w4/default.jpg",
+        "645090"
+    ],
+    "4IH_a4fPbNg": [
+        "weirdest british spreads!? (spicy peanut butter vs black butter!?)",
+        "1650000",
+        "https://i.ytimg.com/vi/4IH_a4fPbNg/default.jpg",
+        "555464"
+    ],
+    "oUxdiitijLs": [
+        "a family of squirrels ate holes through my roof.",
+        "1650000",
+        "https://i.ytimg.com/vi/oUxdiitijLs/default.jpg",
+        "1312016"
+    ],
+    "LILY_KnZ-Ks": [
+        "trying 1960s russian astronaut food.",
+        "1650000",
+        "https://i.ytimg.com/vi/LILY_KnZ-Ks/default.jpg",
+        "665761"
+    ],
+    "5N0SxSJGT6Y": [
+        "british priest reviews dank christian memes!! (part 2)",
+        "1650000",
+        "https://i.ytimg.com/vi/5N0SxSJGT6Y/default.jpg",
+        "2951082"
+    ],
+    "oNKInxlfQfc": [
+        "english gentleman tries cheese that is banned on public transport??!",
+        "1650000",
+        "https://i.ytimg.com/vi/oNKInxlfQfc/default.jpg",
+        "1044809"
+    ],
+    "TtyN52kxOSM": [
+        "beautiful moments of respect and fair play in sports 2019 part 7 - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/TtyN52kxOSM/default.jpg",
+        "42822"
+    ],
+    "zO1awoY7Ccg": [
+        "drivers helping others 2019 part 2 - real life heroes - faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/zO1awoY7Ccg/default.jpg",
+        "118492"
+    ],
+    "o93SGk5vWUE": [
+        "beautiful moments of respect and fair play in sports 2019 part 6 - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/o93SGk5vWUE/default.jpg",
+        "251150"
+    ],
+    "V1ouBo_mZ0w": [
+        "drivers helping others 2019 - real life heroes - faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/V1ouBo_mZ0w/default.jpg",
+        "408377"
+    ],
+    "_aYK5QiAiEM": [
+        "random acts of kindness - faith in humanity restored - good people 2019 part 8",
+        "418000",
+        "https://i.ytimg.com/vi/_aYK5QiAiEM/default.jpg",
+        "781290"
+    ],
+    "KnKcwZH1lIQ": [
+        "real life heroes - bikers helping others 2019 part 6 - faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/KnKcwZH1lIQ/default.jpg",
+        "79627"
+    ],
+    "OneGXTBBLOg": [
+        "beautiful moments of respect and fair play in sports 2019 part 5 - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/OneGXTBBLOg/default.jpg",
+        "235598"
+    ],
+    "erNQjXRAU7s": [
+        "random acts of kindness - faith in humanity restored - good people 2019 part 7",
+        "418000",
+        "https://i.ytimg.com/vi/erNQjXRAU7s/default.jpg",
+        "299165"
+    ],
+    "-DIGQKYmpUc": [
+        "real life heroes - bikers helping others 2019 part 5 - faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/-DIGQKYmpUc/default.jpg",
+        "128972"
+    ],
+    "wIYCPosCVzQ": [
+        "real life heroes - faith in humanity restored - good people 2019 part 5",
+        "418000",
+        "https://i.ytimg.com/vi/wIYCPosCVzQ/default.jpg",
+        "1549915"
+    ],
+    "zOguO7c7vLE": [
+        "random acts of kindness - faith in humanity restored - good people 2019 part 6",
+        "418000",
+        "https://i.ytimg.com/vi/zOguO7c7vLE/default.jpg",
+        "461095"
+    ],
+    "1_pZmc-HJ7E": [
+        "beautiful moments of respect and fair play in sports 2019 part 4 - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/1_pZmc-HJ7E/default.jpg",
+        "543364"
+    ],
+    "Oyawcm7TKtM": [
+        "random acts of kindness - faith in humanity restored - good people 2019 part 5",
+        "418000",
+        "https://i.ytimg.com/vi/Oyawcm7TKtM/default.jpg",
+        "1091720"
+    ],
+    "xwRWna4rBq4": [
+        "real life heroes - bikers helping others 2019 part 4- faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/xwRWna4rBq4/default.jpg",
+        "675898"
+    ],
+    "SmWGDZgHOGs": [
+        "real life heroes - faith in humanity restored - good people 2019 part 4",
+        "418000",
+        "https://i.ytimg.com/vi/SmWGDZgHOGs/default.jpg",
+        "5650497"
+    ],
+    "BbcllWvG1hc": [
+        "random acts of kindness - faith in humanity restored - good people 2019 part 4",
+        "418000",
+        "https://i.ytimg.com/vi/BbcllWvG1hc/default.jpg",
+        "393363"
+    ],
+    "H_PU1_vCHV4": [
+        "random acts of kindness - faith in humanity restored - good people 2019 part 3",
+        "418000",
+        "https://i.ytimg.com/vi/H_PU1_vCHV4/default.jpg",
+        "608708"
+    ],
+    "hb0dPXJiCIk": [
+        "police heroes helping others 2019- real life heroes - faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/hb0dPXJiCIk/default.jpg",
+        "131731"
+    ],
+    "aSTxbNaHp7U": [
+        "beautiful moments of respect and fair play in sports 2019 part 3 - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/aSTxbNaHp7U/default.jpg",
+        "2043867"
+    ],
+    "ebGqhdWVNP0": [
+        "firefighters heroes helping others 2019 - real life heroes - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/ebGqhdWVNP0/default.jpg",
+        "130653"
+    ],
+    "U6VNmX9kiVA": [
+        "real life heroes - bikers helping others 2019 part 3- faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/U6VNmX9kiVA/default.jpg",
+        "230606"
+    ],
+    "1VE6v1Xhqic": [
+        "random acts of kindness - faith in humanity restored - good people 2019 part 2",
+        "418000",
+        "https://i.ytimg.com/vi/1VE6v1Xhqic/default.jpg",
+        "418841"
+    ],
+    "bhcuo0hY9_8": [
+        "real life heroes - faith in humanity restored - good people 2019 part 3",
+        "418000",
+        "https://i.ytimg.com/vi/bhcuo0hY9_8/default.jpg",
+        "322013"
+    ],
+    "oYuQLxartcM": [
+        "random acts of kindness - faith in humanity restored - good people 2019",
+        "418000",
+        "https://i.ytimg.com/vi/oYuQLxartcM/default.jpg",
+        "1740096"
+    ],
+    "IvPB4bOs-Jw": [
+        "beautiful moments of respect and fair play in sports 2019 part 2 - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/IvPB4bOs-Jw/default.jpg",
+        "1322952"
+    ],
+    "H9o357bF4Rk": [
+        "real life heroes - bikers helping others 2019 part 2- faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/H9o357bF4Rk/default.jpg",
+        "772433"
+    ],
+    "6rAmwFJabFU": [
+        "real life heroes - faith in humanity restored - good people 2019 part 2",
+        "418000",
+        "https://i.ytimg.com/vi/6rAmwFJabFU/default.jpg",
+        "1955169"
+    ],
+    "1PGXeSbFu_I": [
+        "beautiful moments of respect and fair play in sports 2019 - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/1PGXeSbFu_I/default.jpg",
+        "5458453"
+    ],
+    "gXM0B_3aEBI": [
+        "animals heroes helping and rescuing other animals -  2019",
+        "418000",
+        "https://i.ytimg.com/vi/gXM0B_3aEBI/default.jpg",
+        "2740868"
+    ],
+    "YGCeCEesL9k": [
+        "bikers helping animals 2019 - real life heroes - faith in humanity restored 2019",
+        "418000",
+        "https://i.ytimg.com/vi/YGCeCEesL9k/default.jpg",
+        "96624"
+    ],
+    "6vNZxpxDARM": [
+        "real life heroes - faith in humanity restored - good people 2019",
+        "418000",
+        "https://i.ytimg.com/vi/6vNZxpxDARM/default.jpg",
+        "292414"
+    ],
+    "pu_cdBkmcc0": [
+        "real life heroes - bikers helping others 2019 - faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/pu_cdBkmcc0/default.jpg",
+        "595854"
+    ],
+    "VcIz9svh5kI": [
+        "real life heroes - ultimate videos 2018 - faith in humanity restored",
+        "418000",
+        "https://i.ytimg.com/vi/VcIz9svh5kI/default.jpg",
+        "6093125"
+    ],
+    "sAs6zB5DlPk": [
+        "beautiful moments of respect and fair play in sports part 4 - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/sAs6zB5DlPk/default.jpg",
+        "2187012"
+    ],
+    "0TvBu2UAfqU": [
+        "real life heroes - bikers helping others part 2 - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/0TvBu2UAfqU/default.jpg",
+        "1207301"
+    ],
+    "y79lyCweHzE": [
+        "police heroes helping others - real life heroes - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/y79lyCweHzE/default.jpg",
+        "52485"
+    ],
+    "t78Pt91Imq0": [
+        "bikers helping animals 2018 - real life heroes - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/t78Pt91Imq0/default.jpg",
+        "4081597"
+    ],
+    "DEmqbxsvnvQ": [
+        "real life heroes - bikers helping homeless - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/DEmqbxsvnvQ/default.jpg",
+        "217730"
+    ],
+    "-FiqwKm7Z2A": [
+        "real life heroes - faith in humanity restored  - good people 2018 part 8",
+        "418000",
+        "https://i.ytimg.com/vi/-FiqwKm7Z2A/default.jpg",
+        "97431"
+    ],
+    "xt6_gvts32w": [
+        "beautiful moments of respect and fair play in sports part 3 - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/xt6_gvts32w/default.jpg",
+        "4685248"
+    ],
+    "s3nvkmdZj-g": [
+        "real life heroes - bikers helping others - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/s3nvkmdZj-g/default.jpg",
+        "4133312"
+    ],
+    "Gl3GpVJC1sk": [
+        "real life heroes - faith in humanity restored  - good people 2018 part 7",
+        "418000",
+        "https://i.ytimg.com/vi/Gl3GpVJC1sk/default.jpg",
+        "473085"
+    ],
+    "3-k0vPH923I": [
+        "unbelievable unlikely animal friendships 2018",
+        "418000",
+        "https://i.ytimg.com/vi/3-k0vPH923I/default.jpg",
+        "54593"
+    ],
+    "XoVvOPWNW30": [
+        "amazing glass art 2018 - people with amazing talent - oddly satisfying video",
+        "418000",
+        "https://i.ytimg.com/vi/XoVvOPWNW30/default.jpg",
+        "30082"
+    ],
+    "KlU6M986b90": [
+        "real life heroes - faith in humanity restored  - good people  2018 part 6",
+        "418000",
+        "https://i.ytimg.com/vi/KlU6M986b90/default.jpg",
+        "144414"
+    ],
+    "fE3SQTl2NQg": [
+        "fast workers god level 2018 - they work with passion",
+        "418000",
+        "https://i.ytimg.com/vi/fE3SQTl2NQg/default.jpg",
+        "28692"
+    ],
+    "To5iGXwHWcU": [
+        "fast workers god level 2018 - like a boss edition - people are awesome",
+        "418000",
+        "https://i.ytimg.com/vi/To5iGXwHWcU/default.jpg",
+        "26873"
+    ],
+    "JBxU-E-W8_k": [
+        "firefighters heroes rescue animals lives 2018 - real life heroes - faith in humanity restored 2018",
+        "418000",
+        "https://i.ytimg.com/vi/JBxU-E-W8_k/default.jpg",
+        "362097"
+    ],
+    "a7-5vWqSLm0": [
+        "amazing food art 2018 - fruit and vegetable carving - people with amazing talent",
+        "418000",
+        "https://i.ytimg.com/vi/a7-5vWqSLm0/default.jpg",
+        "26312"
+    ],
+    "bOYUG_x9wGs": [
+        "amazing 3d art sand sculptures  2018 - time lapse sand sculptures videos",
+        "418000",
+        "https://i.ytimg.com/vi/bOYUG_x9wGs/default.jpg",
+        "100847"
     ]
 }
