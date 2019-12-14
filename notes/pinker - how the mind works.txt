@@ -110,3 +110,13 @@ spreading genes:
 selfish genes:
  - selfish genes don't imply selfish organisms
  - maybe the most selfish thing to do is to build a selfless brain
+
+turing machine:
+ - can produce same outputs given the same inputs as any program
+ - assuming speed and size were irrelevant
+
+thoughts:
+ - our thoughts are not in english, they are in mentalese
+ - english can be ambiguous whereas our thoughts aren't
+
+pg77
