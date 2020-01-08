@@ -235,4 +235,61 @@ dove hawk example but with sexes:
  - cycles back in forth
  - but it does not oscillate, it will converge to a stable value and stay there
 
-pg146 start
+human culture:
+ - has changed the evolutionary standard (flamboyant males, drab females)
+ 	- normally males have to compete for females in these kinds of species
+ - women are the ones who wear makeup and eyelashes, sexual attraction is more intertwined with their idenitity
+ - men on the other hand don't wear makeup - opposite of the expected
+ - why is that?
+
+living in groups:
+ - have considered parental, sexual, and aggressive interactions between survival machines of same species
+ - this does not cover why so many animals tend to live in groups
+ 
+reciprocal altruism:
+ - "scracth my back and i'll scratch yours"
+ - if animals live in groups, they must get more benefit out of the association than they put in
+ 	- eg. a pack of hyenas can catch a much bigger prey than a lone hyena can
+
+herd formation:
+ - say each animal has an area around it that is the 'danger zone'
+ 	- the zone where a predator may appear and kill it
+ - those on the edge have a much larger danger zone as they are on the edge
+ - each individual is concerned with minimizing their own danger zone
+ - as such, the animals aggregate towards the centre and form a herd
+ 
+bird calls:
+ - many possible explanations
+ - eg. hawk flying over head but has not seen flock of birds
+ 	- one bird saw the hawk and he can either stay quiet, but 	
+	- or he could tell his bird friends to lay low and be quiet (bird call)
+ - eg. when predator approaches, bird must flee to the tree
+ 	- if only one bird notices and goes to tree, he is in more danger as he is alone
+	- another option is to remain on the ground with the herd, but that carries grave risks he is not willing to take
+	- his best option is to make everyone go to the tree (safer than ground and remain in a herd)
+
+gazelles:
+ - when gazelles are spotted by a predator, rather than run or stay in fear, they signal by trotting
+ 	- shows that they are healthy or fast if they trot high
+ - predators are inclined to catch easy targets so the gazelle is trying to show that it is not an easy target
+ 
+insects:
+ - insects behave phenominally in some cases, act altrustic (suicide bees, etc)
+ - key thing to note is that in these special insect colonies, a large majority is sterile
+ 	- they are workers, or have specialized tasks that are not reproduction
+	- as such, their best bet to propogate their genes is to protect/feed their closest relative descendants
+ - social insects can be split into: bearers and carers
+ 
+bird with tick on its head:
+ - cheaters, suckers, grudgers
+ - cheaters will always be better than suckers at any point until extinction
+ - however, grudgers will remember those who did not return the favor and hold a grudge
+ 	- behave just like suckers until grudge
+	- an individual grudger will not succeed, but if a threshold is met, will thrive
+	
+psychological characteristics:
+ - envy, guilt, gratitude, sympathy  have been shaped by natural selection for improved ability to cheat, detect cheats
+ - want to avoid being though of as a 'cheat'
+ 
+ 
+cont chap 11 semem
