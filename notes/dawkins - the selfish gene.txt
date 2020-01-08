@@ -207,4 +207,32 @@ favoritism:
 	- some birds have been known to scream so loudly to attract predators, in order to get food from parent
 	- the parent can either risk getting eaten, or give in and give it some food
 
-chap 9 pg 127
+battle of sexes:
+ - both parents want to help their offspring succeed, but would be better if can do less than fair share
+	- allows for more time rearing other offspring
+	- as such, each partner can be thought of as trying to 'exploit' the other
+
+seal example:
+ - say we have 50/50 male female seals, harem style
+ - few males reproduce with all females
+ - then, wouldn't genes that favor daughters be more common as there are enough males to take care of all them?	
+	- yes, and as such females will be favored
+ - however, then any seals who produces males will be extremely successful as the males will be having 100's of children potentially
+	- in this case, males will be favored as offpring again and the pendulum swings back
+
+desertion:
+ - sometimes favourable to abandon child first
+ - if first to abandon, other parent knows he cant leave child or their genes will be lost
+ - as such, both parties are thinking they must abandon first
+
+female defense system:
+ - as a lot of the burden is on females, their way to fight back is pre-copulation
+ - find partners who are in it for the long haul, as those traits are related to not abandoning
+
+dove hawk example but with sexes:
+ - coy vs fast female
+ - faithful vs philanderer male
+ - cycles back in forth
+ - but it does not oscillate, it will converge to a stable value and stay there
+
+pg146 start
