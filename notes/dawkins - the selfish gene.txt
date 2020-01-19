@@ -291,5 +291,44 @@ psychological characteristics:
  - envy, guilt, gratitude, sympathy  have been shaped by natural selection for improved ability to cheat, detect cheats
  - want to avoid being though of as a 'cheat'
  
+culture vs evolution:
+ - culture is what differentiates humans
+ - like evolution but evolves faster
+ - eg. englishman from 1000 years ago wouldn't be able to communicate with an englishman now
+
+meme:
+ - the human culture replicator
+ - similar to how the gene replicates DNA
+ - eg. tunes, ideas, catch-phrases, fashions are all memes
+ - eg. the idea of God
+ 	- do not know how it arose but it evolved over the ages through being spoken and written about
+	- it survived because it is stable, it gives people an answer to their questions of existence
+ - genes must compete with rival alleles for reproduction
+ - memes must compete with other memes for the limited time and space in our minds
+ 	- a successful meme will take up a significant amount of space for a long time 
+ - memes and genes sometimes work against eachother (eg. celibacy)
  
-cont chap 11 semem
+ - even though are genes are passed on, each generation has a smaller and smaller fraction of your genes
+ 	- eventually your descendants will have like none of your genes	
+ - your memes on the other hand can stand for much longer
+ 	- if you contribute to the world's culture, make a song, write a poem	
+	- it may live on
+
+ - we can rebel against our creators (the genes)
+ 	- eg. pure altruism
+	
+prisoner's dilemma:
+ - everywhere in nature (eg. birds with ticks on head)
+ - iterated many times so you could see what the other person does
+ - tit for tat: most successful prisoner's dilemma strategy
+ 	- be nice until you are snaked, then retaliate
+ - 15 strategies submitted, 8 nice, 7 not nice
+ 	- the top 8 were all nice
+ - forgiving tit for that was actually even more successful
+ 	- give the other two chances before retaliating
+	- would not work as well with more nasty strategies, as it is exploited for more
+	- like an ESS, tit for tat needs other tit for tats to succeed
+		- if it was the only nice and all other nasty, wouldn't do well
+ - regular favors nastiness, iterated favors niceness
+ 
+ch13 pg207
