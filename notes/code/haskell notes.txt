@@ -84,3 +84,91 @@ lists:
 	- essentially [1,2,3] is the same as 1:2:3:[]
  - [] is an empty list, [[]] is a list which has an empty list, [[],[],[]] is a list with 3 empty lists
 	- these are not the same things
+ - get value at index:
+	- use !!
+	- eg. "Nariman" !! 5 -> 'a'
+	- nested lists: [[5]] !! 0 !! 0 -> 5
+ - all items must be same type
+ - can compare lists: [3, 2, 1] > [3, 2, 0] -> True
+ - other useful list functions:
+	- 'head' returns first element
+	- 'tail' returns all but first element
+	- 'last' returns last element
+	- 'init' returns all but last element
+		- these can't be used on empty lists
+	- 'length' returns length
+	- 'null' returns if empty
+	- 'reverse' reverses the list
+	- 'take' takes x numbers from list y 
+		- eg. take 3 [1, 2] will take first 3 elements, all if there aren't enough
+	- 'drop' same as take but drops them
+	- 'maximum' returns highest value
+	- 'minimum' returns lowest value
+	- 'sum' returns sum of all indices
+	- 'product' returns product of all indices
+	- 'elem' checks to see if x is in list y
+		- eg. 4 'elem' [3, 4, 5, 6] -> True
+
+ranges:
+ - [1..20]
+ - like range in python, gives list of numbers in that range
+ - ['K'..'Z']
+ - can specify a step too:
+	- [2, 4..20] -> [2, 4, 6, ... 20]
+ - to go backwards:
+	- [20, 19..1]
+	- must specify step distance even if it's by 1
+ - infinite ranges:
+	- [13, 26..]
+	- haskell only computes what it needs to
+	- say we need first 24 multiples of 13:
+		- take 24 [13,26..]
+
+cycle:
+ - takes a list and cycles it into an infinite one
+	- take 10 (cycle [1,2,3]) -> [1,2,3,1,2,3,1,2,3,1]
+
+repeat: 
+ - takes an element and repeats it into an infinite list
+	- take 10 (repeat 5) -> [5,5,5,5,5,5,5,5,5,5]
+ - can just use 'replicate' function though
+	- replicate 3 10 -> [10,10,10]
+
+list comprehension:
+ - like a set S = {2x | x E N, x <= 10}
+ - [x*2 | x <- [1..10]]
+ 	- can be expanded for other conditions
+	- eg. [x*2 | x <- [1..10], x*2 >= 12]
+	- this weeding out of the list by predicates is called 'filtering'
+ - can have conditional in it:
+	- eg. [if x < 10 then "BOOM" else "BANG" | x <- [1, 2, 12]]
+ - can also draw from several lists:
+	- [x*y | x <- [2,5,10], y <- [8,10,11], x*y > 50]
+
+ - length' xs = sum[1 | _ <- xs]
+	- our own length function
+	- _ means that we don't care what we draw from the list
+	- better than instantiating a var we'll never use again
+
+tuples:
+ - like lists but more strict
+	- used when we know exactly how many values and its types
+ - can also contain many types, not just one
+ - a tuple of size 2 is its own type
+	- cannot have a list with a 2-tuple and then a 3-tuple
+
+ - useful functions:
+	- fst (8,11) -> 8
+	- lst (8,11) -> 11
+	- zip [1,2,3] [5,5,5] -> [(1,5), (2,5), (3,5)]
+		- if one list is longer, remaning values get cut off
+
+triangle example:
+ - find all right triangles where all sides are ints less than 10 and perimeter is 24
+ - let triangles = [(a,b,c) | c <- [1..10], b <- [1..10], a <- [1..10]]
+	- this will give us all triples with vals 1 to 10 for each a,b,c
+ - let rightTriangles = [(a,b,c) | c <- [1..10]. b <- [1..10], a <- [1..10], a^2 + b^2 == c^2]
+	- this will give us all combinations of right triangles
+ - let ans = [(a,b,c) | c <- [1..10]. b <- [1..10], a <- [1..10], a^2 + b^2 == c^2, a+b+c == 24]
+	- final answer: (6,8,10)
+ - this kind of 'breaking down' solution is very common in functional programming
