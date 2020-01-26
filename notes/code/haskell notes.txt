@@ -1,0 +1,86 @@
+HASKELL NOTES
+
+1 - Introduction ########################################################################
+
+purely functional programming language:
+ - you don't tell it what to do like in imperative languages
+ - rather you tell it "what stuff is"
+
+haskell is lazy:
+ - will wait till last possible moment to compute
+ - doubleMe(doubleMe(doubleMe(list)))
+
+haskell is statically typed:
+ - compiler knows ahead of time what is an int and what is a string
+ - also has type inference (no need to write 'int' as it will already know)
+
+2 - Starting Out ########################################################################
+
+to run:
+ - open terminal and type 'ghci'
+ - can add numbers n shit
+ - :quit to quit
+ 
+negative numbers:
+ - must put brackets around them or compiler will complain
+ - eg. 3*-15 won't work but 3*(-15) will
+
+booleans:
+ - True && False, True || False, etc.
+
+functions:
+ - eg. * (multiplication) is a function, takes two numbers and multiplies them
+ 	- this is an infix function (sandwiched between them)
+ - typically written as 'funcname param1 param2...'
+ 	- eg. succ 8 will return 9 (successor of 8)
+ - other examples:
+	- min 5 6 -> 5
+	- max 5 6 -> 6
+	- div 92 10 -> 9
+ - key to remember is that bar (bar 3) doesn't mean we're calling bar with bar 3 as a param
+	- we are calling bar with 3 and then we call bar on the result of that number
+	- in Python would be bar(bar(3))
+
+my own function:
+ - doubleMe x = x + x
+	- will take num and double it
+ - navigate to the dir, enter ghci, then enter :l hask to load module
+ - now we can use the function
+	- doubleMe 5 returns 10
+	- can have functions call others (doubleUs uses doubleMe)
+
+haskell upsides:
+ - order doesn't matter
+	- doubleUs can be before doubleMe won't matter
+ - follows common pattern of simple functions being combined to make more complicated ones
+	- doubleMe doubleUs example
+ - can use 'let' to define a name right in ghci
+	- let a = 1 is like making a script with a = 1 and then loading it
+	- useful for lists: let myList = [....]
+
+conditionals:
+ - doubleSmallNumber x = if x > 100 then x else x*2
+ - in Haskell, 'else' is mandatory, something must be returned in each case
+ - can add 1 to doubleSmall Number's output:
+	- doubleSmallNumber' x = (if x > 100 then x else x*2) + 1
+	- added ' here as it's a modified version of the function, and valid
+
+noteworthy function notes:
+ - can't start with capital letter
+ - doesn't have to take any params
+	- if it doesn't, it's called a 'definition' or a 'name'
+	- cannot be changed anymore, sort of like a str const now
+
+lists:
+ - myList = [4, 5, 6, 1]
+ - [1, 2, 3] ++ [1, 1] -> [1, 2, 3, 1, 1]
+ - strings are lists of characters:
+	- "hello" ++ " " ++ "world" -> "hello world"
+	- ['w', 'o'] ++ ['w'] = 'wow'
+ - append to beginning:
+	- 5:[1,2,3,4] -> [5,1,2,3,4]
+	- 'a':" small cat" -> "a small cat"
+	- useful for when dealing with long lists as appending to beginning is instant, not to end tho
+	- essentially [1,2,3] is the same as 1:2:3:[]
+ - [] is an empty list, [[]] is a list which has an empty list, [[],[],[]] is a list with 3 empty lists
+	- these are not the same things
