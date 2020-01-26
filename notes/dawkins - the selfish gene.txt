@@ -18,7 +18,7 @@ the beginning:
 
 the replicator:
  - molecule that can create copies of itself
- - unlikely, but bound to happen
+ - unlikely, but bound to happen, MOST IMPORTANT
 
 evolution:
  - nothing wants to evolve, evolution just happens
@@ -235,4 +235,145 @@ dove hawk example but with sexes:
  - cycles back in forth
  - but it does not oscillate, it will converge to a stable value and stay there
 
-pg146 start
+human culture:
+ - has changed the evolutionary standard (flamboyant males, drab females)
+ 	- normally males have to compete for females in these kinds of species
+ - women are the ones who wear makeup and eyelashes, sexual attraction is more intertwined with their idenitity
+ - men on the other hand don't wear makeup - opposite of the expected
+ - why is that?
+
+living in groups:
+ - have considered parental, sexual, and aggressive interactions between survival machines of same species
+ - this does not cover why so many animals tend to live in groups
+ 
+reciprocal altruism:
+ - "scracth my back and i'll scratch yours"
+ - if animals live in groups, they must get more benefit out of the association than they put in
+ 	- eg. a pack of hyenas can catch a much bigger prey than a lone hyena can
+
+herd formation:
+ - say each animal has an area around it that is the 'danger zone'
+ 	- the zone where a predator may appear and kill it
+ - those on the edge have a much larger danger zone as they are on the edge
+ - each individual is concerned with minimizing their own danger zone
+ - as such, the animals aggregate towards the centre and form a herd
+ 
+bird calls:
+ - many possible explanations
+ - eg. hawk flying over head but has not seen flock of birds
+ 	- one bird saw the hawk and he can either stay quiet, but 	
+	- or he could tell his bird friends to lay low and be quiet (bird call)
+ - eg. when predator approaches, bird must flee to the tree
+ 	- if only one bird notices and goes to tree, he is in more danger as he is alone
+	- another option is to remain on the ground with the herd, but that carries grave risks he is not willing to take
+	- his best option is to make everyone go to the tree (safer than ground and remain in a herd)
+
+gazelles:
+ - when gazelles are spotted by a predator, rather than run or stay in fear, they signal by trotting
+ 	- shows that they are healthy or fast if they trot high
+ - predators are inclined to catch easy targets so the gazelle is trying to show that it is not an easy target
+ 
+insects:
+ - insects behave phenominally in some cases, act altrustic (suicide bees, etc)
+ - key thing to note is that in these special insect colonies, a large majority is sterile
+ 	- they are workers, or have specialized tasks that are not reproduction
+	- as such, their best bet to propogate their genes is to protect/feed their closest relative descendants
+ - social insects can be split into: bearers and carers
+ 
+bird with tick on its head:
+ - cheaters, suckers, grudgers
+ - cheaters will always be better than suckers at any point until extinction
+ - however, grudgers will remember those who did not return the favor and hold a grudge
+ 	- behave just like suckers until grudge
+	- an individual grudger will not succeed, but if a threshold is met, will thrive
+	
+psychological characteristics:
+ - envy, guilt, gratitude, sympathy  have been shaped by natural selection for improved ability to cheat, detect cheats
+ - want to avoid being though of as a 'cheat'
+ 
+culture vs evolution:
+ - culture is what differentiates humans
+ - like evolution but evolves faster
+ - eg. englishman from 1000 years ago wouldn't be able to communicate with an englishman now
+
+meme:
+ - the human culture replicator
+ - similar to how the gene replicates DNA
+ - eg. tunes, ideas, catch-phrases, fashions are all memes
+ - eg. the idea of God
+ 	- do not know how it arose but it evolved over the ages through being spoken and written about
+	- it survived because it is stable, it gives people an answer to their questions of existence
+ - genes must compete with rival alleles for reproduction
+ - memes must compete with other memes for the limited time and space in our minds
+ 	- a successful meme will take up a significant amount of space for a long time 
+ - memes and genes sometimes work against eachother (eg. celibacy)
+ 
+ - even though are genes are passed on, each generation has a smaller and smaller fraction of your genes
+ 	- eventually your descendants will have like none of your genes	
+ - your memes on the other hand can stand for much longer
+ 	- if you contribute to the world's culture, make a song, write a poem	
+	- it may live on
+
+ - we can rebel against our creators (the genes)
+ 	- eg. pure altruism
+	
+prisoner's dilemma:
+ - everywhere in nature (eg. birds with ticks on head)
+ - iterated many times so you could see what the other person does
+ - tit for tat: most successful prisoner's dilemma strategy
+ 	- be nice until you are snaked, then retaliate
+ - 15 strategies submitted, 8 nice, 7 not nice
+ 	- the top 8 were all nice
+ - forgiving tit for that was actually even more successful
+ 	- give the other two chances before retaliating
+	- would not work as well with more nasty strategies, as it is exploited for more
+	- like an ESS, tit for tat needs other tit for tats to succeed
+		- if it was the only nice and all other nasty, wouldn't do well
+ - regular favors nastiness, iterated favors niceness
+ 
+animals closer to humans:
+ - we are more impressed by the tasks done by animals closer to humans
+ - if dolphin built a net, would be miracle
+ - however spiders do this and no one cares
+ - chimps building a house vs fly larvae building a house
+ 
+genes:
+ - the only thing that they can directly influence is protein synthesis
+ - a genes influence on other things like the nervous system is indirect
+ - eg. protein sequence that influences X that influences Y that influences Z which influences eye colour
+ 
+cuckoo vs foster parent:
+ - cuckoos are able to 'control' other parent birds into giving it food as if it were a child
+ 	- even if the cuckoo is so much larger than any possible chick, the foster parent is like a helpless drug addict
+  	- tricked into giving it food
+ - why don't the foster parents over the years adapt?
+ 	- successful cuckoos are those that were able to finesse foster parents
+		- if a cuckoo lost hold of a parent even momentarily, they would die
+	- however, successful foster parents most likely have never seen a cuckoo
+		- even those who got finessed would still probably pass down their genes as the had other children
+ - as such, there is an imbalance in the cost of failure for these two
+ - "rabbit runs faster than the fox because the rabbit is running for its life while the fox is only running for its dinner"
+ 
+manipulation:
+ - common in animal kingdom, even to a cruel extent
+ - parasite and fakes being a queen then infilitrates real queen and saws head off
+ - then the parasite queen is the new queen and releases chemicals to make workers feed it and help
+ - also releases chemical to make workers kill their mothers as to stop their gene pool
+ 
+vehicles vs replicators:
+ - DNA is replicators
+ - body is a vehicle
+ 	- vehicles don't replicate themselves, they work to propogate the replicators
+ - replicators don't catch prey, perceive the world, avoid being eaten, etc.
+ 	- they create vehicles that do that stuff for them
+	
+why did single cell organisms become multi cell?
+ - some processes require multiple steps, like a conveyor belt
+ - need multiple parts to eg. process chemicals into food
+ - also, the single celled organism space was being taken up
+ 	- organisms began to grow larger to take advantage of unused resources or eat those that were smaller
+	- alternatively, many developed niche mechanisms such as talons, poison, etc.
+	
+bottleneck vs splitting reproduction:
+ - grass that breaks itself off and grows somewhere else vs grass that release cells that sprout
+ - bottleneck lifecycle allows it to 'go back to the drawing board'
