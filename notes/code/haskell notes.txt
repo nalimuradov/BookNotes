@@ -172,3 +172,118 @@ triangle example:
  - let ans = [(a,b,c) | c <- [1..10]. b <- [1..10], a <- [1..10], a^2 + b^2 == c^2, a+b+c == 24]
 	- final answer: (6,8,10)
  - this kind of 'breaking down' solution is very common in functional programming
+
+3 - Types and Typeclasses ########################################################################
+
+check type of a value:
+ - :t 'a' will say that it's a char
+ 	- 'a' :: Char
+	- the :: means 'is type of'
+ - :t "HELLO" will return a list of char, because that's what strings are
+
+function types:
+ - functions also have types
+ - removeNonUppercase :: [Char] -> [Char]
+	- means that it maps from a String to a String
+ 	- same as removeNonUppercase :: String -> String
+
+type variables:
+ - eg. head :: [a] -> a	
+	- what is this 'a'?
+	- used to denote a generic 
+ - eg. fst :: (a, b) -> a
+ 	- can see this with :t fst
+	- we see that fst takes a tuple which has two types and returns an element of same type as first component	
+	- a and b don't necessarily have to be different
+
+typeclasses:
+ - similar to interfaces in Java
+ - run :t (==) will print:
+	- (==) :: (Eq a) => a -> a -> Bool
+ - everything before the => is called the class constraint
+ 	- what it is saying is that it takes any two values of same type and returns a Bool
+	- the type of those two values must be a member of the Eq class (the class constraint)
+ - the Eq typeclass provides an interace for testing for equality
+	- eg. 5 == 5, 5 /= 5
+ - Ord is a typeclass for types that have an ordering
+	- must first be Eq before it can be Ord 
+ - Show is a typeclass for types that can be represented as Strings
+ - Read is a typeclass for types that can be read (opposite of Show, converts back)
+	- sometimes it won't know which type to turn it into
+	- can explicitly show with read "5" :: Int
+ - Enum is a typeclass for types that can be enumerated (like have ranges)
+ - Bounded is a typeclass for types that have an upper and a lower bound
+ - others include: Num, Integral, Floating
+
+4 - Syntax in Functions ########################################################################
+
+pattern matching:
+ - can have some functions for certain parameter patterns
+ - eg. lucky 7 = "nice you picked seven"
+       lucky x = "you didn't pick seven"
+ - x is every other condition (every number other than 7)
+ 	- this 'x' is the catch-all
+	- if we put it first, it would always catch as the others never get a chance to be reached
+ - must include a catch-all or it will fail if one of the options is not selected
+
+factorial example:
+ - this way we can define factorial function recursively
+ - factorial :: (Integral a) => a -> a
+   factorial 0 = 1
+   factorial n = n * factorial (n - 1)
+ - will recursively calculate the factorial of whatever input
+
+adding vectors example:
+ - addVectors :: (Num a) => (a, a) -> (a, a) -> (a, a)
+ - addVectors (x1, y1) (x2, y2) = (x1 + x2, y1 + y2)
+
+list pattern matching:
+ - x:y:z:zs will bind the first three elements to variables and the rest of the list another var
+	- as such it will match only against lists that have 3+ elements
+ - eg. head' (x:_) = x
+	- head "Hello" -> 'H'
+
+length pattern matching example:
+ - length' :: (Num b) => [a] -> b
+ - length' [] = 0
+ - length' (_:xs) = 1 + length' xs
+
+patterns:
+ - put an @ in front of the pattern
+ - eg. @(x:xs)
+	- capital all@(x:xs) -> First letter of Dark is D
+
+guards:
+ - a way of testing wheter some property of a value is true or false
+ - bmiTell :: (RealFloat a) => a -> a -> String
+ - bmiTell weight height
+	| weight/height ^2 < = 18.5 = "Underweight"	
+	| weight/height ^2 < = 24.5 = "Normal Weight"
+	| weight/height ^2 < = 30.5 = "Overweight"
+	| otherwise	            = "XXL"
+	where bmi = weight/height ^ 2
+		- replace above calcs with bmi to save time
+
+list of pairs example:
+	- calcBmis :: (RealFloat a) => [(a, a)] -> [a]  
+	- calcBmis xs = [bmi w h | (w, h) <- xs]  
+    	     - where bmi weight height = weight / height ^ 2  
+
+let bindings:
+ - cylinder :: (RealFloat a) => a -> a -> a
+ - cylinder r h =
+	let sideArea = 2 * pi * r * h
+	    topArea = pi * r ^ 2
+	in  sideArea + 2 * topArea
+ - basic form is let <bindings> in <expression>
+ - let bindings are 'expressions' themselves
+	- where bindings are just syntactic constructs
+ - can also use to introduce functions in a local scope
+	- [let square x = x * x in (square 5, square 3, square 2)]
+
+case expressions:
+ - case expression of pattern -> result
+		      pattern -> result
+		      pattern -> result
+		      ...
+ - useful for pattern matching against something in the middle of an expression
