@@ -1,6 +1,4 @@
-Source: https://www.youtube.com/watch?v=aircAruvnKk 
-
-VIDEO 1 -----------------------------------------------------------------------------------
+PART 1 -----------------------------------------------------------------------------------
 
 neurons:
  - a function, takes in all outputs of previous layer as input, and spits out value as output
@@ -72,7 +70,7 @@ reLu
  - reLU(a) = max(0,a)
 	- either it is the value or it's zero if negative
 
-VIDEO 2 -----------------------------------------------------------------------------------
+PART 2 -----------------------------------------------------------------------------------
 
 cost difference
  - a way to determine how incorrect or correct the guess is
@@ -95,7 +93,7 @@ gradient
 	- the sign (+/i) shows if we should move it up or down
 	- the magnitude shows which changes matter more
 
-VIDEO 3 -----------------------------------------------------------------------------------
+PART 3 -----------------------------------------------------------------------------------
 
 learning
  - to teach, give it examples and calculate the cost differences
@@ -121,8 +119,3 @@ time
 data
  - most important thing of machine learning in general is having enough data
  - need lots of labeled images for machine to learn
-
-VIDEO 4 -----------------------------------------------------------------------------------
-
-calculus
- - same concept as vid 3 but exlains with mathematics
