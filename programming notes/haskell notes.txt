@@ -287,3 +287,33 @@ case expressions:
 		      pattern -> result
 		      ...
  - useful for pattern matching against something in the middle of an expression
+
+5 - Recursion ########################################################################
+
+recursion:
+ - imperative because functional languages declare WHAT SOMETHING IS, not HOW YOU GET IT
+ - that's why there are no loops
+ - as such, recursion is much more imperative in functional languages
+
+elem example:
+ - elem' :: (Eq a) => a -> [a] -> Bool  
+ - elem' a [] = False  
+ - elem' a (x:xs)  
+    - | a == x    = True  
+    - | otherwise = a `elem'` xs   
+
+quicksort:
+ - quicksort recursion example is goat in functional languages
+
+6 - Higher Order Functions ########################################################################
+
+curried functions:
+ - officially every haskell function only takes one param
+
+
+magic:
+ - function
+ - value
+ - list
+	
+ - magic 
