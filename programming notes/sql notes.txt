@@ -1,0 +1,311 @@
+----------------------- SQL BACKGROUND --------------------------
+SQL: language
+MySQL: database management system for SQL
+
+DBMS:
+ - not the actual databse
+ - software that lets you interact with the database
+ - can create, read, update, delete (CRUD) information
+
+two types of databases:
+ - relational (SQL)
+ - non-relational (NoSQL)
+
+relational databases:
+ - most popular
+ - organize data into 1+ tables
+ - tables have rows and columns
+ - each row has a unique key
+
+non-relational databases:
+ - organize data in anything other than a table
+ - eg. JSON, XML, graphs
+
+relational dbms:
+ - help users create and maintain a relational database
+ - eg. mySQL, oracle, postgreSQL
+
+SQL:
+ - standardized language for interacting with RDBMS
+ - can perform CRUD operations
+ - can define tables and structures
+
+nonrelational dbms:
+ - same as relational dbms but for nonrelational
+ - no one standard language like SQL
+ - eg. mongoDB
+
+queries: 
+ - request made to dbms
+
+table:
+ - each row is an entry
+ - each column is a category
+
+primary key:
+ - each table must have one
+ - unique values
+ - surrogate keys are primary keys that have no mapping to the real world
+	- eg. just an arbitrary unique number
+ - natural keys are primary keys that have a mapping
+	- eg. SSN, or email name
+	- they have purposes in the real world
+
+foreign key:
+ - a column that is a primary key in another table
+ - eg. employees can have a branch_id (1, 2, 3)
+ 	- the branch table will have branch_id as its primary key
+	- therefore, in the employee table, the employee branch is a foreign key
+ - tables can have multiple foreign keys
+ - foreign keys can also link back to the same table (eg. supervisor_id)
+
+composite key:
+ - primary key with more than one column
+ - eg. need to two columns to uniquely identify everything
+ - branch_id + supplier_name 
+ - can be useful to combine primary keys from other tables
+	- eg. employee id + client id in a new table
+	- can see how much a certain employee sold to a certain client
+
+SQL is a combination of 4 languages:
+ - DQL (data query language), get info that is already stored
+ - DDL (data definition language), used for defining database schema
+ - DCL (data control language), control access to the data in database
+ - DML (data manipulation language), used for inserting, updatind, deleting data in the database
+
+queries:
+ - set of instructions given to DBMS that tells it what info you want to retrieve
+ - eg. SELECT employee.name, employee.age FROM employee WHERE employee.salary > 30000
+
+----------------------- MAKING TABLES --------------------------
+
+to use MySQL:
+ - open mysql command line editor
+
+popSQL:
+ - text editor that connects to database
+ - makes it look nice
+
+create database nariman:
+ - creates a database with name nariman
+
+types of data we can store:
+ - INT			(whole numbers)
+ - DECIMAL(M,N)		(decimal numbers)
+ - VARCHAR(l)		(string of length l)
+ - BLOB			(binary large object)
+ - DATE			('YYYY-MM-DD')
+ - TIMESTAMP		('YYYY-MM-DD HH:MM:SS')
+
+eg. DECIMAL(10,4):
+ - store a number with 10 total digits, and four of those coming after the decimal point
+
+CREATE TABLE student (
+	student_id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(20) NOT NULL,
+	major VARCHAR(20) DEFAULT 'undecided'
+);
+ - initializes a table called 'student'
+
+NOT NULL:
+ - specifies an item in the table to be not null
+
+UNIQUE:
+ - specifies an item in the column must be unique
+ - a primary key is basically an attribute that is both NOT NULL and UNIQUE
+
+DEFAULT:
+ - specifies a default value if none is given
+
+AUTO_INCREMENT:
+ - will automatically increment that column
+ - now we no longer have to insert with it
+ - INSERT INTO student(name,major) VALUES('n', 'jo')
+	- must do this way with auto increment
+
+DESCRIBE student:
+ - describes the table
+
+DROP TABLE student:
+ - deletes the table
+
+ALTER TABLE student ADD gpa DECIMAL(3,2);
+ - used to edit a table after making it
+ - adds a column 'gpa' of type DECIMAL(3, 2)
+ - ALTER TABLE student DROP COLUMN gpa;
+
+FOREIGN KEY:
+ - CREATE TABLE branch (
+	branch_id INT PRIMARY KEY,
+	mgr_id INT, 
+	mgr_start_date DATE,
+	FOREIGN KEY(mgr_id) REFERENCES employee(emp_id) ON DELETE SET NULL
+   )
+
+to change a table value into a foreign key:
+ - ALTER TABLE employee
+   ADD FOREIGN KEY(super_id)
+   REFERENCES employee(emp_id)
+   ON DELETE SET NULL;
+
+CREATE TABLE works_with (
+	emp_id INT,
+	client_id INT,
+	total_sales INT,
+	PRIMARY KEY(emp_id,client_id)
+	FOREIGN KEY(emp_id) REFERENCES employee(emp_id) ON DELETE CASCADE
+	FOREIGN KEY(client_id) REFERENCES client(client_id) ON DELETE CASCADE
+);
+	- two primary keys that are each foreign keys too
+	- on delete CASCADE
+
+----------------------- POPULATING TABLES --------------------------
+
+inserting each row is just done one by one like the line below
+INSERT INTO student VALUES(1, 'nariman', 'engineering');
+ - adds data to tables
+ - must add it in the same order as the schema (student_id -> name -> major)
+
+to get the data we just uploaded:
+ - SELECT * FROM student;
+
+inputting a new row without all the data:
+ - say we want to add a row of a student without a major
+ - INSERT INTO student VALUES (3, 'narman', NULL)
+
+updating data:
+ - UPDATE student
+   SET major = 'Bio'
+   WHERE major = 'Biology' OR major = 'Chemistry';
+ - will change every row with 'Biology' or 'Chemistry' to 'Bio'
+
+ - UPDATE student
+   SET name = 'TOM', major = 'Opt'
+   WHERE student_id = 1;
+
+ - if no WHERE statement, will apply to every row
+
+deleting rows:
+ - DELETE FROM student 
+	- just this line will delete every row
+ - DELETE FROM student 
+   WHERE student_id = 5 AND major = 'undecided';
+
+careful when inserting:
+ - if a row in a table has a foreign key, must first initialize it as NULL
+ - and then input it after that foreign key value created in the other table
+ - otherwise it has nothing to reference to (eg. branch_id of 1 when that doesn't exist yet)
+
+ - once all the complicated relationships done, can simply insert as regular
+ - INSERT INTO works_with VALUES(105, 400, 100);
+
+----------------------- RETRIEVING DATA --------------------------
+
+SELECT * FROM student; (get whole table)
+
+SELECT name FROM student; (get all names)
+
+retrieving data from multiple tables:
+ - with more tables, may need to specify what table a column is from
+ - eg. SELECT student.name FROM student;
+
+ordering the queries:
+ - SELECT name FROM student ORDER BY name DESC;
+ - add desc to return in descending order
+
+ - SELECT * FROM student ORDER BY major, student_id;
+	- will order by major first, then student_id if any common majors
+
+limit number of results:
+ - SELECT * FROM student LIMIT 2;
+ - will only return 2 results
+ - can order and then limit
+
+WHERE example:
+ - SELECT * FROM student WHERE major = 'Chemistry' or name = 'Barn'
+
+WHEREIN:
+ - SELECT * FROM student WHERE IN ('john', 'steve') AND student_id > 2;
+ - can use when multiple classes we want to fit in
+
+AS keyword:
+ - can rename a column as something else when it is retrieved
+ - eg. SELECT last_name AS surname;
+
+DISTINCT keyword:
+ - gets all unique values for that column
+ - eg. SELECT DISTINCT sex FROM employee;
+	- will return a table with M, F
+
+***EXAMPLES***
+
+employees ordered by salary:
+ - SELECT * FROM employee ORDER BY salary;
+
+employees ordered by sex, then name:
+ - SELECT * FROM employee ORDER BY sex, last_name, first_name;
+
+first 5 employees in the table:
+ - SELECT * FROM employee LIMIT 5;
+
+get first and last names of all employees:
+ - SELECT first_name, last_name FROM employee;
+
+get first name and call it forename and get last name and call it surname:
+ - SELECT first_name AS forename, last_name AS surname FROM employee;
+
+----------------------- SQL functions --------------------------
+
+can use when retrieving data thru queries
+
+COUNT() function:
+ - eg. find the number of employees:
+	- SELECT COUNT(emp_id) FROM employee;
+	- will return number of employees (because emp_id is primary key)
+
+get number of female employees born after 1970:
+ - SELECT COUNT(emp_id) FROM employee WHERE sex = 'F' AND birth_date > '1970-01-01';
+
+AVG() function:
+ - eg. find the average of all male employee salaries:
+ 	- SELECT AVG(salary) FROM employee WHERE sex = 'M';
+
+SUM() function:
+ - adds up all the values in the column
+
+GROUP BY aggregation:
+ - eg. find the number of males and females
+ 	- SELECT COUNT(sex), sex FROM employee GROUP BY sex;
+	- will return num of males and num of females
+
+find the total sales of each salesman:
+ - SELECT SUM(total_sales), emp_id FROM works_with GROUP BY emp_id;
+
+*** AGGREGATION IMPORTANT ***
+
+wildcards:
+ - % for any number of characters
+ - _ for one character
+
+find any client who have 'LLC' in their name:
+ - SELECT * FROM client WHERE client_name LIKE '%LLC';
+	- has to end with 'LLC'
+	- if 'LLC' should be somewhere in the middle, do '%LLC%'
+
+LIKE keyword:
+ - use these wildcards to filter based on things like string patterns
+ - very similar to REGEX
+
+find any branch suppliers who are in the label business:
+ - SELECT * FROM branch_supplier WHERE supplier_name LIKE '%label%';
+
+find any employee born in october:
+ - SELECT * FROM employee WHERE birth_date LIKE '____-10-__'
+
+----------------------- UNIONS --------------------------
+
+unions:
+ - allow combining multiple SELECT statements into one
+
+eg. find a list of employee and branch names
+ - SELECT

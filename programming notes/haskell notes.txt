@@ -309,11 +309,3 @@ quicksort:
 
 curried functions:
  - officially every haskell function only takes one param
-
-
-magic:
- - function
- - value
- - list
-	
- - magic 
