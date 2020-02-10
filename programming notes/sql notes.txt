@@ -159,6 +159,17 @@ CREATE TABLE works_with (
 	- two primary keys that are each foreign keys too
 	- on delete CASCADE
 
+ON DELETE:
+ - set null: when deleted, set values that reference it to NULL
+	- eg. delete emp_id = 102
+	- now in branch table, will have NULL where the mgr_id is (was 102)
+	- a lot of supervisor_id's are now NULL too
+ - cascade: when deleted, remove the entire row and shift everything up
+	- eg. if we delete branch 2
+	- all rows in branch_supplier with branch_id 2 ALSO get deleted
+	- useful when deleting a foreign key
+		- other table can't have NULL as its primary key, must delete
+
 ----------------------- POPULATING TABLES --------------------------
 
 inserting each row is just done one by one like the line below
@@ -173,7 +184,7 @@ inputting a new row without all the data:
  - say we want to add a row of a student without a major
  - INSERT INTO student VALUES (3, 'narman', NULL)
 
-updating data:
+UPDATING ROWS:
  - UPDATE student
    SET major = 'Bio'
    WHERE major = 'Biology' OR major = 'Chemistry';
@@ -185,12 +196,6 @@ updating data:
 
  - if no WHERE statement, will apply to every row
 
-deleting rows:
- - DELETE FROM student 
-	- just this line will delete every row
- - DELETE FROM student 
-   WHERE student_id = 5 AND major = 'undecided';
-
 careful when inserting:
  - if a row in a table has a foreign key, must first initialize it as NULL
  - and then input it after that foreign key value created in the other table
@@ -198,6 +203,12 @@ careful when inserting:
 
  - once all the complicated relationships done, can simply insert as regular
  - INSERT INTO works_with VALUES(105, 400, 100);
+
+DELETING ROWS:
+ - DELETE FROM student 
+	- just this line will delete every row
+ - DELETE FROM student 
+   WHERE student_id = 5 AND major = 'undecided';
 
 ----------------------- RETRIEVING DATA --------------------------
 
@@ -257,6 +268,7 @@ get first name and call it forename and get last name and call it surname:
 ----------------------- SQL functions --------------------------
 
 can use when retrieving data thru queries
+ - COUNT, AVG, SUM, GROUP BY
 
 COUNT() function:
  - eg. find the number of employees:
@@ -306,6 +318,213 @@ find any employee born in october:
 
 unions:
  - allow combining multiple SELECT statements into one
+ - must be same number of columns in both SELECT statements
+ - must also be of same data type
+ - basically combines two SELECT statements
 
 eg. find a list of employee and branch names
- - SELECT
+ - SELECT first_name AS all_names
+   FROM employee
+   UNION
+   SELECT branch_name 
+   FROM branch;
+	- will return one list containing employees and branch names
+
+eg. find a list of all money spent and earned by the company
+ - SELECT salary AS all_money
+   FROM employee
+   UNION
+   SELECT total_sales
+   FROM works_with;
+
+----------------------- JOINS --------------------------
+
+joins:
+ - used to combine tables through a related column between them
+ - this basic join is also known as an INNER JOIN
+	- will combine rows whenever they have shared column in column
+
+eg. find all branches and a list of their managers
+ - SELECT employee.emp_id, employee.first_name, branch,branch_names
+   FROM employee
+   JOIN branch
+   ON employee.emp_id = branch.mgr_id;
+
+left join:
+ - include all rows from left table
+ - will have lots of NULL values for rows that don't have matches
+ - eg. included ALL employees even though they weren't managers
+	- all employees included
+
+right join:
+ - include  all rows from right table
+ - opposite of above (eg. included BUFFALO branch even though had no manager)
+	- all branches included
+
+outer join:
+ - combination of above
+	- all employees AND all branches included
+	- SELECT * FROM table1 OUTER JOIN table2 ON table1.x = table2.y
+
+----------------------- NESTED QUERIES --------------------------
+
+nested queries:
+ - useful when we need to obtain parts of information from multiple places
+ - important to include table names as there may be overlapping column names
+
+find names of all employees who have sold over 30 000 to a single client
+ - SELECT works_with.emp_id FROM works_with WHERE works_with.total_sales > 30000;
+ - SELECT employee.first_name, employee.last_name FROM employee WHERE ???
+ - this is where use nested
+
+ - SELECT employee.first_name, employee.last_name 
+   FROM employee 
+   WHERE employee.emp_id IN (
+	SELECT works_with.emp_id
+	FROM works_with
+	WHERE works_with.total_sales > 30000);
+
+eg. find all clients who are handled by Michael Scott's branch
+ - find branch_id Michael manages
+ - then we can use that in the client table
+ - SELECT branch.branch_id FROM branch WHERE mgr_id = 102;
+	- now use this in the below one
+ - SELECT client.client_name FROM client WHERE client.branch_id = (???)
+
+ - SELECT client.client_name 
+   FROM client 
+   WHERE client.branch_id = (
+	SELECT branch.branch_id 
+	FROM branch 
+	WHERE mgr_id = 102
+	LIMIT 1
+   );
+	- limit because we need to make sure we can only have 1 for the '='
+
+----------------------- TRIGGERS --------------------------
+
+trigger:
+ - defines an action that is performed when a certain operation is performed on database
+ - must be defined in CMD (need to change delimiter)
+
+eg. CREATE TABLE trigger_Test (message VARCHAR(100));
+
+DELIMITER $$
+CREATE
+    TRIGGER my_trigger BEFORE INSERT
+    ON employee
+    FOR EACH ROW BEGIN
+	INSERT INTO trigget_test VALUES('added new employee');
+    END$$
+DELIMITER ;
+
+ - above inserts values into trigger_test whenever row added to employee table
+ - the delimiter allows us to make multi line tings
+	- otherwise SQL will think we're done at the first semi-colon
+	- this way we can write that block and then end with delimiter
+
+ - now if we add a new employee and then:
+	- SELECT * FROM trigger_test
+	- will show the message in the table
+
+
+conditionals in triggers:
+ - can do if else statements
+
+DELIMITER $$
+CREATE
+    TRIGGER my_trigger BEFORE INSERT
+    ON employee
+    FOR EACH ROW BEGIN
+	IF NEW.sex = 'M' THEN
+	    INSERT INTO trigger_test VALUES('added male employee');
+	ELSEIF NEW.sex = 'F' THEN
+	    INSERT INTO trigger_test VALUES('added female employee');
+	ELSE 
+	    INSERT INTO trigger_test VALUES('added other employee');
+	END IF;
+    END$$
+DELIMITER ;
+
+----------------------- ER DIAGRAMS --------------------------
+
+entity relationship diagrams
+
+entity:
+ - an object we want to model and whose info we want to store
+ - can have multiple entities in a diagram
+ - eg. a student
+ - represented as a square
+
+attributes:
+ - specifies info about entities
+ - eg. age
+ - represented as small ovals around entitiy
+
+ - **the primary key attribute is underlined
+
+composite attributes:
+ - attribute that can be broken up into sub-attributes
+ - eg. name -> fname, lname
+ - break off main attribute as more attributes
+
+multivalued attributes:
+ - attribute that can have more than one value
+ - eg. clubs (more than 1)
+ - represented as double oval
+
+derived attributes:
+ - attribute that can be derived from other attributes
+ - eg. has honors, can be derived from the GPA attribute
+ - we don't actually keep track of this attribute
+ - represented as dotted oval
+
+entity relationships:
+ - eg. [student] TAKES [class]
+ 	- student entity TAKES a class entity
+ - represented as a diamond
+
+ - lines that connect to relationship are important
+	- single line implies partial participation (not all students need to take a class)
+ 	- double line imples total participation (all classes must be taken by students)
+ - two entities can share multiple relationships
+ - one entity can also have a relationship with itself 
+	- eg. employee with 'supervision' relationship
+
+relationship attributes:
+ - an attribute to a relationship
+ - eg. TAKES can have a 'grade' attribute
+	- student will take a class and get a particular grade
+	- attribute is reliant on this relationship, not the individual entities
+
+relationship cardinality:
+ - number of instances of an entity from a relation that can be associated with the relation
+ - 1:1, 1:N, N:M
+ - one-to-one, one-to-many, many-to-many
+ - eg. any number of students can take a class
+	- also any number of classes can be taken by a student
+	- therefore it is an N:M, many-to-many relationship
+	
+weak entity:
+ - an entity that cannot be uniquely identified by its attributes alone
+ - it depends on another entity
+ - eg. EXAM entity depends on the CLASS entity (without class no exam)
+
+identifying relationship:
+ - relationship that serves to uniquely identify the weak entity
+ - eg. class HAS exam
+ - represented as double diamond
+
+eg. employee can work for one branch at a time
+ - BRANCH ----1---> works for <---N---- EMPLOYEE
+
+converting ER diagrams into databases:
+ - take all regular entities and map them to tables with their attributes
+ - for weak entities, take the primary key of what its weak to and add as primary key
+ - for 1:1 relationships, include one side of the relationship as a foreign key in the other
+	- favor total participation (if one has and one doesn't, use one which has)
+ - for 1:N relationships, inclide 1-sides primary key as a foreign key in the N-side
+	- eg. if branch is 1, emp is N, include branch_id as a foreign key in employee
+ - for M:N relationships, make a new table whose primary key is a combo of both entities' primary keys
+	- also, include any relationship attributes
+	- eg. the 'works_on' table
