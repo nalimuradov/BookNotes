@@ -1,0 +1,77 @@
+Relational Algebra
+ - queries on relations return relation as a result
+
+Relation Name
+ - 'Student'
+ - returns a copy of 'Student', nothing done to it
+ - most basic relation
+
+Select Operator
+ - Sigma
+ - returns subset of rows
+ - select students with GPA > 3.7
+ - [sigma] GPA > 3.7 STUDENT
+ - can add AND or OR to have multiple conditions
+ - [sigma] GPA > 3.7 AND cName='Stanford' STUDENT
+
+Project Operator
+ - Pi
+ - returns subset of columns
+ - project studentID, decision
+ - [pi] sID, dec STUDENT
+
+Combine Select and Project
+ - [pi] sID, name ([sigma] GPA > 3.7 STUDENT)
+
+Rel Alg vs SQL
+ - SQL uses bags (duplicates)
+ - Rel Alg uses sets (no duplicates)
+
+Cross Product
+ - Student X Apply
+ - student.sID, apply.sID when the two relations have an identical attribute
+ 
+Natural Join 
+ - cross product but only keeps tuples with same attribute (eg. sID)
+ - will only need to keep one copy of that column since they will all be the same
+ - uses bowtie symbol |><|
+ - Student |><| Apply
+ - eg) when need to use all tables, just natural join it all and operate on it
+
+Theta Join
+ - natural join but with subscript on bowtie
+ - same thing as [sigma] (Exp1 X Exp2)
+ - most people when they say 'join' they mean theta join
+
+Union Operator
+ - combine list of things
+ - eg. want list of university names and student names vertically
+ - susan, john, mcmaster, eric, don, western
+ - [pi] cName COLLEGE U [pi] sName STUDENT 	
+
+Difference Operator
+ - ID's of students who didn't apply anywhere
+ - [pi] sID STUDENT - [pi] sID APPLY
+ - we can natural join the above with STUDENT and project to get student names too
+
+Intersection Operator
+ - upside down U (AND)
+ - eg. names that are both a college name and a student name
+ - [pi] cName COLLEGE *intersect* [pi] sName STUDENT
+ - doesn't add any expressive power by itself
+ - E1 *intersect* E2 is the same as E1 - (E1 - E2)
+
+Rename Operator
+ - uses the symbol ro (p)
+ - useful for disambiguation of self-joins
+ - eg. pairs of colleges in same state
+ - [sigma] College = College STATE X STATE wont work (which one is which?)
+ - rename one and then can try again
+ - p c1(n1, s1, e1) College
+ - p c2(n2, s2, e2) College
+ - cross the above two
+
+Expression Tree
+ - another way to visualize relational algebra
+ - shows hierarchy of the selections, projections, and other commands
+ - this is how the program interprets the commands
