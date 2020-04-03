@@ -1,0 +1,170 @@
+Christian Rudder - Dataclysm
+
+differences between what you want, what you say, and what you do:
+ - aggregate data shows that men want women ages 20-23 (across all ages of men)
+ - however when asked, they say they want someone near their age
+ - however again, they mostly message women slightly younger than them (gap widens as older)
+
+however for women:
+ - they prefer men slightly older than them (at all ages)
+ - as such, women have it harder in that the clock is ticking quick time for them
+ - for every 100 men interested in a 20yo, there are only 9 interested in a 50yo
+ 
+popularity of being polarizing:
+ - john waters appears more in profiles than spielberg and george lucas combined
+ - either you love it or hate it
+ - repelling some people draws others closer 
+ - being universally liked is to be relatively ignored
+ - however being disliked by some is to be loved all the more by others
+ 
+ - similarly, a women's attractiveness is enhanced when some men find her ugly
+ - eg. rating from 1 to 5 -> avg will be 3 if all voted 3 or half voted 1 and other half voted 5
+ - the second one has greater variance
+ - the greater the variance the better
+ - being polarizing will get you 70% more matches 
+ - people not liking you brings you more attention on its own
+ 
+ - biological logic:
+	- a man seeing an unconvential women may think that other men are likely turned off
+      	- as such, he assumes there is less comptetition, increasing his chance of success
+      	- "i bet she doesn't meet many guys who think she's awesome, this is my diamond in the rough, etc...."
+      	- on the other hand, broad appeal from an attractive woman will make you think there is more competition
+      
+ - pratfall effect:
+      	- as long as you're generally competent, making a small, occasianal mistake makes people think you're more competent
+      	- flaws call out the good stuff all the more
+      	- smell of indole in perfumes and flowers, "a little bit of shit brings the bees"
+
+ - you can see it in real life, for example models:
+	- cindy crawford's career took off after she stopped covering her mole
+	- linda evangelista had that hair
+		- it didn't make her prettier necessarily, but it made her far more interesting
+	
+ - women who had blue hair, tats, unique clothes had far more messages:
+	- far more people said No, but far more people also said Yes
+
+writing and the internet:
+ - in two years more words will be typed on twitter than written in very book in existence
+ - naive assumption that things like twitter make us dumber (confined amount of writing)
+ - rather, it makes us better at writing
+	- makes us work with less, making us better
+
+tracking writing patterns:
+ - "poppin", "chillin", "nibba" (words with shortened endings, commonly used in same group)
+ - "pelosi", "obamacare", "libs" (partisan talking points)
+ - "bieber", "pleasee", "youu", "<33" (repeated last letter)
+
+ - people who speak/type in similar ways will be drawn together
+
+tracking words over time:
+ - popularity of foods over time (tracked through text)
+ - pasta dropped in 1990's due to Atkins died
+ - red meat rose in popularity during world wars
+ - ice cream became big in 1910's when powered home icebox introduced
+
+message length over time:
+ - since apple launched app store, okCupid message lengths dropped by over two thirds
+ - more writing on phone led to shorter messages
+ - the average message is now just over 100 characters
+ - the highest response rate messages are between 40 to 60 characters long
+
+copy-paste vs scratch-messaging strategy:
+ - copy-paste underperforms by 25%
+ - however in terms of effort-in to results-out, it beats out scratch-messaging
+ - templates work
+
+social graph analysis:
+ - six degrees of separation applies for 99.6% of facebook users
+ - the more mutual friends, the tighter the relationship
+
+people don't know what they want until you show it to them:
+ - like pinning the tail on the donkey with millions of people shouting advice
+ - mostly they tell you indirectly, by not buying your product
+ - however on websites, this is all tracked
+	- we can see if a certain area isn't getting attention for whatever reason
+
+love is blind:
+ - okcupid had a day where profile pics were removed (which led to an app that failed)
+ - many people didn't use because they insisted they see the other person
+ - however, dates that took place weren't affected by how either looked
+	- data showed that attractiveness was nearly irrelevant
+ - people appear to be preselecting online for something that doesn't seem important once they sit down
+
+racism:
+ - racism is not for the outliers, it is pervasive
+ - black women are rated the lowest by all races of men on okcupid, including black men
+ - when asked, people obviously reply they wouldn't want to date someone who has negative bias towards certain race
+ - this data is us, it is a reflection of what we are
+	- that's why people don't like linking facebook or social media to dating sites
+	- if your friends see what you do, you cannot express how you truly feel in fear of judgment
+ - "but i have black friends"
+	- how you treat your friends, is by definition, the exception to how you treat the rest of humanity
+	- obama mentioned how people will clutch purse tighter or lock cars when black person walks by
+ - these stats are consistent acorss all sites
+ - women on the other hand judge men of their own race the highest, with white a close second for each race
+ - profiles that put 'asian + white' had higher success than profiles with just 'asian'
+
+ - these flashes intuition don't just pertain to love:
+	- this decides who you rent your apartment to
+	- who will get an interview
+	- eg. Emily and Greg vs Lakisha and Jamal study 
+		- same resume with different names
+		- Emily and Greg got 50% more responses
+
+ - most of us acknowledge that racism is wrong:
+	- however, it is implicit in the decisions we make
+
+ - osagie k obasogie study:
+	- interviewed people blind from birth
+	- found same attitudes about race as in the sighted word
+
+ - around the world, the culturual norms shift:
+	- blonde in asia is like what
+
+attractivess:
+ - on dating sites, effect of attractiveness is exponential (like richter scale)
+ - while a 10th percentile barely different from 20th percentile
+	- going from 90th to 100th is massive jump
+ - women get even more messages 
+ - doesn't only apply to dating
+	- shiftgig gives more interviews to higher rated women
+	- have more facebook friends
+ - success and beauty are correlated for both sexes, but steeper for women
+	- every percentile of attractiveness gives a man two new facebook friends
+	- gives a women three
+	- women are treated as if its okcupid, even at a job application
+
+ - your appearance and profile picture affects you more than you know:
+ 	- when okcupid made pics higher res, increased matches of attractive ppl by 80%
+
+figuring out what a person thinks:
+ - hardest part, as what you to uncover most is what your subjects are most eager to hide
+ - things related to race, sexual behaviours, drug use, etc
+ - respondents answer questions in ways that make them look good
+	- this is called 'social desirability bias'
+ - bradley effect:
+	- pollers in california election said they voted for Tom Bradley (black candidate) when asked, by a significant margin
+ 	- however, his white opponent won a narrow victory
+ - other problems like addiction and racism are extremely difficult to uncover:
+	- people cannot be honest about them
+
+ - google trends help:
+	- people search what they truly want to ask or how they feel
+	- n-word is more american than the word 'apple pie', by 30%
+	- usage of n-word rose extremely during obamas campaign and election	
+	- was also very common during trayvon martin george zimmerman case
+ 
+ - google auto complete:
+	- when you begin typing a phrase, it will autocomplete with the most popular searches
+	- this can give you a peek into what people search for and think
+	- why is tongue white, why is my urine cloudy
+	- our hidden thoughts are becoming part of the world
+
+ - this data ends arguments that anecdotal evidence could never win
+
+herd mentality:
+ - "earth is now 2014 years old"
+ - justine socco tweet
+ - people were ready to kill her and her family
+ - rumors spread that her father was a billionaire so its fine
+ - anonimity of the internet brings out the darkest 
