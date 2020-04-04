@@ -179,3 +179,28 @@ zipf's law:
 
 word counts:
  - pages 160-170 graphs super neat
+
+homesexuality:
+ - google trend graphs per state
+ - shows that 5% of population would come out as gay, if social pressure was absent
+ - eg. of 1.5% in dakota come out as gay, there is about 3.5% gay and denying it
+ - most common follow for the google search "is my husband..", gay appears more than anything else
+ 	- more common than cheating, alcoholic, etc
+	- most common where repression is highest (south carolina, louisiana)
+
+bisexuality:
+ - very few bisexual people actually message both men and women
+ - most typically message one or the other
+ - shows that maybe it's fear or curiosity
+
+facebook like predictions:
+ - can predict whether someone is gay/straight, white/black, man/woman, drug user, etc
+ - all with high accuracy and only using what they like
+
+google flu:
+ - track outbreaks by google searches
+
+PRISM:
+ - nsa is listening
+ - they see these words im typing
+ - they don't care unless im a threat
