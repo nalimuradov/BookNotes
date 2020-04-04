@@ -168,3 +168,14 @@ herd mentality:
  - people were ready to kill her and her family
  - rumors spread that her father was a billionaire so its fine
  - anonimity of the internet brings out the darkest 
+
+zipf's law:
+ - in any corpora, a word's popularity multiplied by the number of times it shows up is the same for every word in the text
+ - rank * number = constant
+ - holds for bible, lyrics, etc
+ - eg. what is rank 30, appears 975 times
+	- 30 * 975 = 29250
+	- and nearly every word has this same constant value
+
+word counts:
+ - pages 160-170 graphs super neat
