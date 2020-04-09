@@ -1,2 +1,142 @@
 Robert Sapolsky - Behave
 
+violence:
+ - not hated, rather we fear the wrong kind of violence
+ - we watch mma, teach kids to fight back, etc
+
+altruism:
+ - pure altruism seem unnerving, draw suspicion
+ - eg. donating kidney
+	- is she getting paid secretly?
+	- is she starved for attention?
+
+passion:
+ - the opposite of love is not hate, but indifference
+ - hate and love are similar in many ways (as we will see)
+
+triune brain model:
+ - layer 1:
+	- ancient part, at the base of the brain
+	- found across many species
+	- hunger, pain, cold, stress, etc
+ - layer 2:
+	- more recently evolved, mammalian, on upper surface
+	- see something gruesome, sends signals to layer 1
+	- feeling unloved? will send signals to layer 1 to generate comfort food craving
+ - layer 3:
+	- neocortex, on upper surface of brain
+	- cognition, memory storage, sensory processing, abstractions
+	- read a scary book? layer 3 sends signal to layer 2 to make you scared, which sends to layer 1
+	- see an oreo ad and feel a craving? will influence lower layers
+ - truthfully they are intertwined, but this is a good metaphor for now
+
+limbic system: 
+ - layer 2 and its emphasis on emotion, termed 'limbic system'
+ - olfactory bulbs:
+	- one for each nostril
+	- primary receptive area for odors
+ - hypothalamus:
+	- limbic structure
+	- interface between layer 2 and 1
+	- sends signals from 2 to 1
+	- too hot? blood sent to body surface to dissipate heat
+	- this is all automatic, or autonomic
+	- 'autonomic nervous system'
+	- this is how emotions change bodily functions
+
+autonomic nervous system has two parts:
+ - sympathetic nervous system (SNS):
+	- mediates body's response to arousing circumstances
+	- eg. fight or flight
+ - parasympathetic nervous system (PNS):
+	- about calm, vegetative states
+	- slows down heart, promotes digestion
+	- opposite of SNS
+
+cortex:
+ - brain's upper surface, the newest part
+ - logical crown jewel of layer 3
+ - sensory information flows there to be decoded
+ - muscles are commanded to move here
+ - where language is comprehended and produced
+ - where meomories are stored
+ - damage to cortex can inhibit things like speaking:
+	- however, some people can sign what they want
+	- an emotive, limbic detour
+
+ - frontal cortex is the interface between layers 2 and 3
+
+parts of the cortex:
+ - folded into convolutions
+ - convolutions form a superstructure of four lobes:
+	- temporal
+	- parietal
+	- occipital
+	- frontal
+ - each have different functions
+ - diagram on pg 33 (pdf)
+
+symmetry:
+ - brain structure contains bilateral sections
+ - left and right amygdala, hippocampus, temporal lobe, etc
+
+ - left hemisphere of cortex is analytical
+ - right hemisphere more involved in intuition and creativity
+
+amygdala:
+ - greek word for 'almond'
+ - under the cortex in temporal love
+ - central to mediating aggression, and many other behaviours related to aggression
+ - show images that provoke anger, and amygdala activates
+ - having it removedor sedated (novacain) decreases rates of aggression
+
+ - texas tower sniper shooting
+ - killed mom, wife, and thirty two others
+ - left note saying couldnt find reason to kill but did, he loved them, and wanted his brain autopsied
+ - turns out he had tumor pressing on his amygdala
+ - it's not the only reason (his childhood), but definitely had some effect
+
+ - also related to fear and anxiety, not only aggression
+ - in PTSD sufferers, amygdala is overreactive to mildly fearful stimuli and is slow in calming
+
+ - gets sensory inputs from all sensory systems (eg. jaws track gets you scared)
+ - also takes information about pain
+
+ - bidirectional communication with frontal cortex, insula, PAG
+ - interfaces with hippocampus
+
+ - eg. in cage A a tone is followed by a shock, whereas in cage B it's just a tone
+	- amygdala learns the stimilus cue (the tone)
+	- hippocampus learns about the contexts of cage A versus B
+
+ - we remember view of platting hitting world trade, but don't remember if there were clouds:
+	- hippocampus decides whether a fact is worth saving or not
+
+ - in many interactions, amygdala is faster but less accurate (as opposed to waiting for eg. cortex)
+ - heart does roughlt same thing when in murderous rage or mid orgasm:
+	- again, the opposite of love is not hate, but indifference
+
+frontal cortex:
+ - works with memory, gratification postponement, regulation of emotions
+ - frontal cortex makes you do the harder thing when it's the right thing to do
+ - last part of brain to mature (not fully online until people are in their midtwenties)
+
+ - prefrontal cortex (PFC):
+	- the decider, chooses between conflicting options (coke or pepsoi)
+
+ - also mediates 'executive function', looking for bits of information, patterns:
+	- eg. someone says 'im buying peaches, detergent, cinnamon,....'
+	- now asked to recite, and they only remember a few
+	- if repeated, they remember more and start to notice patterns (eg. 4 foods, 4 cleaning items, ...)
+	- prefrontal cortex imposes a strategy to remember everything
+
+ - self control is a finite resource:
+	- frontal neurons are expensive cells, therefore they are vulnerable cells
+	- make it work hard, and next task performance declines (or multitasking)
+
+ - self discipline:
+	- you quickly learn not to pee everywhere when you're young, so much so that now it's ingrained
+	- playing a hard part in a song, but eventually becoming so good that it's more reflexive (cerebellum) than PFC
+
+
+pg.52 THE FRONTAL CORTEX AND SOCIAL BEHAVIOUR
