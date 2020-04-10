@@ -82,7 +82,7 @@ inverse example: [1 2 1]	[-7 -7  6]
 		 [4 4 5]	[ 2  1 -1]
 		 [6 7 7]	[ 4  5 -4]
 	- these two matrices are inverse to each other since AB = I = BA
-p
+
 transpose of a matrix:
  - if we have matrix A and write cols as rows and vice versa, we get matrix B, the transpose of A
  - B = A^T
@@ -580,3 +580,23 @@ rank-nullity theorem:
  - also known as the fundamental theorem of linear mappings
 
 2.8 - Affine Spaces ---------------------------------------------------------------------------------------------------
+
+affine spaces:
+ - spaces that are offset from the origin
+ - spaces that are no longer vector subspaces
+
+affine transformation:
+ - combination of linear transformation with translations
+ - origin does not necessarily map to the origin
+ - lines still map to lines
+ - parallel lines remain parallel
+ - think of a picture that was skewed, picture is still intact but warped
+
+hyperplane:
+ - a subspace whose dimension is one less than that of its ambient space
+ - eg. 1d-line in 2d-space, 2d-plane in 3d-space
+
+names:
+ - 1-dimensional affine spaces are LINES
+ - 2-dimensional affine spaces are PLANES
+ - (n-1)-dimensional affine spaes are HYPERPLANES
