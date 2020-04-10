@@ -1,0 +1,98 @@
+3 - ANALYTIC GEOMETRY ---------------------------------------------------------------------------------------------------
+
+last chapter was abstract:
+ - now we will look at vectors and compute lengths/distances/angles between them
+
+3.1 - Norms ---------------------------------------------------------------------------------------------------
+
+norm of a vector:
+ - the length of it
+ - eg. (5x + 6y) vector
+	- length would be sqrt(5^2 + 6^2) using pythagoras
+
+manhattan norm: 
+ - also called L1 norm
+ - as if going by tiles (5x + 6y) would have 11 distance from origin using this norm
+ - think of 3x3 grid, middle is origin
+ 	- 4 squares around it have manhattan distance 1
+	- 4 corners have manhattan distance 2 (because have to move 1 horizontal and 1 vertical)
+
+euclidean norm:
+ - also called L2 norm
+ - this is the default norm, the example above
+
+3.2 - Inner Products ---------------------------------------------------------------------------------------------------
+
+bilinear mapping:
+ - a mapping with two arguments
+ - eg. V x V -> R
+	- takes two vectors and maps to a real number
+ - this mapping is 'symmetric' if order of arguments (vectors) does not matter
+ - this mapping is 'positive definite' if two args at 0 = 0, and two regular args are greater than 0 (non-neg)
+
+inner product vs dot product:
+ - dot product we multiply each value by each other and sum
+ - inner product is more generalized version of dot product
+ - inner products are positive definite, symmetric bilinear mappings
+	- typically write <x, y>
+
+3.3 - Lengths and Distances ---------------------------------------------------------------------------------------------------
+
+relationship between norms and inner products:
+ - inner products INDUCE norms
+	- we can compute vector lengths using inner product
+ - however, not every norm is induced by an inner product
+	- for example the manhattan norm doesn't have corresponding inner product
+
+euclidean distance:
+ - distance is ||x - y||
+ - if we use dot product as inner product, it is called euclidean distance
+
+3.4 - Angles and Orthogonality ---------------------------------------------------------------------------------------------------
+
+angles:
+ - inner products are also able to find the agle between two vectors
+ - the angle between two vectors is:
+	- cos w = <x,y> / ||x|| ||y||
+ - <x,y> is the inner product
+ - ||x|| and ||y|| are the magnitudes (lengths, norms) of their respective vectors
+
+ - eg. u = [4,3], v = [3,5]
+	- cos w = (4*3 + 3*5) / (sqrt(4^2 + 3^2)) * (sqrt(3^2 + 5^2))
+	- cos w = 27 / (5 * sqrt(34))
+	- w = 22.17 degrees
+
+ - this can tell us how similar orientations of two vectors are
+	- eg. if angle between y and x is 4x, that means y is a scaled version of x, orientation is the same
+
+orthogonal:
+ - two vectors are orthogonal if <x,y> = 0
+ - we write x 'upside down T' y
+ - as such, the 0-vector is orthogonal to every vector in the vector space
+ 
+orthonormal:
+ - two vectors are orthonormal if ||x|| = 1 = ||y||
+ - ie. the vectors are unit vectors, then they are orthonormal
+
+orthogonal square matrix:
+ - it is orthogonal if its columns are orthonormal so tht A^-1 = A^T
+	- ie. the inverse is obtained by simply transposing the matrix
+
+3.5 - Orthonormal Basis ---------------------------------------------------------------------------------------------------
+
+orthonormal basis:
+ - a basis is n-dim vector that is linearly independent in n-dim space
+ - if basis vectors are orthogonal to each other and length of each basis vector is 1, we call it orthonormal basis
+
+ - eg. b1 = (1/sqrt(2))[1 1]^T and b2 = (1/sqrt(2))[1 -1]^T form an orthonormal basis in R2
+	- because b1b2 = 0 and ||b1|| = 1 = ||b2||
+
+ - useful when discussing support vector machines and principal component analysis
+
+3.6 - Orthogonal Complement ---------------------------------------------------------------------------------------------------
+
+normal vector:
+ - the vector which is orthogonal to plane (and therefore all vectors in that plane)
+ - eg. plane U, then every vector in U must be orthogonal to w, and so w is called the normal vector of U
+
+continue 3.7 pg 80
