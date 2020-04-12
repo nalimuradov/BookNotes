@@ -123,6 +123,7 @@ frontal cortex:
 
  - prefrontal cortex (PFC):
 	- the decider, chooses between conflicting options (coke or pepsoi)
+	- typically for preventing imprudent behaviours
 
  - also mediates 'executive function', looking for bits of information, patterns:
 	- eg. someone says 'im buying peaches, detergent, cinnamon,....'
@@ -138,5 +139,26 @@ frontal cortex:
 	- you quickly learn not to pee everywhere when you're young, so much so that now it's ingrained
 	- playing a hard part in a song, but eventually becoming so good that it's more reflexive (cerebellum) than PFC
 
+ - we use the frontal cortex to do the harder thing in social situations:
+	- don't belch loudly at dinner
+	- don't make sexual advances despite fantasies
+	- don't hit coworker
 
-pg.52 THE FRONTAL CORTEX AND SOCIAL BEHAVIOUR
+ - phineas gage:
+	- had pipe blown through his head, taking out his frontal cortex
+	- survived, but was indulging, irreverent, fitful
+	- inappropriate behaviour
+	- after few years, got better - his right frontal cortical tissue took on some of the functions after injury
+
+ - trolley problem:
+ 	- tell people pull level to save 5 but 1 will be killed, 70-90% say yes
+	- tell people same problem but instead you push the 1 guy to save 5, 70-90% say no
+	- intentionally killing someone with your own hands activates the dorsolateral PFC (dlPFC) along with vmPFC and amygdala
+	- in the lever scenario, only the dlPFC activates (a purely cerebral decision, like choosing which tool to use)
+
+mesolimbic/mesocortical dopamine system:
+ - reward, pleasure, happiness
+
+ - nuclei, inputs, and outputs:
+	- dopamine is synthesized in multiple brain regions
+	
