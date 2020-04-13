@@ -95,4 +95,29 @@ normal vector:
  - the vector which is orthogonal to plane (and therefore all vectors in that plane)
  - eg. plane U, then every vector in U must be orthogonal to w, and so w is called the normal vector of U
 
-continue 3.7 pg 80
+3.7 - Inner Product of Functions ---------------------------------------------------------------------------------------------------
+
+inner prod of two functions:
+ - just u(x)v(x) integrated for all x
+ - unlike on matrices, inner products on functions may diverge (to infinite)
+
+3.8 Orthogonal Projections ---------------------------------------------------------------------------------------------------
+
+very useful to reduce dimensions when dealing with data:
+ - can do this using orthogonal projections
+ - eg. map vector from 3D to 2D
+
+projection formula:
+ - P = (b * b^T) / ||b||^2
+
+example:
+ - find projection matrix P onto the line thru the origin spanned by b = [1 2 2]^T
+ - P = (1/9) [1] * [1 2 2]	 [1 2 2]
+	     [2]	   = 1/9 [2 4 4]
+	     [2]		 [2 4 4]
+ - 
+
+
+continue pg 95 - understand orthogonal projections
+
+
