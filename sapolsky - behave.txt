@@ -1,5 +1,7 @@
 Robert Sapolsky - Behave
 
+CHAPTER 1 - The Behaviour ------------------------------------------------------------------------------------
+
 violence:
  - not hated, rather we fear the wrong kind of violence
  - we watch mma, teach kids to fight back, etc
@@ -13,6 +15,8 @@ altruism:
 passion:
  - the opposite of love is not hate, but indifference
  - hate and love are similar in many ways (as we will see)
+
+CHAPTER 2 - One Second Before ------------------------------------------------------------------------------------
 
 triune brain model:
  - layer 1:
@@ -157,8 +161,155 @@ frontal cortex:
 	- in the lever scenario, only the dlPFC activates (a purely cerebral decision, like choosing which tool to use)
 
 mesolimbic/mesocortical dopamine system:
- - reward, pleasure, happiness
+ - reward, pleasure, happiness:
+	- drugs like heroin release dopamine in accumbens
+	- even the thought of sex releases dopamine in humans
+	- food evokes dopamine and satiation
 
  - nuclei, inputs, and outputs:
 	- dopamine is synthesized in multiple brain regions
+	- tegmentum and accumbens are the primary sources of projections
+		- connect with PFC, amygdala, hippocampus, etc
+
+ - releases occur in social interactions too:
+	- one study had a player either split reward or backstab and get whole reward
+	- greater dopamine reward in sharing
+	- punishment also releases dopamine
+
+ - jealousy:
+	- show person pictures of attractive/successful person to make person jealous
+	- activated pain perception cortical regions
+	- then tell them they suffered a tragedy (eg. demoted), and dopamine will be released
+
+ - nothing is ever good enough:
+ 	- monkey pulling lever 10 times to get a raisin: fat dopamine boost
+	- monkey pulls lever 10 times and get two raisins: even bigger boost
+	- now monkey pulls lever 10 times and gets one raising: declining dopamine!
+	- we are accustomed to want more
+	- biologically this makes sense:
+		- need to weigh reward relative to alternative outcomes
+	- what was an unexpected pleasure yesterday is what we feel entitled to today
+		- hunters back in the day probably got fat dopamine rush from stumbling upon honey
+		- now we're bombarded with sweets all day
+
+ - purchase price study:
+	- show subject a shopping item and ask them how much they would spend
+	- if actual price was less, emotional vmPFC activated
+	- if actual price was more, disgust-related insular cortex would activate
+	- could use neuroimaging data and predict who would buy it or not
+
+ - anticipation of reward:
+	- light turns on for monkey study to pull 10 levers
+	- small dopamine boost when he gets the raising
+	- however, there is also a dopamine boost  when the light turns on HOOOLY
+ 	- dopamine is less about its reward and more about the anticipation
+
+ 	- if you know your appetite will be sated, pleasure is more about the appetite than the sating
+
+	- take alcoholic who recovered to where the consumption used to occur
+	- synapses, cues that were learned associations to alcohol, come roaring back into action
+	- dopamine surges, craving inundates
+
+	- now make scenario where press lever: 50% chance of reward
+	- even more dopamine
+	- nothing fuels dopamine like the "maybe"
+
+	- in gambling, a "near miss" activated the dopamine system like crazy
+	- eg. when get two in a row and waiting for third to line up
 	
+	- well perceived risk is addictive
+	- ambiguity is just agitating
+
+	- time delay:
+		- if waiting 2X amount of time for reward, reward is 4X smaller (1/4)
+		- value of 1/4 is coded in the accumbens
+		- dlPFC and vmPFC neurons code for time delay
+		- now if we activate vmPFC or inactivate dlPFC, short term reward becomes more alluring
+		- in short tempered people, accumbens underestimates magnitude of delayed reward
+
+ - humans and reward delay:
+	- no animal delays rewards as long as humans
+	- no warthog is cutting calories to look good for summer
+	- no gerbil is getting good marks for a good job 10 years down the line
+
+serotonin:
+ - predicted impulsive aggression (rather than premeditated)
+
+three central chapter points:
+ - the hub of aggression (amygdala)
+ - the hub of reward (dopaminergic system)
+ - the hub of restraint (prefrontal cortex)
+
+
+CHAPTER 3 - Seconds to Minutes Before ------------------------------------------------------------------------------------
+
+triggers of behaviour:
+ - auditory: roar, howl, sing
+ - visual: monkeys show canines, dogs crouch to play
+ - undetectable triggers: eel electric songs, bats compete for echolocation
+
+ - it's easy to see how seeing a knife or hearing your name can rapidly alter your brain
+ - however, many subliminal sensory triggers also do this, but we don't consciously note them
+	- people think potato chips taste better when hearing the crunching sound
+
+ - race:
+	- flashing an image of a person for even one hundredth of a second, our brain will know
+	- can activate amygdala depending on how racist person is
+	- many racist thoughs are subconscious in us, before our PFC can suppress and rationalize
+
+	- person has 1/5th of a second to decide if image is of threatening person or not
+	- simply being black evoked a stronger P200 waveform than being white, regardless if they had weapon
+
+ 	- black criminals face longer sentence the more stereotypical they look
+	- that's why some lawyers give black people blocky glasses, 'nerdy look' for shorter sentence
+
+ - halo effect:
+	- very real, the more attractive, the smarter, kinder, etc you appear to others, regardless if true
+
+ - sweat:
+	- scientists smelled two kinds of sweat
+	- one from regular exercise
+	- one from fear of skydiving jump
+	- the fear one activated the amygdala 
+	- if people around you are scared, you should be too
+
+ - nonpheromonal smells:
+	- also has impact
+	- if people sit in room with garbage, they will have more conservative views about social issues such as gay marriage
+
+ - hunger:
+	- when people are hungry, they are less charitable and more willing to punish
+
+ - prisoners dilemma:
+	- call it 'wall street game' and people become less cooperative
+	- call it 'community game' and people become more cooperative
+	- reading fuzzy prosocial ("help", "fair") words before playing makes people cooperate
+	- reading "fierce", "rank", "power" does the opposite
+
+ - hypothetical drug:
+	- "drug has 95% success rate", people more likely to approve it
+	- "drug has 5% death rate", people less likely to approve
+
+ - even subtler cues:
+	- person 'falls' and hurts ankle at soccer game
+	- much more likely to get help if wearing home team jersey rather than neutral or away team
+
+ - conflicting stereotypes:
+	- study of asian american women writing a math test
+	- assumptions that women do worse than men in math, but asians do better than americans in math
+	- racial vs gender identity
+
+bystander effect:
+ - kitty genovese tragedy
+ - "there's lots of people here, someone else will step forward"
+ - however, in dangerous situations, the more people present, the more likely someone steps forward
+	- bigger crowd equals more witnesses to the heroics
+
+social environment:
+ - crimes more likely when there are broken windows, graffiti, trash everywhere
+ - more likely to steal five-euro bill if litter nearby
+ - new york crime drop with zero tolerance for litter and graffity
+
+CHAPTER FOUR - Hours to Days Before ------------------------------------------------------------------------------------
+
+ch4 pg 94
