@@ -312,4 +312,102 @@ social environment:
 
 CHAPTER FOUR - Hours to Days Before ------------------------------------------------------------------------------------
 
-ch4 pg 94
+testosterone:
+ - hormone
+ - correlation vs causation
+ - testosterone often linked with aggression, however must test for causation rather than correlation
+ - to test, castrate a male
+	- aggression decreases? yes, then there is causation
+	- give testosterone back and aggression increase? yes
+	- thus, testosterone causes aggression, right?
+	- however, castrated male can still be aggressive
+
+ - in study, higher testosterone level seen in male prisoners with higher rates of aggression
+	- but being aggressive STIMUATES testosterone secretion
+	- so no wonder more aggressive individuals had higher levels
+	- chicken and egg problem
+
+ - have to ask: whether differences in test levels among individuals can predict who will be aggressive
+	- answer is no (among mammals, fish, birds, and humans)
+
+ - testosterone typically increases confidence and optimism:
+	- also decreases fear and anxiety
+	- makes subjects think their own opinion was correct and ignore input from others
+	- makes people cocky, egocentric, narcissistic
+
+ - boosts impulsivity and risk taking:
+	- decreases activity in PFC and its functional coupling to the amygdala
+	- increases amygdaloid coupling with the thalamus (source of shortcut path of sensory info to amygdala)
+	- thus, more influence by that split-second, low-accuracy input
+	- instead of the stop-and-think-about-this from the PFC
+ 
+ - testosterone's effects are hugely context dependent:
+	- rather than causing X, test amplifies the power of something else to cause X
+	- eg. increases amygdala response rate to angry faces
+
+ - talapoin monkey experiment:
+	- middle ranking monkey (rank #3 out of 5 monkeys) was administered testosterone, increasing aggression levels
+	- did he challenge #1 and #2 for higher spot? no
+	- rather he became a more aggressive jerk to #4 and #5
+	- exaggerated pre-existing social patterns rather than create new ones
+
+ - challenge hypothesis:
+	- when testosterone rises after a challenge, it doesn't prompt aggression
+	- instead it prompts whatever behaviours are needed to maintain status (which in the case of monkeys is aggression)
+	- but what if your status requires you to be nice?
+		- eg. split money or take all, if both take then no money is made game (prisoners dilemma)
+		- testosterone actually made them make more generous offers
+
+oxytocin:
+ - hormone
+ - functions related to child birth and maternal behaviour
+ - along with vasopressing (together called the neuropeptides), facilitates bonding between parent/child and couples
+ - in the 0.1% of time oxytocin has existend (last 50000 years), when a dog and its owner interact, they secrete oxytocin
+ 
+ - makes patients less aggressive, and they rate faces as more trustworth
+
+ - cultural contingencies of oxytocin:
+	- group of americans and koreans
+	- during unstressful situations, nothing happened
+	- during stress, oxytocing made people more likely to ask for help, but only the americans
+
+ - contingency similar to testosterone:
+	- oxytocin enhances charitability, but only in people already doing so
+
+ - dark side of oxytocin:
+	- it enhances trust and cooperation in a game, but not if player is anonymous or in another room
+	- it will decreases cooperation, increase envy, and enhance gloating when winning
+	
+	- makes you more prosocial to people like you (eg. teammates), but lousy to others who are a threat (enemies)
+	- ethnocentrism and xenophobia ("us")
+	- as everything, always depends on the context
+
+estrogen:
+ - female aggression
+ - two receptors for estrogen in the brain (aggression, but also empathy/emotional recognition)
+ - female hyenas typically boot off males who hunted the food, so kids can eat
+
+stress:
+ - a stressor is anything that disrupts homeostasis (ideal body temp, heart rate, glucose level, etc.)
+ 	- eg. being chased by a lion, or chasing a zebra
+ - during stress: growth, tissue repair, reproduction are postponed until after crisis:
+	- none of those would matter if you died from whatever is chasing you
+
+ - during stress, amygdala becomes highly sensitive to glucocorticoids
+	- amplifies pre-existing excitation
+	- makes it easier to learn a fear-association and consolidate into a long-term memory
+	- also makes it harder to unlearn fear
+	- eg. it is the BLA (basolateral amygdala) that learns fear extinction
+		- the light turning on isn't going to shock me now (as it used to)
+	- stress facilitates learning fear associations but impairs learning fear extinction
+
+ - sustained stress impairs risk assessment 
+	- gambles become more risk-taking (if they originally were) or more risk-averse (if they originally were)
+
+pg 122 - sustained stress and pro- and antisociality
+
+
+
+
+
+	
