@@ -1,5 +1,6 @@
 Robert Sapolsky - Behave
 
+
 CHAPTER 1 - The Behaviour ------------------------------------------------------------------------------------
 
 violence:
@@ -7,14 +8,15 @@ violence:
  - we watch mma, teach kids to fight back, etc
 
 altruism:
- - pure altruism seem unnerving, draw suspicion
- - eg. donating kidney
+ - pure altruistic people seem unnerving, draw suspicion
+ - eg. donating a kidney
 	- is she getting paid secretly?
 	- is she starved for attention?
 
 passion:
  - the opposite of love is not hate, but indifference
  - hate and love are similar in many ways (as we will see)
+
 
 CHAPTER 2 - One Second Before ------------------------------------------------------------------------------------
 
@@ -310,6 +312,7 @@ social environment:
  - more likely to steal five-euro bill if litter nearby
  - new york crime drop with zero tolerance for litter and graffity
 
+
 CHAPTER FOUR - Hours to Days Before ------------------------------------------------------------------------------------
 
 testosterone:
@@ -404,10 +407,87 @@ stress:
  - sustained stress impairs risk assessment 
 	- gambles become more risk-taking (if they originally were) or more risk-averse (if they originally were)
 
-pg 122 - sustained stress and pro- and antisociality
+ - spousal/partner violence goes up 10% when local football team unexpectedly loses
+	- no increase if they won or were expected to lose
+	- 13% increase when team was in playoff contention
+	- 20% increase when upset by a rival
+ 
+ - stress biases us towards selfishness
+	- the more glucocorticoid levels rose, the more egoistic the answers
 
+conclusion:
+ - hormones don't determine, command, cause, or invent behaviours
+ - instead they make us more sensitive to the social triggers of emotionally laden behaviours and exaggerate pre-existing tendencies
+ - where do these pre-existing tendencies come from? next chapter
 
+CHAPTER FIVE - Days to Months Before ------------------------------------------------------------------------------------
 
+nonlinear excitation:
+ - how do synapses remember? how can events from months ago produce a synapse with altered excitability today?
+ - a new memory requires the strengthening of pre-exisiting synapses
+	- research by Donald Hebb
+
+neuron strengthening:
+ - if neuron A synapses onto neuron B, it means that an action potential in neuron A more readily triggers one in neuron B
+ - they become more tightly coupled, they "remember"
+ - repeated firing across the synapse "strengthens" it (which is experience)
+ - key role played by the neurotransmitter glutamate
+ 
+glutamate signaling:
+ - dendritic spines contain two receptors
+ - first one (non-NDMA) works in a conventional way
+	- for every smidgen of of glutamate binding to receptors, a smidgen of sodium flows in, causing a smidgen of excitation
+ - second one (NDMA) works in a threshold manner
+	- usually unresponsive to glutamate
+	- it is not until the non-NDMA has been stimulated over and over by a long train of glutamate release that this activates NDMA receptor
+	- suddenly it responds to all glutamate, opening its channels, allowing an explosion of excitation
+	- this is the essence of learning
+		- teacher says something, goes in one ear, out the other
+		- they say it over and over and eventually it sticks
+
+'aha' versus actually remembering:
+ - LTP -> long term potentiation
+	- the process by which the first burst of NDMA receptor activation causes a prolonged increase in excitability of the synapse
+ - when NDMA receptors finally activate, it is calcium (rather than sodium) that flows in
+ - this causes an array of changes:
+	- calcium tidal wave causes more copies of glutamate receptors to be inserted into dendritic spine's membrane
+		- this makes neuron more responsive to glutamate thereafter
+	- calcium alters glutamate receptors that are already on the front lines of that dendritic spine
+		- each will now be more sensitive to glutamate signals
+	- calcium also causes synthesis of peculiar neurotransmitters in dendritic spine, which are release and travel backward across the synapse
+		- there they increase the amount of glutamate released from the axon terminal after future action potentials
+
+ - LTP and LTD are what happens in hippocampus when we learn facts:
+	- eg. a phone number
+	- what about how we learn to be afraid? to feel empathy? control impulses?
+
+axonal plasticity:
+ - after five days of being blindfolded, subjects start to remap auditory projections into the visual cortex
+	- retract once the blindfolds come off
+ - adaptation
+
+neuroplasticity:
+ - neurogenesis is real, adult brains can in fact create neurons
+ - cab drivers have larger hippocampus (spacial maps)
+ - definitely finite, as grievous brain damage does not ultimately heal
+ - skilled individuals have put tens of thousands of hours into to be great
+	- however, the reverse doesn't hold
+	- tens of thousands of hours doesn't guarantee you will be lebron
+
+CHAPTER SIX - Adolescence; or, Dude, Where's My Frontal Cortex? ------------------------------------------------------------------------------------
+
+adolescence and early adulthood:
+ - this is the time when people are most likely to:
+	- invent an art form
+	- leave home forever
+	- kill or be killed
+	- help overthrow a dictator
+	- ethnically cleanse a village
+	- become addicted
+ - time of maximal risk taking, novelty seeking, affiliation with peers
+	- all because of immature frontal cortex
+
+pg. 152 - adolescent risk taking
 
 
 	
