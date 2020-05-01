@@ -487,7 +487,148 @@ adolescence and early adulthood:
  - time of maximal risk taking, novelty seeking, affiliation with peers
 	- all because of immature frontal cortex
 
-pg. 152 - adolescent risk taking
+peer pressure:
+ - very real
+ - study showed that adult playing video game who had two backseat gamers had no impact on player
+ - for teenager however, backseat gamers had thick effect
 
+what makes a 'successsful' baboon in his dominance hierarchy?
+ - attaining high rank requires muscle, canines, well-timed aggression
+ - maintaing high rank is all about social smarts
+	- knowing which coalitions to form
+	- how to intimidate a rival
+ - among rhesus monkeys, a large PFC goes hand in hand with social dominance
 
+CHAPTER SEVEN - Back to the Crib, Back to the Womb ------------------------------------------------------------------------------------
+
+myelination:
+ - particularly facilitates brain regions talking to one another
+ - no brain region is an island
+
+ - the later a particular brain region matures, the less it is shaped by genes and the more by the environment
+
+stages of development:
+ - sensorimotor stage (birth to 24 months)
+	- thought concerns only what the child can directly see and explore
+	- develop 'object permanence' (understanding that even if they can't see object, it still exists)
+ - preoperational stage (2 to 7 years)
+	- child can maintain ideas about how the world works without explicit images in front of him
+	- reasoning is intuitive, rather than logical
+		- eg. beaker A (fatter) vs beaker B (taller)
+ - concrete operational stage (7 to 12 years)
+	- kids think logically, no longer falling for different shaped beakers
+	- however, abstract think is iffy
+		- eg. proverbs are interpreted literally
+ - formal operational stage (adolescence onwards)
+	- approaching adult levels of abstraction, reasoning, and metacognition
+
+theory of mind:
+ - understanding that people have different thoughts from you
+ - eg. cookie in a box
+	- you know it switched boxes, but other person doesn't know it went from box A to box B
+	- will be asked "where will he look for the cookie?"
+ - around age 3-4 the child can reason
+	- 'i know it's in A but he will think it's in B'
+
+transitivity personified:
+ - transitivity is "if A > B, and B > C, then A > C"
+ - explain to a child and they won't grasp it
+ - give the objects A, B, C an eyes and a mouth and make A 'eat' B, then 'B' eat 'C'
+	- they will be shocked if 'C' eats 'A'
+	- as they will assume that 'A' should have eaten 'C'
+
+theory of mind and empathy:
+ - people can have different feelings than me, including pained ones
+ - this is not sufficient for empathy
+	- sociopaths use superb ToM when manipulating others
+	- also young kids too young for ToM show rudiments of feeling someone else's pain
+
+lawrence kohlberg:
+ - formulated stages of moral development
+ - would present kids with moral conundrums:
+	- eg. the only dose of the drug that will save a poor woman is expensive, should she steal it?
+ - proposed that moral judgment is a cognitive process, built around complex reasoning as kids mature
+
+stages of moral development:
+ - level 1: should i eat the cookie? preconvential reasoning
+	- it depends, how likely am i to get punished?
+	- if i refrain, will i get rewarded?
+		- these two stages are ego-oriented, children are typically at this level up to around ages 8-10
+
+ - level 2: should i eat the cookie? convential reasoning
+	- who will be deprived if i do? do i like them?
+	- what would other people do?
+	- what will people think of me for eating the cookie?
+
+	- what's the law?
+	- what if everyone broke this law?
+		- conventional moral reasoning is relational
+		- most adolescents and adults are at this level
+
+ - level 3: should i eat the cookie? postconventionaal reasoning
+	- what circumstances placed the cookie there?
+	- who decided that i shouldn't take it?
+	- would i save a life by taking the cookie?
+	- is my moral stance more vital than some law?
+		- this level is egoistic in that rules come from within, having to live with yourself afterward
+		- recognizes that being good and being law-abiding are separate
+		
+	- hardly anyone was found consistently at these stages
+
+ - acts of heroism:
+	- do people who stop a shooter or whistle-blow
+	- does moral reasoning predict moral action?
+	- actually, heroic acts don't happen because of some super-duper frontal cortical power
+	- rather, it happens when the right thing isn't the harder thing
+
+the marshmallow:
+ - kid left in a room with a marshmallow, promised a second one if they hold out for 15 minutes alone
+ - a third hold out, several ate it before the experimenter even left the room
+	- some cover their eyes, hide the marshmallow, rip off tiny pieces and kiss it
+
+ - if experimenters previously betrayed on promises, kids wouldn't wait as long
+ - being told how delicious and yummy and soft the marshmallow was nuked self-discipline to hold out
+
+ - mischel tracked the kids afterwards, seeing if marshmallow wait time predicted anything about their adulthoods
+	- five-yearolds who had more patience with the marshmallow averaged higher SAT scores
+	- they also had more social success, resilience, and less aggressive behaviour
 	
+	- forty years after, they excelled at frontal function, had more PFC activation, and had lower BMIs
+
+importance of motherly figure:
+ - rhesus monkey experiment with artificial parents
+	- one had milk, other had fur (both were just scarecrow fakes)
+ 	- the one with fur was prefered
+
+ - legalization of abortion were a big cause in crime drop 20 years later
+	- biggest crime deterrent is being born to a mother who wants you alive
+
+ - social cues are learnt
+	- who is higher ranking than who
+	- how to behave at various times
+
+ - the chicken wire fake parent monkey was given air jet 
+	- when monkey would hold on, it would be blasted with air
+	- would monkeys let go? no, they begin to hold harder
+	- gives insight into the world of abused children
+
+impact of poverty:
+ - being born in a poor family already significantly stacks the odds so hard against you
+ - higher basal glucocorticoid levels
+ - thinner frontal cortex
+ - poorer frontal function
+
+observing violence:
+ - heavy childhood exposure to media violence predicts higher levels of aggression in young adults of both sexes
+ - this link is stronger than the link between lead exposure and IQ, or calcium intake and bone mass
+ - bullying is also obviously linked to increased violence
+
+ - the more categories of adversity a child suffers, the dimmer his or her chances of a happy, functional adulthood
+ - romanian children during ceausescu reign
+	- no abortion and forced childbirth, many children were troubled
+	- many had low IQ, poor cognitive skills, autistic, problems forming attachements
+	- the longer the institutionalization, the worse the prognosis
+ 	- decreased total brain size, gray matter, white matter
+	- enlarged amygdala
+
+pg 196 - culture, with big and little c
