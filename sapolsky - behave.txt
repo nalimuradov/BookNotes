@@ -631,4 +631,80 @@ observing violence:
  	- decreased total brain size, gray matter, white matter
 	- enlarged amygdala
 
-pg 196 - culture, with big and little c
+culture:
+ - childhood is when culture is inculcated
+ - parents mediate that process
+ - cultures raise children to become adults who behave in the ways valued by that culture (meredith small)
+
+parenting styles:
+ - authoritative parenting:
+	- rules and expectations are clear, consistent, explicable
+	- praise and forgiveness trump punishment
+	- overall very good
+ - authoritarian parenting:
+	- rules and demands are numerous, arbitrary, and no need for justification
+	- behaviour mostly shaped by punishment
+	- parental motivationg is that it's a tough world and child should be prepared
+	- tends to produce adults with poor social skills, narrowly successful, obedient, conformist behaviours
+ - permissive parenting:
+	- few demands and expectations, rules are rarely enforced, children set the agenda
+	- as adults become self-indulgent with poor impulse control, low frustration tolerance
+ - neglectful parenting:
+	- these four form a matrix
+
+ - high demand, high responsiveness: authoritative
+ - high demand, low responsiveness: autoritarian
+ - low demand, high responsiveness: permissive
+ - low demand, low responsiveness: neglectful
+
+ - this is one way culture is transmitted to kids, the other is through their peers
+ - judith rich harris mentions states that past a certain age, peers become more of an influence than parents
+ - how do they do this? through play
+
+play:
+ - stimulation for children
+ - young organisms still play and expend calories in famines
+ - a child deprived of play rarely has a socially fulfilling adult life
+ - the opposite of play is not work, it is depression
+
+two most studied types of cultures:
+ - collectivist:
+	- emphasize interdependence, harmony, fitting in
+	- the needs and responsibilities of the group
+	- mothers in this culture spend more time soothing their child, maintaining contact, facilitating contact with other adults
+		- value low arousal effect, sleep with child to a later age
+		- games are about cooperation and fitting in:
+			- when playing with car, point is not to observe what car does, but to understand the process of sharing
+	- kids are trained to get along, think of others
+	- school of fish and one fish out front? it must have done something wrong
+	- social competence is all about taking someone else's perspective
+ - individualist:
+	- mothers in this culture speak louder, play music louder, have more animated expressions
+		- view themselves as teachers rather than protectors
+	- games emphasize individual competition, urge hobbies in 'doing' rather than observing
+	- school of fish and one fish out front? it must be the leader
+	- kids in individualist cultures acquire ToM later than a collectivist child
+
+ - kids in japan play more violent video games but are less violent than american kids?
+	- possible factors are that american kids play alone, while japanese families have tv in living room so play in front of parents
+	- japanese violence is more likely to have prosocial, collectivist themes
+
+cultures of honor:
+ - these cultures emphasize civility, courtesy, and hopsitality
+ - taking retribution is expected, culture filled with vendettas, revenge, honor killings
+ - parenting in cultures of honor tends to be authoritarian
+
+class differences:
+ - in western countries, parent teaches and facilitates child to explore the world
+ - in developing countries, little more is expected than even keeping your child alive another day
+
+ - however, the environment doesn't begin at birth
+
+prenatal environmental influences:
+ - studies shown that near-term fetuses hear what's going on outside the womb, taste (amniotic fluid), and prefer those stimuli after birth
+ - may be born prefering foods our mothers ate during pregnancys
+ - diet and stress can have immense effects on fetus
+
+CHAPTER EIGHT - Back to When You Were Just a Fertilized Egg (all about genes) ------------------------------------------------------------------------------------
+
+pg 2.18
