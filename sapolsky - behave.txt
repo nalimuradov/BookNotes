@@ -707,4 +707,18 @@ prenatal environmental influences:
 
 CHAPTER EIGHT - Back to When You Were Just a Fertilized Egg (all about genes) ------------------------------------------------------------------------------------
 
-pg 2.18
+DNA:
+ - all your genetic information is contained in DNA
+ - eg. eye color, nose shape, likelihood of getting certain diseases
+ - these physical characteristics are manifested through protein that your body makes
+	- DNA is the blueprint for these proteins
+
+ - the plan to make one single protein is called a 'gene'
+
+ - the two seperate stretches of coding DNA are called exons
+	- separated by an intron (the non coding dna in the middle)
+	- eg. XXXXXOOOXXXXXX
+
+gene transcription:
+ - genes decide when they are transicribed
+ - its like saying that a recipe decides when a cake is baked
