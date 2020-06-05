@@ -674,7 +674,7 @@ two most studied types of cultures:
 	- mothers in this culture spend more time soothing their child, maintaining contact, facilitating contact with other adults
 		- value low arousal effect, sleep with child to a later age
 		- games are about cooperation and fitting in:
-			- when playing with car, point is not to observe what car does, but to understand the process of sharing
+			- when playing with car, point is not to observe what car does, but to understand the process of sharing  
 	- kids are trained to get along, think of others
 	- school of fish and one fish out front? it must have done something wrong
 	- social competence is all about taking someone else's perspective
@@ -722,3 +722,4 @@ DNA:
 gene transcription:
  - genes decide when they are transicribed
  - its like saying that a recipe decides when a cake is baked
+
