@@ -1,0 +1,32 @@
+Fundamentals of Neuroscience
+
+Part 1 - Electricty
+
+electricity:
+ - the fundamental way by which neurons can communicate with eachother
+ - the nervous system uses electricity for communication between cells
+
+neuron at 'rest':
+ - a neuron that is currently not involved in any active electrical signalling
+ - resting neurons have unique properties, such as a voltage difference across their membrane called 'resting potential'
+ 	- deviations from this resting potential are how electrical signaling in neurons occurs
+
+voltage:
+ - the DIFFERENCE in electric potential between two points
+ - similar to how there is gravitational potential energy for a ball at the top of a hill
+	- energy is released as it starts to roll down
+
+electrostatic force:
+ - attraction/repulsion of ions (charged particles)
+ - can be either positive or negative
+ - opposites attract, likes repel
+ - if we have two chared particles A, B (A is more positive, B is more negative):
+	- a negative ion would move towards A
+	- a positive ion would move towards B
+	- ion will have 'potential' to move to A or B depending on its charge
+
+cell membrane:
+ - separate inside and outside of cell
+ - ions cannot move across membrane without help of channels or pumps
+ - outside of the cell is used as the 'ground'
+	- eg. if inside of cell is 50 mV more negative than outside, we report the voltage as -50 mV

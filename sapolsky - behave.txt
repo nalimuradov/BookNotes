@@ -723,3 +723,29 @@ gene transcription:
  - genes decide when they are transicribed
  - its like saying that a recipe decides when a cake is baked
 
+key notes:
+ - genes are not autonomous agents commanding biological events
+ - genes are regulated by environment 
+	- the 'environment' consits of everything from events in the cell to the universe
+ - much of your DNA turns environmental influences into gene transcription
+ - evolution is heavily about changing regulation of gene transcription, than the genes themselves
+ - epigenetics can allow environmental effects to be lifelong/multigenerational
+ - thanks to transposons, neurons contain a mosaic of different genomes
+
+cross-fostering:
+ - switching parents of children at birth can give insight into what is genetic and what is adoptive
+ - if child and adopted parent have similarities, it is adoptive
+ - if child and biological parent have similarities (even when haven't seen eachother), it is genetic
+ - showed that schizophrenia has a strong genetic component
+
+twin genetic similarities:
+ - two boys separated at birth
+ - when reunited, both had quirky traits such as flushing toilet before using
+
+voter participation:
+ - does this mean there is a 'gene' for feelings about dentists, or liking chest hair? unlikely
+ - gene and behaviour are connected through tortuous routes
+ - consider genetic influence on voter participation:
+	- mediating factor turns out to be sense of control 
+	- people who vote regularly feel that their actions matter
+	- this central locus of control reflects some genetically influence personality traits (eg. high optimism, low neuroticism)
