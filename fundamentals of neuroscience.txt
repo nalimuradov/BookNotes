@@ -1,6 +1,6 @@
-Fundamentals of Neuroscience
+Fundamentals of Neuroscience - Part 1: Electric Properties of the Neuron
 
-Part 1 - Electricty
+Lesson 1 - The Resting Potential
 
 electricity:
  - the fundamental way by which neurons can communicate with eachother
@@ -30,3 +30,138 @@ cell membrane:
  - ions cannot move across membrane without help of channels or pumps
  - outside of the cell is used as the 'ground'
 	- eg. if inside of cell is 50 mV more negative than outside, we report the voltage as -50 mV
+
+neurons:
+ - neurons send signals using electricity
+ - neurons themselves are electrically charged
+ - the lipid membrane of neurons separates solutions of charged particles (such as K+ or NA+ ions)
+ 	- this separation creates a difference in potential energy across the membrane
+
+ - in neurons that are not sending or receiving signals, the potential difference is called 'resting potential'
+
+parts of neuron:
+ - the soma is the body of the cell
+	- houses the cell's nucleus
+ - extending out of the cells body are:
+	- axons (cylindrical chains)	
+	- dendrites (the tree root looking things)
+ - the outer surface of all these parts is made of lipid molecules 
+	- this is the cell membrane
+
+ - the membrane potential of a neuron at rest is about -70mV
+	- measure difference between inside and outside of neuron
+	- the outiside of the cell is GROUND
+		- we need a '0' reference point
+
+membrane potential:
+ - describes the voltage across the membrane at any point in time
+
+resting potential:
+ - the membrane potential of a neuron that is "at rest"
+	- when it is not sending or receiving signals
+
+electrostatic and diffusive forces:
+ - both inside and outside the neuron, ions exist in aqueous solution and are able to move around
+ - two of the important forces that guide their behaviour are electrostatic and diffusive forces
+
+diffusion:
+ - the process by which particles spread out or mix in a solution
+ - eg. dye diffusing in water over time until evenly distributed in the water
+ - makes particles move from high to low concentration in the mixture
+
+electrostatic force:
+ - the forces by which similar charges repel and opposite charges attract
+ - positive-positive and negative-negative repel
+ - positive-negative and negative-positive attract
+
+charges inside and outside of the membrane:
+ - there is a soup of positive and negative charges all around
+	- these charges are things like K+ or NA+ ions
+ - however, the charge comes from an imbalance of positive/negative charges very close to the membrane
+	- this generates an electric field which gives it electric potential
+	- this arrangement is like a capacitor
+
+channels:
+ - allow movement of ions through the membrane
+ - if we have more positive ions on inside, we need to move particles out to balance out
+	- however only like 1/100000 particles need to move
+	- this is because the electrostatic force is so much stronger than diffusion	
+	- once one moves, the electrostatic force pushing back will overpower other particles
+ - only a tiny proportion of ions move relative to the total ions inside and outside the cell
+
+ - how many ions are on both sides doesn't really matter
+	- it's the relative concentration gradient that determines equlibrium potential
+
+sailor metaphor:
+ - let anions be female sailors
+ - let male british sailors represent potassium ions
+ - let male american sailors represent sodium ions
+
+ - there are approx same number of male and female sailors in both bars
+ - however male sailors are mostly separated, mostly brits in one bar and americans in the other
+ - because they want to establish presence in both bars while keeping ratio of genders
+	- the male sailors move between two bars
+
+ - if there are more brits/americans in one bar, some will move to the other bar
+	- this is DIFFUSION
+
+ - however, there is another force balancing the number of male and female sailors in a given bar
+	- this is the ELECTROSTATIC FORCES
+	- males move, while females stay put
+	- a difference in gender ratios is like a voltage difference across the membrane
+	- if either bar has excess of male or female sailors, it has a net charge
+		- the greater the voltage, the more the sailors want to move to correct it
+
+ - bouncer metaphor:
+	- say there is a british bouncer that only lets brits through
+	- will create an imbalance in nations across the bars
+	- similar to how ions have different capabilities to cross the cell membrane through ion channels
+
+equilibrium potential:
+ - at some point, the diffusive and electrostatic forces acting on K+ ions will balance out
+ - this is called the equilibrium potential
+
+Nernst potential:
+ - the potential at which the diffusion and electrostatic forces for an ion balance out
+	- given particular concentrations inside and outside of the cell
+
+ - E = (RT/zf) * ln(ion outside cell/ion inside cell)
+	- E is the Nernst potential (aka  equilibrium potential)
+		- subscript indicates which ion we're talking about
+		- the reversal potential is when net flux of ions switches directions
+ - R is the universal gas constant
+ - T is temperature (kelvin)
+ - z is the valence of the ion (the net charge of the ion and solution, eg potassium is +1)
+ - F is the faraday constant
+ - all multiplied by the log of the concentration of the ion outside of the cell over inside the cell
+	- its the relative concentration that matters
+
+ - for a neuron, the resting potential is close to the Nernst potential of potassium
+	- however, the resting potential is composed of the flow of multiple ions
+	- the nernst potential is just the passive equilibrium for a single ion
+
+driving force:
+ - a measure of how hard an ion is getting pushed across the membrane
+ - it is the difference between membrane potential and nernst potential
+	- E_drive = E_membrane - E_ion
+ - we can think of ions as independently always wanting to approach their nernst potentials
+
+ - average resting potential is -70mV
+ - calcium has nernst potential of +123mV, while potassium has nernst potential of -80mV
+ - the driving force for calcium is around -200mV, but it's only 10mV for potassium
+
+ - calcium really wants to move down its concentration gradient and go inside the cell
+	- it wants to approach equilibrium, which at rest is vastly different from membrane potential
+	- thus, calcium ions rapidly rush in if given an opening
+
+polarization:
+ - depolarization is a positive change in the membrane potential (change to a more positive membrane potential)
+ - hyperpolarization is a negative change in the membrane potential (change to a more negative membrane potential)
+
+nernst potential scenario:
+ - say we have 100 mM of K+ inside and 10 mM outside
+ - diffusion will first push K+ out of the cell, which will lead to a buildup of positive charge outside the cell
+ - electostatic force will push K+ back into the cell
+ - nernst potential will be negative because a buildup of negative charge inside the cell was needed to balance the diffusion
+
+ - the smaller the difference in concentration, the smaller the the nernst potential

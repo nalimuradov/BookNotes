@@ -1,1 +1,70 @@
 Statistics
+
+1 - Basic Probability ##############################################################################
+
+Chance Events:
+ - probability of an event is a number indicating how likely it is to occur
+ - 0 indicates impossibility, 1 indicates certainty
+ - flipping a coin has 50% probability
+ - while we may get less or more, in the long run it's bound to get closer and closer to 50%
+
+ - however if we have a weighted coin, the distribution will be different
+	- eg. maybe 30% chance for heads and 70% chance for tails
+ - now lets assign numbers to the outcomes:
+	- 1 for heads, 0 for tails
+	- this is known as a random variable
+
+Expectation:
+ - the expectation of a random variable attempts to capture the center of that variable's distribution
+ 	- the long run average of many independent samples
+ - for example, if we roll 100 dice, the expectation value will be 3.5
+ - it is the probability-weighted sum of all possible values of the random variable
+
+ - if the die is weighted and the 1-side is more likely, the expectation becomes lower
+	- because rolling a 1 more frequently will skew it down
+
+ - E[X] = sum(x*P(x))
+	- x are elements of X, eg. x are the die rolls
+
+Variance:
+ - quantifies the spread of a random variable's distribution
+ - can tell how useful the average value determined is
+	- eg. can have two datasets with same average but wildly different variances
+	- set1 = [1, 1001, 501] and set2 = [501, 502, 500]
+	- both have same average but different variances
+
+ - Var(X) = E[(X - E[X])^2]
+
+2 - Compound Probability ##############################################################################
+
+Set Theory:
+ - a set is a collection of objects
+ - can represent the event of rolling an even number with the set: [2, 4, 6]
+ 
+ - venn diagrams can be useful to visualize sets
+ - AND, OR, NOT, EMPTYSET
+
+Counting:
+ - permutations are ordered sequences
+ - combinations are unordered sequences
+ - four marbles, and four grabs, there are 24 possible combinations
+
+Conditional Probability:
+ - probability that accounts for relevant information that we possess
+ - eg. find probability that it will rain tomorrow given that it is cloudy today
+
+3 - Probability Distributions ##############################################################################
+
+Random Variables:
+ - function that assigns a real number to each outcome in the probability space
+ - say we colour half the board black and a quarter red, the other quarter remains white
+	- now we randomly sample spots on the board
+	- empirical distribution of the random variable will be 0.5, 0.25, 0.25 
+ - eg. P(X=red) = 0.25
+
+Discrete and Continuous:
+ - a discrete random variable has a finite number of possible values
+	- bernoulli: either is 1 with probability p or is 0 with probability (1-p)
+		- mean: p	
+		- variance: p(1-p)
+ - a continuous random variable takes on infinite number of possible values
