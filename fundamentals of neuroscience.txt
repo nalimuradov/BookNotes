@@ -142,6 +142,7 @@ Nernst potential:
 
 driving force:
  - a measure of how hard an ion is getting pushed across the membrane
+ - the farther away it is from the membrane potential, the greater the force
  - it is the difference between membrane potential and nernst potential
 	- E_drive = E_membrane - E_ion
  - we can think of ions as independently always wanting to approach their nernst potentials
@@ -165,3 +166,89 @@ nernst potential scenario:
  - nernst potential will be negative because a buildup of negative charge inside the cell was needed to balance the diffusion
 
  - the smaller the difference in concentration, the smaller the the nernst potential
+
+ - key point: IONS WILL FLOW IN WHATEVER DIRECTION BRINGS THE MEMBRANE POTENTIAL CLOSER TO NERNST POTENTIAL
+
+GHK equation:
+ - calculates the resting potential for a cell
+ - there are many ions flowing through which counterbalance eachother
+
+ - equilibrium vs steady state:
+	- equilibrium for an ion (nernst) is when flow of ion in is same as flow of ion out (no net flow in either direction)
+ 	- steady state is when all charges in and out of cell will be equal and opposite
+		- since no particular ion is at equilibrium, we call this steady state instead
+		- eg. resting potential is a steady state
+		- the concentrations are stable even if there is quite a bit of movement behind the scenes
+
+ - reduces down to the nernst equation when we restrict movement across the membrane to a single ion
+
+ - the two most important factors in determine the resting potential of a neuron are:
+	- concentrations of ions inside and outside the membrane
+	- the permeability of these ions
+
+ - E = RT/F * ln(sum of perm_e*concentrations / sum of perm_i*concentrations)
+
+ - say we have K+, how might a cell achieve a more negative resting potential?
+	- lowering extracellular K+ or increasing extracellular K+
+	- we can see this with the equation
+
+permeability:
+ - how much can flow through membrane
+ - say sodium has positive nernst and wants to flow through
+	- it can't just rush in because there are very few open sodium channels in a resting membrane
+	- thus, we say sodium has a low permeability
+
+ - if neurons with low permeability were to get higher permeability, there would be much bigger change
+	- because of how big the driving force is typically for those ions with low permeability
+
+ - rather than adjusting concentrations, what neurons do instead is to adjust permeability
+	- this is much easier, and this is how neurons communicate! 
+
+threshold voltage:
+ - around -55 mV
+ - this is the voltage where a neuron fires an 'action potential' to communicate with other neurons
+	- if this threshold isn't reached, the neuron stays inactive
+
+size of neuron:
+ - larger neurons spend more energy at rest
+ - the larger surface area means there are more channels that can dissipate resting potential
+ - more sodium-potassium pumps are needed to maintain it
+
+ion filters:
+ - how does something allow K+ to pass but not Na+?
+ - both are positive and both are so small, how could nature develop something like that
+ 
+solvation shell:
+ - water is polarized (hydrogens positive, oxygen negative) so the oxygen side faces the Na+ cation
+ 	- as such, the positive hydrogen side is facing away, outwards
+ - these solvation shells are different sizes/shapes for Na+ and K+
+ - as such, the ion filters take on different sizes so that it fits the solvation shell of only a certain cation
+	- if spacing is just a bit off for sodium, it will be energetically unfavorable for it to pass through that channel
+	- like a carefully tailored glove made to fit one person's hand
+
+leakage channels:
+ - passively allow certain ions to pass through
+ - because potassium permeability is much higher than the other channels, potassium dominates the resting potential
+	- however, any ion that can pass through the membrane (even a little) will have an effect
+
+sodium-potassium pump:
+ - need to maintain a gradient
+ - continuall moves three sodium ions out of the cell, every two potassium ions it pumps into the cell
+ - this pump uses ATP
+	- this pump is so important that it consumes 70% of the ATP required for overall brain function
+	- this is just to maintain an electrical gradient!
+ - a third of everything you eat in a day goes to powering this pump
+
+charge and voltage:
+ - high voltage and low charge is like dropping a grain of rice from the empire state building
+	- even though it's really high, mass is so small that it won't cause significant damage
+ - on the contrary, low voltage and high charge is like dropping a bowling ball from knee height
+	- even though it's low, mass is heavy enough to still hurt you
+
+regions of the brain:
+ - cerebrum, cerebellum, brain stem
+ - most of action in head is subserved by cranial nerves, and rest of body is controlled through spinal cord
+ - reaching for apple, brain sends optic, etc info to spinal cord to make you reach for it
+	- when you have apple, spinal cord sends info back (the sensation of feeling the apple)
+
+Lesson 2 - Passive Membrane Properties
