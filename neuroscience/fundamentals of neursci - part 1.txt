@@ -336,4 +336,10 @@ relationship to neurons:
  - the channels act like resistors, altering the conductance and permeability
  - there is also resistance to current flow axially (along the neuron)
 
+flow of ionic currents:
+ - ions can flow across the membrane
+ - ions can also flow down through the cytoplasm (down an axon)
+ - therefore we need to think about two different resistances
+	- membrane resistance (opposing flows across the membrane)
+	- axial resistance (opposing flow of current through the cytoplasm)
 
