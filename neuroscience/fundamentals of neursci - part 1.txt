@@ -251,6 +251,7 @@ regions of the brain:
  - reaching for apple, brain sends optic, etc info to spinal cord to make you reach for it
 	- when you have apple, spinal cord sends info back (the sensation of feeling the apple)
 
+
 Lesson 2 - Passive Membrane Properties
 
 resistance:
@@ -342,4 +343,60 @@ flow of ionic currents:
  - therefore we need to think about two different resistances
 	- membrane resistance (opposing flows across the membrane)
 	- axial resistance (opposing flow of current through the cytoplasm)
+
+varying membrane potential:
+ - in a non-resting neuron, the membrane potential won't be the same everywhere across the membrane
+ - if we change membrane potential at one spot of membrane, it will affect the neighboring parts of the membrane as well
+
+length constant:
+ - the distance it takes for a potential change to fall to about 36% of its initial value
+ - represented by lambda
+ - depends on both membrane and axial resistances
+ - lambda = sqrt(R_mem/R_ax)
+
+ - eg. 100mV charge at pointA, and the length constant at this neuron is 2mm
+	- at pointB 2mm away from pointA, the voltage change will be 37% of 100mV ie. 37mV
+	- at 6mm away from pointA, the voltage change will be 100*0.37^3 = 5mV
+
+ - water analogy again:
+	- decreased membrane resistance is liking having more holes in the water pipe
+	- the more holes, the less farther it will travel
+	- similarly, the increase in holes in the membrane will allow more leakage of current that flows down the axon
+		- so current won't travel as far, so length constant will be lower
+
+membrane capacitance:
+ - nothing changes when we change capacitance with a static membrane potential
+ - capacitance only begins to take effect when membrane voltage changes in time
+	- decreasing capacitance made the membrane snappier (more responsive to change)
+	- increasing capacitance made it more sluggish
+
+ - if we want membrane to respond quickly, we either need different dielectric material, or make the membrane thicker
+
+time constant:
+ - t = R_mem * C_mem
+ - like length constant, but instead of how far, we want to know how long
+ - how long it takes a piece of membrane to charge up to 63% of its final value in response to a step change in input voltage
+
+ - say we change voltage at pointA from 0 to 100mV
+	- what is the voltage at pointB after 2s (pointB is 1mm away)
+
+low pass filter:
+ - allows low frequencies (slow changes) to pass while block high frequencies (fast changes)
+
+
+Lesson 3 - The Action Potential
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
