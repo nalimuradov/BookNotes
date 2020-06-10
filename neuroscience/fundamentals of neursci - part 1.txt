@@ -252,3 +252,88 @@ regions of the brain:
 	- when you have apple, spinal cord sends info back (the sensation of feeling the apple)
 
 Lesson 2 - Passive Membrane Properties
+
+resistance:
+ - a quantity that describes how much a conductor opposes the flow of charge through it
+ - thicker wires have lower resistance (more cross area to flow through)
+ - resistors are components with specifically calibrated resistors
+ - measured in ohms
+ - each type of ion channel has its own resistance
+	- the more permeable a channel is, the lower the resistance
+	- the more channels there are, the lower the resistance
+
+membrane resistance:
+ - the resistance of the flow of ions across the membrane
+ - measured in ohms per square millimiter (ohm/mm^2)
+
+axial resistance:
+ - the resistance of the flow of ions down the axon
+
+current:
+ - the flow of charge through a conductor
+ - represented by "I"
+
+conductance:
+ - inverse of resistance 
+ - thick wire has higher resistance
+ - different materials conduct differently 
+	- eg. salt water vs copper
+ - measured in siemens (inverse of ohm)
+
+cytoplasm resistance:
+ - important resistive quantity is the resistance of the cytoplasm through the cell
+ - the saltier the cytoplasm, the lower its resistance
+ - the wider the pipe the current flows through, the lower the resistance
+
+water bottle example:
+ - imagine holding a water bottle upside down and have water pour out
+ - the voltage in this case is the potential energy (gravity water falling out)
+ - the resistance is the diameter of the hole (restricts how much can flow out at a given time)
+
+capacitance:
+ - the arrangement of a membrane with inside fluid and outside fluid is basically a capacitor
+ - a capacitor is a circuit element that can store a charge
+ 	- consists of two conductors separated by an insulating region called a dialectric
+
+ - a good analogy is heating something up
+	- if we blowtorch a plate of metal, it doesn't just instantly heat up to blowtorch temperature
+	- rather it heats up in a curve, similar to a capacitors charging curve
+		- fast then slows down as we approach temperature of blowtorch
+	- when we remove plate, it doesn't return to room temperature instantly
+		- cools off slowly, like a capacitor discharge
+
+ - the neuronal membran is like a capacitor
+	- builds up charge on both sides of the insulator (membrane)
+		- one side will be negative, the other positive
+	- capacitance will measure the ability to store charge, which for a neuron is the ability to store on the sides of the membrane
+
+ - a larger surface area means more capacitance
+ - thickness of membrane can also affect capacitance
+	- the thicker the membrane, the more separation there is
+	- this will reduce ability to accumulate charge and so decrease capacitance
+
+ - using our water bottle example:
+	- say we fill balloons with the water being poured
+	- one balloon is very stretch and can hold more water (we can say that it has higher capacitance)
+	- so if we fill balloons at same rate, the less stretchy one will reach max pressure faster than the stretchy one
+	- different capacitances will affect how fast the membrane potential can change
+
+ohm's law:
+ - relationship between resistance, current, and voltage
+ - I = V/R
+ - voltage is proportional to current
+
+ - water pump example:
+	- let water pressure from pump be voltage
+	- let flow rate of water in the pipe be current
+	- let a restriction in the pipe be the resistance
+
+	- if we keep restriction same, increase in water pressure will increase flow rate
+	- changing these three factors will be same relationship as ohm's law
+
+relationship to neurons:
+ - the membrane acts like a capacitor (truthfully it's many capacitors side by side)
+ - the channels act like resistors, altering the conductance and permeability
+ - there is also resistance to current flow axially (along the neuron)
+
+
