@@ -1,0 +1,112 @@
+Web Architecture
+
+The First Step: DNS
+ - domain name system
+ - the backbone technology that makes the world wide web possible
+ - provides a key-value look up from a domain name to an IP address
+	- eg. google.com maps to the IP address 85.129.83.120
+ - say you have to 'call John Smith' on the phone
+	- just like you need a phone book to look up his number, you need a DNS to look up their IP with their domain name
+ - the phone book of the internet
+
+The Second Step: Load Balancer
+ - horizontal app scaling: scale up by adding more machines
+ - vertical app scaling: scale up by adding more power (eg. CPU, RAM)
+
+ - you almost always want to scale horizontally, because stuff often breaks (servers crash, networks degrade, etc)
+	- this makes it fault tolerant (if one crashes, can use another)
+
+ - load balancers are what make horizontal scaling possible
+ - load balancers route incoming requests to one of several servers (that are typically clones) to process it
+ - DNS -> user's browser -> load balancer
+
+The Third Step: Web Application Servers
+ - they execute the core business logic that handles a user's requests
+ - then sends HTML back to the user's browser
+ 
+ - typically communicate with many backend infrastructures (daabases, caching layers, job queues, microservices)
+ - web app server implementations require choosing a specific language (Node, Java, .NET, etc)
+ - takes the requests from the load balancer
+ - communicates with like everything (and receives it back)
+
+The Fourth Step: Database Servers
+ - every web application leverages 1+ databases to store information
+ - databases provide ways of defining data structures, updating/deleting/inserting/finding data
+ - SQL and noSQL are ubiquitous and should be learned
+ - database servers send info to and from the web application servers
+
+The Fifth Step: Caching Service
+ - provides a simple key/value data store that it makes it possible to save and lookup information in close to O(1) time
+ - applications typically cache expensive computations so that it's possible to retrieve results rather than recomputing
+ - for example, google caches "Taylor Swift" and "dog" because they are common searches
+ 	- facebook caches most of the data you see when you log in (post data, friends, etc)
+ - Redis and Memcache are the two most common caching technologies
+
+The Sixth Step: Job Queue & Servers
+ - most web apps need to do some asynchronous work behind the scene's that is not directly associated with responding to the user's request
+ 	- for example, google needs to crawl and index the entire internet in order to return search results
+	- this is not done every time you search, but rather asynchronously crawls the web and updates indexes as it goes
+
+ - a job queue consists of a queue of jobs (that need to be run) and 1+ job servers (aka workers) that run the jobs in the queue
+	- job queues stire those jobs FIFO, but some jobs end up needing a priority queue
+	- whenever app needs to be run (like on a schedule or by user actions), it simply adds the job to the queue
+	- eg. passowrd reset emails require a priority queue 
+	- Redis is also a task queue???
+
+ - great job queue example:
+	- say we have e-commerce site and our application is built to fire a confirmation email right before user completes payment
+	- if mail server is down, web page will die and this will kill user experience
+	- we could instead push the email-sending task to a job queue and just show the customer the success page
+		- the email will get there eventually 
+
+ - job servers process the jobs
+	- they poll the queue to determine if there is work and if there is, they pop a job off and execute it
+
+The Seventh Step: Full-text Search Service
+ - oftentimes in an app a user provides text input (a query) and the app returns the most relevant results
+	- the technology powering this functionality is called a 'full-text search'
+	- leverages an inverted index to quickly look up documents containing the query
+		- so rather than key 1 and id "this is the title", we have key "title" and value refering to the key it was found at (which is 1)
+
+The Eighth Step: Services
+ - separate applications that are not external but perform tasks within the amp
+ - some examples are:
+	- account service (store user data)
+	- content service (stores metadata for video, audio, images)
+	- payment service (interface for billing)
+	- html->pdf service (simple interface that accepts HTML and returns PDF)
+
+ - up until now, everything above is a two-way communication with the web app servers
+	- the web app servers communicate to each of the services explained
+
+The Ninth Step: Data
+ - after all the services we go to the data
+ - to harness data at large scale, must create data pipeline to collect, store, and analyze data
+ - there are three main stages to the pipeline:
+	- 1: app sends data (like events about user interactions) to the firehose
+		- this provides a streaming interface to ingest and process the data
+		- raw data is often transformed and passed to another firehose
+		- AWS Kinesis and Kafka are the two most common technologies for this
+
+ 	- 2: raw data and transformed data are saved to cloud storage
+	
+	- 3: transformed data is loaded into a data warehouse for analysis
+		- AWS Redshift, Oracle, and MapReduce are often used
+
+ - data -> data warehouse OR data -> cloud storage
+
+The Tenth Step: Cloud Storage
+ - cloud storage is a simple and scalable way to store, access, and share data over the internet
+ - can store anything you'd normally store on a local file system
+	- with the benefits that we can interact with it via RESTful API over HTTP
+ - Amazon S3 is by far the most popular cloud storage
+
+The Eleventh Step: CDN
+ - content delivery networks
+ - provides a way of serving assets such as static HTML, CSS, JS over the web much fast than serving from a single origin server
+ - it works by distributing the content across many edge servers around the world
+	- the users then download assets from the edge servers instead of the origin server
+	- eg. a user in spain requests a web page from a site in NYC, but static assets are on edge server in England
+		- this prevents many slow HTTP requests
+ - a web app should always use a CDN to serve CSS, Javascript, images, videos, and other assets
+
