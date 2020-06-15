@@ -531,7 +531,7 @@ colliding action potentials:
  - with this info, we can confirm where a neuron sends its signals
 
 speeding up the action potential:
- - 
+ - neurons can change their properties to optimize the spread of signals
 
 
 
