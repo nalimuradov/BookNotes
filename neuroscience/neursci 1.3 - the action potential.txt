@@ -1,0 +1,95 @@
+Fundamentals of Neuroscience - Part 1: Electric Properties of the Neuron
+
+Lesson 3 - The Action Potential
+
+action potential:
+ - neuron communication done through rapid changes in the membrane potentials
+ - these fast changes are called action potentials
+	- can be sent down an axon in order to send an electrical signal from one neuron to the next
+ - another word for an action potential is a 'spike'
+	- because of shape that we see in voltage trace for a neuron when action potential occurs
+
+	- these are actually 'compound' action potentials, because many spikes are firing at once (but it's basically the same idea)
+ - the passive properties discussed previously are not enough to send signals
+
+ion concentrations:
+ - in a typical neuron there is more K+ inside the cell
+ 	- and there is more Cl- and Na+ outside the cell
+
+voltage-gated channels:
+ - open or close depending on local membrane potential
+	- variable conductances depending on the potential
+ - these are like floodgates, and can allow ions to pour through
+ 	- easy flow sometimes, and restricted flow other times
+ - there are voltage gated sodium and potassium channels
+
+voltage-gated sodium channels:
+ - open and close very quickly
+ - inactivation (ball-and-chain thing) is slow however
+	- inactivation state is different from the closed state!
+	- inactivation is the ball-chain, in the closed state the pore itself is actualyl closed
+	- channel can be both open and inactivated
+ - most likely to be open when membrane potential is more positive
+ 	- therefore usually closed when cell is at resting potential 
+ - if voltage nudged up, they start to open
+ - potential changes quickly to positive values
+ - however then, the sodium channels simply turn off (become inactivated)
+	- this happens soon after it's opened
+	- stops the pour of sodium ions
+
+voltage-gated potassium channels:
+ - we need to send lots of signals through sodium channels, so we need to somehow quickly reset the membrane
+ 	- this is where the potassium channels come in
+ - also open in response to positive membrane potentials
+ - however, they are a bit slower than the sodium channels
+
+phases of action potential:
+ - start at resting potential
+ - then some stimulus raises the membrane potential, until threshold reached
+ - then there is the rising phase, a rapid depolarization of the membrane
+	- this is driven by voltage-gated sodium channels (sodium begins to pour into the cell)
+ - then comes the falling phase
+	- this is caused by the sodium channels closing and the potassium channels opening
+ - this is followed by an undershoot of hyperpolarization, where the membrane potential is more negative than it was at rest
+ - end with the recovery, where we slowly return to resting potential as the potassium channels close
+
+ - entire process only spans a few milliseconds
+
+channels and probability:
+ - when we say these channels are 'voltage-gated', we mean that the probability of the channels being open/closed is a function of voltage
+ - sodium channel is more stable (more happy) in the open state when the voltage is higher
+	- however, in can still be closed when the voltage is high (and vice versa), it's just less likely
+	- in the large scale though, they give rise to a continuous shape
+ - nothing is ever 100% in biology
+
+channel kinetics:
+ - how come both vg-sodium and vg-potassium channels don't just open at once and cancel each other out? kinetics
+ - kinetics is the probabilistic temporal dynamics of a molecular reaction (or movement) going from one state to the other
+ 	- channels with fast kinetics are able to move rapidly back and forth between states (eg. open and closed states)
+
+ - the kinetics of the channels and probability of channels opening/closing changes the ion permeability at different times
+	- if sodium and potassium channels had same kinetics, there would be no action potential
+	- sodium and potassium ions would largely cancel eachother out
+
+refractory period:
+ - a period of time where we can't easily stimulate another action potential
+ - two kinds of refractory periods:
+	- absolute:
+		- driven by inactivation kinetics of vg-sodium channels
+		- while in inactive state, we can't initiate another activation potential no matter how hard we try
+	- relative
+		- occurs at tail end of action potential
+		- caused by vg-sodium channels inactivating
+		- vg-sodium channels are active again but vg-potassium channels are yet to open
+		- with a big enough stimulus, we can drive another action potential to start
+			- however, takes a bigger input since cell is starting below resting potential
+
+neurotoxins:
+ - tetrodotoxin (TTX) is a natural toxin that blocks the vg-sodium channels
+	- found in pufferfish (residue of the toxin is why people feel numbness in lips when they eat it)
+ - TTX is very useful in neuroscience
+	- application of TTX to a neuron will prevent an action potential from initiating
+
+artificially lowering resting potential:
+ - if lowered resting potential by 10mV, then we'd need a larger injected current to stimulate an action potential
+ - this is because with a hyperpolarized resting potential, more current is needed to bring the membrane to the action potential threshold

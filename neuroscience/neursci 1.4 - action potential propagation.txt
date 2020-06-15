@@ -1,0 +1,54 @@
+Fundamentals of Neuroscience - Part 1: Electric Properties of the Neuron
+
+Lesson 4 - Action Potential Propagation
+
+why use action potential?
+ - there is a meter distance from spinal cord to end of arm
+ - if i were to pick up a cup of coffee, it would take a year for diffusion to carry the signal across this distance
+ - by that time, the coffee would have evaporated
+ - so why use action potential? because we need to act fast
+
+current leak:
+ - neurons need to combat current leak when sending an electrical signal down an axon
+ - one way is to make the magnitude of the action potential much larger, however neurons are already almost at their breaking point 
+	- membranes are only a few nanometers thick so it's not far off from the breakdown voltage (where lipid bilayer stops acting as an insulator)
+
+ - what nature does:
+	- repeatedly regenerate the signal to get it down the axon
+	- so rather than moving a molecule down the axon (electros down the wire), we instead move the state of depolarization down the axon
+
+signals as state:
+ - when there is a wave in the water, the water is moving up and down
+	- we can transmit a wave through the water without moving the water
+ - in the same way, we can transmit information along an axon by propogating the state of depolarization down it 
+	- all this without any net movement of molecules or ions
+
+ - an action potential in one area of the membrane depolarizes the next region, which fires an action potential there
+	- this then depolarizes the region after that, and fires an action potential there
+	- like a domino effect
+	- the signal will propogate from the cell body to its target (like a muscle fiber or another neuron)
+
+ - delay in change:
+	- in copper if we change potential in one area, it changes everywhere else pretty much instantaneously
+ 	- then why is there a delay in the spike when we increase voltage?
+
+ - thanks to action potential propagation, motor neuron axons can send signals across several meters
+
+absolute refractory period:
+ - after an action potential, the vg-sodium channels are inactivated, which makes it impossible to trigger another action potential
+ - the initial rise (first third)
+
+relative refractory period:
+ - when sodium channels are active again but still fighting against those extra open potassium channels
+ - here it's hard to stimulate action potential but not impossible
+ - the drop and dip as it goes back up to resting (middle third)
+
+colliding action potentials:
+ - if we make two action potentials collide, they will hit each other and cancel out
+ - researches exploit this by stimulate one signal at neuron of interest and the other at the location they think it sends the axon
+	- if stimulation in these two locations leads to no measurable action potential
+		- then it is likely that the two propagating potentials traveled on the same axon and collided (canceled out)
+ - with this info, we can confirm where a neuron sends its signals
+
+speeding up the action potential:
+ - neurons can change their properties to optimize the spread of signals
