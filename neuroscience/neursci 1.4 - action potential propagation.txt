@@ -52,3 +52,43 @@ colliding action potentials:
 
 speeding up the action potential:
  - neurons can change their properties to optimize the spread of signals
+ - to speed up the action potential, we want the axial resistance and membrane capacitance to be as low as possible
+
+ - as current flows down the axon, it triggers action potential in adjacent region
+ - also, a higher axial resistance shortens length constant
+	- this limits the size of the bubble of depolarization associated with one action potential
+ - capacitance buffers and delays the depolarization even further
+
+giant axons:
+ - some animals use a giant axon that allows for very fast conduction of action potentials
+	- the squid is a famous example
+
+myelinated axons:
+ - myelin forms a fatty insulating sheath around neuronal fibers
+ - myelin is produced by cells called glia
+ - serves as a barrier to ion leakage, increasing membrane resistance
+ - these are the yellow things in the diagram!!! (axons)
+	- then how do the ion channels work?
+	- the spaces between the yellow insulators contain high density of vg-sodium and vg-potassium channels
+	- this allows action potential to jump from node to node
+ - the open areas in between are called the nodes of Ranvier
+	- act as little relay stations, where the action potential gets boosted again
+	- now instead of big bang action potential, with myelinated it goes in waves (comes up for air)
+		- this jumping down a myelinated axon is called saltatory conduction
+
+ - myelinated axons increase the thickness of the membrane:
+	- this decreases membrane capacitance, which means a shorter time constant so membrane potential will charge quicker
+	- more separation between two conductors (like a capacitor)
+ - myelinated axons also decrease number of ion channels
+	- this increases membrane resistance, which means an increased length constant so axon conduction velocity will be faster
+
+saltatory conduction:
+ - to conceptualize:
+	- the action potential spreads out in space, enough to make it to the next node of ranvier
+	- once there, the signal is regenerated and the process repeats
+
+damaged myelin:
+ - this stops the action potential dead in its tracks
+ - damage membrane causes membrane capacitance to increase, and current can additionally leak through the membrane
+ - these factors drastically shorten the length constant 
+ - signal decays before it can reach next node
