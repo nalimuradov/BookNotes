@@ -1,0 +1,100 @@
+Fundamentals of Neuroscience - Part 2: Neurons and Networks
+
+Lesson 1 - The Synapse
+
+synapse:
+ - so far we've examined one neuron, but how would two neurons communicate?
+ - synapses are junctions between neurons
+ - a structure that allows information to pass from one neuron to another
+ - the main function of neurons is to talk to each other
+	- this communication occurs at sites called synapses
+
+polarized:
+ - majority of neurons are polarized cells
+ - means that one portion of cell is for receiving input, and other is for sending output
+	- soma/dendrite side receives input
+	- axon/synapses
+ - **note that this is unrelated to the polarized membranes from last section
+	- polarized here refers to two ends having different characteristics
+
+dendrites:
+ - parts of cell that are specialied for receiving inputs
+ - signal received by dendrite is passed to the cell body
+ - if there is sufficient depolarization, an action potential is sent down the axon
+
+ - while the typical neuron has three parts (body, dendrites, axon), there are exceptions
+	- some neurons have no acons, such as granule cells in olfactory bulb
+		- they send signals through their dendrites
+
+synapse:
+ - the interface between the axon of one neuron and the dendrite of another neuron
+ - typically two types of synapses:
+	- electric synapses
+	- chemical synapses
+
+elctrical synapses:
+ - less common in our nervous system
+ - they are like "pores" between two cells that allow ions to pass through
+	- allow passage without much fuss
+	- like combining two cells into a larger cell
+ - these are faster and allow cells to couple together
+
+ - these synapses are often used in escape reflexes that require very fast conduction in a multi-neuron circuit
+
+ - electrical synapses also allow bi-directional signalling
+	- cell A can cause cell B to fire
+	- cell B can cause cell A to fire
+	- this is useful when syncrhony is desired
+	- the heart relies on this to beat in unison
+
+chemical synapses:
+ - here instead the action potential travels to the end of an axon which causes a chemical to be released
+	- released in a small space between the two neurons called the 'synaptic cleft'
+	- the molecules must traverse the synaptic cleft through diffusion
+ - chemical synapses are uni-directional
+
+ - in this case, the two cells are separate entities
+	- an action potential in one cell doesn't directly spread to the other cell
+ 
+ - how it works:
+	- a chemical signal is released by the presynaptic cell
+	- it is received by the postsynaptic cell
+	- only after it is received can it possible cause the postsynaptic neuron to fire
+	- as such, it is much slower than electrical synapses
+
+ - then why are chemical synapses much more common?
+	- diversity
+	- electrical synapses can only use voltage to transmit information
+	- eg. some chemical signals tell postsynaptic neuron to increase or decrease the likelihood of firing
+		- these chemicals are called 'neurotransmitters'
+		- neurotransmitters transmit signals across a chemical synapse 
+
+	- another advantage is that it decouples the arrival of an incoming action potential
+		- from the generation of an action potential in the downstream neuron
+
+ - neuromodulators:
+	- chemicals like serotonin, dopamine, epinephrine
+	- they modulate the activity of neurons
+
+anatomy of a synapse:
+ - when we refer to synapse, we mean chemical synapse (at least for this course)
+ 
+ - presynaptic terminal:
+	- notice how the axon is a little thicker close to the synaptic cleft, that is the presynaptic terminal
+	- contains much more of the specialized molecular machinery
+
+ - vesicles:
+	- small hollow spheres that are made out of same material as cell membrane
+	- they hold the small quantity of signaling molecules at the ready in the presynaptic terminal
+	- arriving action potential causes vesicles to fuse to the membrane and became part of it, releasing payload into cleft
+	- these molecules then diffuse and bind to 'receptors' on the other side of the cleft
+
+ - receptors:
+	- must bind to a very specific molecule which will affect some change in the postsynaptic neuron when they bind
+	- like a little machine that can only be turned on by a particular key
+	- there are many kinds of receptors which can exert different kinds of influences on the downstream cell
+
+ - ionotropic receptors:
+	- these are receptors that are ion channels
+	- when they bind their neurotransmitter of interest, the channel opens
+	- eg. a channel that lets cations into the cell can depolarize the cell
