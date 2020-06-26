@@ -98,3 +98,63 @@ anatomy of a synapse:
 	- these are receptors that are ion channels
 	- when they bind their neurotransmitter of interest, the channel opens
 	- eg. a channel that lets cations into the cell can depolarize the cell
+
+neuro-muscular junction:
+ - the place where a nerve attaches to a muscle 
+ - acetylcholine is the neurotransmitter used at the NMJ
+	- also used for voluntary motor control
+
+postsynaptic potential:
+ - the response of the postsynaptic neuron
+	- can be excitatory: received signal makes neuron more likely to fire (EPSP)
+	- can be inhibitory: received signal makes neuron less likely to fire (IPSP)
+
+end plates:
+ - the flat structures where neurons touch the muscle fibers 
+ - the potential at these end plates is known as EPP (end plate potential)
+
+blips:
+ - signals with smaller magnitude, but were found to be only in the postsynaptic terminal (not pre)
+ - using chemicals like curare or neostigmine can block or enhance these blips
+ - called miniature EPP's, or sometimes known as 'minis'
+ - these are caused by random releases of signaling molecules into the cleft
+
+calcium and NMJ:
+ - the amplitude of EPP at the NMJ is proportional to the calcium's concentration to the fourth power
+ - as such, calcium must play some role in determining how big a postsynaptic potential is
+ - calcium would also need to be present extracellularily, otherwise it would have no effect
+ - greater calcium inside the cell makes the probability of neurotransmitter release more likely
+	- these neurotransmitters are packaged into vesicles
+
+quantization:
+ - Katz found that neurotransmitters were released in discrete groups (quanta)
+ - the mini EPPs represent the release of just one of these small packages
+ - these are the vesicles!
+
+electron microscopes:
+ - able to resolve small objects, much better than a light microscope
+ - useful for seeing these vesicles
+ - researches found 'omega bodies'
+	- named after greek omega (their shape)
+	- these are the shape of the vesicles that formed when they fused with the membrane of the presynaptic terminal
+		- and released chemical payload into the cleft
+	- after heavy stimulation of neuron, the presynaptic terminal was depleted of these structures
+		- shows that they were consumed and need to be regenerated
+
+two groups of vesicles:
+ - there were docked vesicles ready to ge behind the presynaptic membrane
+ - and then there was another pool farther back, waiting to be loaded and docked
+
+SNAREs:
+ - 
+
+
+
+
+
+
+
+
+
+
+
