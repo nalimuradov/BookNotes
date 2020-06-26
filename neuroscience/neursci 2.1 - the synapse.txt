@@ -130,6 +130,7 @@ quantization:
  - Katz found that neurotransmitters were released in discrete groups (quanta)
  - the mini EPPs represent the release of just one of these small packages
  - these are the vesicles!
+ - vesicles are recycled, not remade by the neuron after each stimulation
 
 electron microscopes:
  - able to resolve small objects, much better than a light microscope
@@ -146,15 +147,21 @@ two groups of vesicles:
  - and then there was another pool farther back, waiting to be loaded and docked
 
 SNAREs:
- - 
+ - the SNARE hypothesis provides the link between calcium sensitivity and vesicle release
+ - SNARE proteins are synapse-associated proteins that are highly conserved in structure and function across many different organisms
+	- suggests its evolutionary importance
 
+ - vesicle association in a synapse is catalyzed by the interaction of a V-SNARE with T-SNARES
+ - calcium-dependent vesicle fusion is what allows neurotransmitters to flow into the cleft
 
+ - botulinum and tetanus are two toxins that specifically target SNARE proteins
 
+ - when action potential arrives at PRESYNAPTIC terminal:
+	- the voltage gated calcium channels are opened
+	- then the influx of calcium triggers the fusion of synaptic vesicles with the presynaptic membrance
+	- this allows the release of neurotransmitter into the cleft
+	- this vesicle fusion happens by the action of SNARE protein complex
 
+ - V-SNARE proteins are found at the membrane of the presynaptic terminal
 
-
-
-
-
-
-
+ 
