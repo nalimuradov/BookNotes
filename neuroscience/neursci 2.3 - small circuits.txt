@@ -1,0 +1,6 @@
+Fundamentals of Neuroscience - Part 2: Neurons and Networks
+
+Lesson 3 - Small Circuits
+
+synaptic integration:
+ - how neurons combine information from many synapses at once

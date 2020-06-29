@@ -1,3 +1,153 @@
 Fundamentals of Neuroscience - Part 2: Neurons and Networks
 
 Lesson 2 - Excitation and Inhibition
+
+two main categories of synapses:
+ - excitatory synapses: synapses that increase activity of postsynaptic neuron
+ - inhibitory synapses: synapses that decrease activity of postsynaptic neuron
+
+ - in the presynaptic terminal it's calm
+ - in the postsynaptic terminal:
+ 	- fast excitatory postsynaptic potentials are mediated primarily by cation selective ion channels
+	- fast inhibitory postsynaptic potentials are mediated primarily by anion selective ion channels
+
+lifecycle of a neurotransmitter:
+ - a neurotransmitter diffuses at a rate of 0.05 miles per hour, faster than a snail
+ - once released, a neurotransmitter has one of five fates
+	- can travel across synaptic cleft and bind to its dedicated receptor
+	- other four below..?
+
+ - mechanisms are needed to shut off neurotransmitter action in the cleft before simply diffusing away
+	- otherwise a neurotransmitter can unbind and rebind until diffused away (reactivating the cell over and over)
+	- four such mechanisms are known to date:
+		- after crossing cleft, neurotransmitter is resorbed into the postsynaptic cell	
+		- neurotransmitters are broken down into enzymes present in the cleft
+		- neurotransmitters can be taken by transporter proteins
+		- finally, combinations of the above are also possible
+
+EPSPs and IPSPs:
+ - scientists use three criteria to describe a synapse:
+	- its overall effect on the postsynaptic neurons (excitation vs inhibition)
+	- its speed (fast vs slow, milliseconds vs 100x slower)
+	- its strength
+
+ - excitation and inhibition are largely defined by what they do to the postsynaptic membrane potential
+	- excitatory synapses promote firing of downstream neuron
+		- membrane potential of postsynaptic neuron moves away from its resting potential to a more positive value
+		- deflection of membrane potential closer to threshold makes it more likely for the neuron to fire
+	- the resulting signal in postsynaptic neuron is an EPSP (excitatory postsynaptic potential)
+
+EPSPs:
+ - the action of acetylcholine on nicotinic acetylcholine receptors at the neuromuscular junction
+	- this is a fast and strong EPSP
+	- both nicotine and acetylcholine neurotransmitters can open the receptors
+
+ - acetylcholine receptor is a ligand-gated ion channel
+	- it opens when the ligand (a specific chemical) binds to it
+	- composed of two alpha subunits, and one gamma, beta, delta subunit
+		- each subunit has four membrane-spanning domains (M1, M2, M3, M4)
+			- M2 lies in the central pore
+
+	- roughly 300 000 acetylcholine receptors are active at the NMJ during synaptic transmission
+
+	- acetylcholine binds to two alpha subunits -> ligand-induced change in 3d structure occurs -> postsynaptic neuron is depolarized to -35mV
+
+nicotinic acetylcholine receptors:
+ - these are found at the neuromuscular junction
+ - this receptor conducts sodium, potassium, and calcium too (all cations)
+	- all cations because the central pore of channel is lined with negatively charged amino acids from the M2 subunit
+
+ - reversal potential for this receptor is at -10mV (the average of the nernst potentials of sodium and potassium)
+	- in a neuron, there is more Na+ outside the cell and more K+ inside the cell
+	- they will flow until equilibrium
+
+ - ion channels which let more than one ion pass simultaneously will always show reversing potential which controls their ability to depolarize postsynaptic cell
+	- to trigger an action potential
+
+ - to avoid unwanted excitation/inhibition, individual channels will close if they have been open for a long time due to binding/unbinding
+	- this process is called desensitization
+
+ - many venoms block this receptors neurotransmission, which causes weakness to the skeletal muscles
+	- if enough of a dose, this will lead to death by asphyxiation due to the paralysis of the diaphragm
+
+inward currents:
+ - when positive ions move into the neuron
+ - or when negative ions move out of the neuron
+ - as such, inward currents are negative
+
+outward currents:
+ - when positive ions move out of the neuron
+ - or when negative ions move into the neuron
+ - as such, outward currents are positive
+
+equilibrium potential:
+ - AKA nernst potential
+ - the membrane potential at which there is no net flow of said ion through the membrane
+ - does not depend on what channels are present in the membrane
+	- each ionic species has its own equilibrium potential
+
+reversal potential:
+ - the membrane potential at which net current through said channel is zero
+ - focuses on the movement of ions through a specific channel
+ - when a channel is permeable to only one ion, then reversal potential is equal to equilibrium potential of that ion
+	- eg. GABA receptors only permeable to chloride, therefore reverse potential is -65mV (same as eq potential)
+ - however when a channel is permeable to multiple ions:
+	- reversal potential is equal to the weighted avg of those ions' nernst potentials (eq potentials)
+
+excitation disease states:
+ - myasthenia gravis is an autoimmune disorder that leads to muscle weakness and fatigue
+	- caused by circulating antibodies in the blood that block or destroy acetylcholine receptors of the postsynaptic NMJ
+	- as such, acetylcholine cannot bind to the receptor and excite the postsynaptic cell, so can't stimulate muscle contraction
+
+glutamate:
+ - naturally occuring amino acid, can act as a neurotransmitter
+ - responsivle for all fast EPSPs in the central nervous system (as opposed to the NMJ we've been discussing before)
+
+ionotropic receptors:
+ - ion channels themselves and directly let ions pass
+
+metabotropic receptors:
+ - change the metabolic and biochemical pathways acting indirectly through G protein coupled receptors (GPCRs)
+	- GPCRs are not ion channels, rather they sense molecules outside the cell and activate specific pathways and responses inside the cell
+	- GPCRs comprise of 4% to 5% of known protein coding human genome
+		- however they are also the target of 40% of all modern medicinal drugs
+
+AMPA receptors:
+ - most commonly found receptor in the nervous system
+ - permeable to all cations like the acetylcholine receptors
+ - ligand-gated
+ - in glutamatergic synapses, there are usually both AMPA and NMDA receptors
+
+NMDA receptors:
+ - also permeable to all cations
+ - young brains have NMDA receptors only
+ - n-methyl-d-aspartate binds to these receptors
+ - these receptors have roles in many cognitive functions such as synaptic plasticity, learning, and memory
+ - can be both activated by ligand binding as well as changes in the membrane potential
+ - needs an initial depolarization to have a chance to open
+	- the NMDA receptor itself is voltage-dependent
+	- the initial depolarization is usually brought by opening of AMPA receptors which are found at the same synapses
+	- therefore, NMDA receptors work as 'coincidence detectors'
+		- they get activated when glutamate released into cleft (presynaptic event) as well as when AMPA receptors get activated (postsynaptic event)
+
+IPSPs:
+ - vast majority of IPSPs in central nervous system are due to the action of ligand-gated ion channels (GABA and glycine receptors)
+ - GABA receptors are the primary IPSP-generating receptors in the brain
+ - glycine receptors (which bind to the amino acid glycine) are the primary IPSP-generating receptors in the spinal cord
+ - both are very similar to the nicotinic acetylcholine receptors from before
+
+ - big difference in these two receptors is that the M2 domain in each receptor subunit is lined by either neutral or positive amino acids (not negative like before0
+	- both GABA and glycine receptors are anion-selective ion channels
+		- this causes increase in chlorine conductance
+
+ - IPSPs are important for when a neuron is trying to avoid a 'go' signal
+	- while excitatory synapses are trying to depolarize neuron, inhibitory synapses can maintain a neuron at resting potential
+		- this is called 'shunting'
+		- describes the fact the negative chloride can counterbalance positive sodium, resulting in stop signal
+
+ - for example, strychnine is used in rat poison
+	- the blockade if the receptor causes muscular convulsion due to the LOSS OF INHIBITORY ACTION
+
+hyperekplexia:
+ - neurological disorder when person has exagerrated startle response to external stimuli through touch or sound
+ - caused by loss of inhibitory synaptic function during glycine neurotransmission
