@@ -4,3 +4,36 @@ Lesson 3 - Small Circuits
 
 synaptic integration:
  - how neurons combine information from many synapses at once
+
+neuron communication:
+ - neurons receive input signals on their dendrites
+ - input information in the cell body (soma)
+ - determine whether or not to send output signal through axon to the presynaptic terminal
+
+circuits:
+ - our nervous sytem is highly interconnected in circuits
+ - for example, we have a specific circuit for fear perception
+	- or short and long term memory storage
+
+information processing:
+ - excitatory signals are typically received on the dendritic spines
+ - inhibitory signals are typically received on the dendritic shafts, soma, or axon initial segment
+
+synaptic distance and efficacy:
+ - one key factor that influences synaptic integration is the distance between the synapse and the cell body
+ - like a tree branch, the tips of the dendrites grow thinner
+	- this reduces the length constant, as the axial resistance becomes higher
+	- as such, there is a greater signal loss
+
+synaptic summation:
+ - like distance, this also affects the efficacy of a synapse
+ - when summing EPSPs, it's non-linear
+	- looks like it's adding two together, but not necessarily
+
+ - source of nonlinearity:
+	- driving force (as we get coser to membrane potential, driving force becomes lower)
+	- dendritic action potentials
+	- action potential backpropogation (potentials passively conduct current back into dendritic arbor)
+
+synaptic inhibition:
+ - 
