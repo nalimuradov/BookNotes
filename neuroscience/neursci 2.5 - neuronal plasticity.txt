@@ -11,3 +11,87 @@ neuronal plasticity:
 
  - the point of plasticity is to allow us to adapt faster than what evolution allows
 	- for instance in response to an injury or smth
+
+ - typically categorized based on the timescale on which they act
+	- short-term plasticity acts on a timescale of milliseconds to minutes
+	- long-term plasticity acts on a timescale of minutes to hours or more
+
+short-term plasticity:
+ - synaptic enhancement is the short-term strengthening of synaptic connections
+	- results from an increased probabiluty of pre-synaptic neurons releasing neurotransmitter in response to action potentials
+ - synaptic facilitation:
+	- the short-term strengthing of synapses (recorded as an increased excitatory post-synaptic potential)
+ - synaptic depression:
+	- the short-term weakening of synapses (attributed to depletion of readily releasable neurotransmitter)
+
+long-term plasticity:
+ - while short-term plasticity is crucial in quick adaptation, it doesn't explain the changes in our brain when we learn to ride a bike
+ - in order to do this, we need mechanisms that can alter synapses in a stable way that lasts a long time:
+	- two well-described phenomena for achieving this are LTP (long-term potentiation) and LTD (long-term depression)
+ - LTP makes synapses stronger, and LTD makes synapses weaker
+
+hebb's rule:
+ - how does the brain choose to make synapses weaker or stronger?
+ - "cells that fire together, wire together", "neurons out of sync, lose their link"
+	- eg. if neurons A and B send axons to neuron C, we can stimulate A and C synchronously at high frequency to strengthen synapse between A and C
+
+ - pavlov's dog is a good example:
+	- can teach dog to salivate at sound of bell
+	- while initially the connection between auditory neurons and salivatory neurons are weak
+		- pairing the bell with stimuli that evokes salivation gradually potentiates the sound-to-salivation synapse
+		- there isn't a singular sound-to-salivation synapse, rather this is a simplified example
+
+long-term potentiation:
+ - a well studied type of LTP is NMDA-dependent LTP
+
+ - to make a synapse stronger, we must either:
+	- make more neurotransmitter be released
+	- increase number of receptors on the postsynaptic side
+	- somehow make postsynapic receptors produce a larger effect
+
+ - two types of LTP: Hebbian and non-Hebbian
+	- hebbian LTP follows that "cells that fire together wire together" paradigm
+		- most common type of LTP
+	- non-hebbian LTP works in the opposite of direction of hebbian
+		- when pre and postsynaptic neurons fire together, the synapses tend to weaken
+
+
+NMDA receptor-dependent LTP:
+ - in hebbian LTP, a synapse is strengthened when the pre and post synaptic partners fire in close temporal proximity
+	- what fires together wires together
+	- however, how does nature implement such a rule?
+		- one answer is the NMDA receptor
+
+ - the NMDA receptor is ionotropic, which means when it opens it let's cations (calcium) through it
+	- hard to open, needs 2 ligands to open it
+	- NMDA receptor is both ligand-gated and voltage-gated
+
+ - NMDA receptors carefully allow calcium to pass through when both pre and post-synaptic sides of a given synapse are active
+
+long-term depression:
+ - a mechanism to make synapses weaker
+ - if synapses were only reinforced in the positive direction, all synapses would eventually be saturated at max without being able to be decreased
+ - typically induced by a long period of weak simulation of the presynaptic neuron that's uncorrelated with post-synaptic firing
+	- "out of sync, lose their link"
+ - not all LTD is heddian
+ - the removal of receptor molecules from the postsynaptic membrane renders them less able to react to neurotransmitters that are being released
+
+spike timing dependent plasticity (STDP):
+ - fire together wires together, out of sync lose link still applies, but we need to be more precise
+ - the strength and occurence of long-term plasticity depends on the precise delay between pre and post-synaptic spikes at a millisecond time scale
+
+ - presynaptic spikes arriving just before the postsynaptic spike results in potentiation of synapse
+ - presynaptic spikes arriving just after the postsynaptic spike results in depression of synapse
+
+ - why would nature have evolved such a system?
+	- to reinforce causal firing
+	- if a presynaptic neuron fires before postsynaptic one, then the spike could have plausibly caused the postsynaptic neuron to fire
+	- in the reverse it works the same, where it would be impossible for the presynaptic spike to have influenced the postsynaptic one becuase it came after
+
+nonsynaptic plasticity:
+ - occurs in the axon, dendrites, or some other nueorn
+ - involves modification of ion channel function at these sites
+
+ - strives to keep the excitability of a neuron in some desirable operating range
+	- if a cell fires too much, it runs the risk of damaging itself or the network
+	- if a cell fires too little, it's wasting resources
