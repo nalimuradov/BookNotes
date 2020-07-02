@@ -58,23 +58,34 @@ synaptic temporal inhibition:
  - the case where inhibitory synapses can affect the signal
 	- for example, we can have E -> I -> E signal which will appear as a single E signal
 
-convergence and divergence:
+example:
+ - you receive signals from a variety of inputs, both excitatory and inhibitory
+ - these converge to a neuron which will or will not activate, which will further continue to another neuron
+ - like receiving info from vision, touch, and then using that to do something else
+
+convergence, divergence, and recurrence:
  - this is how information spreads throughout neuronal circuits
+ - these are the three most basic principles of neural network organization
 
+convergence/divergence:
+ - when multiple inputs come together to synapse on a single downstream neuron
+ - brain is constantly bringing together scraps of information to synthesize into a coherent whole
+ - eg. rustling in grass and seeing a figure can send signal of fear
+	- heart rate rises, breathing hastens, pupils dilate
+	- those neurons DIVERGE to cause the above changes in our body
 
+reccurence:
+ - describes the situation where some chain of connected neurons loops back to itself (feedback loop)
+ - eg. neuron A connects to neuron B but B then also sends its axon back to A
+ - reccurent connections can be excitatory or inhibitory
 
+central pattern generator:
+ - also known as CPG
+ - a neuronal network that can produce patterned outputs, even in absence of ongoing sensory input
+	- like a fish wagging its tail back and forth, neur A back and forth to neur B
 
+ - for example, walking is down through a CPG
+	- the contraction of our muscles that allow us to walk is driven by pattern generators outside of the brain
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ - this can arise when say neur A makes neur B fire, and neur B makes neur A fire after a delay
+	- this pattern with enough neurons can give rise to complex systems
