@@ -1,3 +1,13 @@
 Fundamentals of Neuroscience - Part 2: Neurons and Networks
 
 Lesson 5 - Neuronal Plasticity
+
+neuronal plasticity:
+ - the nervous system's ability to adapt and change when faced with a changing environment
+ - your brain is changing to read these lines, it is shaped by experience
+ - brain can experience neuronal plasticity at many levels
+	- from a single synapse, to the whole network
+ - up until now we've only considered the case where the brain is constant, like the wiring in our house
+
+ - the point of plasticity is to allow us to adapt faster than what evolution allows
+	- for instance in response to an injury or smth
