@@ -1,3 +1,126 @@
 Fundamentals of Neuroscience - Part 3: The Brain
 
 Lesson 1 - Vision
+
+vision system:
+ - arguable one of the most important senses
+ - the human vision system is remarkable, allowing us to detect specs of dust on our fingers
+ - half of our brain is devoted (in one way or another) to processing visual information and making sense of it
+
+ - the vision system is the part of the CNS that gives organisms ability to detect/process/interprep info from visible light
+ - first we must deal with the reception of light on the retina
+	- information is then transfered along the optic nerve into a relay station deep within the brain to the thalamus
+	- in the thalamus, the inputs are sorted and begun to be processed
+	- from there, the information goes to the visual cortex
+
+visual cortex:
+ - the visual cortex extracts all sorts of info from the visual scene, such as shape, color, distance, motion, etc
+ - the information flow in cortex is both sequential and parallel
+
+light:
+ - it is a kind of electromagnetic radiation that lies on a spectrum which includes radio waves, microwaves, x-rays
+ - visible light is between infrared and ultraviolet
+	- 390 to 700 nm
+	- radio -> microwave -> infrared -> visible -> ultraviolet -> x-ray -> gamma ray
+	- the more right, the smaller the wavelength
+
+ - while light is a wavelength, it also behaves like a discrete particle
+	- we call these particles, photons
+	- there is a minimum unit of light which is the photon
+
+ - the energy of a photon is proportional to its frequency and inversely proportional to its wavelength
+	- as such, a blue photon has more energy than a red photon
+
+eye:
+ - like a camera, the cornea and lens are the lenses that focus light
+ - light is collected through the lens, which changes its shape to focus the light by the action of specialized muscles
+	- these muscles are called cilliary muscles
+ - photoreceptors are the light sensitive cells which record the light
+ - the retina then processes the image and transmits it down to the optic nerve
+
+ - eyes can also adjust to differences in illumination through pupil dilation
+ - the human eye has 100 million photo receptors, but most of the are near the center at the fovea
+
+phototransduction:
+ - the retina has specialized in such a way such that it can carry out two distinct functions
+ 	- these are embodied in two types of photoreceptors: rods and cones
+ 	- these are the biological equivalent to pixels
+		- rods have allowed us to detect low light levels (dusk and dawn) (much more rods than cones in the human retina)
+		- cones allow us to detect higher light levels (between sunrise and sunset)
+
+ - phototransduction is the process of conversion of electromagnetic to chemical to electrical energy in a sequential cascade
+	- as photons land on the eye and fall onto retina, they're absorbed by photo receptor cells in the outer segment
+
+color vision:
+ - cones are responsible for color vision and eye color sensitivity
+ - three types of cones: S, M, L
+	- each detects different wavelengths (short, medium, long)	
+	- these three cones sense red, blue, and green light
+	- as such, we have adapted to see other colors through combinations of these three types of cones (thrichomat)
+
+metamers:
+ - different patterns that elicit the same percept
+ - a picture of a flower on a computer may look similar to a real one but it's not
+	- if we zoom in, we'll see a combination of tiny RGB spots, which are tailored to excite your cone types
+
+ - other animals like fish and birds have four cones so they can distringuish colours that would look the same to us
+ - some people may have only two cones, causing color-blindness (can't tell red from green)
+
+retinal processing:
+ - the action potential change in the retina when exposed to light has been extensively studied
+
+ - the retina is organized in 3 main specialized cellular layers:
+	- outer layer contains the photoreceptors, rods, and cones
+	- inner nuclear layer contains interneurons
+	- ganglion layer contains retinal ganglion cells (which are the output neurons which are transmitted to the brain)
+		- these are the only cells in the retina capable of generating action potentials
+	- each layer is connected through synaptic layers
+
+receptive field:
+ - the region of visual space that when stimulated evokes a response in the cell
+
+retinal circuit:
+ - the direct pathway is the flow of info from the inputphotorceptor cell -> bipolar cell -> output retinal ganglion cell
+ - photoreceptors are depolarized in the dark and hyperpolarized in light
+	- when there is no light, photoreceptors are active and release glutamate
+	- conversely, they're inhibited and stop releasing glutamate in the presence of light
+
+retinofugal projection:
+ - where does visual information go once it leaves retina?
+	- the axons leaving the retina go a whole host of different places
+ - the neural pathways that leave the eye, beginning with optic nerve, is called the retinofugal pathway
+
+ - the retinofugal projection has five major parts before reaching the visual cortex:
+	- the optic nerve: a bundle of nerve fibers leaving each retina
+	- the optic chiasma: where nerves from both eyes combine
+	- the optic tract
+	- the lateral geniculate nucleus
+	- the optic radiation
+
+primary visual cortex (V1):
+ - the cortex (which means 'bark' in lating) is the folded layer of tissue that covers the cerebrum
+	- like a crumpled piece of paper overlying the rest of the brain
+ 	- composed of six layers (imagine six pieces of paper on top of each other)
+
+ - the primary visual cortex is located at the back of the brain
+	- the primary visual cortex also goes by the name V1
+
+visual pathways:
+ - once the visual information reaches the back of your brain, it is processed in two pathways: ventral and dorsal
+
+ - ventral pathway is called the 'what pathway' and it identifies objects
+	- information flows from V1 to V2 to V4 to IT
+
+ - lesions in V1 or V2 cause scotoma (localised blind spots)
+ - lesions in IT have more complicated effects (agnosia) (problems with object recognition)
+
+ - dorsal pathway is called the 'where or how pathway' and it identifies where objects are in space and how we may interact with them
+	- MT detects direction of motion, and PPA is responsible for spatial attention
+
+ - lesions in MT result in akinetopsia (inability to detect motion)
+	- affected patients see the world as snapshots
+ - lesions in PPA causes visual neglect (where patient does not perceive part of the world)
+
+the binding problem:
+ - how can we combine color, movement, etc into one motion
+ - this is the next step of research, as most of this is unknown
