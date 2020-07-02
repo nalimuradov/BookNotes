@@ -25,6 +25,13 @@ synaptic distance and efficacy:
 	- this reduces the length constant, as the axial resistance becomes higher
 	- as such, there is a greater signal loss
 
+the five critical factors that regulate synaptic integration:
+ - distance
+ - synaptic summation
+ - synaptic inhibition
+ - synaptic temporal summation
+ - synaptic temporal inhibition
+
 synaptic summation:
  - like distance, this also affects the efficacy of a synapse
  - when summing EPSPs, it's non-linear
@@ -36,4 +43,38 @@ synaptic summation:
 	- action potential backpropogation (potentials passively conduct current back into dendritic arbor)
 
 synaptic inhibition:
- - 
+ - also known as shunting
+ - precise placement of these synapses is important
+ 	- an inhibitory synapse close to the soma can cancel out many EPSPs as it is close to the core
+	- however an IPSP at the denritic arbor can only shunt the EPSPs upstream of the dendritic arbor
+
+synaptic temporal summation:
+ - the case where a synapse fires multiple times in rapid succession
+ - we know that multiple post-synaptic potentials sum up in the receiving neuron, but not in a linear way
+	- we have to consider what happens when the same synapse is activated multiple times before cell is able to return to resting potential
+ - when we fire a synapse multiple times, the amplitude is much larger and the shape is not the same
+
+synaptic temporal inhibition:
+ - the case where inhibitory synapses can affect the signal
+	- for example, we can have E -> I -> E signal which will appear as a single E signal
+
+convergence and divergence:
+ - this is how information spreads throughout neuronal circuits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
