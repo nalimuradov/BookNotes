@@ -1,3 +1,91 @@
 Fundamentals of Neuroscience - Part 2: Neurons and Networks
 
 Lesson 4 - Neuromodulation
+
+components in a synapse:
+ - the two main components we've learned about are the presynaptic and postsynaptic terminals
+ - however, there is a third one: neuromodulation
+	- neuromodulation is a third neuron that modulates the synaptic strength of synapses
+
+neuromodulation:
+ - the process by which synaptic transmission between two neurons is either enhanced or decreased
+	- through the action of a third substance called a neuromodulator
+ - like two person conversation, and third person comes along
+	- if p3 likes you, conversation between p1 and p2 will be better
+	- if p3 doesnt, conversation will be worse
+	- p3 is a neuromodulator
+
+ - most neuromodulators act through GPCRs (g-protein-coupled receptors)
+	- they can also act through voltage gated ion channels
+
+synaptic connections:
+ - whether you're reading a book or going for a walk, synaptic connections are changing their strength
+ - synaptic connection changes can either be structural or non-structural
+	- structural changes include alteration of number by loss/addition, or change in size by shrinkage/growth
+		- these occur normally throughout life
+		- eg. when you're young lots of neurons being made, but also when you have alzheimers (neurons destroyed)
+
+ - neuromodulation is what changes these synaptic connections
+
+neurodegeneration:
+ - alzheimers and parkinsons are neurodegenerative diseases
+ - neuronal death is accelerated compared to healthy patients
+	- like seeing a family member's face not register with you (cuz those neurons have been destroyed)
+
+ionotropic/metabotropic receptors:
+ - the neurotransmitter doesn't decide whether effects are inhibitory or excitatory
+ 	- rather, it acts as a signal to act
+ - the action the neuron takes depends on what postsynaptic receptor molecules receive that signal
+	- the postynaptic receptor determines what effect a given neurotransmitter has
+
+ - as discussed, the two main types of receptors are IONOTROPIC and METABOTROPIC
+	- ionotropic receptors induce fast changes in postsynaptic membrane potential
+		- these receptors are specific for a certain neurotransmitter, and the neurotransmitter is like a key (opens/closes channel)
+		- upon binding, ionotropic channels open a central pore that allows ion flow across membrane, which modulates the potential
+	- metabotropic receptors are GPCRs (g-protein coupled receptors)
+		- these receptors are much slower
+		- they induce changes in the electrical and biochemical properties of the postsynaptic neuron
+		- they are not channels, so they don't allow charges to pass through the membrane directly
+			- they act through the activation of intracellular signalling cascades in the postsynaptic cell through messenger molecules
+		- one molecule causes a change in another, which changes another, etc
+
+	- many fast-acting ionotropic neurotransmitters can also act as neuromodulators through metabotropic receptors
+		- as such, a single neurotransmitter can act immediately, while also having long-lasting actions
+
+GPCRs:
+ - g-protein coupled receptors
+ - metabotropic receptors belong to this family of receptors
+ - ligand is bound outside of the cell
+	- this affects function of g-proteins inside the cell
+
+serotonin:
+ - a neuromodulator system that is involved in many processes such as hunger, sleep, and mood
+ - receptors are found in many parts of the brain (hippocampus, neocortex, amygdala, thalamus)
+ - plays a large role in mood -> depression, therefore it's a target of most anti-depressive drugs
+ - also important, serotonin plays roles in the gut, regulating gastrointestinal functions
+	- this double duty is common in biology 
+	- however, drugs that affect serotonin can have off-target effects 
+
+neuropeptides:
+ - proteins that 5 to 20 amino acids long
+	- much larger than a classical neurotransmitter
+ - act as neuromodulators exclusively through GPCRs
+
+opioids:
+ - a class of neuropeptides
+ - deal with the perception of pain
+ - there are 4 kinds of opioid receptors: delta, mu, kappa, nociceptin
+
+dopamine:
+ - the dopamine system modulates many modalities, such as motor control, arousal, motivation, and reward
+ - cocaine blocks the reuptake of dopamine to the synaptic cleft
+	- increases the time the neurotransmitter spends in the cleft, increasing likelihood of inserting a post-synaptic action
+
+noradrenaline system:
+ - pathway that is likely to be activated when encountering a dangerous situation
+
+conclusion:
+ - neuromodulation is the process by which the synaptic transmission between two neurons is enhanced/decreased through a third substance (neuromodulator)
+ - neuromodulators can affect neurotransmitter release, receptor sensitivity, and protein synthesis
+ - this diversity of neuromodulatory effects comes from the diversity of the neuromodulatory pathways
+ - the main neuromodulatory systems are: serotonin, neuropeptides, dopamine, acetylcholine, noradrenaline
