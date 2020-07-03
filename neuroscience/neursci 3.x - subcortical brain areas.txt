@@ -1,0 +1,89 @@
+Fundamentals of Neuroscience - Part 3: The Brain
+
+Lesson x - Subcortical Brain Areas
+
+hindbrain:
+ - aka rhombencepha;pm
+ - lowest part of the brain, contiguous with the spinal cord (at the bottom of the brain in humans)
+
+ - controls functions like heart rate, respiration, and swallowing
+	- this is the core of life
+	- in many animals it is their brain's only function
+
+ - the hindbrain refers to the medulla, the pons, and the cerebellum
+	- medulla and pons are part of the brainstem
+
+ - most injuries to the brain stem result in instant death
+
+midbrain:
+ - associated with vision, hearing, motor control, arousal, alertness
+ - the tectum is the top part of the mid brain and controls auditory and visual reflexes
+ - more involved in voluntary body movenet, rather than basic reflexes of the hindbrain
+
+brain stem -> limbic system -> cortex
+
+brain stem:
+ - basic life support, extends from the spinal cord
+ - we are not aware of most of waht the brain is doing
+	
+limbic system:
+ - core valuations
+ - we are not actively aware of feelings on our skin, but when a bug lands on your arm you instantly know
+ - amygdala controls fear and aggression
+
+cortex:
+ - thinking brain
+
+cerebellum:
+ - seperate structure at the bottom of the brain
+ - contains 50% of the brain's neurons
+
+our senses:
+ - sound waves are produced whensomething vibrates and causes disturbance in a medium
+ - light waves are photons we see when light reflects off of objects
+ - in the same way our body can sense temperature, we have evolved to sense above senses (as it's obviously useful)
+
+forebrain:
+ - encompasses four main functional systems:
+	- cerebral cortex
+ 	- basal ganglia
+	- thalamus
+	- limbic system
+
+ALL regions:
+ - midbrain
+ - hindbrain
+ - forebrain
+ - cerebellum
+ - basal ganglia
+ - thalamus
+ - limbic system
+ - hippocampus
+ - hypothalamus
+
+
+the brain has 3 main parts:
+ - cerebrum
+ - cerebellum
+ - brain stem
+
+cerebrum:
+ - largest portion, only mammals have this
+ - frontal, parietal, occipital lobes
+ - visual functions, language, judgment, problem solving
+
+cerebellum:
+ - evolved before cerebrum, controls body functions like balance, coordination
+
+limbic system:
+ - contains glands which help relay emotions, fear, memories, etc
+ - amygdala: fear and aggression
+ - hippocampus: learning and memory
+ - hypothalamus: mood, thirst, hunger
+ - thalamus: attention span, pain sensation
+
+brain stem:
+ - all basic life functions, nearly all animals have this, many animals have ONLY this as the brain
+ - midbrain: regulate body movement, vision, hearing
+ - pons: motor control
+ - medulla: vital body functions like breathing
