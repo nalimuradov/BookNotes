@@ -1,0 +1,38 @@
+Fundamentals of Neuroscience - Part 3: The Brain
+
+Lesson x - Subcortical Brain Areas
+
+hindbrain:
+ - aka rhombencepha;pm
+ - lowest part of the brain, contiguous with the spinal cord (at the bottom of the brain in humans)
+
+ - controls functions like heart rate, respiration, and swallowing
+	- this is the core of life
+	- in many animals it is their brain's only function
+
+ - the hindbrain refers to the medulla, the pons, and the cerebellum
+	- medulla and pons are part of the brainstem
+
+ - most injuries to the brain stem result in instant death
+
+midbrain:
+ - associated with vision, hearing, motor control, arousal, alertness
+ - the tectum is the top part of the mid brain and controls auditory and visual reflexes
+ - more involved in voluntary body movenet, rather than basic reflexes of the hindbrain
+
+brain stem -> limbic system -> cortex
+
+brain stem:
+ - basic life support, extends from the spinal cord
+ - we are not aware of most of waht the brain is doing
+	
+limbic system:
+ - core valuations
+ - we are not actively aware of feelings on our skin, but when a bug lands on your arm you instantly know
+ - amygdala controls fear and aggression
+
+cortex:
+ - thinking brain
+
+cerebellum:
+ - seperate structure at the bottom of the brain
