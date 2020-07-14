@@ -1,0 +1,49 @@
+REST notes
+
+REST:
+ - representational state transfer
+ - defined by six rules:
+	- client server (separation between client that offers service, and user that consumes it)
+	- stateless (each request from client must contain all information required to carry it out)
+		- cannot store information from client and use it in another request
+	- cacheable (server must indicate to client if requests can be cached or not)
+	- layered system (communication between client and server should be standardized)
+	- uniform interface (method of communication must be uniform)
+	- code on demand (servers can provide code for clients to execute)
+
+ - was originally designed to fit HTTP protocol
+ - central concept of REST is the notion of resources
+	- resources are represented by URIs
+	- client sends requests to these URIs 
+
+ - typical HTTP request methods:
+	- GET (eg. http://example.com/api/orders -> will retrieve order list)
+	- POST (eg. http://example.com/api/orders -> will create new order from data in request)
+	- PUT (eg. http://example.com/api/orders/123 -> will update order #123)
+	- DELETE (eg. http://example.com/api/orders/123 -> will delete order #123)
+
+ - REST does not require a specific format, but JSON is often used
+
+designing a simple web service (REST API):
+ - say we want to write a todo list:
+	- we can use http://[hostname]/todo/api/v1.0/ as the root URL
+ - next we have to decide what resources will be exposed by this service:
+	- GET, POST, PUT, DELETE
+	- we will need the following:
+		- GET http://[hostname]/todo/api/v1.0/tasks -> will retrieve the list of tasks
+		- GET http://[hostname]/todo/api/v1.0/tasks/[task_id] -> will retrieve the task
+		- POST http://[hostname]/todo/api/v1.0/tasks -> will create a new task
+		- PUT http://[hostname]/todo/api/v1.0/tasks/[task_id] -> will update an existing task
+		- DELETE http://[hostname]/todo/api/v1.0/tasks/[task_id] -> will delete a task
+
+ - our todo list will consist of tasks which will have:
+	- id: unique id for tasks (numeric)
+	- title: short description (string)
+	- description: full description (string)
+	- done: completion state (bool)
+
+ - and with this we are done designing the web service, we must now implement it
+
+creating the RESTful service:
+ - first we host a flask application (simple enough, done before)
+ - 
