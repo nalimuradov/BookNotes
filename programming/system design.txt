@@ -1,0 +1,120 @@
+System Design
+
+basis of system design:
+ - knowledge of design of large scale systems is essential
+ - everything is a trade-off
+
+scalability:
+ - vertical scaling:
+	- if we're running low on RAM or disk space
+	- just get a better processor or more RAM!
+	- however, it's not the best solution
+	- we can't just keep upgrading the same machine
+	- a computer with 4 cores can literally do 4 things at once
+		- but we can't just keep adding cores, due to technological limits
+		- before with single cores, the CPU had to schedule some time to each process (eg. email, updates)
+			- we never notice because it happens so fast, but it's still not as efficient
+
+ - horizontal scaling:
+	- as opposed to throwing money at our system, we can accept there is a limit and instead distribute
+	- rather than one good machine, get a bunch of cheaper machines for your server
+
+	- with one server when we enter something.com, we contact the server for the pages and it responds
+	- however now, we need to figure out a way to distribute the request across the multiple servers
+		- this why we need a LOAD BALANCER
+
+ - load balancer:
+	- the black box between the servers and the users
+	- now when we enter something.com, we can return the IP address of the load balancer
+		- at this point, the backend servers don't even need public IP addresses anymore (can be private)
+
+ 	- the servers can be either all the same, but we can also have dedicated servers (one for images, one for html, etc)
+		- for example, we can use the host http name to decide which server to send to
+
+	- a simple way to distribute could be to have an IP for each server rather than the load balancer:
+		- the first time you access it, use server 1, next time use server 2, next time user server 3, etc
+		- this is called round-robin, but we can't distribute RAM evenly, one server might just happen to get heavy weight users
+			 - round-robin will keep sending users to that one server, just by the nature of its implementation
+		- as such, load balancer can use any number of heuristics to decide how it will distribute requests to servers
+
+ - caching:
+ 	- operating system and browser caches common responses to save seconds
+	- used for common requests done by the user like something.com
+
+ - 
+
+
+
+
+how to approach system design:
+ - questions to ask:
+	- who is going to use it?
+	- how are they going to use it?
+	- how many users are there?
+	- what does the system do?
+	- what are the inputs and outputs of the system:
+	- how much data do we expect to handle?
+	- how many requests per second do we expect?
+	- what is the expeced read/write ratio?
+
+ - next step is to create a high level design:
+	- sketch main components and connections
+	- justify all components
+	- dive into details for each component (eg. api design)
+
+ - next we scale the design:
+	- identify constraints and bottlenecks
+	- decide if we need:
+		- load balancers
+		- horizontal scaling
+		- caching
+		- database sharding
+
+design a URL shortener:
+ - eg. bit.ly
+ - need to store the original unshortened URL somewhere
+ 
+ - STEP 1: gather requirements and scope the problem, ask questions, discuss assumptions
+	- after clarifying, we should know that:
+	- use cases:
+		- user enters text and gets randomly generated link
+		- user is anonymous
+		- user can enter the url and view the contents
+		- service will track analytics of pages
+		- service will delete expired pastes
+		- service has high availability
+
+	- out of scope use cases:
+		- these use cases are also important but won't be solved here
+		- user can also register an account, verify through email
+		- user can then log into a registered account and edit 
+		- user should also be allowed to set the shortlink
+
+	- constraints and assumptions:
+		- traffic is not evenly distributed
+		- following a shortlink should be fast
+		- pastes are text only
+		- page analytics do not need to be realtime
+		- 10 million users
+		- 10 million paste writes per month
+		- 100 million paste reads per month
+		- 10:1 read/write ratio
+
+ 	- calculations:
+		- content per paste -> 1 kilobyte
+		- short link -> 7 bytes
+		- experiation_length_in_minutes -> 4 bytes
+		- created_at -> 5 bytes
+		- paste_path -> 255 bytes
+		- total -> 1.27 KB
+
+		- 1.27 KB * 10 million pastes/month = 12.7 GB of new paste content per month
+		- 450GB, 360 million shortlinks in 3 years
+		- assume most are new pastes instead of updates to existing ones
+
+ - STEP 2: create a high level design
+	- client -> web server -> write/read APIs -> SQL/object store -> analytics
+
+ - STEP 3: design core components
+	- 
+
