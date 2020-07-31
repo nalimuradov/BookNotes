@@ -1,5 +1,7 @@
 System Design
 
+try HAproxy
+
 basis of system design:
  - knowledge of design of large scale systems is essential
  - everything is a trade-off
@@ -41,10 +43,25 @@ scalability:
  	- operating system and browser caches common responses to save seconds
 	- used for common requests done by the user like something.com
 
- - 
+ - RAID:
+	- redundant array of independent disks
+	- RAID0, RAID1, RAID5, RAID6, RAID10...
+	- in RAID0, we have two hard drives of equal size and we stripe data across them
+		- everytime we want to save a file, we stripe data across them
+		- means that we will write to this drive, then this one, then this one, etc
+		- this can double the speed at which we can write to files
 
+	- in RAID1, we have two hard drives but we mirror the data across both
+		- this gives redundancy, but obviously there is more overhead
 
+	- in RAID10, we have both striping and redundancy (mirroring)
+		- costs much more
 
+	- in RAID5, we have 2/3/4 drives, and one for redundancy
+
+ - sticky sessions:
+	- your session is somehow preserved even with multiple backup servers
+	- even when you visit website multiple times, you're still going to end up with the same server
 
 how to approach system design:
  - questions to ask:
