@@ -117,15 +117,37 @@ USEFUL COMMANDS:
  - just type git to see all the common commands
  - clear 
 
-**to prac:
- - make new repo
- - clone it to multiple places
- - push different edits from ultiple places
+***NEW
 
- - pull exisiting repo
- - work on it
- - commit my changes
+HEAD
+ - tells you the version of code you are currently looking at
 
- - pull repo while in its folder
+git checkout 2debbf2 
+ - will revert entire folder to state it was at that commit
+ - can get IDs with git log --oneline --decorate --graph --all
 
- - ALSO FIGURE OUT HOW TO USE TAGS
+new branch:
+ - for when i want to checkout an old commit and work from there
+ - or if i want to have two parts being built separately
+ - git checkout -b branchName
+
+merge:
+ - this is how we get my branch and master to connect again
+ - if no conflict, merge is light
+ 	- conflict is when two branhces changed the same line
+
+origin:
+ - this is the repo!
+	- at creation, we say git remote add origin ..
+	- this means 'origin' will be our repo alias
+ - git push origin will save all commits to their respective branches
+ - git push origin master will save all commits to master branch
+
+fetch:
+ - see how far behind code is from the linked github repo
+ - say i work at home on PC A and make changes
+	- then at work i use PC B to fetch changes
+
+rebase:
+ - when we change the base of our branch from one commit to another
+ - primary use is to maintain a linear project history
