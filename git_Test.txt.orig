@@ -3,5 +3,7 @@ BBB
 new branch
 new branch 2
 <<<<<<< HEAD
-LINE 7 NARIMAN
+LINE ^ NARIMAN
+=======
+LINE 5 NARIMAN
 >>>>>>> newBranch
