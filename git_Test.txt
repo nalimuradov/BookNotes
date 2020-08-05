@@ -1,3 +1,4 @@
 AAA
 BBB
 new branch
+new branch 2
