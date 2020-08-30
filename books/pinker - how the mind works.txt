@@ -159,18 +159,18 @@ intelligence:
  - information is a correlation between thwo things that is produced by a lawful process (as opposed to sheer chance)
  - the rings in a stump carry information about the age of the tree
 
-natural languages CONT
+why does it take longer to do task A than task B?:
+ - "because task A is harder"
+ - impossible to pin down mental representations if we explain psychological phenomena with other equally mysterious psychological phenomena
+ - "because they are similar"
+ - all of these are in the eye of the beholder
+ - a computer has more trouble representing the gist of little red riding hood than it does remembering a 20-digit number
+	- opposite for humans though
 
-
-
-
-
-
-
-
-
-
-
+internal representations of concepts:
+ - not related to the words we see
+	- eg. "elk" in a unique font, we don't have to relearn that elk is a noun, animal, etc
+ - or if i say wapiti is another word for elk, we can just assign what we know about elk to wapiti also
 
 
 

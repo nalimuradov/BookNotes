@@ -1,14 +1,14 @@
 Git Notes
 
-Distributed Version Control System:
+git is a distributed version control system:
  - everybody has a local repo
  - same as the original since last sync
 
-For Help:
+for help:
  - git <verb> --help
  - verb can be "config", etc
 
-Git Init:
+git init:
  - creates repo in current directory
 
 git ignore file:
@@ -28,7 +28,7 @@ CLONING A REPO:
  - git clone <url> <where to clone>
  - git clone https://github.com/smth .
 
-BRANCHING:
+branches in git:
  - FULL PROCESS BELOW
  - git branch subtract (new branch)
  - git checkout subtract (working on new branch)
@@ -48,7 +48,7 @@ BRANCHING:
  - on github there will be now new branches
 
 PULL REQUEST:
- - merges branches bac in
+ - merges branches back in
 
 MERGE CONFLICTS:
  - if two people edit same thing and push, it will give conflict
