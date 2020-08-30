@@ -172,6 +172,18 @@ internal representations of concepts:
 	- eg. "elk" in a unique font, we don't have to relearn that elk is a noun, animal, etc
  - or if i say wapiti is another word for elk, we can just assign what we know about elk to wapiti also
 
+chinese room experiment:
+ - dispute to the computational theory of mind
+ - a man who knows no chinese is sat in a room and given instructions:
+	- "if you see ..., respond by writing ..." for all sorts of situations
+	- so when he gets ..., he follows instructions and responds accordingly
+	- as far as the guy on the other side knows, he is talking to a chinese speaker
+	- however, the first guy doesn't know any chinese, he is just following orders
+ - however, pinker says that searle is exploiting the use of the word "understand" in this experiment
+	- neural tissue kept alive doesn't "understand", yet it has the same physical-chemical properties as our brain
+
+
+
 
 
 
