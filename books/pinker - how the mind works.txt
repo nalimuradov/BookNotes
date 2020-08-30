@@ -182,10 +182,11 @@ chinese room experiment:
  - however, pinker says that searle is exploiting the use of the word "understand" in this experiment
 	- neural tissue kept alive doesn't "understand", yet it has the same physical-chemical properties as our brain
 
+representing XOR in a neural network:
+ - there is no way to represent XOR in a single layer:
+	- if values of A or B are large enough to meet threshold, then by default AandB will also meet threshold
+ - to do so, we can create an intermediate layer where it calculates AorB and not(AandB)
 
-
-
-
-
+pg112book connectoplasm
 
 
