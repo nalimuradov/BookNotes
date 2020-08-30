@@ -187,6 +187,32 @@ representing XOR in a neural network:
 	- if values of A or B are large enough to meet threshold, then by default AandB will also meet threshold
  - to do so, we can create an intermediate layer where it calculates AorB and not(AandB)
 
-pg112book connectoplasm
+connectionism:
+ - school of thought which argues that simple neural networks account for most of human intelligence
+ - the only reason humans are smarter than rats is because we have more hidden layers in our networks
+ - intelligence emerges when the environment tunes the weights of the network
 
+how can two things be the same:
+ - "take away all the characteristics of a cherry (color, tartness, etc), is it still a cherry?" (but what if we strip them one by one?)
+ - room with two identical chairs
+	- if someone switches position of two chairs, is the room still the same? 
+	- people say no
+ - as such, space and time must matter for an individual object
+	- but what if we have a plane with two circles and one circle passes over the other
+		- in this case, are the two circles the same?
+ - the individual is unique from the characteristics
 
+scale of our thoughts:
+ - there are so many possible combinations and recursions that we cannot simply remember them all directly in our neurons:
+	- eg. child eats slug -> slug eats child -> x does y -> so many combinations
+ - on top of that, there is also recursion we must factor for:
+	- eg. parent sees child eat slug -> child thinks parent sees child eat slug -> etc
+
+classifications:
+ - people are bigots about everything: birds, vegetables, tools, etc
+	- people share a stereotype and project it to all members of the category
+	- "the more birdy properties, the better the bird"
+	- "13 is a better example of an odd number than 23"
+	- "mother is a better example of a female than a comedienne"
+
+cont at aladdins lamp - pg145 pdf
