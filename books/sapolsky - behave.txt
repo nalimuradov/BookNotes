@@ -749,3 +749,56 @@ voter participation:
 	- mediating factor turns out to be sense of control 
 	- people who vote regularly feel that their actions matter
 	- this central locus of control reflects some genetically influence personality traits (eg. high optimism, low neuroticism)
+
+bias in adoption studies:
+ - cases of adoption are great to study nature vs nurture
+ - however adoptive parents of a certain race tend to more likely adopt children of their same race
+ - also adoptive parents tend to be wealthier and more educated than biological parents
+
+heritability:
+ - if genes strongly influence average levels of a trait, then the trait is strongly INHERITED
+ - if genes strongly influence the extent of variability around that average level, then the trat has high HERITABILITY
+	- indicates the percentage of total variation attributable to genetics
+
+ - people often confuse the two and may think that if a trait is strongly inherited, then it has high heritability
+ 	- they are more interested in variability of traits among humans than in average levels of traits
+		- eg. it's more interesting to consider why some humans are smarter than others rather than why humans are smarter than turnips
+
+ - trait that is highly inherited but low heritability:
+	- the number of fingers on your hand almost always 5
+	- the genes don't explain individual differences much
+	- or for example, say you wanted to guess how many fingers an animal has
+		- if you know their species, you can make a safe accurate guess without knowing their genetic makeup
+
+ - trait that is rarely inherited but high heritability:
+	- back in the day, wearing earrings was a great example of such a trait
+	- basically if you had two X chromosomes (girl), you had a high chance of wearing earrings
+
+heritability score:
+ - tells how much variation in a trait is explained by the genes in the environment which it's been studied
+ - as you study the trait in more environments, the heritability score will decrease
+	- just consider how much the heritability score of earrings has gone down since 1958
+
+gene/environment interactions:
+ - imagine a plant 
+
+pg234 in the pdf (read to 300 by end of sept 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
