@@ -780,7 +780,10 @@ heritability score:
 	- just consider how much the heritability score of earrings has gone down since 1958
 
 gene/environment interactions:
- - imagine a plant 
+ - imagine a plant in a desert with three plant subjects being 1m tall
+ - now image that same plant in a tundra but they are all 10m tall
+ - when we consider it like this, heritability is ZERO
+	- variation is entirely explained by the environment the plant grew in
 
 pg234 in the pdf (read to 300 by end of sept 2)
 
