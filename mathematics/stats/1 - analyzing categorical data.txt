@@ -1,0 +1,20 @@
+1 - Analyzing Categorical Data
+
+identifying individuals:
+ - individuals of a data set aren't only people, rather they can be products
+	- coffee shop with drink data set will have the DRINKS as the individuals
+
+categorical (aka quantitative) variables:
+ - say the drinks include info like type, calories, sugars, and caffeine:
+	- type can be either HOT or COLD (categorical)
+	- calories, sugars, and caffeine can be any number (not categorical)
+
+mean, median, mode, midrange:
+ - mean: average
+ - median: order and find middle value
+ - mode: most common value
+ - midrange: average of highest and lowest value
+
+conditional distribution:
+ - distribution of X given Y
+ 	- distribution of % correct given that students studied more than 60 minutes
