@@ -1,0 +1,35 @@
+2 - Displaying and Comparing Quantitative Data
+
+frequency tables:
+ - PETS | COUNT
+---------------------
+   dogs	|  10
+   cats	|   8
+  bears	|  11
+
+histogram:
+ - same as bar graph but instead of categorical variables we have continious variables represented as buckets
+ - eg. age ranges
+
+stem and leaf plot:
+ - STEM | LEAF
+      0 | 0 0 2 4 7 7 9
+      1 | 1 1 3 8
+      2 | 0
+ - the stem represents the tens digit and the leafs represent the ones digit
+	- eg. 00, 00, 02, 04, 07, 09, etc.
+	- two players with 0 points, one play with 2 points, etc.
+
+shapes of distributions:
+ - left-tailed
+ - right-tailed
+ - symmetrical
+
+box plot:
+ - left and right dots indicate min and max value
+ - the box itself represents the middle 50%
+ - the line in the box represents the median
+
+when to use which plot:
+ - box plots are useful to find minimum, maximum, median
+ - histograms are useful to find how many items are greater/less than a certain value
