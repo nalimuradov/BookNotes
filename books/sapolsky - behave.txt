@@ -784,9 +784,29 @@ gene/environment interactions:
  - now image that same plant in a tundra but they are all 10m tall
  - when we consider it like this, heritability is ZERO
 	- variation is entirely explained by the environment the plant grew in
+	
+ - on the other hand, if for both plants they are 1m, 2m, and 3m tall across all environments, heritability is 100%
+ 	- all variability is explained by genetic variation
+ - however sometimes in environment A it's 1m, 2m, 3m tall and in environment B it's 1.5m, 2.5m, 3.5m tall:
+ 	- heritability is somewhere in between
+	- there is some correlation to both heritability and environment
+	
+ - this becomes even more problematic when dealing with gene/environment interactions
+  	- this is where the qualitative effects of a gene differ by environment
+	- eg. three groups of rats from different backgrounds were all treated the same way prior to drug test
+		- when given dose, the alberta rats had 5000% increase in activity while all others had 700%
+		- that's like triplets all prepping the same way for pole vault at different locations
+			- two of the vault 18 feet while third one vaults 108 feet
+ 
+ - as such, it's not meaningful to ask what a gene does, just what it does in a particular environment
+ 
+ - poverty and education example:
+ 	- in rich families, heritability of cognitive development is very high (about 70% for IQ)
+	- however in poor families, heritability of cognitive development is only about 10%
+	- higher quality of life allows for full range of genetic influences to flourish
+		- but in poverty, the genetic effects don't matter if you live in awful conditions as they have much larger effect
 
-pg234 in the pdf (read to 300 by end of sept 2)
-
+pg 239 - part 3: so what do....
 
 
 
