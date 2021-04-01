@@ -1,0 +1,223 @@
+networking
+
+origin of IP address:
+ - back in the day, there were only a few computers and they needed to connect
+ - IP address acted as a phone number of sorts 
+ - 10.11.12.13 
+	- would always follow this format of four 0-255 numbers separated by dots
+ - first number would be the large network in the region (eg. a university)
+	- they can then delegate down to others
+	- eg. rice university has IP 12, and delegate 12.1 to university of texas
+	- university of texas then can delegate down to their engineering team (12.1.144)
+		- the last digit would be for the individual computers
+			- eg. 12.1.144.23 would be john at university of texas
+	- the idea is that you were only 4 routers away from the top of the internet
+		- however in the modern age, this is not enough
+
+ - the last number of IP address cannot be 0 or 255
+	- cannot be 0 because the IP that ends with 0 represents the network ID
+		- eg. 10.11.12.0 represents the entire network, not the computers in it
+
+how can a computer talk to another computer in the same network:
+ - eg. 10.11.12.44 wants to talk to 10.11.12.222
+	- must use a subnet mask
+	- subnet masks look like: 255.255.255.0
+	- wherever you see a 255, the numbers between the computers have to be the same
+	- wherever you see a 0, the numbers have to be different
+		- this makes sense as 10.11.12 are the same but the end is different
+	- why is this useful?
+		- now that computer will know the other computer is in the same local network
+		- essentially shows the degree of separation
+
+ - ok, what if 10.11.12.44 wants to talk to 10.14.6.0
+	- the subnet 255.0.0.0 shows that they are not on the same network, so how do they talk
+	- instead, 10.11.12.0 will send to the router of its network
+	- by etiquette, the router usually has 10.11.12.1 (ends with 1 in the network)
+	- the router is the default gateway to the internet
+		- the subnet mask will only determine if it's a local call or long distance
+		- if long distance, it will send to the default gateway, the router
+
+ - if you want your computer to connect to the internet:
+	- give it an IP address
+	- give it a subnet mask
+	- give it a default gateway (router)
+
+how do we enter IP/subnet/router on windows:
+ - network and sharing center > network connections > right click properties
+ - look for internet protocol version 4 (TCP/IPv4) > properties
+	- this where we type in the address
+ 	- when we type all this in manually, we configure a STATIC IP address
+
+then what is the super common 192.168.x.x address:
+ - it is a private IP address, only works on private networks
+
+127.0.0.1:
+ - this is the loopback IP address
+ - simply refers to your own system
+ - in cmd, we can type 'ping 127.0.0.1' and see if it works
+	- will send a packet to the IP
+	- if it works, means our network card is running
+
+ipconfig:
+ - can type 'ipconfig' in cmd to see my addresses
+ - the IPv4 address shown is the IP address for this computer
+ - will also show the default gateway (router) IP
+	- we can ping our router to see if it works
+
+NAT:
+ - network address translation
+ - now onto the problem where we ran out of unique IP addresses
+ - instead, the ISP has an IP address for my home network
+	- but everything in my network uses private IP addresses (192.168.5.0)
+ - now say i want to contact another person with IP 129.46.88.3 from my computer
+	- my computer has a private IP of 192.168.5.6
+	- when I send it to my router, it will replace my private IP with the IP for my home network (11.12.13.14)
+	- when I receive back, it will tracks the private IP of the device I sent with and returns to it (192.168.5.6)
+ - can check ipconfig and it'll very likely be a private IP that shows up (because of NAT)
+
+dynamic IP addresses:
+ - haven't had to manually type in an IP in a long time because of DHCP
+	- dynamic host configuration protocol
+ - DHCP server will simply use the network to give you an IP, subnet, and default gateway when you connect to the net
+ - most of the time, the home routers we have will also act as a DHCP server
+ - with DHCP, as soon as you turn eg. a laptop on, it will request to DHCP server for all the addresses it needs
+	- this is useful for laptops, where you say take it to a coffee shop and work there where it's a entirely different network	
+	- the new DHCP server at the coffee shop will give you a new private IP for that network
+ - in the network settings we visited earlier where we set our IP, it offers us the ability set it automatically
+	- this is DHCP
+ - can type 'ipconfig /all' to see the DHCP server IP
+	- sometimes it might not be the same IP as the router
+
+what if the DHCP server goes down:
+ - do we not have an IP then?
+ - instead, each OS has APIPA built in
+	- automatically programmable IP addressing (APIPA)
+  	- the fallback incase we can't find a DHCP server
+ - by default, APIPA will give a 169.254.x.x address (last two digits are random)
+	- can ipconfig and if it shows an APIPA address, we know our DHCP server is down
+	- can still communicate locally (because same addresses), but can't get on internet
+
+IPv6:
+ - now that there aren't enough IPv4, we created IPv6
+ - an IPv4 address looks like this: 155.221.16.4
+ - an IPv6 address looks like this: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+	- 8 sets of 4 hexadecimal characters
+	- we went from 32 bits to 128 bits
+ - compressing IPv6:
+	- can represent 2001:0db8:85a3:0000:0000:8a2e:0370:7334 as 2001:db8:85a3:0:0:8a2e:370:7334
+ 	- remove all leading zeroes in each group
+ - more compression:
+ 	- say we have fe80:0000:0000:1234:0000:0000:0000:1234
+	- first compress leading zeroes -> fe80:0:0:1234:0:0:0:1234
+	- now, we can compress ONE group of zeroes and represent as double colon
+		- fe80:0:0:1234::1234
+		- many IPv6 addresses will have these double colons so be comfortable
+ - you will now have at least two addresses:
+	- link-local address
+		- auto generated by any IPv6 capable host the moment the device starts up
+		- ipconfig will show my link local IPv6 address
+			- will always start with fe80:0000:0000:0000 (AKA fe80::)
+			- on windows, it will have %14 at the end, can ignore it
+	- internet address
+		- given to you (in part) by your gateway router
+ - even though we use IPv6, we still have subnet masks and default gateways
+
+ - so how is my link-local address determined?
+	- fe80:0000:0000:0000 this is the same on all computers in the world
+	- say 2a-3b-4f-09-45-01 is our device MAC address
+		- we use EUI-64 and add ff-fe in middle to turn it into the second half of our IPv6 (and flip 7th bit but w/e)
+		- it will become 293b:4fff:fe09:4501
+	- so our total link-local address is fe80::293b:4fff:fe09:4501
+ - like the IPv4 in the network settings, we can also manually type in an IPv6 address too 
+	- subnet prefix length should usually be 64
+	- default gateway will be same as address but 1 at the end (like in IPv4)
+
+dual stack:
+ - because IPv6 took such a long time to be adopted, most operating systems just support both IPv4 and IPv6
+ - that's why our ipconfig has both
+ - dual stack is when an OS supports both
+ - if we type www.google.com and DNS gives us an IPv4 address, we will handle it as IPv4
+	- if we get back an IPv6 address, we will handle that too
+ - IPv4 likely to still be used for another decade or two, until we only end up using IPv6
+
+servers and clients:
+ - the whole reason we use the internet is to get information
+ - very vaguely, a program that gets the information is a client, and it gets from a program called a server
+	- if we open our web browser, it is a client
+	- so when we type in www.website.com, we are actually going to a very specific computer with server software on it
+		- this server computer doesn't have chrome or firefox, rather it has IIS or APACHE
+		- that computer is running software that's waiting for you to send a request
+			- when you do, the webpages the server is storing will be handed to you
+ - everything on the internet is a client and a server
+	- even for games, i will have a game client, and there will be a game server storing all game info and realtime sending it out
+
+ports:
+ - however in the case of a game or skyp call, we can't send IP's back and forth really fast
+ - this is where ports come in
+ - the IP address gets you to the right computer, but a port number gets you to the right application!!
+	- port numbers go from 0 to 65535
+ - so when we send a request, we send:
+	- origin IP (129.44.6.15 which is the user's IP)
+	- target IP (11.12.13.14 which is the server's IP)
+	- origin port (23 337 or some other high number)
+	- target port (eg. 80)
+	- the data
+ - after we reach the target IP, we drop both IP's and simply use the ports
+	- now it knows it needs to go back to whoever is listening on port 80
+ - so we can have multiple tabs open, and each will have a different port
+ - some ports are commonly used for certain things:
+	- 22: SSH
+	- 80: HTTP
+	- 443: HTTPS
+ 	- 53: DNS
+
+protocol:
+ - it takes a lot of hardware and software to get the internet to run
+ - it is important all machines 'speak the same language'
+ - a protocol is a set of rules that allow different things to work together
+ - we often use TCP/IP (transmission control protocol internet protocol) for the internet
+	- two different protocols working together
+
+TCP/IP:
+ - almost all data on the internet is sent through TCP
+	- some other ones are UDP and ICMP
+ - TCP is a connection based protocol
+ - "hey ice cream man" - "hey person" - handshake - "can i get vanilla" - "sure" - "thanks"
+ 	- first create a handshake before connecting, and then connect
+
+UDP:
+ - connectionless protocol
+ - "hey get me vanilla ice cream" one way convo no discussion
+	- trust that ice cream man will pull through
+
+ICMP:
+ - TCP and UDP can send thousands of packets
+ - sends a single ping (like the command)
+
+DNS:
+ - a lookup table
+ - when we type in www.google.com, the domain name system will use the DNS to find the corresponding server IP address
+ - it's easier to type in twitter.com than 125.345.465.433
+ - there are super powerful ROOT SERVERS all over the world that control DNS
+	- a level below, there are more servers that control first-level domains (.com .edu .org) [first level domains]
+	- another level below, there are servers that control web addresses (google.com, twitter.com) [second level domains]
+ - so we search up google.com, now what:
+ 	- first, your request will be sent to a DNS server (do you know what IP of google.com is)
+	- say it doesn't know, then it will contact a ROOT SERVER
+		- the root server will find a first-level domain (like .com)
+		- that first-level domain will then be able to find the second-level domain (google.com)
+ - after a lookup, IP addresses can be cached so subsequent accesses will be way faster
+
+routers:
+ - filter and forward traffic based on IP address
+
+wireless communication:
+ - IEEE 802.11 is the main way wireless devices talk
+ - a wireless access point (WAP) acts as a bridge between an ethernet network and an IEEE 802.11 wireless connection
+
+OSI 7 layer model:
+ - layer 1: physical (responsible for transmission of bits from physical layer of sending device to physical layer of receiving device) [ethernet cables]
+ - layer 2: data link (responsible for transferring data between two adjacent network nodes with error correction)
+ - layer 3: network (provides ability to transfer variable length network packets from source to destination) [IPv4, IPv6]
+ - layer 4: transport (provides connection-oriented stream protocol, reliability, flow control, and multiplexing) [often known as the TCP or UDP layer]
+ - layer 7: application (provides abstraction for higher level protocols) [HTTP, FTP, SSH, DNS]

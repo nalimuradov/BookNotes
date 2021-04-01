@@ -1,0 +1,33 @@
+BASH SCRIPTS
+
+lower_snake_case.sh
+always a shebang at the top (#! /bin/bash)
+
+arguments right after:
+ - psql_host=$1
+ - port=$2
+
+if statement:
+ - if [ "$#" -ne 2]; then
+	echo "wrong num of params"
+	exit 1
+   fi
+ - this if is used to ensure correct number of args
+
+comments:
+ - #this is a comment
+
+basic lines:
+ - cpu_number$(echo "$lscpu_out" | egrep "^CPU\(s\):" | xargs)
+
+ending:
+ - exit 0
+ - have that at the end
+ - no extra empty lines
+
+debugging:
+ - can use bash -x file.sh to debug
+
+executable
+ - scripts must be executable before committing to github
+ - chmod +x my_script.sh

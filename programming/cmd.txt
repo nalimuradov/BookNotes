@@ -1,0 +1,113 @@
+CMD notes
+
+touch (creates a new file, similar to how mkdir creates a new dir)
+
+ls options (-a: hidden dirs, -l: long format, -t: order by modified date)
+ - ls -alt will combine all three
+
+ls -l (access rights -> # child dirs and files -> file owner username -> name of group that owns the file -> size -> date -> name)
+
+drwxr-xr-x:
+ - permissions in order (owner, group, other)
+ - d means its a dir, - means its a regular file
+ - rwx rwx rwx = 111 111 111 = 777 
+	- chmod 600 some_file -> rw- --- ---
+
+cat (lets us see the contents of a file
+ - cat superman.txt
+
+cp (copies files or dirs):
+ - cp source.txt target.txt
+ - can copy a file to a dir (cp source.txt destination/)
+ - can copy multiple files into a dir (cp file1.txt file2.txt target/)
+
+wildcards (*):
+ - cp * my_dir/ will copy all files to my_dir
+ - cp w*.txt my_dir/ will copy all txt files that start with w
+
+mv (moves files):
+ - mv file.txt my_dir/
+ - can move multiple files too (same way as cp)
+ - used also to rename files (mv file1.txt file2.txt will rename file1 to file2)
+
+rm (deltes files):
+ - rm unwanted_file.txt
+ - rm -r my_dir (need -r to delete dirs, stands for recursive deletion)
+	- will delete dir and all child dirs
+
+input/output:
+ - stdin (standardinput) is info inputted into terminal
+ - stdout (standardoutput) is info outputted after process is run
+ - stderr (standarderror) is error message outputted by failed process
+
+redirect:
+ - usually echo will just print what is after
+ - echo "Hello" > hello.txt
+	- this will redirect output to hello.txt file
+ - and usually cat will output contents of file
+ - cat hello.txt > hello2.txt will copy over the contents
+ - the direction can be reversed (cat < deserts.txt)
+
+adding to file without full erasing:
+ - cat deserts.txt >> forests.txt
+ - the >> will APPEND to the file and not erase
+
+pipe (|):
+ - will pipe output of left to input of right
+ - cat volcanoes.txt | wc | cat > islands.txt
+
+sort (will sort contents of a file):
+ - cat glaciers.txt | sort > sorted_glaciers.txt
+	- this will take contents of first file, pipe it to a sort, then output to new file
+
+uniq (filters out duplicate lines):
+ - uniq deserts.txt
+ - sort deserts.txt | uniq
+
+grep (global regular expression print):
+ - searches file for lines that match a regex
+ - grep -i America continents.txt
+	- the -i flag makes it case-insensitive
+	- will return anything with "America" in continents.txt
+
+ - grep -R will search all files and output filenames/lines containing matches
+	- -R stands for recursive
+
+sed (stream editor, accepts stdin and modifies it based on expression):
+ - sed 's/snow/rain' forests.txt
+	- s stands for substitution	
+	- snow is the word we want to replace
+	- rain is what we will replace it with
+	- forests.txt is the file in question
+
+nano (basic CL text editor):
+ - nano hello.txt
+
+bash profile:
+ - stores environment settings for my terminal
+ - whenever a session starts, it loads contents of the bash profile
+ - ~/.bash_profile (must be named this)
+ - can edit with nano :)
+
+aliases:
+ - lets us create shortcuts for commands (put them in the bash profile)
+ - alias pd="pwd"
+ - alias ll="ls -la"
+
+environment variables:
+ - can be used across commands and programs and hold info about environment
+ - eg. in bash profile write: export USER="Jane Doe"
+
+ - PS1 is an environment variable that defines style of command prompt
+	- export PS1=">> "
+ - HOME environment variable displays path of home dir
+	- echo $HOME
+ - PATH environment variable stores list of directories separated by colons
+	- echo $PATH
+ - env will return list of environment variables for the user
+	- can then use grep to find the variable we want to see
+	- env | grep PATH
+
+writing a bash script:
+ - vim test.sh (will create and edit the script file)
+ - bash test.sh (will run the script file)

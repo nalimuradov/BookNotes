@@ -1,4 +1,27 @@
-Shell Scripting Notes
+Shell
+
+ssh
+ - a protocol to connect to systems remotely to use them
+ - usually to use their command line
+ - encrypts the connection between client and server
+ - usually runs on tcp port 22
+
+authentication:
+ - username & pass or a key pair
+	- they key pair is more secure
+windows:
+ - doesnt have built in ssh, so have to install putty
+
+connecting securely with a key:
+ - key based access is faster and more secure than a password 
+ - server will have public key and you will have the private key
+ - to create a key pair in the linux machine:
+	- ssh-keygen -t rsa
+	- now should have two files in .ssh folder (public and private key)
+ - to get the public key file (id_rsa.pub) onto the server:
+	- ssh-copy-id centos@ip
+ - connecting with the private key:
+	- ssh -i .ssh/id_rsa centos@ip
 
 shell script
  - commands to be executed in terminal as if i typed it

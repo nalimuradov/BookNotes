@@ -1,0 +1,63 @@
+DOCKER
+
+usage:
+ - like a venv, useful for making sure program works across all systems
+
+image:
+ - all the files needed to deploy the project
+ - includes some OS files that may be needed
+ - they are fixed points and we can always start a new container from scratch
+ - can see our images with 'docker images'
+
+container:
+ - IMAGE -> docker run -> CONTAINER
+	- to run in shell: 'docker run -ti img_name:version bash'
+	- running an image will create a container and a process for that container
+ - a container is an instance of an image
+ - containers are independent of each other (adding a file to one won't make it show in another)
+ - can see containers with 'docker ps'
+	- stopped containers will show up with 'docker ps -a'
+ - can exit a container with 'exit'
+
+committing:
+ - takes a container and makes an image out of it 
+	- like the reverse of what we did
+ - STOPPED CONTAINER -> docker commit -> NEW IMAGE
+ - can create with 'docker commit container_name image_name'
+
+options:
+ - 'docker run --rm' will delete the container after we exit
+	- docker run --rm -ti ubuntu sleep 5:
+		- 'sleep' was the process here (like bash)
+		- will start a container, wait for 5 seconds, then exit
+ - run sequential things:	
+	- docker run -ti ubuntu bash -c "sleep 3; echo all done"
+
+jumping into a previously started container:
+ - if we 'docker run -d -ti ubuntu bash', it will create a container and just leave it running
+	- that's what the 'd' argument does
+	- will provide an ID for us to access it
+ - can then check our containers with 'docker ps'
+ - we can then use 'docker attach container_name' to jump into that container we started earlier
+
+starting another process in an existing container:
+ - can use 'docker exec' for this
+ - docker exec -ti container_name bash:
+	- now we have one container running in another
+
+logs:
+ - can use 'docker logs container_name' to see previous containers and what went wrong
+ - useful for debugging
+
+stopping containers:
+ - 'docker kill container_name' will kill container and any running instances of it
+
+resource constraints:
+ - we can limit memory and cpu 
+	- docker run --memory max_allowed_memory
+ 	- docker run --cpu-shares
+
+network services:
+ - docker is almost universally used to run network services (web, db)
+ - has many features that allow to connect containers to each other and to the internet
+ - can use ports to make containers accessible on other machines
