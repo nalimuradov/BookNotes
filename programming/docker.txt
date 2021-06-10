@@ -61,3 +61,9 @@ network services:
  - docker is almost universally used to run network services (web, db)
  - has many features that allow to connect containers to each other and to the internet
  - can use ports to make containers accessible on other machines
+
+volume:
+ - like discs that allow us to store and share data for multiple containers
+ - persistent volumes (data that will still be there after container is gone) 
+ - ephemeral volumes (exist as long as a container is using them)
+ - volumes are independent of images, they are only for YOUR local data

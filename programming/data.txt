@@ -1,0 +1,550 @@
+Databases vs Warehouses
+
+database:
+ - stores real-time information about a part of your business (eg. daily transactions, recording sold items)
+ - made to handle massive amounts of volume of simepl queries quickly
+ - simple create/read/update/delete should be very fast and efficient
+
+data warehouse:
+ - system that pulls together data from many sources for analysis
+ - used to create complex queries that are then used for business decisions
+ - not updated real-time, and does not store current information
+ - used to analyze and extract insights from
+ - designed to execute a low number of complex queries rapidly
+
+OLAP vs OLTP:
+ - databases use OLTP (online transactional processing) for quick CRUD operations 
+	- immediately responds to user requests, such as booking a hotel room
+ - data warehouses use OLAP (online analytical processing) to analyze lots of data fast
+	- able to see sales data for past year and work on it
+	- up to 1000x faster than OLTP for the same calculations
+
+normalizing data:
+ - to reduce redundancy in a database, we want to normalize it
+ - normalizing will split it into many tables, storing it in only one place
+ - house address example (can deduce address from postal code so it is redundant)
+ - will minimize required disk space, however it is not query efficient
+ 	- as such, data warehouses are often denormalized so that they can perform complex queries faster
+
+data timeline: 
+ - databases store day-to-day transactions, and as such contain mostly current data
+ - data warehouses will store historical data for analysis
+	- done by integrating copies of transaction data from various sources
+
+concurrent users:
+ - databases support thousands of concurrent users
+	- databases are also required to be up 99.99% of the time
+ - data warehouses involve complex queries and as such are only used by a small number of people
+	- warehouses can have periodic down times where data is saved as they are not constantly used
+
+ACID compliance:
+ - atomic, consistent, isolated, durable
+ - database transactions follow ACID so that data is reliable (can be trusted even if errors occur)
+ - ACID is less strictly enforced in warehouses, because it is more focused on reading data than writing
+
+database use cases:
+ - process day-to-day transactions in an organization
+ - examples:
+	- ecommerce website with a product
+	- airline with online booking system
+	- hospital registering a patient
+
+data warehouse use cases:
+ - provide high-level reporting and analysis to drive business decisions
+ - examples:
+ 	- predicting customer purchases using last ten years of data
+	- creating demand forecasts to see where to focus for next quarter
+
+------------------------------------------------------------------------------------
+
+Core Data Concepts
+
+structured data:
+ - tabular data that is represented by rows and columns in a database
+ - databases that hold tables in this form are called relational databases
+	- each row in a table has the same set of columns
+
+semi-structured data:
+ - data that is not in a relational database but still has some structure to it
+ - examples include JSON, key-value stores, graph databases
+	- eg. each customer object in JSON has child object containing name, address, etc.
+	- key-value stores are like tables but can have any number of columns
+
+unstructured data:
+ - everything else, files without a specific structure
+ - these include audio files, binary data files, videos, etc.
+
+how is data stored:
+ - structured data is typically stored in SQL database (Azure SQL database allows you to provision one)
+ - you can store unstructured data using Azure BLOB storage (binary large object)
+ - for semi-structured data, you can use Azure Cosmos DB
+ - once provisioned, you can give varying levels of access (read/write) to users
+	- may want to restrict access to certain data to limited users
+
+data processing solutions:
+ - transactional system:
+ 	- records transactions (eg. financial -> money moving between accounts)
+	- a transaction is a small discrete unit of work
+	- often high volume and handle millions of transactions per day (data must be accessed quickly)
+	- the work performed by transactional systems is called OLTP
+ 	- requires normalized data so that we only get the table information we need, not everything
+ - analytical system:
+	- designed to support business users who need to get a big picture view (warehouse)
+	- focused on capturing data to generate insights and trends
+	- data ingestion:
+		- the process of capturing raw data
+		- eg. money moving between bank accounts, supermarket purchases by customer, etc.
+		- to process this data, we must store it in a repository of some sort (file, db, etc.)
+	- data transformation/processing:
+		- raw data might not be in a suitable format, so we need to clean it for querying
+		- filtering values, fixing dates, etc.
+	- data querying:
+		- once cleaned, we can query to get insights
+		- look for trends, or solve the problem in your system
+	- data visualization:
+		- helps with visualizing the results obtained from the query insights
+		- can use charts, plots, etc. so that we don't have to look at raw data
+
+relational vs non-relational:
+ - relational databases are useful and provide structure, but are sometimes too rigid
+	- eg. what if one of our customers has more than one address?
+	- we can solve these problems through normalization
+ - non-relational databases allow you to store data in a format that closely matches original structure
+	- eg. everything about a customer is stored in one document
+		- this way, we don't need to go to address table, then name table, etc to get all of his info
+		- however, data may be stored in multiple areas and can require editing in multiple spots
+
+transactional workloads:
+ - primary use of relational databases is to handle transactional processing
+	- a transaction is a sequence of operations that are atomic
+	- either everything happens, or nothing happens
+ - must adhere to ACID:
+	- atomicity guarantess that each transaction is treated as a single unit
+		- it either succeeds compeltely or fails completely
+	- consistency ensure that a transaction can only take the data in the database from one state to another
+		- eg. if funds are added to one account, equal amount must be deducted from other account
+	- isolation ensures that transaction execution leaves the database in the same state as if...
+		- ...the transactions were executed sequentially
+		- concurrent processes shouldn't see data in inconsistent state (deducted but not credited yet)
+		- eg. an external process shouldn't see midway through a transaction
+	- durability guarantees that once a transaction has been committed, it will remain committed
+		- even if there's a crash or power outage
+ - locks are often used to help with ACID properties, but too many locks will lead to poor performance
+
+analytical workloads:
+ - typically read-only systems that store vast amounts of historical data
+ - used for analysis and decision making
+ - eg. analytical report of monthly sales
+
+data processing:
+ - process of converting raw data into meaningful information
+ - batch processing:
+	- newly arrived data elements are collected into a group, which is then procesed in the future as a batch
+	- can make it so it processes batches every time period, or when it reaches threshold size
+	- better than individual additions as we can save it to be processed at a convenient time
+		- can be scheduled to run at an off-peak time (overnight)
+	- disadvantages are that there will be a delay between ingesting data and getting results
+	- good uses of batch processing:
+		- connection to a mainframe (vast amounts of non real time data to be transferred)
+		- often used for complex analytics, rather than simple response functions (stream)
+	- bad uses of batch processing:
+		- small amounts of real-time data like a stock ticker
+ - streaming:
+	- each new piece of data is processed when it arrives
+	- no wait until next interval
+	- beneficial when new dynamic data is generated on a consistent basis
+  	- examples:
+		- financial stocker market data in real-time
+		- online gaming company collecting player interactions
+	- stream processing is ideal for time-critical operations that require an instant response
+		- eg. system that monitors a building for smoke to trigger an alarm
+
+------------------------------------------------------------------------------------
+
+Job Roles in the World of Data
+
+database administrators:
+ - manage databases, assign permisions to users, store backup copies of data in case of failure
+ - responsible for availability and consistency of database
+ - work with stakeholders to implement backup and recovery plans
+ - manages security of the database as well (eg. privileges)
+ - tools they use:
+	- azure data studio
+		- GUI used for managing many different database systems
+	- sql server management studio	
+		- GUI for querying data and general database administration tasks
+
+data engineers:
+ - work with data, apply data cleaning routines, identify business rules, turn data into useful information
+ - implement data pipelines, data stores for analytics, and cleansing/transformation activities
+ - ensure privacy of data is maintained in the cloud
+ - tools they use:
+	- understand architectures of database management systems
+	- fluent in SQL and command line
+	- azure databricks and azure cosmos db are sample technologies
+	- python or R are used to manipulate data
+
+data analysts:
+ - explore and analyze data to create visualizations to enable organizations to make informed decisions
+ - responsible for designing and building models, as well as transforming data
+ - turns raw data into relevant insights
+ - tools they use:
+	- power bi for visualizations and reports
+
+------------------------------------------------------------------------------------
+
+Concepts of Relational Data
+
+characteristics of relational data:
+ - in databases, we model collections of entities as tables
+ - entity is a thing about which information needs to be known or held
+
+relational database use cases:
+ - storing your music in a RDBMS is unnecessary and difficult
+ 	- these things are simply better in an unstructured storage
+ - social media sites tend to lean towards graph databases (relationships)
+ - relational database are often used in OLTP applications
+	- many transactions per minute, like ecommerce or banking
+
+index:
+ - helps you search for data in a table
+ - a table index is similar to the index at the back of a book
+ 	- contains sorted references and the pages they occur at
+	- without it, you may have to look through the whole book to find the word
+	- db indexes work similarly:
+		- creating a database index requires you to specify a column in the table
+		- the index will then contain a copy of this data in sorted order, with pointers to rows
+		- when a user runs a query that specifies this column in WHERE, database can use the index
+			- much faster than having database scan everything
+ - eg. can create an index on the Customer ID column
+	- now we can use the database to quickly find all matching rows in the order table with a customer ID
+ - can create many indexes, however there is a cost
+	- additional work is required in overhead, so must limit amount
+	- better to index on tables that are read frequently but edited not as frequently
+
+ - clustered indexes physically reorganize the table by the index key
+	- speeds up queries even more
+
+view:
+ - a virtual table based on the result set of a query
+ - can create a view on an Orders table that lists orders for a specific product
+ - can query views and filter data just like a table
+ - also useful when accessing database tables (customers/products) frequently
+
+cloud storage vs on-premises:
+ - on-premise allows for personal control of data, security, and low operational costs
+ - cloud allows for scalability, hardware/software maintenance, and low capital expenditure
+
+IaaS:
+ - infrastructure-as-a-service
+ - you are provided the infrastructure (hardware) but must handle the software
+	- must handle day-to-day operations, installing things, taking backups, etc
+
+PaaS:
+ - platform-as-a-service
+ - you are provided everything, handles hardware and software on the cloud
+ - can scale up or down as needed
+ - lowest amount of effort, but least amount of control
+ - CONTROL VS EFFORT (highest effort/control to lowest):
+	- physical inhouse
+	- IaaS
+	- PaaS
+
+------------------------------------------------------------------------------------
+
+Concepts of Non-Relational Data
+
+characteristics on non-relational databases:
+ - some items just shouldn't be stored in relational databases, like audio files
+ - sometimes we have unknown inputs into our data
+	- we may want to just store it for know in its original form and work with it later
+ - non-relational databases allow you to store data in a flexible manner
+	- no schema is inmposed, which may require overhead
+ 	- two entities in the same colleciton can have different sets of field (eg. one person has title)
+ - each entity should still have a unique key value
+ - several non-relational systems support indexing too
+	- normally search for person by ID is fast because it's the key
+	- but if we're looking for customers in UK, this can take long if there are millions of customers
+		- as such, we can implement indexes here too
+
+non-relational database use cases:
+ - systems that ingest large amounts of data in frequent bursts of activity
+ - gaming, as even small latencies can be problematic
+ - web and mobile applications
+ - useful anywhere the query is unknown or unconstrained
+
+semi-structure data:
+ - data that contains fields
+ - JSON is semi-structured
+	- when an application reads it, a JSON parser should be able to break it up into components
+ - other formats include: Avro, ORC, Parquet
+
+unstructured data:
+ - data that doesn't naturally contain fields
+ - eg. video, audio, etc.
+	- you can't search for specific elements in this data
+ - storages spaces such as Azure BLOB are used to store unstructured data
+
+types of non-relational databases:
+ - noSQL simply means non-relational
+ - there are typically four noSQL categories:
+	- key-value stores
+	- document databases
+	- column family databases
+	- graph databases
+
+key-value store:
+ - simplest type of noSQL database for inserting and querying data
+ - each item has two elements: a key and a value
+	- key uniquely identifies item
+	- value holds the data for the item
+ - values are opaque:
+	- meaning that the DBMS only sees the value as unstructured block
+	- only application can parse and understand the structure of the value
+
+document database:
+ - each document has a unique ID, but the fields in the documents are transparent to the DBMS
+ - application can retrieve documents by using the document key
+
+column family database:
+ - organizes data into rows and columns
+ - appears similar to a relational datbase
+ - each row in a column family database has a key, and data can be fetched from that row using the key
+	- eg. customers are each row, and customer ID is the key
+		- each row has customerInfo column family as well as addressInfo column family
+		- each column family contains its own set of information
+ - apache cassandra is a common column family database
+
+graph database:
+ - focuses on relationships between entities
+ - stores nodes and edges
+	- nodes are the entities
+	- edges are the connections, and can be directional to denote the nature of the relationship
+ - makes it easy for queries like: "find all employees who work for sarah"
+	- as we can just traverse the graph
+
+------------------------------------------------------------------------------------
+
+Concepts of Data Analytics
+
+data ingestion:
+ - process of obtaining and importing data for immediate use or storage in a database
+ - data can arrive in a stream or batches
+ - might also perform some filtering (eg. corrupt or duplicated data)
+ - might even do some transformations (eg. reformat dates)
+
+data processing:
+ - takes data and cleans it so that it is in a more meaningful format (tables, graphs)
+ - result is a database of data that you can use to perform queries on
+ - goal is to convert raw data into a business model
+
+ETL:
+ - extract, transform, load
+ - raw data is retrieved and transformed before being saved
+ - extract, transform, and load operations can be performed as a continuous pipeline of operations
+ - this process is used for basic data cleaning tasks, deduplicating data, and reformatting contents
+ - benefits:
+	- improved data privacy and compliance
+	- does not require specialist skills
+
+ELT:
+ - extract, load, transform
+ - data is stored before being transformed
+ - suitable for constructing complex models that depend on multiple items in the database
+ - scalable approach that is suitable for cloud
+ - benefits:
+	- data lake support
+	- ideal for large volumes of data
+
+reporting:
+ - process of organizing data into informational summaries to monitor how the organization is performing
+ - helps companies monitor their businesses
+
+business intelligence:
+ - technologies, applications, and practice for the collection, analysis, and presentation of business information
+ - provide historical, current, and predictive views of operations using data gathered from a warehouse
+ - information is gathered about other companies to compare, also known as benchmarking
+
+data visualization:
+ - graphical representaiton of information and data
+ - can use charts, graphs, maps, and other tools to understand trends, outliers, and patterns
+ - Power BI is a common tool
+ - examples:
+	- bar charts
+	- line charts (volume of sales by month chart)
+	- matrices (quarterly reports)
+	- key influencer chart (displays major contributors to a result or value)
+	- treemap (chart of colored rectangles, size represents value of item)
+	- filled map (voters by region/state)
+
+data analytics:
+ - concerned with examining, transforming, and arranging data so you can extract useful information from it
+ - there are five types of data analytics:
+	- descriptive analytics
+	- diagnostic analytics
+	- predictive analaytics
+	- prescriptive analytics
+	- cognitive analytics
+
+descriptive analytics:
+ - helps answer questions about what has happened, based on historical data
+ - use large dataset to describe outcomes to stakeholders
+ - develop KPIs (key performance indicators) to track success or failure of objectives
+ - eg. generating reports to provide a view of an organization's financial data
+
+diagnostic analytics:
+ - helps answer questions about why things happened
+ - take findings from descriptive analytics and dig deeper to find the cause
+ - identify anomalies -> collect data related to anomalies -> use statistical techniques to explain anomalies
+
+predictive analytics:
+ - helps answer questions about what whill happen in the future
+ - uses historical data to identify trends and determine if they're like to recur
+ - eg. statistical and machine learning techniques (neural nets, decision trees)
+
+prescriptive analytics:
+ - helps answer questions about what actions should be taken to achieve a goal or target it
+ - allows businesses to make decisions in the face of uncertainty
+ - relies on machine learning strategies to find patterns in large datasets
+	- analyze past decisions to determine likelihood of different outcomes
+
+cognitive analytics:
+ - attempts to draw inferences from existing data and patterns and derive conclusions based on knowledge bases
+ - then add these findings back into the knowledge base for future reference
+	- a self-learning feedback loop
+ - effective cognitive analytics depends on machine learning algorithms and AI (eg. NLP on chat logs)
+
+------------------------------------------------------------------------------------
+
+Data Warehouses
+
+facts, dimensions, measures:
+ - core building blocks of information in a data warehouse
+ - fact:
+	- part of your data that indicates a specific occurence or transaction
+	- eg. if business sells flowers, some facts you would see in your data warehouse are:
+		- sold 30 roses in-store for $20
+		- ordered 500 new flower pots from China for $1500
+		- paid salary of cashier for this month $1000
+ - measures:
+	- the numbers that describe each fact
+	- eg. in the ordered from China example above:
+		- quantity ordered: 500
+		- cost: $1500
+	- when working with data, analysts perform calculations on measures to glean insights
+ - dimension:
+	- categorizes facts and measures to provide structured labeling information for them
+	- otherwise, they are just a collection of numbers
+	- eg. in the same example as previous:
+		- country purchased from: China
+		- time purchased: 1pm
+		- expected date of arrival: June 6
+ 	- you typically can't perform calculations on dimensions explicitly
+		- however, it is possible to create new measures from dimensions
+
+normalization benefits:
+ - faster searching and sorting on each table
+ - simpler tables make data modifications faster to write and execute
+ - less redundant data means less disk space taken up
+
+denormalization benefits: 
+ - fewer tables minimize the need for table joins which speeds up reads
+ - fewer tables also leads to simpler queries which leads to fewer bugs
+
+data warehouse model:
+ - the main table in our database is called the fact table
+ - we have dimension tables surrounding it
+ - first step in designing a data warehouse is building a conceptual data model:
+	- defines the data you want and the high-level relationships between them
+ 	- sales data with three additional tables: time, product, store that provide more granular information
+		- sales is the fact table, the others are dimension tables
+ - next we define a logical data model:
+	- describes the data in detail in English without worrying about implementation
+	- fill out which information each table contains (primary key, date, items sold, etc)
+ - finally, we create a physical data model:
+	- tells you how to implement the data warehouse in code
+	- defines tables, structure, and relationships between them
+	- specifies data types for columns, as well as final caps lock names (MONTH_ID)
+
+fact table:
+ - each business function has a corresponding fact table
+ - have two types of columns: 
+	- dimension column 
+	- fact column
+ - dimension columns contain foreign keys that you use to join a fact table with a dimension table
+ 	- these foreign keys are the primary keys for each dimension table
+ - fact columns contain the actual data and measures to be analyzed (number of items sold)
+ - factless fact tables are fact tables that only have dimension columns
+	- useful for tracking events, like student attendance (dimensions tell you everything you'd need to know)
+	- eg. employee leave is factless as all we need to track are:
+		- day they were off
+		- how long they were off
+		- who was on leave
+		- reason for leave
+
+star schema:
+ - one common way to organize data warehouses
+ - takes information from fact table and splits it into denormalized dimension tables
+ - emphasizes query speed 
+	- only one join is needed to link fact tables to each dimension, so querying is easy
+ - however since tables are denormalized, they contain redundant information
+
+snowflake schema:
+ - another common way to organize data warehouses:
+ - splits fact table into a series of normalized dimension tables
+ - normalizing creates more dimension tables, so less redundancy
+	- however, querying becomes more challenging because we will need more joins
+ - as such, there is less redundant data, but it is harder to access
+
+three tier architecture:
+ - traditional data warehouses employ a three-tier structure composed of the following tiers
+ - bottom tier:
+	- contains database server used to extract data from different sources
+	- eg. data from transactional databases for front-end application
+ - middle tier:
+	- houses an OLAP server, which transform data into a structure better suited for querying
+ 	- can either work as an extended RDBMS that maps operations on data to standard relational operations
+		- or useing an OLAP model that directly implements the data and operations
+ - top tier:
+	- client layer
+	- hold the tools used for high-level data analysis and querying
+
+data mart:
+ - subset of a data warehouse oriented to a specific business line
+ - contain repositories of summarized data collected for analysis on a specific section (eg. sales department)
+ 
+ - focus: single subject or functional organization area
+ - data sources: relatively few sources linked to one line of business
+ - size: less than 100 GB
+ - normalization: no preference
+ - cost: $10 000+
+ - setup time: 3-6 months
+ - data held: summarized data
+ - use cases: marketing analysis and reporting
+	- typically performed in a specialized business unit and do not require all the data
+	- eg. analyst can use finance data to carry out financial reporting
+
+data warehouse:
+ - focus: enterprise-wide repository of a variety of data sources
+ - data sources: many external and internal sources from all over the organization
+ - size: 100 GB minimum, usually terabytes
+ - normalization: most denormalized for quicker queries
+ - cost: often $100 000+
+ - setup time: minimum one year for on-prem, cloud are way faster to setup
+ - data held: raw data, metadata, summary data
+ - use cases: companies considering expansion or growth 
+	- will require lots of data from all over to make an informed decision
+	- eg. store management, customer loyalty, supply chains, everything
+
+kimball:
+ - a pioneer in data warehousing
+ - favours a top-down design where the warehouse is the centralized data repository and the most important part
+ - organization creates data marts that aggregate relevant data around specific subject areas
+	- the data warehouse is the combination of the individual data marts
+
+inmon:
+ - another pioneer who favors a different approach
+ - first builds the centralized model, and the warehouse is seen as the physical representation of that model
+ - dimensional data marts can be created from the data warehouse for specific use cases when needed
+ - data is integrated, meaning the warehouse is the source of the data that ends up in various data marts
+ 	- ensures data integrity and consistency across the organization

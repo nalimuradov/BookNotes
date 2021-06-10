@@ -1,4 +1,57 @@
-REST notes
+REST:
+ - representational state transfer
+ - a set of design constraints (rules) that help bring efficient and scalable systems
+ - have methods (get, delete) that return a resource (like http or xml)
+ - rather than rendering each page individually (requires a new html file to render from)
+	- we use URI's to get the next state of certain parts only
+
+API:
+ - application programming interface
+ - a set of rules inside a program that allow it to communicate with other programs or hardware
+ - twitter API can be used to pull data from twitter into java for example
+ - REST is the librarian and API is the language you use to talk to them (librarian, please GET xyz)
+
+
+URL vs URI:
+ - universal resource locator (URL) is 
+ - universal resource identifier (URI)
+ - URL is a subset of URI
+	- eg. https://nalimuradov.com is a URL, https://nalimuradov.com#posts is a URI
+	- URL will also show you how to access that resource, like http or ftp
+
+constraints of REST:
+ - client server architecture
+ 	- ensures proper separation of concerns 
+	- client manages UI concers, server manages data storage concerns
+	- this way, we can have one REST service serve many clients
+ - statelessness
+ 	- no context information can be stored on the server between requests
+	- the client is responsible for tracking current state
+	- the server doesn't care, just returns the state you want
+ - cacheability
+	- all REST responses must be either marked as cacheable or not cacheable
+ - layered system
+	- system should be designed so client shouldn't care whether it's connected directly to server or CDN
+	- everything should be abstracted away
+
+serializing:
+ - means to convert object to a byte stream so that it can be reverted in the future
+ - eg. java object serialized to json file
+
+deserializing:
+ - the reverse, where we revert back to the object using the byte stream
+ - eg. json file -> java object
+
+parsing:
+ - process of analyzing a string of symbols (eg. natural lang, prog lang) conforming to rules of grammar
+ - eg. read some text -> find useful info based off the rules 
+ - parsing = processing text
+
+marshall:
+ - process of transforming memory representation of an object to a data format suitable for storage/transfer
+ - used when data must be moved from one program to another
+
+##################
 
 REST:
  - representational state transfer
