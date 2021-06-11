@@ -1,0 +1,9 @@
+01 - Intro to Human Behavioural Biology
+
+categories:
+ - our human brain works by categorizing things into buckets
+ - when we see something, we compare it to our previous categorical buckets to evaluate it
+ - eg. running a mile in under 4 minutes is impressive
+ - eg. a painter that paints with 11 colours isn't impressive
+	- we don't evaluate painting quality by the number of colours used
+ - taking a continuum and breaking into pieces makes it easier to work with and remember

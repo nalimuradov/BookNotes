@@ -1,0 +1,137 @@
+INTRODUCTION -----------------------------------------------------------------------------------------------------
+
+crime in the 90s:
+ - all time high, and were projected to be even higher in the future by experts
+ - however when it came around, it dropped hard in the 21st century
+	- experts began saying that it was gun control or policing strategies that caused this
+ - what caused it was norma mccorvey, who won the lawsuit that legalized abortion
+	- children are not born equal, and those in poor households have a much higher chance of turning to crime
+ 	- when these kids weren't being born, the crime rates that were projected never happened
+
+incentives:
+ - it's nice to think that experts in a field will do what's best when paid or incentivized
+	- you'd like to believe that a real estate agent will do their best to sell your house for top dollar
+	- car mechanics will be lenient with fines, as they know there is a higher chance of a returning customer
+ - sometimes, this isn't the case:
+	- doctors will tend to perform c-sections in growing neighborhoods to ring up a higher bill
+
+ - going back to the real estate example, we can compare how she sells her home vs our home to see if she is being fair
+	- seeing as she wants to sell her own home for top dollar and ours as well, it may seem that our goals are aligned
+	- however, selling the house for $1000 more will earn you an extra $900 while giving her an extra $90
+		- there is not nearly as much benefit to her as there is to you
+	- when she's selling her own house, she waits for the best offer
+		- when she's selling your house, she encourages you to take the first decent offer
+
+correlation vs causation:
+ - just because two things are correlated, doesn't mean one causes the other
+ - eg. money wins elections
+	- it's true that who spends the most money often wins, but it doesn't mean one causes the other to happen
+	- X might cause Y, Y might cause X, but it's also possible that Z might cause both X and Y
+ - eg. cities with more police tend to have more murders
+	- then you could say that the police cause murders, which makes no sense
+	- these facts are correlated, and have no direct relationship with each other
+
+ - there are two scenarios you would donate money in a political campaign typically:
+	- if you had $1000k, you would give it if it was close and would make a difference in the decision
+	- or give it to the sure fire winner to bask in the glory and get possible rewards when they win
+	- what if one candidate was more appealing than the other:
+		- and this earned them the votes AND money
+		- how would we even measure appeal?
+
+ - to test if money matters, we would need the same candidates running against each other multiple times over and over
+	- with varying amounts of money
+	- good for us, this has happened in nearly 1000 US congressional races
+	- and it turns out, money hardly matters at all
+		- a winning candidate can cut his money in half and lose only 1% of the vote
+		- a losing candidate who doubles his money can expect to gain 1% of the vote
+
+	- people say that $1 billion being spent on elections every year is so much
+		- however it's important to compare things of similar scale
+		- for example, the US also spends $1 billion on bubble gum every year
+
+fundamental ideas of the book:
+ - incentives are the cornerstone of modern life
+ - convential wisdom is often wrong
+ - dramatic effects often have distant and subtle causes (eg. norma mccorvey)
+ - experts use their informational advantage to serve their own agenda
+ - knowing what to measure and how to measure it makes the world much less complicated
+
+1 - SCHOOLTEACHERS AND SUMOWRESTLERS ---------------------------------------------------------------------------
+
+late daycare pickup:
+ - sometimes at a daycare, parents would pick up kids late which would be annoying for the workers
+ - economists decided to enact a fine where late pickups would add a charge to the parent
+ - as it turns out, the number of late pickups increased substantially with the addition of the fine (opposite of desired effect)
+ - economics is simply a study of incentives
+	- if you put your hand on the stove, you get burnt
+	- if you come home with straight A's, you get a new bike
+ 	- if you get caught picking your nose, you get ridiculed
+	- if you make the basketball team, you go up in the social ladder at school
+	- an incentive is simply a means of urging people to do more of a good thing and less of a bad thing
+		- however they don't come about organically, we often have to invent them
+		- eg. eat all your vegetables, and you get to go to the toy store
+
+incentive types:
+ - economic, social, and moral
+ - eg. smoking:
+	- $3 sin tax creates an economic incentive to not smoke
+	- banning of smoking in restaurants creates a social incentive to not smoke
+	- when US government says terrorists raise money by selling cigarettes through black market, it creates a moral incentive
+ - back to the daycare example:
+	- what the fine did was substitute the moral incentive with the economic incentive
+		- picking up your child late often brings guilty feelings
+		- now they don't feel guilty, as they can just trade their guilt for $3 every day
+	- when the fine was removed, now they both didn't have to pay a fine nor feel guilty
+
+ - another example of a moral vs economic incentive:
+	- economists wanted to learn about the motivation behind blood donations
+	- they found that by giving a small monetary reward for donating blood actually caused fewer people to donate
+		- another example of turning a moral incentive into an economic one
+	- now they are no longer doing a noble cause, but simply going through a lot of pain to make a few dollars
+	- what if we made the monetary incentive very large ($1000):
+		- every incentive has its dark side
+		- people would begin to steal blood at knife point, or pass of pigs blood as their own
+		- a thing worth having is a thing worth cheating for
+
+cheating:
+ - anyone will cheat if the stakes are right
+	- whether it be a major exam or some small board game with friends
+ - for every person who tries to come up with an incentive scheme, there will be another person who will try to cheat it
+	- cheating is a primordial act: getting more for less
+
+ - teachers have incentives to cheat too, if their pay/job security is affected by how well their students do
+	- they can easily change some marks before submitting without anyone finding out
+	- there would be ways to find the cheaters (comparing previous test scores, etc)
+
+sumo wrestling:
+ - sumo wrestling consists of 15 rounds, where 8 wins is needed for cutoff
+ - how can we prove cheating in sumo wrestling
+ - look at games between 8-6 and 7-7 score wrestlers
+ 	- the 7-7 has so much to gain and the 8-6 has little to lose
+ - we expect the 7-7 to win 48% of the time based on their score and their skill
+	- however if check data, 7-7 will beat 8-6 nearly 80% of the time
+ - what's interesting is their next rematch, the loser of the previous one has an 80% win rate
+	- "you let me win this time, i'll let you win next time"
+	- after the 2 matches, they return to 50% winrate each
+ - when there is scrutiny for rigging, the 7-7 and 8-6 winrates go back to 50%
+ - even in the holy sport of sumo wrestling, people cheat
+
+beer on the beach:
+ - richard thaler found that a sunbather would pay $2.56 for a beer delivered from the resort hotel
+ 	- but only $1.50 if it came from a shabby grocery store
+
+feldman bagel experiment:
+ - white collar crime is difficult to evaluate, as there is little data
+ 	- as opposed to murders and robberies which have a victim and info
+ - feldman's bagel business provided great insight and data into white collar crimes and cheating
+ - smaller companies tended to pay more often
+ - the weather also had some effect on how many people paid
+ - more people paid after 9/11, likely due to a surge in empathy
+ - certain holidays are good while others are bad for cheating, why?
+	- thanksgiving and valentines day typically see more people not paying and stealing bagels
+	- on the other hand, 4th of july and labor day have more people paying
+	- likely because first holidays have other distractions and things to do, while 4th of july is simply a relaxed day off
+ - however, we can't ignore that a large majority did pay, and we can't overfocus on the fraction that didn't
+	- goodness is inherent, we want to make others feel good
+
+2 - KU KLUX KLAN AND REAL ESTATE AGENTS ---------------------------------------------------------------------------
