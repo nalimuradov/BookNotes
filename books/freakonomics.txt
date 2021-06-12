@@ -135,3 +135,212 @@ feldman bagel experiment:
 	- goodness is inherent, we want to make others feel good
 
 2 - KU KLUX KLAN AND REAL ESTATE AGENTS ---------------------------------------------------------------------------
+
+ku klux klan:
+ - originally started as a club for lawyer friends like a frat
+ - eventually became a white supremacy cult
+ - known for lynchings, however lynchings went down dramatically over the years
+	- notable to know that most lynchings occured when they were dormant (in the 1910s)
+ - the great number of lynchings early on provided strong incentive for minorities to unfortunately be 2nd class citizens
+ 	- nobody wanted to get punished by death, by an organization in cahoots with law enforcement
+ - there are few incentives more powerful than fear of random violence
+	- which is why terrorism is so effective
+
+ - in reality, the KKK was just a fraternity for poorly educated men to vent out at
+
+ - stetson kennedy was a man who wanted to take down the clan and its influence on the government and the people
+	- however, such a feat is like tossing a pebble at a giant
+		- there are too many groups across the country that would take too long
+ 	- instead, his plan was to make public the klan secrets (eg. passwords, etc)
+	- he infiltrated and got the information, then went to a big radio network listened by millions
+		- unveiled Mr AYAK and Mr AKAI, roles of the clan (grand dragon), and many other things
+	- eventually, tv shows like superman stopped portratying hitler/mussolini as the bad guy and replaced with KKK
+		- before long, KKK rally attendance began to fall drastically
+	- stetson crippled the klan by turning their private information into a ammo for mockery
+ 	- stetson understood the raw power of information
+		- KKK was in power because it hoarded information, and stetson took that power from them
+		- once that info falls into the wrong hands, any advantages you had disappear
+
+life insurance and the internet:
+ - in the late 1990s, price of term life insurance dropped dramatically
+	- however other forms of insurance (health, car) were not dropping
+ - what happened? the internet happened
+ - a website called quotesmith.com was the first of several websites that allowed you to compare dozens of life insurance prices
+	- best price made it much more competitive, allowing customers to shop for their preference
+ - the website didn't even sell anything, it just listed the prices
+	- they weren't selling insurance, but they were selling information
+ - once that information was taken away from the insurance companies, they lost the power (and the money)
+
+ - information asymmetries (one party knows something that other doesn't) has died down dramatically since the internet
+ 	- information is the currency of the internet
+	- it is very good at shifting information from those who have it to those who don't
+		- eg. term life insurance example, the information was scattered before, hidden away from people
+
+ - car dealers and funeral directors used to be able to finesse your lack of knowledge
+ 	- funeral directors knew you were in emotional distress and offered $8000 for a casket (knowing you know nothing)
+	- car dealers would tack on additional prices to your car
+	- with the internet, they lose this power of information that they had
+
+ - the internet has done a good job of minimizing information asymmetry, however asymmetry still exists
+	- eg. early 2000 corporate scandals involving Enron
+	- eg. sam waksal dumped all his ImClone stock when he got early word of a damaging report by the FDA
+	- all these crimes are sins of information
+		- they involve an expert promoting false information or hiding true information
+	- experts depend on the fact that you don't have the information they do
+		- if your doctor tells you that you should have an angioplasty (which does little to stop heart attacks)
+			- you'll probably listen, and not consider that he may be using the information to score a few extra thousand dollars
+			- a doctor can have the same economic incentives as a car salesman or a funeral director
+	- armed with information, experts can leverage FEAR
+		- fear that your children will find you dead from a heart attack
+		- fear that the $25000 car will explode in a crash but the $50000 will keep your family safe
+		- fear like the fear used by the ku klux klan
+
+selling your house:
+ - when selling a house, you may have two fears: not selling it all (price too high), or selling it too cheap (price too low)
+ - it is up to your real estate agent to use her information to find the perfect price
+	- you feel fortunate that you have an expert helping you, however she sees things differently
+ - a real estate agent may not see you as an ally, but as a mark
+	- back to our intro example, real estate agents keep their own house listed for 10 more days and sell for 3% higher than yours
+		- this is an extra $10000 on a $300000 house
+ - with your house, she gets a smaller cut so taking an extra $10000 will net her only like $150
+	- rather than waiting for the best offer, she will try to sell it ASAP
+ - her tasks isn't to find a buyer for $310000, her task is to convince you that $300000 is a good offer
+	- rather than call you a fool, she will bring up the nicer house down the street which hasn't sold for 6 months
+	- she will convert information into fear
+
+ - example with K the buyer:
+	- wanted to buy a house listed $469 000, but was prepared to offer $450 000
+	- he called the agent of the seller, and asked what their lowest price was
+	- the agent "scolded" K who said that is a violation, but mentioned that they are willing to sell for much lower
+	- K then made an initial offer of $425 000, which was accepted at $430 000 
+	- the seller's agent was able to sell the house really fast while only losing $300 for themselves
+		- the family lost at least $20 000 as they sold for much lower
+		- seller got her commission and was able to dip to the next mission
+
+ - real estate lingo:
+ 	- like the klan members, there are key passwords that agents use to sell houses at lower prices
+	- good words:
+		- granite, state of the art, corian, maple, gourmet
+		- these are physical properties about the house that are good
+	- bad words:
+		- fantastic, spacious, charming, good neighborhood
+		- these are filler words that have no meaning and are put there due to lack of good qualities
+
+ - does this make real estate agents bad people:
+	- they are not bad people, they simple ARE people
+	- and people respond to incentives
+	- think of how you describe yourself in a job interview, or a first date
+		- do you tell them you are a gambler and addict?
+
+exaggerating and dating sites study:
+ - two economists and a psychologist studied dating sites to see what people wrote about themselves in their bio
+ 	- 4% of men said they earn $200 000+, whereas in reality only 1% of people on the internet earn that much
+	- 72% of women said they have above average looks, which is a fallacy
+		- like a real estate agent, no one will look at a house if it doesn't say "charming", even if it's not
+ 	- some were honest, like the 243 married men on the dating site
+		- however only 12 of them posted a picture, indicating that the fear of getting caught outweighed the reward
+ - of the many ways to fail on a dating website, not posting a photo is the most certain
+	- man who does not post photo gets 60% responses, women get 24% responses (if 100% was with a photo)
+	- there can be many reasons to not post a photo (technically challenbed, doesn't look good)
+		- however to others, they will assume there is something seriously wrong under the hood, like a car without a pic
+
+ - men who say they want a long-term relationship do better, while women who say they want a quick fling do great
+	- for men, a woman's looks is of paramount importance
+	- for women, a man's income is most important
+
+ - this is very similar to dataclysm, by christian rudder
+	- lots can be found out about humans by looking at the data
+	- eg. on the dating site, you have two options: "same race as mine" or "race doesn't matter" preferences
+		- 80% of men said they didn't care, however 90% of their messages went to white women
+		- 50% of women said they didn't care, yet 97% of their messages went to white men
+	- do they say race doesn't matter because they want to appear open-minded?
+	- there is a massive gulf between the information we proclaim versus the truth
+
+lying and voting:
+ - everyone agrees that politicians lie, but voters lie too
+ - if a voter in a line is asked if they're voting for the black or white candidate, they will often say black candidate
+	- to appease the crowd and look woke
+ - dinkins (black politician) and giuliani (white politican) ran against each other in NY 1989
+	- pre election polls showed dinkins winnig by a landslide, but he only won barely by 15 points
+	- could it be that people don't want to admit their preference when it doesn't look as good
+
+3 - WHY DRUG DEALERS STILL LIVE WITH THEIR MOMS -------------------------------------------------------------------
+
+convential wisdom:
+ - definition (not a compliment) by galbraith
+ - we associate truth with convenience, with what most closely accords with our self-interest and to avoid effot and dislocation in life
+ - we also find highly acceptable what contriubutes most to self-esteem
+ - it's not that convential wisdom is never true, but we must notice where it may be false
+
+homeless deaths:
+ - homeless advocate mitch snyder said that about 3 million homeless americans die each year
+ - the public took notice, as that is 1/100 americans, which is surprisingly a lot
+ - the problem was suddenly catapulted into national consciousness
+ - snyder also testified that 45 homeless people die each second, which would mean 1.4 billion a year
+	- population of US at the time was 225 million
+ - turns out he made up a number for the presses that were hounding him
+ - however, it still got people aware of the situation and moving
+
+listerine and advertising:
+ - was initially used as a surgical antiseptic, then floor cleaner, then a cure for gonorrhea
+ - in the 1920s it was sold as a cure for halitosis (bad breath)
+	- bad breath was never an issue for people, but the listerine ads made it a problem that needed to be fixed
+	- they ran ads that showed young men/women with bad breath getting their partners turned off
+ - listerine made $8 million and turned bad breath from nothing to a catastrophe
+	- "listerine didn't make mouthwash, it made halitosis"
+
+exaggerations and convential wisdom:
+ - like homelessness, one side wins the war of convential wisdom
+ - feminism advocates mention that 1/3 women will be a victim of rape or attempted rape
+	- in reality, the stats are more like 1/8, but no one wants to oppose it because it is a good message
+ - advocates for cures of various diseases often do the same to draw attention to the problem
+
+crack in the 90s:
+ - police across cities in america scrambled for resources to try and deal with cocaine epidemic
+ - the media made it known however that crack dealers had state  of the are weapons with endless cash
+	- this worked immensely, as nothing infuriates a law-abiding populace more than a millionaire crack dealer
+ - as such, the media tried its best to portray crack dealing as the most profitable job in america
+ - however, if you spend time where crack was sold, this wasn't the case
+	- not only did most dealers live in the projects, but they still lived at home with mom, why is that?
+
+ - sudhir venkatesh story (finding black disciples gang in abandoned building)
+ - the reality is, they don't make that much money
+	- like a pyramid scheme, unless you are at the top, you are making pennies
+	- most dealers are working under others and get skimmed on profits
+	- they had no choice but to live at home
+	- a crack gang works just like a standard capitalist enterprise, similar to mcdonalds
+ 	- foot soldiers also risked arrests as they had to stand at the corner all day
+		- they are like the mcdonalds burger flipper or walmart stocker of their group
+	- foot soldiers had a 1/4 chance of being killed
+		- compare that to 1/200 for timber cutters, which is said to be the most dangerous job in america
+		- or death row in texas prison, which has executed only 5% of its death row inmates
+
+ - if crack dealing is such a dangerous job and pays so little, why take it?
+	- same reason that the pretty girl moves to hollywood, or the quarterback wakes up at 5am to lift weights
+	- they all want to succeed in a very competitive field that pays a fortune if you reach the top
+		- for many children in the projects, the crack king ping was a highly visible and lucrative job
+		- had they grown up under different circumstances, they would have been lawyers or poets
+	- a lot of people are competing for a very few prizes
+		- becoming the king ping is as likely as becoming an NFL quarterback or movie star
+
+ 	- criminals, like everyone else, respond to INCENTIVES
+		- if the prize is big enough, they will stand in line just for a chance
+	
+	- like a MLB pitcher was playing in little league, you must prove yourself at the bottom to be at the top
+		- once you come to the sad realization you will never make it to the top, you will quit the race
+
+what makes a job pay well:
+ - must factor:
+	- unpleasentness of the job
+	- demand the job fulfills
+	- specialized skills required
+ - compare architects and prostitutes:
+	- by convention, architects are more educated and skilled than prostitutes, yet why are they paid less?
+ 	- little girls don't grow up dreaming to be hookers, so there is a small pool of prostitutes
+	- their skills aren't specialized, yet meet the other factors
+	- they sacrifice safety as well as the opportunity for a stable life
+ - demand:
+	- why? the architect is more likely to hire a prostitute than vice versa
+	- sad reality of our world
+
+cont pg 101 (pg 100 done - ....new reason to exist)

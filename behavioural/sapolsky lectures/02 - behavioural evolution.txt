@@ -1,0 +1,31 @@
+02 - Behavioural Evolution
+
+physical/behavioural relationship:
+ - so much behavioural info about animals can be determined by their physical features
+ - eg. skull sizes between males and females
+	- can determine chance of cheating, attractive features, etc.
+
+heritable traits:
+ - traits that can be passed from one generation to the next
+ - there is variability among traits when passed down
+ - some versions of traits are more adaptive than others
+	- eg. bigger giraffe hearts lets it pump blood farther up neck
+	- as such, these traits are more likely to be passed down
+ - will result in evolution in populations
+
+wildebeest example:
+ - herd of wildebeest trying to cross river but infested with crocodiles
+ - older wildebeest pushes himself to front and sacrifices himself for others
+	- sounds noble, but this propogates the lie that animals act for the good of the species
+	- IN REALITY, animals behave in a way to pass on as many copies of their genes as possible
+ - in reality, the wildebeest was pushed by others to the front
+
+natural vs sexual selection:
+ - natural selection refers to traits where there is a benefit to the individual in terms of survival (eg. bigger moose antlers)
+ - sexual selection refers to traits with no benefit, other than looking cool (eg. green color of antlers attracting more mates)
+ - sometimes, these two may be conflicting:
+	- a bright colored fish may be more desirable by mates, but more likely to be seen and eaten by predators
+
+relatives:
+ - we share 100% of genes with an identical twin, 50% with a sibling, 25% with half-siblings, etc.
+ - logically, you are as successful in propogating your genes if you forego reproducing and help your identical twin reproduce
