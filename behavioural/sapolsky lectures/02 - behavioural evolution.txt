@@ -26,6 +26,55 @@ natural vs sexual selection:
  - sometimes, these two may be conflicting:
 	- a bright colored fish may be more desirable by mates, but more likely to be seen and eaten by predators
 
-relatives:
+individual selection:
+ - passing on your own genes in order to maximize gene propagation into the next generation
+
+kin selection:
  - we share 100% of genes with an identical twin, 50% with a sibling, 25% with half-siblings, etc.
- - logically, you are as successful in propogating your genes if you forego reproducing and help your identical twin reproduce
+ - logically, you are as successful in propagating your genes if you forego reproducing and help your identical twin reproduce
+ - as such, evolution selects for organisms cooperating with their relatives (kin selection)
+
+aggression triangle:
+ - if an organism has the power to overpower another organism, there is a case when it won't
+ - rock paper scissors effect
+ - if organism A can poison organism B at the cost of energy, it can eat organism B
+	- however, the cost in energy exposes it to organism C, which can now eat it
+ - what ends up happening is a stalemate where nothing happens
+ - it's not cooperation, more like a truce
+	- sometimes, this truce turns into cooperation
+
+why cooperate?:
+ - one can argue that an organism can simply kill everything in sight and backstab everyone
+ - in reality, many hands make the task easier
+ - furthermore, killing others isn't even surefire as you risk damage or death
+ - reciprocal altruism is simply better in terms of survival (cooperation among non relatives)
+	- this can occur at all levels, including single-celled organisms (not just evolved mammals)
+		- eg. fruiting body bacteria reproduction attempts at cheating
+ - important to be vigilant about others cheating you, otherwise will get taken advantage of
+
+tit-for-tat:
+ - most optimal prisoners dillemma solution
+ - start off cooperating
+ - if they cooperate, you cooperate
+ - if they cheat, you cheat
+ - if they go back to cooperation, you go back too
+ - tit-for-tat may lose some battles (in edge cases), but it wins the war (long run)
+
+forgiving tit-for-tat:
+ - if both organisms are doing tit-for-tat, must account for the possibility of noise (wrong signal being sent)
+ - eg. if a wrong cheating signal is sent to other, they will cheat in return
+	- as such, the original organism will cheat, and the other will cheat, and an endless loop of cheating began because of a false signal
+ - to combat this, we can offer one free pass:
+	- if they cheat, still forgive
+	- if they cheat again, then cheat back
+ - can optimize this even further:
+	- start off tit-for-tat
+	- if gone long time without cheating, move to forgiving tit-for-tat
+
+vampire bats:
+ - female vampire bats share nests near other female bats (not related to each other)
+ - they get blood from cows and distribute the blood to every baby (each mom feeds all babies)
+ - experiment:
+	- can pump one vampire bats throat with air so it looks like it's full with blood
+	- other bats will think they have lots of blood and aren't sharing
+	- next time they feed, the vampire bats don't feed the child of the bat with air filled throat
