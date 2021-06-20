@@ -1,0 +1,45 @@
+https://www.youtube.com/watch?v=ggrwrpq3VAk
+
+thinking fast:
+ - system 1
+ - automated responses that aren't conscious
+ - 2+2=4, no thinking required
+ - if i say vomit, it triggers some unpleasentness, no conscious effort required
+ - it does not mean system 1 is bad, in fact when we become very talented at something, we autopilot
+
+thinking slow:
+ - system 2
+ - thinking that requires effort
+ - 17*24, we know it requires multiplying the two values but we must think to get answer
+
+limit to effort:
+ - there is only so much effort a person can give at a given time
+ - eg. telling a person to remember 7 digits in their hand
+	- then, offer them a dessert choice: chocolate cake or fruit salad
+	- those who are busy remembering digits are more likely to choose the cake
+	- self control demands some effort too, and that effort may be being used up by the memorization
+
+progress effect:
+ - if you press a link and it endlessly loads, you'll leave
+ - if you're provided with a progressing loading bar, you'll wait it out
+
+convincing others:
+ - rather than trying to change the behaviour of others, try to change the environment
+ - try to make it easy for them to change on their own
+
+constructing narrative on first impression:
+ - hotel company found that the tips they received directly correlated with initial checkin experience
+	- if checkin was good, guests immediately constructed a narrative that it's a good place and found supporting evidence for that
+		- eg. appreciate ice sculpture, amenities
+	- however if checkin was bad, guests immediately had a bad narrative and found evidence to support that
+		- eg. ice sculpture was bad, etc.
+ - logically, one would think that the tip would be fair based on the service, but it isn't
+ - their overall impression of the hotel was entirely dictated and based off of their initial checkin
+
+certainty:
+ - scenario 1: 49% chance to win $500,000 or 50% chance to win $470,000
+	- nearly everyone will take first option, no one wants to take $30,000 loss for 1% extra chance
+ - scenario 2: 99% chance to win $500,000 or 100% chance to win $470,000
+ 	- nearly everyone will take the guaranteed $470,000
+	- people pay a premium for certainty
+ - in a logical sense, you should behave the same way to both scenarios, but no one does

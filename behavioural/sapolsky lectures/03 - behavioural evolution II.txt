@@ -1,0 +1,59 @@
+03 - Behavioural Evolution II
+
+infanticide:
+ - a common misconception in the 70s was that humans were the only species who killed
+ - not only is this wrong, but some species go farther, such as killing children
+	- eg. certain monkeys (adult males) target children of other adult male monkeys
+ - then why doesn't every tournament species have competitive infanticide?
+	- turns out, it only happens when the female birth interval is longer than the tenure of a high ranking male
+	- if a male gets a high ranking status, it can be the case where all the females already have children
+		- as such, they won't want to reproduce for another two years, which by then the male will have already been dethroned
+	- therefore their best solution is infanticide
+ - animals that do this include langer monkeys, lions, and gorillas
+	- however, they do not kill if the children are of their relatives (kin selection)
+ - in some species (eg. rodents), the presence of a new male causes a female to miscarry, to avoid the above situation
+	- either they give birth and then be killed, or give up now and salvage as much as possible
+ - it is important to note that none of these things are conscious efforts by the animals
+	- this is all programmed into them, with the goal of passing on their genes
+	- they cannot sit there and ponder these things or look to the future
+
+boy or girl:
+ - say you were a monkey that was giving birth and you had a choice, would you want a male or a female?
+ - it becomes a question of how much does it cost vs the potential reproductive success
+	- eg. in species where 5% of males do 95% of mating, there is a high chance a boy you give birth to won't pass down any genes
+		- however, there is a small chance that the male will pass down a lot of genes, so it's like gambling
+		- giving birth to a girl in this case is like a safe bet, as they have higher chance of passing down genes but not a lot
+ - a high ranking male will more likely have males, as they will reproduce a lot and may hit the 5% jackpot again with another male
+ - a low ranking male will more likely have females, as it is safer, and having a male that also doesn't pass on genes ends your bloodline
+
+intersexual competition:
+ - there is plenty of competition not only between species, but between genders of the same species
+ - while both want a child to pass their genes, they also have other goals that conflict
+ - eg. bird example:
+	- males in certain species of birds often want to reproduce, but must build a nest for the female first
+	- this acts as an insurance policy for the female, making the male put in work before reproducing
+		- otherwise, conniving males may just mate and leave, so females have adapted
+	- by building the nest, the males have already put in so much effort that they'll just see it through to the end
+
+cooperational evolution:
+ - say we have a species and 10% becomes isolated from a river forming
+ 	- that 10% will eventually become more inbred than the other 90%
+ - because that 10% is more related to each other, kin selection dictates that they will be much more cooperative
+ - now what if we reintroduce that 10% to that 90%:
+	- the 10% will begin to outcompete the rest so the 90% must join in with the cooperation
+ - this is called the founder effect
+
+chins:
+ - adaptiveness theories attempt to create a story for every evolutionary result
+ - eg. why do humans have chins?
+	- someone can say that we evolved them to use them to stab others, or get crumbs out of the corner, or whatever
+	- in reality, it is just a side effect
+		- humans couldn't have evolved a flat face and a jaw at our angle without a chin
+		- it just happened due to other things, there was no divine evolutionary benefit that required humans to evolve chins
+ - it's important to realize that not everything we have was carefully evolved for
+	- a lot of it is just excess baggage from other things that was carried along
+
+punctuated evolution:
+ - species don't evolve very gradually like a curve
+ - it is more like a staircase graph
+	- nothing for a while and then a short burst of lots of changes, then another while of nothing and another short burst, and repeat

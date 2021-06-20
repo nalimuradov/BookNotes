@@ -78,3 +78,37 @@ vampire bats:
 	- can pump one vampire bats throat with air so it looks like it's full with blood
 	- other bats will think they have lots of blood and aren't sharing
 	- next time they feed, the vampire bats don't feed the child of the bat with air filled throat
+
+stickleback fish:
+ - put mirror in tank to make it look like an enemy
+ - put a mirror beside the fish to make it look like an ally
+ - if we angle the mirror back, it will look like the new ally is cheating by sitting back
+ - as such, the next time it happens, the stickleback won't attack reflection until ally does
+	- tit-for-tatting its ally
+
+simultaneous tit-for-tats:
+ - animals don't play prisoners dillema at the basic level, many games can occur at the same time
+ - higher levels of species introduce role diversification
+ - eg. naked mole rats that eat alot of food and don't do work, why are they not being punished?
+	- when the rainy season comes, they are the ones plugging the entrance and risking their lives
+ - it is essentially tit-for-tat in more than one area
+
+male female dimorphism:
+ - if males and females in a species have vastly different body sizes, they typically have the following traits:
+	- high aggression among males
+	- low percent of males father high percent of the children
+	- females seek out bigger males
+	- low parental behaviour among males
+	- lower lifespan among males than females, as there is a high chance for injury, death, or famine (lots of muscles need lots of food)
+ 	- low chance for twins to be born, and high chance for one to get killed if they are born
+	- low cheating among females, as they are the only ones taking care of the children (and investment is lost)
+	- often known as a tournament species (eg. peacocks, chickens, baboons)
+ - if males and females have similar body sizes, then they typically have the following traits:
+	- low aggression between males
+	- most males father equal amount of children, though not as many
+	- females seek out males based on parental skills
+	- high parental behaviour among males
+ 	- typically equal lifespan between males and females
+	- higher chance for twins to be born
+ 	- higher chance for females to cheat
+	- often known as a pair-bonding (monogamous) species (eg. marmosets)
