@@ -1,0 +1,10 @@
+04 - Molecular Genetics I
+
+proteins:
+ - play the most important role in molecular genetics
+ - hold the shapes of cells together
+ - they form messengers, hormones, neurotransmitters, etc
+ - a string of amino acids
+
+
+9 minutes in
