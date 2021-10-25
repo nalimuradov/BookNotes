@@ -6,5 +6,5 @@ proteins:
  - they form messengers, hormones, neurotransmitters, etc
  - a string of amino acids
 
-
-9 minutes in
+minor protein changes:
+ - small mutations in proteins can cascade into massive changes (opposite reproductive organ)
