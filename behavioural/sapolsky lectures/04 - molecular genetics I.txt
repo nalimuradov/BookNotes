@@ -8,3 +8,21 @@ proteins:
 
 minor protein changes:
  - small mutations in proteins can cascade into massive changes (opposite reproductive organ)
+ - a mutation that causes a 1% increase in reproductive success can be massive
+	- come back later and that mutation will be everywhere
+
+genes:
+ - genes specify for antlers, petals, kidneys, etc
+ - when people say we share 98% of genes with chimps, it means that we share many of the genes coding for the same things
+	- we have genes coding for a pelvis (allowing bipedal movements), chins, etc
+	- you won't find these genes in apple trees for example
+	- so if you look at the big picture, 98% of the genes we have code for similar things
+ - and when people say we share 50% genes with our sibling:
+	- it's not if we both have genes for the same things (like opposable thumbs)
+	- it's if we both have the same types of opposable thumbs
+
+evolution is not driven by small gradual changes:
+ - instead, there are long periods of nothing and then short bursts of evolution
+	 - eg. environment change, adaptations
+ - repeating long periods of stasis and dramatic changes
+ - it's still millions of years for the changes, doesn't imply it's fast, just that it happens
