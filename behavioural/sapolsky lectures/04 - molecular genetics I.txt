@@ -26,3 +26,9 @@ evolution is not driven by small gradual changes:
 	 - eg. environment change, adaptations
  - repeating long periods of stasis and dramatic changes
  - it's still millions of years for the changes, doesn't imply it's fast, just that it happens
+
+DNA:
+ - 5% of DNA codes for genes which codes for proteins
+ - the other 95% is the instruction manual for activating those genes
+	- on and off switches for turning genes on/off
+ - external environment can also affect those genes (eg. senses)
