@@ -1,0 +1,12 @@
+05 - Molecular Genetics II
+
+promoters:
+ - can have significant impacts on human behaviour
+ - eg. having more of a promoter can make you more likely to have a divorce
+
+co-evolutionary racing:
+ - we evolve antibodies for parasite who then evolve mechanism to avoid it, and repeat
+
+glucorticoids:
+ - cortisol (hydrocortisone) is the most important human glucocorticoid
+ - essential for life, regulates many human functions (cardiovascular, metabolic, homeostatic, etc)
